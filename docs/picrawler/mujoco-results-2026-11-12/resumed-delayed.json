@@ -1,0 +1,29 @@
+{
+  "body_sha256": "d77a8714f712d5e46914cc7e2e19778a742c7fd58cae9ef824fca3b83779e20c",
+  "case": {
+    "family": "slalom",
+    "max_ticks": 900,
+    "policy": "memory",
+    "seed": 1000,
+    "sensors": "delayed"
+  },
+  "contact_ticks": 0,
+  "energy_consumed_j": 325.057972247048,
+  "id": "s1000-slalom-memory-delayed-t900",
+  "model_sha256": "195c2dceeb97640a292f8b5c7fb9dab2893f889dc8510bf94c3bb75d341de061",
+  "outcome": "timeout",
+  "pose": {
+    "height_m": 0.06729701010787287,
+    "x_m": 0.14393261775283106,
+    "y_m": 0.3240061653948544,
+    "yaw_rad": 0.7682979522898016
+  },
+  "steps": 900,
+  "stop": {
+    "angular_speed_rad_s": 1.8328140326707504e-10,
+    "drift_m": 2.094284087128294e-05,
+    "linear_speed_m_s": 1.2161319251410365e-10
+  },
+  "stop_pass": true,
+  "trace_sha256": "c5df4f8c6e9601db448db30d622abd555ba2228d31ee7e1b55b0884c25911311"
+}

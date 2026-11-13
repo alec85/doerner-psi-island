@@ -1,0 +1,58 @@
+{
+  "body_sha256": "99fbf04209d708728e223bfba7c8b00fca7cfea90da15921f66e5fc7d090470b",
+  "case": {
+    "family": "slalom",
+    "max_ticks": 2400,
+    "policy": "active",
+    "seed": 2000,
+    "sensors": "nominal"
+  },
+  "contact_ticks": 0,
+  "endpoint_900": {
+    "contact_ticks": 0,
+    "energy_consumed_j": 309.7255560040325,
+    "goal": false,
+    "outcome": "continuing",
+    "path_length_m": 1.2635823582558023,
+    "pose": {
+      "height_m": 0.0671172555287515,
+      "x_m": -0.1961634661859212,
+      "y_m": 0.05895381643960319,
+      "yaw_rad": -0.1886035320101926
+    },
+    "steps": 900
+  },
+  "energy_consumed_j": 662.6023408767894,
+  "estimate_error_after_stop_m": 0.12482592520579448,
+  "estimated_position": [
+    1.0751309823674307,
+    -0.009105790328126096
+  ],
+  "goal_within_900": false,
+  "goal_within_long_horizon": true,
+  "heading_error_after_stop_rad": 0.04220494078327848,
+  "id": "s2000-slalom-active-nominal-t2400",
+  "mode_counts": {
+    "scan": 1035,
+    "travel": 896
+  },
+  "model_sha256": "8ad1dd6b2aba33695385be74860137d3955f17af64fc7140872c43f5eaa9d9b4",
+  "outcome": "goal",
+  "path_length_m": 2.7703026123639063,
+  "pose": {
+    "height_m": 0.06729701019243785,
+    "x_m": 0.34991855634808017,
+    "y_m": -0.11517864943925904,
+    "yaw_rad": 0.043329380226427586
+  },
+  "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+  "scan_starts": 5,
+  "steps": 1931,
+  "stop": {
+    "angular_speed_rad_s": 5.014559026948249e-10,
+    "drift_m": 0.0017166829107852692,
+    "linear_speed_m_s": 7.72190896549796e-10
+  },
+  "stop_pass": true,
+  "trace_sha256": "0a5b177cc6f01e1dbcc6e0f4559fef719c49c4a77d203a919a46ead023f19f13"
+}

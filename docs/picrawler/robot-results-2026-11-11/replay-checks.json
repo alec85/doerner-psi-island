@@ -1,0 +1,43 @@
+[
+  {
+    "family": "dead_end",
+    "frames": 46,
+    "world_obstacle_counts": [
+      3
+    ],
+    "passed": true,
+    "canvasCalls": 40218,
+    "cameraWrites": 50
+  },
+  {
+    "family": "gate",
+    "frames": 46,
+    "world_obstacle_counts": [
+      2,
+      3
+    ],
+    "passed": true,
+    "canvasCalls": 39893,
+    "cameraWrites": 50
+  },
+  {
+    "family": "open",
+    "frames": 41,
+    "world_obstacle_counts": [
+      0
+    ],
+    "passed": true,
+    "canvasCalls": 29938,
+    "cameraWrites": 45
+  },
+  {
+    "family": "slalom",
+    "frames": 46,
+    "world_obstacle_counts": [
+      2
+    ],
+    "passed": true,
+    "canvasCalls": 39458,
+    "cameraWrites": 50
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "checks": [
+    {
+      "file": "active_v1-s3001-slalom-active-noisy-t2400.html",
+      "frames": 83,
+      "passed": true,
+      "canvasCalls": 72083,
+      "cameraWrites": 87
+    },
+    {
+      "file": "visual-s3000-open-active-delayed-t2400.html",
+      "frames": 40,
+      "passed": true,
+      "canvasCalls": 29217,
+      "cameraWrites": 44
+    },
+    {
+      "file": "visual-s3000-open-active-noisy-t2400.html",
+      "frames": 43,
+      "passed": true,
+      "canvasCalls": 31387,
+      "cameraWrites": 47
+    },
+    {
+      "file": "visual-s3000-open-active-nominal-t2400.html",
+      "frames": 40,
+      "passed": true,
+      "canvasCalls": 29217,
+      "cameraWrites": 44
+    },
+    {
+      "file": "visual-s3000-slalom-active-delayed-t2400.html",
+      "frames": 80,
+      "passed": true,
+      "canvasCalls": 69077,
+      "cameraWrites": 84
+    },
+    {
+      "file": "visual-s3000-slalom-active-noisy-t2400.html",
+      "frames": 96,
+      "passed": true,
+      "canvasCalls": 85657,
+      "cameraWrites": 100
+    },
+    {
+      "file": "visual-s3000-slalom-active-nominal-t2400.html",
+      "frames": 108,
+      "passed": true,
+      "canvasCalls": 98995,
+      "cameraWrites": 112
+    },
+    {
+      "file": "visual-s3001-slalom-active-noisy-t2400.html",
+      "frames": 61,
+      "passed": true,
+      "canvasCalls": 51086,
+      "cameraWrites": 65
+    }
+  ],
+  "browser_visual_acceptance": false,
+  "script_sha256": "af758604e90be1c68f0f352ff8e9001d104e3451ce353103836540944706e54a"
+}

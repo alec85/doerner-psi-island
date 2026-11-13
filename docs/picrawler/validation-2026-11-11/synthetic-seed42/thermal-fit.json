@@ -1,0 +1,1379 @@
+{
+  "comparison": [
+    {
+      "observed": 35.20308071146691,
+      "partition": "train",
+      "predicted": 35.190974115078426,
+      "residual": -0.012106596388484547,
+      "sample": 1,
+      "unit": "degC"
+    },
+    {
+      "observed": 35.45243875340892,
+      "partition": "train",
+      "predicted": 35.45588040385428,
+      "residual": 0.003441650445360267,
+      "sample": 2,
+      "unit": "degC"
+    },
+    {
+      "observed": 35.75093843454675,
+      "partition": "train",
+      "predicted": 35.76201516395966,
+      "residual": 0.011076729412913267,
+      "sample": 3,
+      "unit": "degC"
+    },
+    {
+      "observed": 35.949200348621794,
+      "partition": "train",
+      "predicted": 35.93343184079579,
+      "residual": -0.01576850782600303,
+      "sample": 4,
+      "unit": "degC"
+    },
+    {
+      "observed": 36.18801580883181,
+      "partition": "train",
+      "predicted": 36.18833312704351,
+      "residual": 0.00031731821169955765,
+      "sample": 5,
+      "unit": "degC"
+    },
+    {
+      "observed": 36.46887391596972,
+      "partition": "train",
+      "predicted": 36.48078870790589,
+      "residual": 0.011914791936163738,
+      "sample": 6,
+      "unit": "degC"
+    },
+    {
+      "observed": 36.63869320693357,
+      "partition": "train",
+      "predicted": 36.64148157334016,
+      "residual": 0.0027883664065910807,
+      "sample": 7,
+      "unit": "degC"
+    },
+    {
+      "observed": 36.877208262107125,
+      "partition": "train",
+      "predicted": 36.86519632235591,
+      "residual": -0.012011939751218392,
+      "sample": 8,
+      "unit": "degC"
+    },
+    {
+      "observed": 37.13844842603968,
+      "partition": "train",
+      "predicted": 37.154237258876385,
+      "residual": 0.01578883283670507,
+      "sample": 9,
+      "unit": "degC"
+    },
+    {
+      "observed": 37.303709028143196,
+      "partition": "train",
+      "predicted": 37.30183625010566,
+      "residual": -0.0018727780375371594,
+      "sample": 10,
+      "unit": "degC"
+    },
+    {
+      "observed": 37.512372233547524,
+      "partition": "train",
+      "predicted": 37.51803083434691,
+      "residual": 0.005658600799385738,
+      "sample": 11,
+      "unit": "degC"
+    },
+    {
+      "observed": 37.79828409048975,
+      "partition": "train",
+      "predicted": 37.7748915538594,
+      "residual": -0.02339253663035379,
+      "sample": 12,
+      "unit": "degC"
+    },
+    {
+      "observed": 37.94924457010341,
+      "partition": "train",
+      "predicted": 37.95258618213451,
+      "residual": 0.003341612031100283,
+      "sample": 13,
+      "unit": "degC"
+    },
+    {
+      "observed": 38.153305160176885,
+      "partition": "train",
+      "predicted": 38.15174189364455,
+      "residual": -0.0015632665323366268,
+      "sample": 14,
+      "unit": "degC"
+    },
+    {
+      "observed": 38.40391007337313,
+      "partition": "train",
+      "predicted": 38.401183018103566,
+      "residual": -0.002727055269566847,
+      "sample": 15,
+      "unit": "degC"
+    },
+    {
+      "observed": 39.03706626613911,
+      "partition": "train",
+      "predicted": 39.04566862349126,
+      "residual": 0.008602357352152978,
+      "sample": 16,
+      "unit": "degC"
+    },
+    {
+      "observed": 39.88367111701041,
+      "partition": "train",
+      "predicted": 39.87917682627573,
+      "residual": -0.004494290734676554,
+      "sample": 17,
+      "unit": "degC"
+    },
+    {
+      "observed": 40.903214681267215,
+      "partition": "train",
+      "predicted": 40.914548172804146,
+      "residual": 0.011333491536930751,
+      "sample": 18,
+      "unit": "degC"
+    },
+    {
+      "observed": 41.51052943826073,
+      "partition": "train",
+      "predicted": 41.51055858220846,
+      "residual": 2.9143947728016428e-05,
+      "sample": 19,
+      "unit": "degC"
+    },
+    {
+      "observed": 42.32488278812144,
+      "partition": "train",
+      "predicted": 42.3073327759531,
+      "residual": -0.017550012168342732,
+      "sample": 20,
+      "unit": "degC"
+    },
+    {
+      "observed": 43.29558338879066,
+      "partition": "train",
+      "predicted": 43.29999284026809,
+      "residual": 0.004409451477428661,
+      "sample": 21,
+      "unit": "degC"
+    },
+    {
+      "observed": 43.873619775382664,
+      "partition": "train",
+      "predicted": 43.86998511473206,
+      "residual": -0.00363466065060436,
+      "sample": 22,
+      "unit": "degC"
+    },
+    {
+      "observed": 44.63423968115094,
+      "partition": "train",
+      "predicted": 44.62713762543706,
+      "residual": -0.0071020557138794516,
+      "sample": 23,
+      "unit": "degC"
+    },
+    {
+      "observed": 45.55417401551853,
+      "partition": "train",
+      "predicted": 45.556594818269105,
+      "residual": 0.0024208027505778773,
+      "sample": 24,
+      "unit": "degC"
+    },
+    {
+      "observed": 46.0958672653038,
+      "partition": "train",
+      "predicted": 46.09747564913524,
+      "residual": 0.0016083838314386867,
+      "sample": 25,
+      "unit": "degC"
+    },
+    {
+      "observed": 46.80988267623344,
+      "partition": "train",
+      "predicted": 46.80867949156446,
+      "residual": -0.001203184668980839,
+      "sample": 26,
+      "unit": "degC"
+    },
+    {
+      "observed": 47.676142761959895,
+      "partition": "train",
+      "predicted": 47.682537456648696,
+      "residual": 0.006394694688800939,
+      "sample": 27,
+      "unit": "degC"
+    },
+    {
+      "observed": 48.18267127680378,
+      "partition": "train",
+      "predicted": 48.19022554416392,
+      "residual": 0.007554267360141864,
+      "sample": 28,
+      "unit": "degC"
+    },
+    {
+      "observed": 48.87011819336966,
+      "partition": "train",
+      "predicted": 48.85725884113608,
+      "residual": -0.012859352233583365,
+      "sample": 29,
+      "unit": "degC"
+    },
+    {
+      "observed": 49.690145027569706,
+      "partition": "train",
+      "predicted": 49.695708983817305,
+      "residual": 0.005563956247598867,
+      "sample": 30,
+      "unit": "degC"
+    },
+    {
+      "observed": 49.35529695774719,
+      "partition": "train",
+      "predicted": 49.35016938931964,
+      "residual": -0.005127568427553797,
+      "sample": 31,
+      "unit": "degC"
+    },
+    {
+      "observed": 48.921719311642065,
+      "partition": "train",
+      "predicted": 48.909173130476276,
+      "residual": -0.01254618116578854,
+      "sample": 32,
+      "unit": "degC"
+    },
+    {
+      "observed": 48.35599440202635,
+      "partition": "train",
+      "predicted": 48.375251906179514,
+      "residual": 0.01925750415316685,
+      "sample": 33,
+      "unit": "degC"
+    },
+    {
+      "observed": 48.028468703335854,
+      "partition": "train",
+      "predicted": 48.034389604042076,
+      "residual": 0.0059209007062221986,
+      "sample": 34,
+      "unit": "degC"
+    },
+    {
+      "observed": 47.61238926263335,
+      "partition": "train",
+      "predicted": 47.60664881701118,
+      "residual": -0.00574044562217324,
+      "sample": 35,
+      "unit": "degC"
+    },
+    {
+      "observed": 47.09518234694267,
+      "partition": "train",
+      "predicted": 47.09583217362651,
+      "residual": 0.0006498266838406153,
+      "sample": 36,
+      "unit": "degC"
+    },
+    {
+      "observed": 46.80139035090213,
+      "partition": "train",
+      "predicted": 46.79093853985829,
+      "residual": -0.010451811043843406,
+      "sample": 37,
+      "unit": "degC"
+    },
+    {
+      "observed": 46.39831876148584,
+      "partition": "train",
+      "predicted": 46.40204725440674,
+      "residual": 0.0037284929208993844,
+      "sample": 38,
+      "unit": "degC"
+    },
+    {
+      "observed": 45.91552146276368,
+      "partition": "train",
+      "predicted": 45.90949588121909,
+      "residual": -0.0060255815445913186,
+      "sample": 39,
+      "unit": "degC"
+    },
+    {
+      "observed": 45.623566050169934,
+      "partition": "train",
+      "predicted": 45.62752122012857,
+      "residual": 0.003955169958636873,
+      "sample": 40,
+      "unit": "degC"
+    },
+    {
+      "observed": 45.23751535381984,
+      "partition": "train",
+      "predicted": 45.245797541157785,
+      "residual": 0.008282187337947278,
+      "sample": 41,
+      "unit": "degC"
+    },
+    {
+      "observed": 44.786599500390665,
+      "partition": "train",
+      "predicted": 44.77520984959012,
+      "residual": -0.011389650800545326,
+      "sample": 42,
+      "unit": "degC"
+    },
+    {
+      "observed": 44.49440375689931,
+      "partition": "train",
+      "predicted": 44.514144162990576,
+      "residual": 0.01974040609126604,
+      "sample": 43,
+      "unit": "degC"
+    },
+    {
+      "observed": 44.13220726533098,
+      "partition": "train",
+      "predicted": 44.137318477689604,
+      "residual": 0.005111212358620776,
+      "sample": 44,
+      "unit": "degC"
+    },
+    {
+      "observed": 43.69611107399455,
+      "partition": "train",
+      "predicted": 43.69515140288012,
+      "residual": -0.0009596711144297387,
+      "sample": 45,
+      "unit": "degC"
+    },
+    {
+      "observed": 43.9535813058619,
+      "partition": "train",
+      "predicted": 43.93446716435602,
+      "residual": -0.019114141505880866,
+      "sample": 46,
+      "unit": "degC"
+    },
+    {
+      "observed": 44.25865870683137,
+      "partition": "train",
+      "predicted": 44.26594166321452,
+      "residual": 0.007282956383150463,
+      "sample": 47,
+      "unit": "degC"
+    },
+    {
+      "observed": 44.63269451814217,
+      "partition": "train",
+      "predicted": 44.641241841935845,
+      "residual": 0.008547323793671069,
+      "sample": 48,
+      "unit": "degC"
+    },
+    {
+      "observed": 44.86849988058796,
+      "partition": "train",
+      "predicted": 44.85815414500199,
+      "residual": -0.010345735585971738,
+      "sample": 49,
+      "unit": "degC"
+    },
+    {
+      "observed": 45.15402092245943,
+      "partition": "train",
+      "predicted": 45.16410137940947,
+      "residual": 0.01008045695004256,
+      "sample": 50,
+      "unit": "degC"
+    },
+    {
+      "observed": 45.53269470523958,
+      "partition": "train",
+      "predicted": 45.516150416228626,
+      "residual": -0.01654428901095173,
+      "sample": 51,
+      "unit": "degC"
+    },
+    {
+      "observed": 45.73860975319174,
+      "partition": "train",
+      "predicted": 45.745761608699354,
+      "residual": 0.007151855507615323,
+      "sample": 52,
+      "unit": "degC"
+    },
+    {
+      "observed": 46.01664364404479,
+      "partition": "train",
+      "predicted": 46.01827316892662,
+      "residual": 0.0016295248818281038,
+      "sample": 53,
+      "unit": "degC"
+    },
+    {
+      "observed": 46.35703012709175,
+      "partition": "train",
+      "predicted": 46.35906739700094,
+      "residual": 0.002037269909195061,
+      "sample": 54,
+      "unit": "degC"
+    },
+    {
+      "observed": 46.56877988457279,
+      "partition": "train",
+      "predicted": 46.55874618749801,
+      "residual": -0.010033697074781855,
+      "sample": 55,
+      "unit": "degC"
+    },
+    {
+      "observed": 46.82558303032959,
+      "partition": "train",
+      "predicted": 46.83323680633881,
+      "residual": 0.007653776009220792,
+      "sample": 56,
+      "unit": "degC"
+    },
+    {
+      "observed": 47.14160633894745,
+      "partition": "train",
+      "predicted": 47.14952738379774,
+      "residual": 0.007921044850291992,
+      "sample": 57,
+      "unit": "degC"
+    },
+    {
+      "observed": 47.33349359941962,
+      "partition": "train",
+      "predicted": 47.332519028288715,
+      "residual": -0.000974571130903712,
+      "sample": 58,
+      "unit": "degC"
+    },
+    {
+      "observed": 47.60935457132994,
+      "partition": "train",
+      "predicted": 47.5839430135036,
+      "residual": -0.025411557826338083,
+      "sample": 59,
+      "unit": "degC"
+    },
+    {
+      "observed": 47.91448070711089,
+      "partition": "train",
+      "predicted": 47.91539445919902,
+      "residual": 0.0009137520881310479,
+      "sample": 60,
+      "unit": "degC"
+    },
+    {
+      "observed": 47.92335600645606,
+      "partition": "train",
+      "predicted": 47.929485909346596,
+      "residual": 0.006129902890535277,
+      "sample": 61,
+      "unit": "degC"
+    },
+    {
+      "observed": 47.93020519500926,
+      "partition": "train",
+      "predicted": 47.94315431485763,
+      "residual": 0.012949119848371993,
+      "sample": 62,
+      "unit": "degC"
+    },
+    {
+      "observed": 47.975623014335376,
+      "partition": "train",
+      "predicted": 47.95473969178792,
+      "residual": -0.020883322547454952,
+      "sample": 63,
+      "unit": "degC"
+    },
+    {
+      "observed": 47.98423350115739,
+      "partition": "train",
+      "predicted": 47.98978630596669,
+      "residual": 0.005552804809298095,
+      "sample": 64,
+      "unit": "degC"
+    },
+    {
+      "observed": 48.001168505913896,
+      "partition": "train",
+      "predicted": 48.00291669685974,
+      "residual": 0.0017481909458467726,
+      "sample": 65,
+      "unit": "degC"
+    },
+    {
+      "observed": 48.01614708064251,
+      "partition": "train",
+      "predicted": 48.02408191785798,
+      "residual": 0.007934837215465507,
+      "sample": 66,
+      "unit": "degC"
+    },
+    {
+      "observed": 48.024382697364736,
+      "partition": "train",
+      "predicted": 48.02975236845117,
+      "residual": 0.00536967108643438,
+      "sample": 67,
+      "unit": "degC"
+    },
+    {
+      "observed": 48.036882539347125,
+      "partition": "train",
+      "predicted": 48.042330467294825,
+      "residual": 0.005447927947699327,
+      "sample": 68,
+      "unit": "degC"
+    },
+    {
+      "observed": 48.08283014581468,
+      "partition": "train",
+      "predicted": 48.05898010043473,
+      "residual": -0.023850045379951723,
+      "sample": 69,
+      "unit": "degC"
+    },
+    {
+      "observed": 48.082242370773784,
+      "partition": "train",
+      "predicted": 48.095517228500725,
+      "residual": 0.013274857726941036,
+      "sample": 70,
+      "unit": "degC"
+    },
+    {
+      "observed": 48.09145475310245,
+      "partition": "train",
+      "predicted": 48.0991303064103,
+      "residual": 0.0076755533078554095,
+      "sample": 71,
+      "unit": "degC"
+    },
+    {
+      "observed": 48.115147824085625,
+      "partition": "train",
+      "predicted": 48.112305667338596,
+      "residual": -0.0028421567470289233,
+      "sample": 72,
+      "unit": "degC"
+    },
+    {
+      "observed": 48.13547008266175,
+      "partition": "train",
+      "predicted": 48.12738990236669,
+      "residual": -0.008080180295060302,
+      "sample": 73,
+      "unit": "degC"
+    },
+    {
+      "observed": 48.13930277005617,
+      "partition": "train",
+      "predicted": 48.151383029137364,
+      "residual": 0.01208025908119481,
+      "sample": 74,
+      "unit": "degC"
+    },
+    {
+      "observed": 48.179170849196716,
+      "partition": "train",
+      "predicted": 48.15906064489408,
+      "residual": -0.02011020430263244,
+      "sample": 75,
+      "unit": "degC"
+    },
+    {
+      "observed": 48.68424096661387,
+      "partition": "train",
+      "predicted": 48.6863270906767,
+      "residual": 0.002086124062827821,
+      "sample": 76,
+      "unit": "degC"
+    },
+    {
+      "observed": 49.3495369047317,
+      "partition": "train",
+      "predicted": 49.34964111721644,
+      "residual": 0.00010421248474301592,
+      "sample": 77,
+      "unit": "degC"
+    },
+    {
+      "observed": 50.15683052322909,
+      "partition": "train",
+      "predicted": 50.16417586116126,
+      "residual": 0.007345337932171958,
+      "sample": 78,
+      "unit": "degC"
+    },
+    {
+      "observed": 50.64324666713871,
+      "partition": "train",
+      "predicted": 50.636755004459395,
+      "residual": -0.0064916626793163346,
+      "sample": 79,
+      "unit": "degC"
+    },
+    {
+      "observed": 51.27240171134945,
+      "partition": "train",
+      "predicted": 51.27276307868116,
+      "residual": 0.0003613673317062194,
+      "sample": 80,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.04619642173289,
+      "partition": "train",
+      "predicted": 52.04311477230977,
+      "residual": -0.003081649423116062,
+      "sample": 81,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.48382432341984,
+      "partition": "train",
+      "predicted": 52.500104920614184,
+      "residual": 0.016280597194345603,
+      "sample": 82,
+      "unit": "degC"
+    },
+    {
+      "observed": 53.09014665933224,
+      "partition": "train",
+      "predicted": 53.079626280573414,
+      "residual": -0.01052037875882661,
+      "sample": 83,
+      "unit": "degC"
+    },
+    {
+      "observed": 53.8090334295117,
+      "partition": "train",
+      "predicted": 53.8193351813338,
+      "residual": 0.010301751822098026,
+      "sample": 84,
+      "unit": "degC"
+    },
+    {
+      "observed": 54.252628415558746,
+      "partition": "train",
+      "predicted": 54.23866820962054,
+      "residual": -0.01396020593820424,
+      "sample": 85,
+      "unit": "degC"
+    },
+    {
+      "observed": 54.81185720089299,
+      "partition": "train",
+      "predicted": 54.81603061783984,
+      "residual": 0.004173416946855468,
+      "sample": 86,
+      "unit": "degC"
+    },
+    {
+      "observed": 55.49695398633763,
+      "partition": "train",
+      "predicted": 55.50171499250903,
+      "residual": 0.004761006171399629,
+      "sample": 87,
+      "unit": "degC"
+    },
+    {
+      "observed": 55.90250532797774,
+      "partition": "train",
+      "predicted": 55.903346623964865,
+      "residual": 0.000841295987122237,
+      "sample": 88,
+      "unit": "degC"
+    },
+    {
+      "observed": 56.45069813955713,
+      "partition": "train",
+      "predicted": 56.43568620288306,
+      "residual": -0.01501193667407108,
+      "sample": 89,
+      "unit": "degC"
+    },
+    {
+      "observed": 57.09152002212547,
+      "partition": "train",
+      "predicted": 57.103118272782055,
+      "residual": 0.01159825065658282,
+      "sample": 90,
+      "unit": "degC"
+    },
+    {
+      "observed": 56.671384943263355,
+      "partition": "train",
+      "predicted": 56.649629746075895,
+      "residual": -0.021755197187459885,
+      "sample": 91,
+      "unit": "degC"
+    },
+    {
+      "observed": 56.080187303601136,
+      "partition": "train",
+      "predicted": 56.09124997343025,
+      "residual": 0.011062669829115634,
+      "sample": 92,
+      "unit": "degC"
+    },
+    {
+      "observed": 55.3620315016928,
+      "partition": "train",
+      "predicted": 55.370191960213624,
+      "residual": 0.008160458520826808,
+      "sample": 93,
+      "unit": "degC"
+    },
+    {
+      "observed": 54.95050955317354,
+      "partition": "train",
+      "predicted": 54.943955746089486,
+      "residual": -0.006553807084053176,
+      "sample": 94,
+      "unit": "degC"
+    },
+    {
+      "observed": 54.38398117478841,
+      "partition": "train",
+      "predicted": 54.401896412723794,
+      "residual": 0.017915237935383743,
+      "sample": 95,
+      "unit": "degC"
+    },
+    {
+      "observed": 53.73935361942032,
+      "partition": "train",
+      "predicted": 53.71273393935528,
+      "residual": -0.02661968006503912,
+      "sample": 96,
+      "unit": "degC"
+    },
+    {
+      "observed": 53.32885714241422,
+      "partition": "train",
+      "predicted": 53.34362163490802,
+      "residual": 0.01476449249379641,
+      "sample": 97,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.8180795291885,
+      "partition": "train",
+      "predicted": 52.80994833204291,
+      "residual": -0.008131197145594626,
+      "sample": 98,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.16073223365365,
+      "partition": "train",
+      "predicted": 52.182603728004416,
+      "residual": 0.021871494350769183,
+      "sample": 99,
+      "unit": "degC"
+    },
+    {
+      "observed": 51.798052614040664,
+      "partition": "train",
+      "predicted": 51.78673737594161,
+      "residual": -0.011315238099051328,
+      "sample": 100,
+      "unit": "degC"
+    },
+    {
+      "observed": 50.84035987641764,
+      "partition": "validation",
+      "predicted": 50.827847412978805,
+      "residual": -0.01251246343883139,
+      "sample": 102,
+      "unit": "degC"
+    },
+    {
+      "observed": 50.514523673712695,
+      "partition": "validation",
+      "predicted": 50.525855205903326,
+      "residual": 0.011331532190631322,
+      "sample": 103,
+      "unit": "degC"
+    },
+    {
+      "observed": 50.098517167411266,
+      "partition": "validation",
+      "predicted": 50.10211788420729,
+      "residual": 0.003600716796022141,
+      "sample": 104,
+      "unit": "degC"
+    },
+    {
+      "observed": 49.58663898580354,
+      "partition": "validation",
+      "predicted": 49.59369896501861,
+      "residual": 0.007059979215071621,
+      "sample": 105,
+      "unit": "degC"
+    },
+    {
+      "observed": 49.78728216930342,
+      "partition": "validation",
+      "predicted": 49.78519340344905,
+      "residual": -0.002088765854367125,
+      "sample": 106,
+      "unit": "degC"
+    },
+    {
+      "observed": 50.053638989131194,
+      "partition": "validation",
+      "predicted": 50.04773671426818,
+      "residual": -0.005902274863011314,
+      "sample": 107,
+      "unit": "degC"
+    },
+    {
+      "observed": 50.3703249609979,
+      "partition": "validation",
+      "predicted": 50.372373635617876,
+      "residual": 0.0020486746199779304,
+      "sample": 108,
+      "unit": "degC"
+    },
+    {
+      "observed": 50.545773218603586,
+      "partition": "validation",
+      "predicted": 50.55808826586109,
+      "residual": 0.012315047257501988,
+      "sample": 109,
+      "unit": "degC"
+    },
+    {
+      "observed": 50.81650984505646,
+      "partition": "validation",
+      "predicted": 50.7923342384575,
+      "residual": -0.02417560659895912,
+      "sample": 110,
+      "unit": "degC"
+    },
+    {
+      "observed": 51.12049828036594,
+      "partition": "validation",
+      "predicted": 51.1178174808877,
+      "residual": -0.0026807994782416245,
+      "sample": 111,
+      "unit": "degC"
+    },
+    {
+      "observed": 51.27563031947445,
+      "partition": "validation",
+      "predicted": 51.297931931322054,
+      "residual": 0.022301611847602487,
+      "sample": 112,
+      "unit": "degC"
+    },
+    {
+      "observed": 51.52131397093862,
+      "partition": "validation",
+      "predicted": 51.50882231148337,
+      "residual": -0.012491659455250215,
+      "sample": 113,
+      "unit": "degC"
+    },
+    {
+      "observed": 51.79352810474532,
+      "partition": "validation",
+      "predicted": 51.80652107164475,
+      "residual": 0.01299296689943219,
+      "sample": 114,
+      "unit": "degC"
+    },
+    {
+      "observed": 51.978638511049176,
+      "partition": "validation",
+      "predicted": 51.96169434379076,
+      "residual": -0.016944167258415632,
+      "sample": 115,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.187572324760666,
+      "partition": "validation",
+      "predicted": 52.19895327534159,
+      "residual": 0.011380950580921478,
+      "sample": 116,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.46906315230126,
+      "partition": "validation",
+      "predicted": 52.45755942939387,
+      "residual": -0.011503722907391989,
+      "sample": 117,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.63020114439635,
+      "partition": "validation",
+      "predicted": 52.627927483289994,
+      "residual": -0.0022736611063578493,
+      "sample": 118,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.84018993379818,
+      "partition": "validation",
+      "predicted": 52.83858102584993,
+      "residual": -0.0016089079482455304,
+      "sample": 119,
+      "unit": "degC"
+    },
+    {
+      "observed": 53.07590911140677,
+      "partition": "validation",
+      "predicted": 53.095268651332454,
+      "residual": 0.019359539925680735,
+      "sample": 120,
+      "unit": "degC"
+    },
+    {
+      "observed": 53.08515503811427,
+      "partition": "validation",
+      "predicted": 53.06115211498136,
+      "residual": -0.024002923132911747,
+      "sample": 121,
+      "unit": "degC"
+    },
+    {
+      "observed": 53.044899555511286,
+      "partition": "validation",
+      "predicted": 53.065354976622544,
+      "residual": 0.020455421111257976,
+      "sample": 122,
+      "unit": "degC"
+    },
+    {
+      "observed": 53.015020623296714,
+      "partition": "validation",
+      "predicted": 53.02112600530239,
+      "residual": 0.00610538200567845,
+      "sample": 123,
+      "unit": "degC"
+    },
+    {
+      "observed": 53.01635234729527,
+      "partition": "validation",
+      "predicted": 53.00110204246522,
+      "residual": -0.015250304830047412,
+      "sample": 124,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.992216496005,
+      "partition": "validation",
+      "predicted": 52.997812566875375,
+      "residual": 0.005596070870375058,
+      "sample": 125,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.98318973121762,
+      "partition": "validation",
+      "predicted": 52.969646436835575,
+      "residual": -0.013543294382046156,
+      "sample": 126,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.969119024447096,
+      "partition": "validation",
+      "predicted": 52.96970945189625,
+      "residual": 0.0005904274491541628,
+      "sample": 127,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.93677382502025,
+      "partition": "validation",
+      "predicted": 52.95144443203129,
+      "residual": 0.014670607011034065,
+      "sample": 128,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.934285585921366,
+      "partition": "validation",
+      "predicted": 52.91547029741448,
+      "residual": -0.018815288506885963,
+      "sample": 129,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.90172705085351,
+      "partition": "validation",
+      "predicted": 52.921478701510864,
+      "residual": 0.019751650657354958,
+      "sample": 130,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.891791159753744,
+      "partition": "validation",
+      "predicted": 52.88528689894726,
+      "residual": -0.006504260806487139,
+      "sample": 131,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.8636225152456,
+      "partition": "validation",
+      "predicted": 52.87151521549425,
+      "residual": 0.007892700248646634,
+      "sample": 132,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.87201204674945,
+      "partition": "validation",
+      "predicted": 52.85178863939892,
+      "residual": -0.020223407350528078,
+      "sample": 133,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.83310922336472,
+      "partition": "validation",
+      "predicted": 52.856116194154396,
+      "residual": 0.023006970789673176,
+      "sample": 134,
+      "unit": "degC"
+    },
+    {
+      "observed": 52.810224628439066,
+      "partition": "validation",
+      "predicted": 52.81417380840031,
+      "residual": 0.00394917996124633,
+      "sample": 135,
+      "unit": "degC"
+    },
+    {
+      "observed": 53.30711037532421,
+      "partition": "validation",
+      "predicted": 53.294921765324936,
+      "residual": -0.012188609999270739,
+      "sample": 136,
+      "unit": "degC"
+    },
+    {
+      "observed": 53.96034176290252,
+      "partition": "validation",
+      "predicted": 53.94278390370449,
+      "residual": -0.01755785919803543,
+      "sample": 137,
+      "unit": "degC"
+    },
+    {
+      "observed": 54.736563979821035,
+      "partition": "validation",
+      "predicted": 54.738183516752976,
+      "residual": 0.0016195369319405017,
+      "sample": 138,
+      "unit": "degC"
+    },
+    {
+      "observed": 55.191232662903865,
+      "partition": "validation",
+      "predicted": 55.19473602138077,
+      "residual": 0.003503358476905305,
+      "sample": 139,
+      "unit": "degC"
+    },
+    {
+      "observed": 55.79761372718151,
+      "partition": "validation",
+      "predicted": 55.79239411584365,
+      "residual": -0.005219611337864194,
+      "sample": 140,
+      "unit": "degC"
+    },
+    {
+      "observed": 56.53482580296519,
+      "partition": "validation",
+      "predicted": 56.533484867199036,
+      "residual": -0.0013409357661515742,
+      "sample": 141,
+      "unit": "degC"
+    },
+    {
+      "observed": 56.95774643182495,
+      "partition": "validation",
+      "predicted": 56.96823633703352,
+      "residual": 0.01048990520856563,
+      "sample": 142,
+      "unit": "degC"
+    },
+    {
+      "observed": 57.5212354396753,
+      "partition": "validation",
+      "predicted": 57.52655008248111,
+      "residual": 0.005314642805807068,
+      "sample": 143,
+      "unit": "degC"
+    },
+    {
+      "observed": 58.23221536324746,
+      "partition": "validation",
+      "predicted": 58.21773219054651,
+      "residual": -0.014483172700948899,
+      "sample": 144,
+      "unit": "degC"
+    },
+    {
+      "observed": 58.639600961537745,
+      "partition": "validation",
+      "predicted": 58.64225336959383,
+      "residual": 0.0026524080560861307,
+      "sample": 145,
+      "unit": "degC"
+    },
+    {
+      "observed": 59.16975750513826,
+      "partition": "validation",
+      "predicted": 59.17759754049159,
+      "residual": 0.007840035353332553,
+      "sample": 146,
+      "unit": "degC"
+    },
+    {
+      "observed": 59.820996872453975,
+      "partition": "validation",
+      "predicted": 59.8285954420996,
+      "residual": 0.007598569645622888,
+      "sample": 147,
+      "unit": "degC"
+    },
+    {
+      "observed": 60.22906845694654,
+      "partition": "validation",
+      "predicted": 60.20915785025194,
+      "residual": -0.01991060669460154,
+      "sample": 148,
+      "unit": "degC"
+    },
+    {
+      "observed": 60.724218376615866,
+      "partition": "validation",
+      "predicted": 60.73795024729384,
+      "residual": 0.013731870677972324,
+      "sample": 149,
+      "unit": "degC"
+    },
+    {
+      "observed": 61.36841810451963,
+      "partition": "validation",
+      "predicted": 61.347546232204586,
+      "residual": -0.020871872315041173,
+      "sample": 150,
+      "unit": "degC"
+    },
+    {
+      "observed": 60.88747687928166,
+      "partition": "validation",
+      "predicted": 60.90894533796392,
+      "residual": 0.021468458682264213,
+      "sample": 151,
+      "unit": "degC"
+    },
+    {
+      "observed": 60.28036506258712,
+      "partition": "validation",
+      "predicted": 60.28506636135111,
+      "residual": 0.00470129876399028,
+      "sample": 152,
+      "unit": "degC"
+    },
+    {
+      "observed": 59.56270822249732,
+      "partition": "validation",
+      "predicted": 59.54295287605791,
+      "residual": -0.01975534643941046,
+      "sample": 153,
+      "unit": "degC"
+    },
+    {
+      "observed": 59.10716963202651,
+      "partition": "validation",
+      "predicted": 59.128099520893414,
+      "residual": 0.020929888866902502,
+      "sample": 154,
+      "unit": "degC"
+    },
+    {
+      "observed": 58.537000711143314,
+      "partition": "validation",
+      "predicted": 58.53736957596968,
+      "residual": 0.0003688648263633354,
+      "sample": 155,
+      "unit": "degC"
+    },
+    {
+      "observed": 57.850627616134254,
+      "partition": "validation",
+      "predicted": 57.83941391431533,
+      "residual": -0.011213701818924449,
+      "sample": 156,
+      "unit": "degC"
+    },
+    {
+      "observed": 57.44719789504081,
+      "partition": "validation",
+      "predicted": 57.43959373339973,
+      "residual": -0.007604161641076246,
+      "sample": 157,
+      "unit": "degC"
+    },
+    {
+      "observed": 56.88675999011639,
+      "partition": "validation",
+      "predicted": 56.90780407651622,
+      "residual": 0.021044086399832906,
+      "sample": 158,
+      "unit": "degC"
+    },
+    {
+      "observed": 56.22897319369842,
+      "partition": "validation",
+      "predicted": 56.2268712681408,
+      "residual": -0.002101925557624895,
+      "sample": 159,
+      "unit": "degC"
+    },
+    {
+      "observed": 55.85354821145577,
+      "partition": "validation",
+      "predicted": 55.84026898933044,
+      "residual": -0.01327922212532684,
+      "sample": 160,
+      "unit": "degC"
+    }
+  ],
+  "dataset_metadata": {
+    "device": "synthetic-fixture",
+    "kind": "thermal",
+    "method": "Known forward parameters; bounded uniform observation noise; not device measurements",
+    "origin": "synthetic",
+    "recorded_at": "2026-11-11T00:00:00+00:00",
+    "source": "Independent analytic fixture; seed 42",
+    "type": "psi_gw.picrawler.measurements",
+    "units": {
+      "ambient_temperature_c": "degC",
+      "cpu_power_w": "W",
+      "cpu_temperature_c": "degC",
+      "time_s": "s"
+    },
+    "version": 1
+  },
+  "dataset_sha256": "7cdd53edf453626e6d43d2c0d4070e59ec0e02914d010970cd09cc39ff568041",
+  "kind": "thermal",
+  "limitations": [
+    "Equal-weight descriptive fit; no confidence intervals or hardware certification.",
+    "Thermal power/ambient inputs are held constant over each interval.",
+    "Synthetic results are assumptions, never hardware measurements."
+  ],
+  "origin": "synthetic",
+  "parameter_units": {
+    "thermal_capacity_j_per_c": "J/degC",
+    "thermal_resistance_c_per_w": "degC/W"
+  },
+  "parameters": {
+    "thermal_capacity_j_per_c": 18.027369895961314,
+    "thermal_resistance_c_per_w": 12.002103834472026
+  },
+  "runtime": {
+    "code_sha256": "6c6da00846aeecd00f31b342769cf33dc3c782bd159ce66e67eaaae96cc4e1ad",
+    "files_sha256": {
+      "body/base.py": "dccd598137d5d8d5de9d207a02a41ba96fdb00c0774411319159af939bedff81",
+      "picrawler/__init__.py": "df76ee73a9242704d34cccdcc87b64cebb09b2b01474b2e700ab45970de2404d",
+      "picrawler/__main__.py": "bdddb8cdf1b30316504f5f24ec587404eb944ee245fd72cb6358490667a21330",
+      "picrawler/body.py": "f565d319e248d0cd361e6ef65ddeb111f1a253f92d7b016b650289cec58dcb8f",
+      "picrawler/bridge.py": "33f71503be5556f12df800dd1ef388b283bb8cf23f2d0ca041dd36b7e2091757",
+      "picrawler/calibration.py": "e54b81cfe19fc35d864d4700c19a266b0a9b23bdc5fc56bb1a251b1aa61f49cc",
+      "picrawler/calibration_experiment.py": "a6ebf294fe39d036f1e20b84b6e2c73baa7d5a7dfa2f5d238b0dac46271ee0b4",
+      "picrawler/calibration_fit.py": "f993558a024a2033f6be1db582a3d1b542b600fd284e7084822a35b9a7462d7e",
+      "picrawler/demo.py": "cca015944ad330eee85fd1b953d29a4694f849cb07f4ace061c6bca058e5f788",
+      "picrawler/energy.py": "bcd2cd477f951b4f813aec9b61a06bccbb4fc25aab812aedd4d4dec01484fdd9",
+      "picrawler/kinematics.py": "8b3055332ae5a4f7aa9394c871ab1a5e3e1e4a936e3e426f6ef427ed9d285b19",
+      "picrawler/perception.py": "4258f351c7be3695c27190e7f9dea4f25074e2448308a669e4c6385dd8782444",
+      "picrawler/peripherals.py": "83b9fa39399facdaf88ac30c49816949acec490f877996d6229ff70e20105664",
+      "picrawler/render_video.py": "672d91ade2048e24e863cfc637bb3778f57428dfd09994cc1d3ee56b24139db6",
+      "picrawler/replay.py": "deaa7fc9a721a54b59301d4f49e309e10683923609d5dcf990167e364ada700c",
+      "picrawler/sensors.py": "9044f3e4ec3493bd30cd00d3d785b21c21c4fb2d58dd3cb33eb1b0d620917877",
+      "picrawler/stress.py": "9a8e4aabf46611efab1c3a1e50ccb863f9fa68546d033a48594a0e46cee42bfa",
+      "picrawler/telemetry.py": "7b194c9473b4fef96a1482948a285995cee3b30bc513645abbc57fd01ed88a7d",
+      "picrawler/validation_io.py": "86025cb7871bf2f512b11dafe7958fd6e73c8254e2753f662cdd40f08a8a4f8d",
+      "picrawler/world.py": "cd9680a9bf2e3a809d1aa8130bf13bcea3b57265c7a66dff1d5eb89088fa8bd1",
+      "random_source.py": "1ff564ded0aff7cc22eb9a8d4b834d6d587973f27075592c6d5cbc18b119c070"
+    },
+    "numpy": "2.5.4",
+    "python": "3.12.14",
+    "revision": "b6a38e62d2fd7a5293ea538569f6f5eb4ce1d3f7"
+  },
+  "sample_counts": {
+    "train": 101,
+    "validation": 60
+  },
+  "scores": {
+    "identifiability_singular_ratio": 0.30382781454112395,
+    "time_constant_s": 216.36636535376286,
+    "train": {
+      "one_step_degC": {
+        "bias": -0.00018259050350330597,
+        "count": 100,
+        "mae": 0.00882056951222033,
+        "maximum_absolute_error": 0.02661968006503912,
+        "rmse": 0.010930001227147263
+      },
+      "rollout_degC": {
+        "bias": -0.007831184848254935,
+        "count": 100,
+        "mae": 0.009707466076283993,
+        "maximum_absolute_error": 0.02686383849909646,
+        "rmse": 0.011537093516021741
+      }
+    },
+    "validation": {
+      "one_step_degC": {
+        "bias": -0.00017586744710858273,
+        "count": 59,
+        "mae": 0.011215608265171238,
+        "maximum_absolute_error": 0.02417560659895912,
+        "rmse": 0.013340347956131806
+      },
+      "rollout_degC": {
+        "bias": -0.002555378573939664,
+        "count": 59,
+        "mae": 0.008471932787129764,
+        "maximum_absolute_error": 0.022956405981481964,
+        "rmse": 0.009914101043994797
+      }
+    }
+  },
+  "type": "psi_gw.picrawler.fit",
+  "version": 1
+}

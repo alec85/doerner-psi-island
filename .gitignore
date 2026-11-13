@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+build/
+dist/
+
+# Delphi / Lazarus build artefacts
+*.dcu
+*.o
+*.ppu
+*.exe
+*.res
+*.compiled
+lib/
+backup/
+
+# Experiment outputs (reference traces in traces/ are tracked)
+runs/
+*.log
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+
+# Reference sources are kept complete and byte-identical
+!reference/**
+
+# LaTeX
+paper/**/*.aux
+paper/**/*.bbl
+paper/**/*.blg
+paper/**/*.fdb_latexmk
+paper/**/*.fls
+paper/**/*.log
+paper/**/*.out
+*.spl

@@ -1,0 +1,69 @@
+{
+ "actu1041(1).Prt": {
+  "lines": [
+   87476,
+   87476
+  ],
+  "differing": 0,
+  "first": []
+ },
+ "seed1041.Prt": {
+  "lines": [
+   966,
+   966
+  ],
+  "differing": 0,
+  "first": []
+ },
+ "IntTimes(1).Txt": {
+  "lines": [
+   966,
+   966
+  ],
+  "differing": 2,
+  "first": [
+   {
+    "line": 321,
+    "original": " 320:          0       449       162       174       785           971.91563",
+    "port": " 320:          0       449       162       174       785           971.91562"
+   },
+   {
+    "line": 641,
+    "original": " 640:          0       521       218       174       913          1692.47188",
+    "port": " 640:          0       521       218       174       913          1692.47187"
+   }
+  ]
+ },
+ "Activities(1).Txt": {
+  "lines": [
+   3498,
+   3498
+  ],
+  "differing": 0,
+  "first": []
+ },
+ "eAch(1).Prt": {
+  "lines": [
+   2,
+   2
+  ],
+  "differing": 0,
+  "first": []
+ },
+ "Inpro(1).Prt": {
+  "lines": [
+   4,
+   4
+  ],
+  "differing": 0,
+  "first": []
+ },
+ "Consum(1).Prt": {
+  "lines": [
+   2,
+   2
+  ],
+  "differing": 0,
+  "first": []
+ }
+}

@@ -1,0 +1,416 @@
+{
+  "device": "synthetic-fixture",
+  "kind": "range",
+  "method": "Known forward parameters; bounded uniform observation noise; not device measurements",
+  "origin": "synthetic",
+  "recorded_at": "2026-11-11T00:00:00+00:00",
+  "samples": [
+    {
+      "distance_m": null,
+      "partition": "train",
+      "reference_m": 0.1
+    },
+    {
+      "distance_m": 0.3157746114084878,
+      "partition": "train",
+      "reference_m": 0.30000000000000004
+    },
+    {
+      "distance_m": 0.5120059294896188,
+      "partition": "train",
+      "reference_m": 0.5
+    },
+    {
+      "distance_m": 0.7091511800204101,
+      "partition": "train",
+      "reference_m": 0.7000000000000001
+    },
+    {
+      "distance_m": 0.9081114903016656,
+      "partition": "train",
+      "reference_m": 0.9
+    },
+    {
+      "distance_m": 1.109837248239991,
+      "partition": "train",
+      "reference_m": 1.1
+    },
+    {
+      "distance_m": 0.10905457774229217,
+      "partition": "train",
+      "reference_m": 0.1
+    },
+    {
+      "distance_m": 0.3134212693889029,
+      "partition": "train",
+      "reference_m": 0.30000000000000004
+    },
+    {
+      "distance_m": 0.5089746600370283,
+      "partition": "train",
+      "reference_m": 0.5
+    },
+    {
+      "distance_m": null,
+      "partition": "train",
+      "reference_m": 0.7000000000000001
+    },
+    {
+      "distance_m": 0.912050639452965,
+      "partition": "train",
+      "reference_m": 0.9
+    },
+    {
+      "distance_m": 1.1135540994851432,
+      "partition": "train",
+      "reference_m": 1.1
+    },
+    {
+      "distance_m": 0.11264893287376722,
+      "partition": "train",
+      "reference_m": 0.1
+    },
+    {
+      "distance_m": 0.3095982052132805,
+      "partition": "train",
+      "reference_m": 0.30000000000000004
+    },
+    {
+      "distance_m": 0.5144329962094581,
+      "partition": "train",
+      "reference_m": 0.5
+    },
+    {
+      "distance_m": 0.7137232570369265,
+      "partition": "train",
+      "reference_m": 0.7000000000000001
+    },
+    {
+      "distance_m": 0.9139118720313244,
+      "partition": "train",
+      "reference_m": 0.9
+    },
+    {
+      "distance_m": 1.1090484620124585,
+      "partition": "train",
+      "reference_m": 1.1
+    },
+    {
+      "distance_m": null,
+      "partition": "train",
+      "reference_m": 0.1
+    },
+    {
+      "distance_m": 0.3089900304292028,
+      "partition": "train",
+      "reference_m": 0.30000000000000004
+    },
+    {
+      "distance_m": 0.5154205004080521,
+      "partition": "train",
+      "reference_m": 0.5
+    },
+    {
+      "distance_m": 0.7111806255505996,
+      "partition": "train",
+      "reference_m": 0.7000000000000001
+    },
+    {
+      "distance_m": 0.9104075895342475,
+      "partition": "train",
+      "reference_m": 0.9
+    },
+    {
+      "distance_m": 1.1119086723628124,
+      "partition": "train",
+      "reference_m": 1.1
+    },
+    {
+      "distance_m": 0.11330291370210867,
+      "partition": "train",
+      "reference_m": 0.1
+    },
+    {
+      "distance_m": 0.3156449860563758,
+      "partition": "train",
+      "reference_m": 0.30000000000000004
+    },
+    {
+      "distance_m": 0.5102915698150564,
+      "partition": "train",
+      "reference_m": 0.5
+    },
+    {
+      "distance_m": null,
+      "partition": "train",
+      "reference_m": 0.7000000000000001
+    },
+    {
+      "distance_m": 0.9153984674344963,
+      "partition": "train",
+      "reference_m": 0.9
+    },
+    {
+      "distance_m": 1.1081988759310901,
+      "partition": "train",
+      "reference_m": 1.1
+    },
+    {
+      "distance_m": 0.1124415843386146,
+      "partition": "train",
+      "reference_m": 0.1
+    },
+    {
+      "distance_m": 0.3130718008934487,
+      "partition": "train",
+      "reference_m": 0.30000000000000004
+    },
+    {
+      "distance_m": 0.508847179230006,
+      "partition": "train",
+      "reference_m": 0.5
+    },
+    {
+      "distance_m": 0.7091227167765114,
+      "partition": "train",
+      "reference_m": 0.7000000000000001
+    },
+    {
+      "distance_m": 0.9113529145545305,
+      "partition": "train",
+      "reference_m": 0.9
+    },
+    {
+      "distance_m": 1.1157298552971455,
+      "partition": "train",
+      "reference_m": 1.1
+    },
+    {
+      "distance_m": null,
+      "partition": "train",
+      "reference_m": 0.1
+    },
+    {
+      "distance_m": 0.31276834042587504,
+      "partition": "train",
+      "reference_m": 0.30000000000000004
+    },
+    {
+      "distance_m": 0.5154641857728017,
+      "partition": "train",
+      "reference_m": 0.5
+    },
+    {
+      "distance_m": 0.7144348873249038,
+      "partition": "train",
+      "reference_m": 0.7000000000000001
+    },
+    {
+      "distance_m": 0.9117390528124424,
+      "partition": "train",
+      "reference_m": 0.9
+    },
+    {
+      "distance_m": 1.1142781075940176,
+      "partition": "train",
+      "reference_m": 1.1
+    },
+    {
+      "distance_m": 0.1081426942718159,
+      "partition": "train",
+      "reference_m": 0.1
+    },
+    {
+      "distance_m": 0.30887315197412596,
+      "partition": "train",
+      "reference_m": 0.30000000000000004
+    },
+    {
+      "distance_m": 0.5146354289190619,
+      "partition": "train",
+      "reference_m": 0.5
+    },
+    {
+      "distance_m": null,
+      "partition": "train",
+      "reference_m": 0.7000000000000001
+    },
+    {
+      "distance_m": 0.9143745367066013,
+      "partition": "train",
+      "reference_m": 0.9
+    },
+    {
+      "distance_m": 1.1098611259357316,
+      "partition": "train",
+      "reference_m": 1.1
+    },
+    {
+      "distance_m": 0.11224615672479243,
+      "partition": "train",
+      "reference_m": 0.1
+    },
+    {
+      "distance_m": 0.3128481265656001,
+      "partition": "train",
+      "reference_m": 0.30000000000000004
+    },
+    {
+      "distance_m": 0.5149419116302081,
+      "partition": "validation",
+      "reference_m": 0.5
+    },
+    {
+      "distance_m": 0.7128248572587099,
+      "partition": "validation",
+      "reference_m": 0.7000000000000001
+    },
+    {
+      "distance_m": 0.9113005725541895,
+      "partition": "validation",
+      "reference_m": 0.9
+    },
+    {
+      "distance_m": 1.1109934723472576,
+      "partition": "validation",
+      "reference_m": 1.1
+    },
+    {
+      "distance_m": null,
+      "partition": "validation",
+      "reference_m": 0.1
+    },
+    {
+      "distance_m": 0.3114070566909881,
+      "partition": "validation",
+      "reference_m": 0.30000000000000004
+    },
+    {
+      "distance_m": 0.5132154482046398,
+      "partition": "validation",
+      "reference_m": 0.5
+    },
+    {
+      "distance_m": 0.7149399250540187,
+      "partition": "validation",
+      "reference_m": 0.7000000000000001
+    },
+    {
+      "distance_m": 0.9116311750566104,
+      "partition": "validation",
+      "reference_m": 0.9
+    },
+    {
+      "distance_m": 1.109982716503611,
+      "partition": "validation",
+      "reference_m": 1.1
+    },
+    {
+      "distance_m": 0.10989329890398065,
+      "partition": "validation",
+      "reference_m": 0.1
+    },
+    {
+      "distance_m": 0.31396811424194765,
+      "partition": "validation",
+      "reference_m": 0.30000000000000004
+    },
+    {
+      "distance_m": 0.5145325501073913,
+      "partition": "validation",
+      "reference_m": 0.5
+    },
+    {
+      "distance_m": null,
+      "partition": "validation",
+      "reference_m": 0.7000000000000001
+    },
+    {
+      "distance_m": 0.908842224638833,
+      "partition": "validation",
+      "reference_m": 0.9
+    },
+    {
+      "distance_m": 1.1085324708556414,
+      "partition": "validation",
+      "reference_m": 1.1
+    },
+    {
+      "distance_m": 0.11275546931005162,
+      "partition": "validation",
+      "reference_m": 0.1
+    },
+    {
+      "distance_m": 0.30916938595354165,
+      "partition": "validation",
+      "reference_m": 0.30000000000000004
+    },
+    {
+      "distance_m": 0.5145973135236508,
+      "partition": "validation",
+      "reference_m": 0.5
+    },
+    {
+      "distance_m": 0.7104826773913927,
+      "partition": "validation",
+      "reference_m": 0.7000000000000001
+    },
+    {
+      "distance_m": 0.9091509754637692,
+      "partition": "validation",
+      "reference_m": 0.9
+    },
+    {
+      "distance_m": 1.1153677637798998,
+      "partition": "validation",
+      "reference_m": 1.1
+    },
+    {
+      "distance_m": null,
+      "partition": "validation",
+      "reference_m": 0.1
+    },
+    {
+      "distance_m": 0.3093242537818823,
+      "partition": "validation",
+      "reference_m": 0.30000000000000004
+    },
+    {
+      "distance_m": 0.5102777606587034,
+      "partition": "validation",
+      "reference_m": 0.5
+    },
+    {
+      "distance_m": 0.7092289071615365,
+      "partition": "validation",
+      "reference_m": 0.7000000000000001
+    },
+    {
+      "distance_m": 0.9089239205093229,
+      "partition": "validation",
+      "reference_m": 0.9
+    },
+    {
+      "distance_m": 1.1081691841306915,
+      "partition": "validation",
+      "reference_m": 1.1
+    },
+    {
+      "distance_m": 0.10844316327331409,
+      "partition": "validation",
+      "reference_m": 0.1
+    },
+    {
+      "distance_m": 0.3093971317674869,
+      "partition": "validation",
+      "reference_m": 0.30000000000000004
+    }
+  ],
+  "source": "Independent analytic fixture; seed 42",
+  "type": "psi_gw.picrawler.measurements",
+  "units": {
+    "distance_m": "m",
+    "reference_m": "m"
+  },
+  "version": 1
+}

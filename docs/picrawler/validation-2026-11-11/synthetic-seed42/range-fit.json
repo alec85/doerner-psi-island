@@ -1,0 +1,737 @@
+{
+  "comparison": [
+    {
+      "observed": null,
+      "partition": "train",
+      "predicted": 0.11196080700649516,
+      "residual": null,
+      "sample": 0,
+      "unit": "m"
+    },
+    {
+      "observed": 0.3157746114084878,
+      "partition": "train",
+      "predicted": 0.3119608070064952,
+      "residual": -0.003813804401992582,
+      "sample": 1,
+      "unit": "m"
+    },
+    {
+      "observed": 0.5120059294896188,
+      "partition": "train",
+      "predicted": 0.5119608070064952,
+      "residual": -4.512248312360523e-05,
+      "sample": 2,
+      "unit": "m"
+    },
+    {
+      "observed": 0.7091511800204101,
+      "partition": "train",
+      "predicted": 0.7119608070064952,
+      "residual": 0.002809626986085112,
+      "sample": 3,
+      "unit": "m"
+    },
+    {
+      "observed": 0.9081114903016656,
+      "partition": "train",
+      "predicted": 0.9119608070064952,
+      "residual": 0.003849316704829575,
+      "sample": 4,
+      "unit": "m"
+    },
+    {
+      "observed": 1.109837248239991,
+      "partition": "train",
+      "predicted": 1.1119608070064952,
+      "residual": 0.0021235587665042743,
+      "sample": 5,
+      "unit": "m"
+    },
+    {
+      "observed": 0.10905457774229217,
+      "partition": "train",
+      "predicted": 0.11196080700649516,
+      "residual": 0.002906229264202989,
+      "sample": 6,
+      "unit": "m"
+    },
+    {
+      "observed": 0.3134212693889029,
+      "partition": "train",
+      "predicted": 0.3119608070064952,
+      "residual": -0.0014604623824077123,
+      "sample": 7,
+      "unit": "m"
+    },
+    {
+      "observed": 0.5089746600370283,
+      "partition": "train",
+      "predicted": 0.5119608070064952,
+      "residual": 0.002986146969466863,
+      "sample": 8,
+      "unit": "m"
+    },
+    {
+      "observed": null,
+      "partition": "train",
+      "predicted": 0.7119608070064952,
+      "residual": null,
+      "sample": 9,
+      "unit": "m"
+    },
+    {
+      "observed": 0.912050639452965,
+      "partition": "train",
+      "predicted": 0.9119608070064952,
+      "residual": -8.983244646987298e-05,
+      "sample": 10,
+      "unit": "m"
+    },
+    {
+      "observed": 1.1135540994851432,
+      "partition": "train",
+      "predicted": 1.1119608070064952,
+      "residual": -0.001593292478647923,
+      "sample": 11,
+      "unit": "m"
+    },
+    {
+      "observed": 0.11264893287376722,
+      "partition": "train",
+      "predicted": 0.11196080700649516,
+      "residual": -0.0006881258672720575,
+      "sample": 12,
+      "unit": "m"
+    },
+    {
+      "observed": 0.3095982052132805,
+      "partition": "train",
+      "predicted": 0.3119608070064952,
+      "residual": 0.0023626017932146803,
+      "sample": 13,
+      "unit": "m"
+    },
+    {
+      "observed": 0.5144329962094581,
+      "partition": "train",
+      "predicted": 0.5119608070064952,
+      "residual": -0.0024721892029629933,
+      "sample": 14,
+      "unit": "m"
+    },
+    {
+      "observed": 0.7137232570369265,
+      "partition": "train",
+      "predicted": 0.7119608070064952,
+      "residual": -0.0017624500304312951,
+      "sample": 15,
+      "unit": "m"
+    },
+    {
+      "observed": 0.9139118720313244,
+      "partition": "train",
+      "predicted": 0.9119608070064952,
+      "residual": -0.0019510650248292238,
+      "sample": 16,
+      "unit": "m"
+    },
+    {
+      "observed": 1.1090484620124585,
+      "partition": "train",
+      "predicted": 1.1119608070064952,
+      "residual": 0.0029123449940366974,
+      "sample": 17,
+      "unit": "m"
+    },
+    {
+      "observed": null,
+      "partition": "train",
+      "predicted": 0.11196080700649516,
+      "residual": null,
+      "sample": 18,
+      "unit": "m"
+    },
+    {
+      "observed": 0.3089900304292028,
+      "partition": "train",
+      "predicted": 0.3119608070064952,
+      "residual": 0.002970776577292389,
+      "sample": 19,
+      "unit": "m"
+    },
+    {
+      "observed": 0.5154205004080521,
+      "partition": "train",
+      "predicted": 0.5119608070064952,
+      "residual": -0.0034596934015569403,
+      "sample": 20,
+      "unit": "m"
+    },
+    {
+      "observed": 0.7111806255505996,
+      "partition": "train",
+      "predicted": 0.7119608070064952,
+      "residual": 0.0007801814558956455,
+      "sample": 21,
+      "unit": "m"
+    },
+    {
+      "observed": 0.9104075895342475,
+      "partition": "train",
+      "predicted": 0.9119608070064952,
+      "residual": 0.001553217472247681,
+      "sample": 22,
+      "unit": "m"
+    },
+    {
+      "observed": 1.1119086723628124,
+      "partition": "train",
+      "predicted": 1.1119608070064952,
+      "residual": 5.213464368281073e-05,
+      "sample": 23,
+      "unit": "m"
+    },
+    {
+      "observed": 0.11330291370210867,
+      "partition": "train",
+      "predicted": 0.11196080700649516,
+      "residual": -0.001342106695613507,
+      "sample": 24,
+      "unit": "m"
+    },
+    {
+      "observed": 0.3156449860563758,
+      "partition": "train",
+      "predicted": 0.3119608070064952,
+      "residual": -0.0036841790498806093,
+      "sample": 25,
+      "unit": "m"
+    },
+    {
+      "observed": 0.5102915698150564,
+      "partition": "train",
+      "predicted": 0.5119608070064952,
+      "residual": 0.0016692371914387438,
+      "sample": 26,
+      "unit": "m"
+    },
+    {
+      "observed": null,
+      "partition": "train",
+      "predicted": 0.7119608070064952,
+      "residual": null,
+      "sample": 27,
+      "unit": "m"
+    },
+    {
+      "observed": 0.9153984674344963,
+      "partition": "train",
+      "predicted": 0.9119608070064952,
+      "residual": -0.003437660428001088,
+      "sample": 28,
+      "unit": "m"
+    },
+    {
+      "observed": 1.1081988759310901,
+      "partition": "train",
+      "predicted": 1.1119608070064952,
+      "residual": 0.0037619310754051227,
+      "sample": 29,
+      "unit": "m"
+    },
+    {
+      "observed": 0.1124415843386146,
+      "partition": "train",
+      "predicted": 0.11196080700649516,
+      "residual": -0.00048077733211944473,
+      "sample": 30,
+      "unit": "m"
+    },
+    {
+      "observed": 0.3130718008934487,
+      "partition": "train",
+      "predicted": 0.3119608070064952,
+      "residual": -0.0011109938869535152,
+      "sample": 31,
+      "unit": "m"
+    },
+    {
+      "observed": 0.508847179230006,
+      "partition": "train",
+      "predicted": 0.5119608070064952,
+      "residual": 0.0031136277764891584,
+      "sample": 32,
+      "unit": "m"
+    },
+    {
+      "observed": 0.7091227167765114,
+      "partition": "train",
+      "predicted": 0.7119608070064952,
+      "residual": 0.002838090229983825,
+      "sample": 33,
+      "unit": "m"
+    },
+    {
+      "observed": 0.9113529145545305,
+      "partition": "train",
+      "predicted": 0.9119608070064952,
+      "residual": 0.0006078924519646867,
+      "sample": 34,
+      "unit": "m"
+    },
+    {
+      "observed": 1.1157298552971455,
+      "partition": "train",
+      "predicted": 1.1119608070064952,
+      "residual": -0.0037690482906502787,
+      "sample": 35,
+      "unit": "m"
+    },
+    {
+      "observed": null,
+      "partition": "train",
+      "predicted": 0.11196080700649516,
+      "residual": null,
+      "sample": 36,
+      "unit": "m"
+    },
+    {
+      "observed": 0.31276834042587504,
+      "partition": "train",
+      "predicted": 0.3119608070064952,
+      "residual": -0.0008075334193798356,
+      "sample": 37,
+      "unit": "m"
+    },
+    {
+      "observed": 0.5154641857728017,
+      "partition": "train",
+      "predicted": 0.5119608070064952,
+      "residual": -0.003503378766306575,
+      "sample": 38,
+      "unit": "m"
+    },
+    {
+      "observed": 0.7144348873249038,
+      "partition": "train",
+      "predicted": 0.7119608070064952,
+      "residual": -0.002474080318408567,
+      "sample": 39,
+      "unit": "m"
+    },
+    {
+      "observed": 0.9117390528124424,
+      "partition": "train",
+      "predicted": 0.9119608070064952,
+      "residual": 0.00022175419405279229,
+      "sample": 40,
+      "unit": "m"
+    },
+    {
+      "observed": 1.1142781075940176,
+      "partition": "train",
+      "predicted": 1.1119608070064952,
+      "residual": -0.0023173005875223307,
+      "sample": 41,
+      "unit": "m"
+    },
+    {
+      "observed": 0.1081426942718159,
+      "partition": "train",
+      "predicted": 0.11196080700649516,
+      "residual": 0.0038181127346792604,
+      "sample": 42,
+      "unit": "m"
+    },
+    {
+      "observed": 0.30887315197412596,
+      "partition": "train",
+      "predicted": 0.3119608070064952,
+      "residual": 0.003087655032369241,
+      "sample": 43,
+      "unit": "m"
+    },
+    {
+      "observed": 0.5146354289190619,
+      "partition": "train",
+      "predicted": 0.5119608070064952,
+      "residual": -0.0026746219125667325,
+      "sample": 44,
+      "unit": "m"
+    },
+    {
+      "observed": null,
+      "partition": "train",
+      "predicted": 0.7119608070064952,
+      "residual": null,
+      "sample": 45,
+      "unit": "m"
+    },
+    {
+      "observed": 0.9143745367066013,
+      "partition": "train",
+      "predicted": 0.9119608070064952,
+      "residual": -0.0024137297001061153,
+      "sample": 46,
+      "unit": "m"
+    },
+    {
+      "observed": 1.1098611259357316,
+      "partition": "train",
+      "predicted": 1.1119608070064952,
+      "residual": 0.002099681070763637,
+      "sample": 47,
+      "unit": "m"
+    },
+    {
+      "observed": 0.11224615672479243,
+      "partition": "train",
+      "predicted": 0.11196080700649516,
+      "residual": -0.00028534971829727307,
+      "sample": 48,
+      "unit": "m"
+    },
+    {
+      "observed": 0.3128481265656001,
+      "partition": "train",
+      "predicted": 0.3119608070064952,
+      "residual": -0.0008873195591049265,
+      "sample": 49,
+      "unit": "m"
+    },
+    {
+      "observed": 0.5149419116302081,
+      "partition": "validation",
+      "predicted": 0.5119608070064952,
+      "residual": -0.002981104623712927,
+      "sample": 50,
+      "unit": "m"
+    },
+    {
+      "observed": 0.7128248572587099,
+      "partition": "validation",
+      "predicted": 0.7119608070064952,
+      "residual": -0.0008640502522146987,
+      "sample": 51,
+      "unit": "m"
+    },
+    {
+      "observed": 0.9113005725541895,
+      "partition": "validation",
+      "predicted": 0.9119608070064952,
+      "residual": 0.0006602344523056747,
+      "sample": 52,
+      "unit": "m"
+    },
+    {
+      "observed": 1.1109934723472576,
+      "partition": "validation",
+      "predicted": 1.1119608070064952,
+      "residual": 0.0009673346592375953,
+      "sample": 53,
+      "unit": "m"
+    },
+    {
+      "observed": null,
+      "partition": "validation",
+      "predicted": 0.11196080700649516,
+      "residual": null,
+      "sample": 54,
+      "unit": "m"
+    },
+    {
+      "observed": 0.3114070566909881,
+      "partition": "validation",
+      "predicted": 0.3119608070064952,
+      "residual": 0.0005537503155070844,
+      "sample": 55,
+      "unit": "m"
+    },
+    {
+      "observed": 0.5132154482046398,
+      "partition": "validation",
+      "predicted": 0.5119608070064952,
+      "residual": -0.0012546411981446681,
+      "sample": 56,
+      "unit": "m"
+    },
+    {
+      "observed": 0.7149399250540187,
+      "partition": "validation",
+      "predicted": 0.7119608070064952,
+      "residual": -0.002979118047523488,
+      "sample": 57,
+      "unit": "m"
+    },
+    {
+      "observed": 0.9116311750566104,
+      "partition": "validation",
+      "predicted": 0.9119608070064952,
+      "residual": 0.00032963194988477884,
+      "sample": 58,
+      "unit": "m"
+    },
+    {
+      "observed": 1.109982716503611,
+      "partition": "validation",
+      "predicted": 1.1119608070064952,
+      "residual": 0.001978090502884333,
+      "sample": 59,
+      "unit": "m"
+    },
+    {
+      "observed": 0.10989329890398065,
+      "partition": "validation",
+      "predicted": 0.11196080700649516,
+      "residual": 0.0020675081025145065,
+      "sample": 60,
+      "unit": "m"
+    },
+    {
+      "observed": 0.31396811424194765,
+      "partition": "validation",
+      "predicted": 0.3119608070064952,
+      "residual": -0.002007307235452449,
+      "sample": 61,
+      "unit": "m"
+    },
+    {
+      "observed": 0.5145325501073913,
+      "partition": "validation",
+      "predicted": 0.5119608070064952,
+      "residual": -0.00257174310089614,
+      "sample": 62,
+      "unit": "m"
+    },
+    {
+      "observed": null,
+      "partition": "validation",
+      "predicted": 0.7119608070064952,
+      "residual": null,
+      "sample": 63,
+      "unit": "m"
+    },
+    {
+      "observed": 0.908842224638833,
+      "partition": "validation",
+      "predicted": 0.9119608070064952,
+      "residual": 0.0031185823676621593,
+      "sample": 64,
+      "unit": "m"
+    },
+    {
+      "observed": 1.1085324708556414,
+      "partition": "validation",
+      "predicted": 1.1119608070064952,
+      "residual": 0.0034283361508538057,
+      "sample": 65,
+      "unit": "m"
+    },
+    {
+      "observed": 0.11275546931005162,
+      "partition": "validation",
+      "predicted": 0.11196080700649516,
+      "residual": -0.0007946623035564593,
+      "sample": 66,
+      "unit": "m"
+    },
+    {
+      "observed": 0.30916938595354165,
+      "partition": "validation",
+      "predicted": 0.3119608070064952,
+      "residual": 0.0027914210529535466,
+      "sample": 67,
+      "unit": "m"
+    },
+    {
+      "observed": 0.5145973135236508,
+      "partition": "validation",
+      "predicted": 0.5119608070064952,
+      "residual": -0.0026365065171556346,
+      "sample": 68,
+      "unit": "m"
+    },
+    {
+      "observed": 0.7104826773913927,
+      "partition": "validation",
+      "predicted": 0.7119608070064952,
+      "residual": 0.0014781296151025192,
+      "sample": 69,
+      "unit": "m"
+    },
+    {
+      "observed": 0.9091509754637692,
+      "partition": "validation",
+      "predicted": 0.9119608070064952,
+      "residual": 0.00280983154272596,
+      "sample": 70,
+      "unit": "m"
+    },
+    {
+      "observed": 1.1153677637798998,
+      "partition": "validation",
+      "predicted": 1.1119608070064952,
+      "residual": -0.0034069567734045236,
+      "sample": 71,
+      "unit": "m"
+    },
+    {
+      "observed": null,
+      "partition": "validation",
+      "predicted": 0.11196080700649516,
+      "residual": null,
+      "sample": 72,
+      "unit": "m"
+    },
+    {
+      "observed": 0.3093242537818823,
+      "partition": "validation",
+      "predicted": 0.3119608070064952,
+      "residual": 0.0026365532246129253,
+      "sample": 73,
+      "unit": "m"
+    },
+    {
+      "observed": 0.5102777606587034,
+      "partition": "validation",
+      "predicted": 0.5119608070064952,
+      "residual": 0.0016830463477917057,
+      "sample": 74,
+      "unit": "m"
+    },
+    {
+      "observed": 0.7092289071615365,
+      "partition": "validation",
+      "predicted": 0.7119608070064952,
+      "residual": 0.002731899844958696,
+      "sample": 75,
+      "unit": "m"
+    },
+    {
+      "observed": 0.9089239205093229,
+      "partition": "validation",
+      "predicted": 0.9119608070064952,
+      "residual": 0.0030368864971722642,
+      "sample": 76,
+      "unit": "m"
+    },
+    {
+      "observed": 1.1081691841306915,
+      "partition": "validation",
+      "predicted": 1.1119608070064952,
+      "residual": 0.003791622875803702,
+      "sample": 77,
+      "unit": "m"
+    },
+    {
+      "observed": 0.10844316327331409,
+      "partition": "validation",
+      "predicted": 0.11196080700649516,
+      "residual": 0.0035176437331810723,
+      "sample": 78,
+      "unit": "m"
+    },
+    {
+      "observed": 0.3093971317674869,
+      "partition": "validation",
+      "predicted": 0.3119608070064952,
+      "residual": 0.0025636752390083006,
+      "sample": 79,
+      "unit": "m"
+    }
+  ],
+  "dataset_metadata": {
+    "device": "synthetic-fixture",
+    "kind": "range",
+    "method": "Known forward parameters; bounded uniform observation noise; not device measurements",
+    "origin": "synthetic",
+    "recorded_at": "2026-11-11T00:00:00+00:00",
+    "source": "Independent analytic fixture; seed 42",
+    "type": "psi_gw.picrawler.measurements",
+    "units": {
+      "distance_m": "m",
+      "reference_m": "m"
+    },
+    "version": 1
+  },
+  "dataset_sha256": "ec502b4e8d53c967f34be185d1769f7b897426bdb51fa3f46c66b1d5651b7b94",
+  "kind": "range",
+  "limitations": [
+    "Equal-weight descriptive fit; no confidence intervals or hardware certification.",
+    "Thermal power/ambient inputs are held constant over each interval.",
+    "Synthetic results are assumptions, never hardware measurements."
+  ],
+  "origin": "synthetic",
+  "parameter_units": {
+    "dropout_probability": "1",
+    "range_noise_standard_deviation_m": "m",
+    "range_offset_m": "m"
+  },
+  "parameters": {
+    "dropout_probability": 0.12,
+    "range_noise_standard_deviation_m": 0.0024587127651953377,
+    "range_offset_m": 0.011960807006495154
+  },
+  "runtime": {
+    "code_sha256": "6c6da00846aeecd00f31b342769cf33dc3c782bd159ce66e67eaaae96cc4e1ad",
+    "files_sha256": {
+      "body/base.py": "dccd598137d5d8d5de9d207a02a41ba96fdb00c0774411319159af939bedff81",
+      "picrawler/__init__.py": "df76ee73a9242704d34cccdcc87b64cebb09b2b01474b2e700ab45970de2404d",
+      "picrawler/__main__.py": "bdddb8cdf1b30316504f5f24ec587404eb944ee245fd72cb6358490667a21330",
+      "picrawler/body.py": "f565d319e248d0cd361e6ef65ddeb111f1a253f92d7b016b650289cec58dcb8f",
+      "picrawler/bridge.py": "33f71503be5556f12df800dd1ef388b283bb8cf23f2d0ca041dd36b7e2091757",
+      "picrawler/calibration.py": "e54b81cfe19fc35d864d4700c19a266b0a9b23bdc5fc56bb1a251b1aa61f49cc",
+      "picrawler/calibration_experiment.py": "a6ebf294fe39d036f1e20b84b6e2c73baa7d5a7dfa2f5d238b0dac46271ee0b4",
+      "picrawler/calibration_fit.py": "f993558a024a2033f6be1db582a3d1b542b600fd284e7084822a35b9a7462d7e",
+      "picrawler/demo.py": "cca015944ad330eee85fd1b953d29a4694f849cb07f4ace061c6bca058e5f788",
+      "picrawler/energy.py": "bcd2cd477f951b4f813aec9b61a06bccbb4fc25aab812aedd4d4dec01484fdd9",
+      "picrawler/kinematics.py": "8b3055332ae5a4f7aa9394c871ab1a5e3e1e4a936e3e426f6ef427ed9d285b19",
+      "picrawler/perception.py": "4258f351c7be3695c27190e7f9dea4f25074e2448308a669e4c6385dd8782444",
+      "picrawler/peripherals.py": "83b9fa39399facdaf88ac30c49816949acec490f877996d6229ff70e20105664",
+      "picrawler/render_video.py": "672d91ade2048e24e863cfc637bb3778f57428dfd09994cc1d3ee56b24139db6",
+      "picrawler/replay.py": "deaa7fc9a721a54b59301d4f49e309e10683923609d5dcf990167e364ada700c",
+      "picrawler/sensors.py": "9044f3e4ec3493bd30cd00d3d785b21c21c4fb2d58dd3cb33eb1b0d620917877",
+      "picrawler/stress.py": "9a8e4aabf46611efab1c3a1e50ccb863f9fa68546d033a48594a0e46cee42bfa",
+      "picrawler/telemetry.py": "7b194c9473b4fef96a1482948a285995cee3b30bc513645abbc57fd01ed88a7d",
+      "picrawler/validation_io.py": "86025cb7871bf2f512b11dafe7958fd6e73c8254e2753f662cdd40f08a8a4f8d",
+      "picrawler/world.py": "cd9680a9bf2e3a809d1aa8130bf13bcea3b57265c7a66dff1d5eb89088fa8bd1",
+      "random_source.py": "1ff564ded0aff7cc22eb9a8d4b834d6d587973f27075592c6d5cbc18b119c070"
+    },
+    "numpy": "2.5.4",
+    "python": "3.12.14",
+    "revision": "b6a38e62d2fd7a5293ea538569f6f5eb4ce1d3f7"
+  },
+  "sample_counts": {
+    "train": 50,
+    "validation": 30
+  },
+  "scores": {
+    "train": {
+      "corrected_distance_m": {
+        "bias": -4.100255488672453e-18,
+        "count": 44,
+        "mae": 0.0021147326083911407,
+        "maximum_absolute_error": 0.003849316704829575,
+        "rmse": 0.002430612267864845
+      },
+      "dropout_fraction": 0.12,
+      "missing_echoes": 6,
+      "samples": 50
+    },
+    "validation": {
+      "corrected_distance_m": {
+        "bias": -0.0007647440156333201,
+        "count": 27,
+        "mae": 0.0022088988343045043,
+        "maximum_absolute_error": 0.003791622875803702,
+        "rmse": 0.002426963719052536
+      },
+      "dropout_fraction": 0.09999999999999998,
+      "missing_echoes": 3,
+      "samples": 30
+    }
+  },
+  "type": "psi_gw.picrawler.fit",
+  "version": 1
+}

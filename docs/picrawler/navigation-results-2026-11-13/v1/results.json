@@ -1,0 +1,2629 @@
+{
+  "cases": [
+    {
+      "body_sha256": "73b83a365e40c6179234a105a3a5300415718162c9bb7c9c06727f283052500c",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "reactive",
+        "seed": 2000,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 304.07169157725883,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.50650123029259,
+        "pose": {
+          "height_m": 0.06657031689338323,
+          "x_m": 0.35029478618241117,
+          "y_m": -0.011614230465650225,
+          "yaw_rad": -0.010216162858239189
+        },
+        "steps": 898
+      },
+      "energy_consumed_j": 316.25152092503305,
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "id": "s2000-open-reactive-nominal-t2400",
+      "mode_counts": {
+        "drive": 898
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.5103250526745098,
+      "pose": {
+        "height_m": 0.06729701011761,
+        "x_m": 0.3471823109668468,
+        "y_m": -0.012665014185898821,
+        "yaw_rad": 0.0025822518414201356
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 898,
+      "stop": {
+        "angular_speed_rad_s": 6.016590717343879e-10,
+        "drift_m": 0.0032850644429359087,
+        "linear_speed_m_s": 1.9715761248517735e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "6635cb482feb2baef42ad0e2ee1d797b6d6ffe1500260a944a65bb10518adfc5"
+    },
+    {
+      "body_sha256": "73b83a365e40c6179234a105a3a5300415718162c9bb7c9c06727f283052500c",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "memory",
+        "seed": 2000,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 304.07169157725883,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.50650123029259,
+        "pose": {
+          "height_m": 0.06657031689338323,
+          "x_m": 0.35029478618241117,
+          "y_m": -0.011614230465650225,
+          "yaw_rad": -0.010216162858239189
+        },
+        "steps": 898
+      },
+      "energy_consumed_j": 316.25152092503305,
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "id": "s2000-open-memory-nominal-t2400",
+      "mode_counts": {
+        "drive": 898
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.5103250526745098,
+      "pose": {
+        "height_m": 0.06729701011761,
+        "x_m": 0.3471823109668468,
+        "y_m": -0.012665014185898821,
+        "yaw_rad": 0.0025822518414201356
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 898,
+      "stop": {
+        "angular_speed_rad_s": 6.016590717343879e-10,
+        "drift_m": 0.0032850644429359087,
+        "linear_speed_m_s": 1.9715761248517735e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "a9f737154f95ddc087a0fa1572ade968142442e2aba022ec64b2b4131dd3c25b"
+    },
+    {
+      "body_sha256": "0f880fb04824754177646ff686b6870870d1b2fdf409a438f5009300bf5d90bf",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "fast_memory",
+        "seed": 2000,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 262.90264791154885,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.404652436083592,
+        "pose": {
+          "height_m": 0.0665467308630332,
+          "x_m": 0.35254948366673133,
+          "y_m": -0.01585051801935346,
+          "yaw_rad": 0.0044201045123178195
+        },
+        "steps": 766
+      },
+      "energy_consumed_j": 275.0976377106109,
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "id": "s2000-open-fast_memory-nominal-t2400",
+      "mode_counts": {
+        "drive": 766
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.408773370479788,
+      "pose": {
+        "height_m": 0.06729701015520577,
+        "x_m": 0.34930266944027233,
+        "y_m": -0.014677194370075019,
+        "yaw_rad": -0.00961108848074675
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 766,
+      "stop": {
+        "angular_speed_rad_s": 4.661131120115307e-10,
+        "drift_m": 0.0034523167593795137,
+        "linear_speed_m_s": 4.858143684410047e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "19963b50f3f1570189f57f41d77cf6e9c9e67183e087dad7ece32e91d79e7f0c"
+    },
+    {
+      "body_sha256": "0f880fb04824754177646ff686b6870870d1b2fdf409a438f5009300bf5d90bf",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "active",
+        "seed": 2000,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 262.90264791154885,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.404652436083592,
+        "pose": {
+          "height_m": 0.0665467308630332,
+          "x_m": 0.35254948366673133,
+          "y_m": -0.01585051801935346,
+          "yaw_rad": 0.0044201045123178195
+        },
+        "steps": 766
+      },
+      "energy_consumed_j": 275.0976377106109,
+      "estimate_error_after_stop_m": 0.0057924832014564255,
+      "estimated_position": [
+        0.9953971565712548,
+        0.0
+      ],
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "heading_error_after_stop_rad": -0.010135666770246632,
+      "id": "s2000-open-active-nominal-t2400",
+      "mode_counts": {
+        "travel": 766
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.408773370479788,
+      "pose": {
+        "height_m": 0.06729701015520577,
+        "x_m": 0.34930266944027233,
+        "y_m": -0.014677194370075019,
+        "yaw_rad": -0.00961108848074675
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 766,
+      "stop": {
+        "angular_speed_rad_s": 4.661131120115307e-10,
+        "drift_m": 0.0034523167593795137,
+        "linear_speed_m_s": 4.858143684410047e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "fd051f0247302d2bbb47ba5529f777ea53b618ef85379a3e659e45940442b2a4"
+    },
+    {
+      "body_sha256": "82df8469107e41904ba711819c283346f8005f24297ed8a33cf1f34b47833774",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "reactive",
+        "seed": 2000,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 314.4059949294657,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.5320638306493872,
+        "pose": {
+          "height_m": 0.06744742218156621,
+          "x_m": 0.23415541700076561,
+          "y_m": -0.13676113992049532,
+          "yaw_rad": -0.20841466193902777
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 364.1291908149473,
+      "goal_within_900": false,
+      "goal_within_long_horizon": true,
+      "id": "s2000-open-reactive-noisy-t2400",
+      "mode_counts": {
+        "drive": 937,
+        "unknown_range": 74
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.723559267463555,
+      "pose": {
+        "height_m": 0.0672970100203773,
+        "x_m": 0.3511614455773502,
+        "y_m": -0.16022734626534174,
+        "yaw_rad": -0.15097059877377894
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 1011,
+      "stop": {
+        "angular_speed_rad_s": 1.0013714940692704e-10,
+        "drift_m": 0.0008918897238908313,
+        "linear_speed_m_s": 5.516066258359639e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "e7fc8a3649003a4c2c0e0bb5364926a3f64cf9238dbbfefeb37f5bb0422c17fa"
+    },
+    {
+      "body_sha256": "5a5da92462614cd0c6f156898ab69c8ccad28145b8a8df2111301ca6c331ca99",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "memory",
+        "seed": 2000,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 304.07169157725883,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.50650123029259,
+        "pose": {
+          "height_m": 0.06657031689338323,
+          "x_m": 0.35029478618241117,
+          "y_m": -0.011614230465650225,
+          "yaw_rad": -0.010216162858239189
+        },
+        "steps": 898
+      },
+      "energy_consumed_j": 316.25152092503305,
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "id": "s2000-open-memory-noisy-t2400",
+      "mode_counts": {
+        "drive": 898
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.5103250526745098,
+      "pose": {
+        "height_m": 0.06729701011761,
+        "x_m": 0.3471823109668468,
+        "y_m": -0.012665014185898821,
+        "yaw_rad": 0.0025822518414201356
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 898,
+      "stop": {
+        "angular_speed_rad_s": 6.016590717343879e-10,
+        "drift_m": 0.0032850644429359087,
+        "linear_speed_m_s": 1.9715761248517735e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "05a3c52778d24cce46c831f9089b637b52cfdeb8561a7c24cc1cae2c19308e3c"
+    },
+    {
+      "body_sha256": "cb99a1168c1542add5a96e039927b54a19d19e2774977bca5662566922f8c2df",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "fast_memory",
+        "seed": 2000,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 262.90264791154885,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.404652436083592,
+        "pose": {
+          "height_m": 0.0665467308630332,
+          "x_m": 0.35254948366673133,
+          "y_m": -0.01585051801935346,
+          "yaw_rad": 0.0044201045123178195
+        },
+        "steps": 766
+      },
+      "energy_consumed_j": 275.0976377106109,
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "id": "s2000-open-fast_memory-noisy-t2400",
+      "mode_counts": {
+        "drive": 766
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.408773370479788,
+      "pose": {
+        "height_m": 0.06729701015520577,
+        "x_m": 0.34930266944027233,
+        "y_m": -0.014677194370075019,
+        "yaw_rad": -0.00961108848074675
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 766,
+      "stop": {
+        "angular_speed_rad_s": 4.661131120115307e-10,
+        "drift_m": 0.0034523167593795137,
+        "linear_speed_m_s": 4.858143684410047e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "49ea945a2798fc5c66bcf004385f1f11b93f5a39964a925c28b0d16a51150855"
+    },
+    {
+      "body_sha256": "4b4278222432176723587c8e45ee54cbe31cb4569b53d8f4a92c33a54940e849",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "active",
+        "seed": 2000,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 301.08265232355427,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.5863502259561177,
+        "pose": {
+          "height_m": 0.06710003559262596,
+          "x_m": 0.35054703340346144,
+          "y_m": -0.12731434392144114,
+          "yaw_rad": -0.1598037841939546
+        },
+        "steps": 849
+      },
+      "energy_consumed_j": 313.1262633802383,
+      "estimate_error_after_stop_m": 0.12136213735752222,
+      "estimated_position": [
+        1.0253819791172765,
+        0.0
+      ],
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "heading_error_after_stop_rad": -0.1606812159027937,
+      "id": "s2000-open-active-noisy-t2400",
+      "mode_counts": {
+        "travel": 788,
+        "unknown_range": 61
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.5868362441183954,
+      "pose": {
+        "height_m": 0.0672970101399304,
+        "x_m": 0.3506636073391529,
+        "y_m": -0.12704556036903525,
+        "yaw_rad": -0.1601566376132938
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 849,
+      "stop": {
+        "angular_speed_rad_s": 4.1959690574902e-10,
+        "drift_m": 0.0002929745390414198,
+        "linear_speed_m_s": 3.683137586572897e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "29c24ff5163a34699b112e4f830eaf514f0ec1d16023cd66c47ef1c43b805d00"
+    },
+    {
+      "body_sha256": "d685ae931911bfe72bba8a294a68a8189b9c8d05326ee5ef1849fc8cac748cbf",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "reactive",
+        "seed": 2000,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 312.89969529116536,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.5713276176146347,
+        "pose": {
+          "height_m": 0.06692086291315501,
+          "x_m": 0.14443061165212479,
+          "y_m": 0.3294483934023913,
+          "yaw_rad": 0.7500576887534173
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 434.4362481714763,
+      "goal_within_900": false,
+      "goal_within_long_horizon": true,
+      "id": "s2000-open-reactive-delayed-t2400",
+      "mode_counts": {
+        "drive": 1151,
+        "unknown_range": 76
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 2.1649663813118245,
+      "pose": {
+        "height_m": 0.06729701017581736,
+        "x_m": 0.3490322591502694,
+        "y_m": 0.5877603048213075,
+        "yaw_rad": 1.1458460472266956
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 1227,
+      "stop": {
+        "angular_speed_rad_s": 2.438678378842236e-10,
+        "drift_m": 0.00174471804987226,
+        "linear_speed_m_s": 6.44234326986672e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "650d42307d84a723012a1a2ee30ff3747474f52fef4dec5e1109e92d47344601"
+    },
+    {
+      "body_sha256": "d685ae931911bfe72bba8a294a68a8189b9c8d05326ee5ef1849fc8cac748cbf",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "memory",
+        "seed": 2000,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 312.89969529116536,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.5713276176146347,
+        "pose": {
+          "height_m": 0.06692086291315501,
+          "x_m": 0.14443061165212479,
+          "y_m": 0.3294483934023913,
+          "yaw_rad": 0.7500576887534173
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 434.4362481714763,
+      "goal_within_900": false,
+      "goal_within_long_horizon": true,
+      "id": "s2000-open-memory-delayed-t2400",
+      "mode_counts": {
+        "drive": 1151,
+        "unknown_range": 76
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 2.1649663813118245,
+      "pose": {
+        "height_m": 0.06729701017581736,
+        "x_m": 0.3490322591502694,
+        "y_m": 0.5877603048213075,
+        "yaw_rad": 1.1458460472266956
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 1227,
+      "stop": {
+        "angular_speed_rad_s": 2.438678378842236e-10,
+        "drift_m": 0.00174471804987226,
+        "linear_speed_m_s": 6.44234326986672e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "4be37f193dc36d9276adced4e461c595e8cc7834703d8506e56756d8922a4421"
+    },
+    {
+      "body_sha256": "f1ae588691348a64ffb9e163b5b33dd199730e9a8169fc1c89e746875c3956da",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "fast_memory",
+        "seed": 2000,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 317.0612961639326,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.738722948494488,
+        "pose": {
+          "height_m": 0.06694346624162861,
+          "x_m": 0.2703838636754202,
+          "y_m": 0.3750513758603252,
+          "yaw_rad": 0.7665341318648705
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 362.02261217179046,
+      "goal_within_900": false,
+      "goal_within_long_horizon": true,
+      "id": "s2000-open-fast_memory-delayed-t2400",
+      "mode_counts": {
+        "drive": 935,
+        "unknown_range": 62
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.9342231862850907,
+      "pose": {
+        "height_m": 0.06729701019561422,
+        "x_m": 0.3488054728631776,
+        "y_m": 0.4585802823863984,
+        "yaw_rad": 0.8860884612929047
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 997,
+      "stop": {
+        "angular_speed_rad_s": 2.875722221460554e-10,
+        "drift_m": 0.002041470644829714,
+        "linear_speed_m_s": 7.965358330209352e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "f534757e36baa1ac3df7691411833869da4e58086ed66a121d41e12ad7e8ebb4"
+    },
+    {
+      "body_sha256": "36fc6fe8219db01c008d4cb93acb56c5b358dee24dfb99f113937d0194d1e2dd",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "active",
+        "seed": 2000,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 264.10690900176337,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.40465243609238,
+        "pose": {
+          "height_m": 0.06654673086303634,
+          "x_m": 0.3525494836780638,
+          "y_m": -0.015850518102299163,
+          "yaw_rad": 0.004420104433003759
+        },
+        "steps": 770
+      },
+      "energy_consumed_j": 276.30189880082617,
+      "estimate_error_after_stop_m": 0.005792483285065832,
+      "estimated_position": [
+        0.9953971565712548,
+        0.0
+      ],
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "heading_error_after_stop_rad": -0.010135666848784152,
+      "id": "s2000-open-active-delayed-t2400",
+      "mode_counts": {
+        "travel": 766,
+        "unknown_range": 4
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.4087733704884877,
+      "pose": {
+        "height_m": 0.06729701015520574,
+        "x_m": 0.3493026694517258,
+        "y_m": -0.01467719445289655,
+        "yaw_rad": -0.00961108855928427
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 770,
+      "stop": {
+        "angular_speed_rad_s": 4.661179288903091e-10,
+        "drift_m": 0.0034523167593079568,
+        "linear_speed_m_s": 4.858141693636432e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "0c3ab36043377e65b003141217c6f90e952822321c4d9f5b7d1aec6ad496b0b3"
+    },
+    {
+      "body_sha256": "c4a0528b8c01a543b4bba41b80608842c7cdac0fc49c16acd11c27b352fc36b7",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "reactive",
+        "seed": 2000,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 5,
+      "endpoint_900": {
+        "contact_ticks": 5,
+        "energy_consumed_j": 304.0683542088311,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.5060787585996933,
+        "pose": {
+          "height_m": 0.0665703245786612,
+          "x_m": 0.3502504375608018,
+          "y_m": -0.011138752735793025,
+          "yaw_rad": -0.0099134360509549
+        },
+        "steps": 898
+      },
+      "energy_consumed_j": 316.24818922922253,
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "id": "s2000-slalom-reactive-nominal-t2400",
+      "mode_counts": {
+        "drive": 898
+      },
+      "model_sha256": "8ad1dd6b2aba33695385be74860137d3955f17af64fc7140872c43f5eaa9d9b4",
+      "outcome": "goal",
+      "path_length_m": 1.5099022990781814,
+      "pose": {
+        "height_m": 0.06729701011760272,
+        "x_m": 0.3471383152285221,
+        "y_m": -0.012189870847747118,
+        "yaw_rad": 0.0028813411553235673
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 898,
+      "stop": {
+        "angular_speed_rad_s": 6.016981317760437e-10,
+        "drift_m": 0.0032848370882514045,
+        "linear_speed_m_s": 1.9710039376292815e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "58f41e724f0a9577eb0db647fe9d2f6f259e6d7e63e72f611051b0362e827548"
+    },
+    {
+      "body_sha256": "c4a0528b8c01a543b4bba41b80608842c7cdac0fc49c16acd11c27b352fc36b7",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "memory",
+        "seed": 2000,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 5,
+      "endpoint_900": {
+        "contact_ticks": 5,
+        "energy_consumed_j": 304.0683542088311,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.5060787585996933,
+        "pose": {
+          "height_m": 0.0665703245786612,
+          "x_m": 0.3502504375608018,
+          "y_m": -0.011138752735793025,
+          "yaw_rad": -0.0099134360509549
+        },
+        "steps": 898
+      },
+      "energy_consumed_j": 316.24818922922253,
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "id": "s2000-slalom-memory-nominal-t2400",
+      "mode_counts": {
+        "drive": 898
+      },
+      "model_sha256": "8ad1dd6b2aba33695385be74860137d3955f17af64fc7140872c43f5eaa9d9b4",
+      "outcome": "goal",
+      "path_length_m": 1.5099022990781814,
+      "pose": {
+        "height_m": 0.06729701011760272,
+        "x_m": 0.3471383152285221,
+        "y_m": -0.012189870847747118,
+        "yaw_rad": 0.0028813411553235673
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 898,
+      "stop": {
+        "angular_speed_rad_s": 6.016981317760437e-10,
+        "drift_m": 0.0032848370882514045,
+        "linear_speed_m_s": 1.9710039376292815e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "59c8c5c35d787a0270c1de113c216d70105c2a6cf5f524c3426f0fad80ece4bf"
+    },
+    {
+      "body_sha256": "25efa04242f10f7b234e421740c8f3150cf4a29c6a52941934b2329dc2351582",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "fast_memory",
+        "seed": 2000,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 2,
+      "endpoint_900": {
+        "contact_ticks": 2,
+        "energy_consumed_j": 262.5653792156193,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.4022704881357926,
+        "pose": {
+          "height_m": 0.06700863677243543,
+          "x_m": 0.3504960904695216,
+          "y_m": -0.00909997713490187,
+          "yaw_rad": 0.01236411764645589
+        },
+        "steps": 765
+      },
+      "energy_consumed_j": 274.73917181023563,
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "id": "s2000-slalom-fast_memory-nominal-t2400",
+      "mode_counts": {
+        "drive": 765
+      },
+      "model_sha256": "8ad1dd6b2aba33695385be74860137d3955f17af64fc7140872c43f5eaa9d9b4",
+      "outcome": "goal",
+      "path_length_m": 1.4046378369328252,
+      "pose": {
+        "height_m": 0.06729701016895669,
+        "x_m": 0.3511390817759127,
+        "y_m": -0.010499408278344238,
+        "yaw_rad": -0.05934284160915092
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 765,
+      "stop": {
+        "angular_speed_rad_s": 2.3736242662524973e-10,
+        "drift_m": 0.0015400796555149017,
+        "linear_speed_m_s": 5.914563227215544e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "2c4e89ef6aa17ce4c01db6df6f6de18aee79bfc67d5e23b92e0b6d0948a93905"
+    },
+    {
+      "body_sha256": "99fbf04209d708728e223bfba7c8b00fca7cfea90da15921f66e5fc7d090470b",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "active",
+        "seed": 2000,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 309.7255560040325,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.2635823582558023,
+        "pose": {
+          "height_m": 0.0671172555287515,
+          "x_m": -0.1961634661859212,
+          "y_m": 0.05895381643960319,
+          "yaw_rad": -0.1886035320101926
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 662.6023408767894,
+      "estimate_error_after_stop_m": 0.12482592520579448,
+      "estimated_position": [
+        1.0751309823674307,
+        -0.009105790328126096
+      ],
+      "goal_within_900": false,
+      "goal_within_long_horizon": true,
+      "heading_error_after_stop_rad": 0.04220494078327848,
+      "id": "s2000-slalom-active-nominal-t2400",
+      "mode_counts": {
+        "scan": 1035,
+        "travel": 896
+      },
+      "model_sha256": "8ad1dd6b2aba33695385be74860137d3955f17af64fc7140872c43f5eaa9d9b4",
+      "outcome": "goal",
+      "path_length_m": 2.7703026123639063,
+      "pose": {
+        "height_m": 0.06729701019243785,
+        "x_m": 0.34991855634808017,
+        "y_m": -0.11517864943925904,
+        "yaw_rad": 0.043329380226427586
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 5,
+      "steps": 1931,
+      "stop": {
+        "angular_speed_rad_s": 5.014559026948249e-10,
+        "drift_m": 0.0017166829107852692,
+        "linear_speed_m_s": 7.72190896549796e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "0a5b177cc6f01e1dbcc6e0f4559fef719c49c4a77d203a919a46ead023f19f13"
+    },
+    {
+      "body_sha256": "ac66103c362c10412706cd4386b57adc5d98f8e7371b8571351d62a52370a04c",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "reactive",
+        "seed": 2000,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 25,
+      "endpoint_900": {
+        "contact_ticks": 25,
+        "energy_consumed_j": 236.9534797879467,
+        "goal": false,
+        "outcome": "contact_budget",
+        "path_length_m": 1.126404954923802,
+        "pose": {
+          "height_m": 0.067454649536673,
+          "x_m": -0.24032224704159466,
+          "y_m": -0.036645561266754424,
+          "yaw_rad": -1.3564813017643318
+        },
+        "steps": 659
+      },
+      "energy_consumed_j": 248.98896605298077,
+      "goal_within_900": false,
+      "goal_within_long_horizon": false,
+      "id": "s2000-slalom-reactive-noisy-t2400",
+      "mode_counts": {
+        "drive": 433,
+        "turn": 174,
+        "unknown_range": 52
+      },
+      "model_sha256": "8ad1dd6b2aba33695385be74860137d3955f17af64fc7140872c43f5eaa9d9b4",
+      "outcome": "contact_budget",
+      "path_length_m": 1.1270169963277112,
+      "pose": {
+        "height_m": 0.06729702770434631,
+        "x_m": -0.2402196381375944,
+        "y_m": -0.036307252642651874,
+        "yaw_rad": -1.3557676796813132
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 659,
+      "stop": {
+        "angular_speed_rad_s": 1.5980338992930775e-06,
+        "drift_m": 0.0003535269612381728,
+        "linear_speed_m_s": 2.9546459215857193e-07
+      },
+      "stop_pass": true,
+      "trace_sha256": "02af3a460102a180d914fb1cc6a9933a976a8b3c69ddfce0e151cbef1b873d7b"
+    },
+    {
+      "body_sha256": "85397f095ef6326d3a241516290e9c55080e8b38059b4fe076f19f7c66eda02a",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "memory",
+        "seed": 2000,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 5,
+      "endpoint_900": {
+        "contact_ticks": 5,
+        "energy_consumed_j": 304.0683542088311,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.5060787585996933,
+        "pose": {
+          "height_m": 0.0665703245786612,
+          "x_m": 0.3502504375608018,
+          "y_m": -0.011138752735793025,
+          "yaw_rad": -0.0099134360509549
+        },
+        "steps": 898
+      },
+      "energy_consumed_j": 316.24818922922253,
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "id": "s2000-slalom-memory-noisy-t2400",
+      "mode_counts": {
+        "drive": 898
+      },
+      "model_sha256": "8ad1dd6b2aba33695385be74860137d3955f17af64fc7140872c43f5eaa9d9b4",
+      "outcome": "goal",
+      "path_length_m": 1.5099022990781814,
+      "pose": {
+        "height_m": 0.06729701011760272,
+        "x_m": 0.3471383152285221,
+        "y_m": -0.012189870847747118,
+        "yaw_rad": 0.0028813411553235673
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 898,
+      "stop": {
+        "angular_speed_rad_s": 6.016981317760437e-10,
+        "drift_m": 0.0032848370882514045,
+        "linear_speed_m_s": 1.9710039376292815e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "f1c352ce7194264359a6b02eb2ac32b4ab57d420b145d5f639ea333ec41bfb1e"
+    },
+    {
+      "body_sha256": "c60d81d11437a969adfc6a8e35105fa57c04e70d1efe992bc47e41ee5bea96a0",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "fast_memory",
+        "seed": 2000,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 2,
+      "endpoint_900": {
+        "contact_ticks": 2,
+        "energy_consumed_j": 262.5653792156193,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.4022704881357926,
+        "pose": {
+          "height_m": 0.06700863677243543,
+          "x_m": 0.3504960904695216,
+          "y_m": -0.00909997713490187,
+          "yaw_rad": 0.01236411764645589
+        },
+        "steps": 765
+      },
+      "energy_consumed_j": 274.73917181023563,
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "id": "s2000-slalom-fast_memory-noisy-t2400",
+      "mode_counts": {
+        "drive": 765
+      },
+      "model_sha256": "8ad1dd6b2aba33695385be74860137d3955f17af64fc7140872c43f5eaa9d9b4",
+      "outcome": "goal",
+      "path_length_m": 1.4046378369328252,
+      "pose": {
+        "height_m": 0.06729701016895669,
+        "x_m": 0.3511390817759127,
+        "y_m": -0.010499408278344238,
+        "yaw_rad": -0.05934284160915092
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 765,
+      "stop": {
+        "angular_speed_rad_s": 2.3736242662524973e-10,
+        "drift_m": 0.0015400796555149017,
+        "linear_speed_m_s": 5.914563227215544e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "9028209f8d8f28a1b49f28b9daa64dd2ab34fd56410b4025faf5a6fc6cc5cdd5"
+    },
+    {
+      "body_sha256": "6d53574a480733a17ce99bd62830d26204ebbfa5ff615b8f302a5506c27e121f",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "active",
+        "seed": 2000,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 25,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 321.80149461513133,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.4822604168845441,
+        "pose": {
+          "height_m": 0.0673875814817776,
+          "x_m": -0.19078918071086773,
+          "y_m": 0.0958685621137542,
+          "yaw_rad": -0.7077431805546236
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 692.1854917154722,
+      "estimate_error_after_stop_m": 0.39171805898467377,
+      "estimated_position": [
+        0.8674165260139366,
+        0.2661254672807645
+      ],
+      "goal_within_900": false,
+      "goal_within_long_horizon": false,
+      "heading_error_after_stop_rad": -0.7287138677590489,
+      "id": "s2000-slalom-active-noisy-t2400",
+      "mode_counts": {
+        "scan": 1038,
+        "travel": 746,
+        "unknown_range": 149
+      },
+      "model_sha256": "8ad1dd6b2aba33695385be74860137d3955f17af64fc7140872c43f5eaa9d9b4",
+      "outcome": "contact_budget",
+      "path_length_m": 3.1443273912206307,
+      "pose": {
+        "height_m": 0.0672970101843054,
+        "x_m": 0.06390356229492183,
+        "y_m": -0.10197521641037695,
+        "yaw_rad": -0.7281838190805802
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 5,
+      "steps": 1933,
+      "stop": {
+        "angular_speed_rad_s": 5.00097300591206e-10,
+        "drift_m": 0.0004149536479948741,
+        "linear_speed_m_s": 7.096376417300715e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "28db460df8bc74fd291e7f7c0074e0e21ffdc733327938871c92adf84afae02c"
+    },
+    {
+      "body_sha256": "2a5d99fcf634aa14662b8cf192f9e3856890ddeb0027c07edda4126c9542c38d",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "reactive",
+        "seed": 2000,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 25,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 312.89969529116536,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.5713276176146347,
+        "pose": {
+          "height_m": 0.06692086291315501,
+          "x_m": 0.14443061165212479,
+          "y_m": 0.3294483934023913,
+          "yaw_rad": 0.7500576887534173
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 469.0561828819041,
+      "goal_within_900": false,
+      "goal_within_long_horizon": false,
+      "id": "s2000-slalom-reactive-delayed-t2400",
+      "mode_counts": {
+        "drive": 1056,
+        "turn": 187,
+        "unknown_range": 82
+      },
+      "model_sha256": "8ad1dd6b2aba33695385be74860137d3955f17af64fc7140872c43f5eaa9d9b4",
+      "outcome": "contact_budget",
+      "path_length_m": 2.279706351103732,
+      "pose": {
+        "height_m": 0.0672970101722575,
+        "x_m": 0.2326459141993564,
+        "y_m": 0.2213838081890963,
+        "yaw_rad": -0.757304142255196
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 1325,
+      "stop": {
+        "angular_speed_rad_s": 1.832515286433266e-10,
+        "drift_m": 0.008536183393521968,
+        "linear_speed_m_s": 6.168333565526964e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "69e59eb912a6bdac37e1d6b216f0bfaa9fbcb06e3a5c7203e96970d4b0296fad"
+    },
+    {
+      "body_sha256": "74db95bfcac02f6fac498e852bdedd19b0b429b6089c9936a4df3151250d1c9c",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "memory",
+        "seed": 2000,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 25,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 313.00963004928843,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.571530581176903,
+        "pose": {
+          "height_m": 0.06723010042959343,
+          "x_m": 0.1435443994468903,
+          "y_m": 0.3301336498733606,
+          "yaw_rad": 0.7536425266253619
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 599.1009313683851,
+      "goal_within_900": false,
+      "goal_within_long_horizon": false,
+      "id": "s2000-slalom-memory-delayed-t2400",
+      "mode_counts": {
+        "bypass": 121,
+        "drive": 842,
+        "recover": 56,
+        "turn": 77,
+        "unknown_range": 596
+      },
+      "model_sha256": "8ad1dd6b2aba33695385be74860137d3955f17af64fc7140872c43f5eaa9d9b4",
+      "outcome": "contact_budget",
+      "path_length_m": 2.6540379897604747,
+      "pose": {
+        "height_m": 0.06729717952667952,
+        "x_m": 0.23608277883025708,
+        "y_m": 0.4813650723987877,
+        "yaw_rad": 0.9197363289582409
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 1692,
+      "stop": {
+        "angular_speed_rad_s": 3.563946746444339e-06,
+        "drift_m": 0.00022404162659755384,
+        "linear_speed_m_s": 2.7417713501031366e-06
+      },
+      "stop_pass": true,
+      "trace_sha256": "b1f67d4b7ee3a509d215b3f62a114c51fcb8096a33e14dfebf1be18c58ebfa43"
+    },
+    {
+      "body_sha256": "e70da531ef75f63791ba8ae845517d887ce34a47e07c4a979faea67e820187d7",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "fast_memory",
+        "seed": 2000,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 25,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 318.4121871978447,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.620187506410368,
+        "pose": {
+          "height_m": 0.06727747863608322,
+          "x_m": 0.11741819603061283,
+          "y_m": 0.2671030128215043,
+          "yaw_rad": 0.6442121318889822
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 693.3840749617966,
+      "goal_within_900": false,
+      "goal_within_long_horizon": false,
+      "id": "s2000-slalom-fast_memory-delayed-t2400",
+      "mode_counts": {
+        "bypass": 185,
+        "drive": 689,
+        "recover": 28,
+        "turn": 175,
+        "unknown_range": 868
+      },
+      "model_sha256": "8ad1dd6b2aba33695385be74860137d3955f17af64fc7140872c43f5eaa9d9b4",
+      "outcome": "contact_budget",
+      "path_length_m": 3.097976948079594,
+      "pose": {
+        "height_m": 0.06729701017126617,
+        "x_m": 0.23144088104436583,
+        "y_m": 0.49706356784822125,
+        "yaw_rad": 0.8346033278572864
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 1945,
+      "stop": {
+        "angular_speed_rad_s": 5.445858135351695e-10,
+        "drift_m": 0.0033258653911359135,
+        "linear_speed_m_s": 6.093812979692235e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "39c261c879c7d2adbe1e60c7b407ec65c63a3f66c6a2412002ef41ec780e6eef"
+    },
+    {
+      "body_sha256": "18bda8b0ec3c394385c47280b9a7fdaeccadad199905c220f64571faddb8488b",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "active",
+        "seed": 2000,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 309.69910318462195,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.2698481570884146,
+        "pose": {
+          "height_m": 0.06734341358995961,
+          "x_m": -0.18164428702633909,
+          "y_m": 0.07575031520096454,
+          "yaw_rad": -0.4866205092488717
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 662.4087286383585,
+      "estimate_error_after_stop_m": 0.19278718577459203,
+      "estimated_position": [
+        1.1017574414334015,
+        0.04453583656712946
+      ],
+      "goal_within_900": false,
+      "goal_within_long_horizon": true,
+      "heading_error_after_stop_rad": -0.23664303378572607,
+      "id": "s2000-slalom-active-delayed-t2400",
+      "mode_counts": {
+        "scan": 1035,
+        "travel": 891,
+        "unknown_range": 4
+      },
+      "model_sha256": "8ad1dd6b2aba33695385be74860137d3955f17af64fc7140872c43f5eaa9d9b4",
+      "outcome": "goal",
+      "path_length_m": 2.748514532657272,
+      "pose": {
+        "height_m": 0.0672970101528591,
+        "x_m": 0.35206827788973893,
+        "y_m": -0.12744132943450867,
+        "yaw_rad": -0.2342898703327244
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 5,
+      "steps": 1930,
+      "stop": {
+        "angular_speed_rad_s": 8.144209999190908e-11,
+        "drift_m": 0.0016318194435825573,
+        "linear_speed_m_s": 4.675858378770116e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "d2614958ddcfe7b8b1135c6948b371e6ad57e39cb712f606e0192853d9b422ef"
+    },
+    {
+      "body_sha256": "fa416489d6025ff8c3e5f50df9c24c72440edab415de9a9950661acf80dd8bcc",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "reactive",
+        "seed": 2001,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 304.8990115309428,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.5166387558664929,
+        "pose": {
+          "height_m": 0.06711545453260002,
+          "x_m": 0.3400751832760862,
+          "y_m": 0.022893305006662864,
+          "yaw_rad": 0.014152737120560647
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 320.29009071573034,
+      "goal_within_900": false,
+      "goal_within_long_horizon": true,
+      "id": "s2001-open-reactive-nominal-t2400",
+      "mode_counts": {
+        "drive": 910
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.537192817869778,
+      "pose": {
+        "height_m": 0.0672970101529251,
+        "x_m": 0.3488436070911067,
+        "y_m": 0.024111213426872155,
+        "yaw_rad": 0.013980963584069802
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 910,
+      "stop": {
+        "angular_speed_rad_s": 4.624890975147301e-10,
+        "drift_m": 0.0034320740597722573,
+        "linear_speed_m_s": 4.682735741368852e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "a2225f435ab26580137d9d39da11117c55d8ce0544b797bb523f785c2ea4f9c6"
+    },
+    {
+      "body_sha256": "fa416489d6025ff8c3e5f50df9c24c72440edab415de9a9950661acf80dd8bcc",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "memory",
+        "seed": 2001,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 304.8990115309428,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.5166387558664929,
+        "pose": {
+          "height_m": 0.06711545453260002,
+          "x_m": 0.3400751832760862,
+          "y_m": 0.022893305006662864,
+          "yaw_rad": 0.014152737120560647
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 320.29009071573034,
+      "goal_within_900": false,
+      "goal_within_long_horizon": true,
+      "id": "s2001-open-memory-nominal-t2400",
+      "mode_counts": {
+        "drive": 910
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.537192817869778,
+      "pose": {
+        "height_m": 0.0672970101529251,
+        "x_m": 0.3488436070911067,
+        "y_m": 0.024111213426872155,
+        "yaw_rad": 0.013980963584069802
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 910,
+      "stop": {
+        "angular_speed_rad_s": 4.624890975147301e-10,
+        "drift_m": 0.0034320740597722573,
+        "linear_speed_m_s": 4.682735741368852e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "e4ec3ac395cd60a2f0c7eb6f3ebeb94fe921aa0545966b16c77ad971bf160798"
+    },
+    {
+      "body_sha256": "b3423691041712480be6c19f04a6c708b83fa954c0e8c2df396ee89e02abadcd",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "fast_memory",
+        "seed": 2001,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 264.44182416381267,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.4119306793343516,
+        "pose": {
+          "height_m": 0.06696333057559892,
+          "x_m": 0.3504146313186883,
+          "y_m": 0.02632742321317113,
+          "yaw_rad": 0.02580668816437363
+        },
+        "steps": 771
+      },
+      "energy_consumed_j": 276.63101122144457,
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "id": "s2001-open-fast_memory-nominal-t2400",
+      "mode_counts": {
+        "drive": 771
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.4132424070205016,
+      "pose": {
+        "height_m": 0.06729701014993646,
+        "x_m": 0.34991546809154955,
+        "y_m": 0.026881406223451143,
+        "yaw_rad": 0.03778202505153848
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 771,
+      "stop": {
+        "angular_speed_rad_s": 4.178039171069728e-10,
+        "drift_m": 0.0007456950469236394,
+        "linear_speed_m_s": 4.452548069584563e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "3cdaf55fc0dbc99f7cf069984aeb4419debb199520e1c442ffb1586a468361d2"
+    },
+    {
+      "body_sha256": "b3423691041712480be6c19f04a6c708b83fa954c0e8c2df396ee89e02abadcd",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "active",
+        "seed": 2001,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 264.44182416381267,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.4119306793343516,
+        "pose": {
+          "height_m": 0.06696333057559892,
+          "x_m": 0.3504146313186883,
+          "y_m": 0.02632742321317113,
+          "yaw_rad": 0.02580668816437363
+        },
+        "steps": 771
+      },
+      "energy_consumed_j": 276.63101122144457,
+      "estimate_error_after_stop_m": 0.010699026869602123,
+      "estimated_position": [
+        1.0019155853994812,
+        0.0
+      ],
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "heading_error_after_stop_rad": 0.0008101490072974366,
+      "id": "s2001-open-active-nominal-t2400",
+      "mode_counts": {
+        "travel": 771
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.4132424070205016,
+      "pose": {
+        "height_m": 0.06729701014993646,
+        "x_m": 0.34991546809154955,
+        "y_m": 0.026881406223451143,
+        "yaw_rad": 0.03778202505153848
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 771,
+      "stop": {
+        "angular_speed_rad_s": 4.178039171069728e-10,
+        "drift_m": 0.0007456950469236394,
+        "linear_speed_m_s": 4.452548069584563e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "4c5b24fe6e8b1db01810d9e2c1b3ec011de7526f3386b7023e7d22e7433698c9"
+    },
+    {
+      "body_sha256": "fd1c329c9da3c0ab475a9b1abb881dfaa283aa588110e4dc519f968ad3cd61d5",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "reactive",
+        "seed": 2001,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 316.8426439777803,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.534091908330709,
+        "pose": {
+          "height_m": 0.06707301737351602,
+          "x_m": 0.22898963768699762,
+          "y_m": 0.08155503405068382,
+          "yaw_rad": 0.004585701772265846
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 375.4360559374677,
+      "goal_within_900": false,
+      "goal_within_long_horizon": true,
+      "id": "s2001-open-reactive-noisy-t2400",
+      "mode_counts": {
+        "drive": 943,
+        "unknown_range": 93
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.7771414247487125,
+      "pose": {
+        "height_m": 0.06729701017103794,
+        "x_m": 0.35127214560148873,
+        "y_m": 0.07760010777041987,
+        "yaw_rad": 0.023763429822651585
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 1036,
+      "stop": {
+        "angular_speed_rad_s": 3.020903649434555e-10,
+        "drift_m": 0.0006909028138970964,
+        "linear_speed_m_s": 6.074909880185728e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "41013181a21b682044f9148408da1126a2c50479bbe99df9bfdcc25cb59ab155"
+    },
+    {
+      "body_sha256": "4a23b40bd7b00c3a8bcc06b24330b848633a912875511f5ee464b6c8cf9269ba",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "memory",
+        "seed": 2001,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 304.8990115309428,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.5166387558664929,
+        "pose": {
+          "height_m": 0.06711545453260002,
+          "x_m": 0.3400751832760862,
+          "y_m": 0.022893305006662864,
+          "yaw_rad": 0.014152737120560647
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 320.29009071573034,
+      "goal_within_900": false,
+      "goal_within_long_horizon": true,
+      "id": "s2001-open-memory-noisy-t2400",
+      "mode_counts": {
+        "drive": 910
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.537192817869778,
+      "pose": {
+        "height_m": 0.0672970101529251,
+        "x_m": 0.3488436070911067,
+        "y_m": 0.024111213426872155,
+        "yaw_rad": 0.013980963584069802
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 910,
+      "stop": {
+        "angular_speed_rad_s": 4.624890975147301e-10,
+        "drift_m": 0.0034320740597722573,
+        "linear_speed_m_s": 4.682735741368852e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "69b38a2114bafc79dd53a60a5a30af23d452c0f5194046168c89b4a868fa2191"
+    },
+    {
+      "body_sha256": "21df2177124763def0a74b1a2059708d8be94fdb46434088657c618d40177489",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "fast_memory",
+        "seed": 2001,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 264.44182416381267,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.4119306793343516,
+        "pose": {
+          "height_m": 0.06696333057559892,
+          "x_m": 0.3504146313186883,
+          "y_m": 0.02632742321317113,
+          "yaw_rad": 0.02580668816437363
+        },
+        "steps": 771
+      },
+      "energy_consumed_j": 276.63101122144457,
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "id": "s2001-open-fast_memory-noisy-t2400",
+      "mode_counts": {
+        "drive": 771
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.4132424070205016,
+      "pose": {
+        "height_m": 0.06729701014993646,
+        "x_m": 0.34991546809154955,
+        "y_m": 0.026881406223451143,
+        "yaw_rad": 0.03778202505153848
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 771,
+      "stop": {
+        "angular_speed_rad_s": 4.178039171069728e-10,
+        "drift_m": 0.0007456950469236394,
+        "linear_speed_m_s": 4.452548069584563e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "c2e9663dd6915d0210987d98c5973cd0363c4a2d90fdf7c3936e0ffd69ad7efe"
+    },
+    {
+      "body_sha256": "ca80cb11c6b330581a4e64aaa80f00bad94c9f2c66731d3a1c235ad98e673908",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "active",
+        "seed": 2001,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 308.20752383750175,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.5992628375792242,
+        "pose": {
+          "height_m": 0.06709426481332238,
+          "x_m": 0.35023732821110526,
+          "y_m": 0.07183582831269641,
+          "yaw_rad": 0.08566778088619784
+        },
+        "steps": 862
+      },
+      "energy_consumed_j": 320.3783729698832,
+      "estimate_error_after_stop_m": 0.03767297387305155,
+      "estimated_position": [
+        1.02562254457594,
+        0.0
+      ],
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "heading_error_after_stop_rad": -0.029947798944758606,
+      "id": "s2001-open-active-noisy-t2400",
+      "mode_counts": {
+        "travel": 789,
+        "unknown_range": 73
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.6011312635854578,
+      "pose": {
+        "height_m": 0.06729701016785652,
+        "x_m": 0.35174583013015503,
+        "y_m": 0.0709040430517779,
+        "yaw_rad": 0.007024077099482436
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 862,
+      "stop": {
+        "angular_speed_rad_s": 2.8784775786513115e-10,
+        "drift_m": 0.0017730769335372449,
+        "linear_speed_m_s": 5.830123422602784e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "f8d096e9f9e21db5fd8d301298b4d823d6ef2f91ae8418ce65ae916e3ad39e28"
+    },
+    {
+      "body_sha256": "ff84ffd194c5a36735b09bebfbe7937e814bbd2ac3164f6b54bd544d461a8cfe",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "reactive",
+        "seed": 2001,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 312.87869563779657,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.5781249071914243,
+        "pose": {
+          "height_m": 0.06692593689148632,
+          "x_m": 0.12447436403015107,
+          "y_m": 0.3646794892272882,
+          "yaw_rad": 0.7969685941447969
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 478.02637385304337,
+      "goal_within_900": false,
+      "goal_within_long_horizon": true,
+      "id": "s2001-open-reactive-delayed-t2400",
+      "mode_counts": {
+        "drive": 1207,
+        "turn": 60,
+        "unknown_range": 83
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 2.400622340202276,
+      "pose": {
+        "height_m": 0.06729701017572096,
+        "x_m": 0.3496615890973024,
+        "y_m": 0.6909659911564404,
+        "yaw_rad": 0.7235060648516617
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 1350,
+      "stop": {
+        "angular_speed_rad_s": 3.0580483305414493e-10,
+        "drift_m": 0.0010843889691511748,
+        "linear_speed_m_s": 6.435141802428141e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "13a411a3837fedba69f8b8059f66ccbc878f35c24bacea6ec61f3d8051b6cdc3"
+    },
+    {
+      "body_sha256": "90623fc788c5eb18c90fab0754be5cd2572575d7e5de50e747f21a96b86ae0e9",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "memory",
+        "seed": 2001,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 312.87869563779657,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.5781249071914243,
+        "pose": {
+          "height_m": 0.06692593689148632,
+          "x_m": 0.12447436403015107,
+          "y_m": 0.3646794892272882,
+          "yaw_rad": 0.7969685941447969
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 520.4927370506315,
+      "goal_within_900": false,
+      "goal_within_long_horizon": true,
+      "id": "s2001-open-memory-delayed-t2400",
+      "mode_counts": {
+        "bypass": 88,
+        "drive": 1119,
+        "turn": 38,
+        "unknown_range": 231
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 2.499916715095091,
+      "pose": {
+        "height_m": 0.06729701017966111,
+        "x_m": 0.3506939853972741,
+        "y_m": 0.6731617255863411,
+        "yaw_rad": 0.5913828955774368
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 1476,
+      "stop": {
+        "angular_speed_rad_s": 4.105289066048232e-10,
+        "drift_m": 0.0008251888394713686,
+        "linear_speed_m_s": 6.738670616968599e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "872eacf6e0af6692353bf45964a6361fdfdfc232df8318902a6311214a50d757"
+    },
+    {
+      "body_sha256": "0376a3631573acec7a1f0a189f51e943f4d229e85eb7acc31dad76e756a2c931",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "fast_memory",
+        "seed": 2001,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 317.0529580917213,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.7452000310700062,
+        "pose": {
+          "height_m": 0.06694594270426578,
+          "x_m": 0.2547346544069916,
+          "y_m": 0.40411051788921004,
+          "yaw_rad": 0.7843063353853746
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 370.8906345578353,
+      "goal_within_900": false,
+      "goal_within_long_horizon": true,
+      "id": "s2001-open-fast_memory-delayed-t2400",
+      "mode_counts": {
+        "drive": 959,
+        "unknown_range": 64
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.9935781242508472,
+      "pose": {
+        "height_m": 0.06729701020151077,
+        "x_m": 0.3497381648831398,
+        "y_m": 0.5124252294051984,
+        "yaw_rad": 0.940973623526137
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 1023,
+      "stop": {
+        "angular_speed_rad_s": 4.4907706581733853e-10,
+        "drift_m": 0.0019662873919129176,
+        "linear_speed_m_s": 8.419526267892612e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "814f0f5172b3794df3b1ea13d1de95eb2efda3d2cdf3823a6ed7feb5a44f1942"
+    },
+    {
+      "body_sha256": "7810cebef4f7658d2f7a9ede370004123ee77396c2913a6b2534b3bed47b1cc7",
+      "case": {
+        "family": "open",
+        "max_ticks": 2400,
+        "policy": "active",
+        "seed": 2001,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 265.6460852540362,
+        "goal": true,
+        "outcome": "goal",
+        "path_length_m": 1.4119306793384945,
+        "pose": {
+          "height_m": 0.06696333057559521,
+          "x_m": 0.3504146313311606,
+          "y_m": 0.02632742310870607,
+          "yaw_rad": 0.025806688064199498
+        },
+        "steps": 775
+      },
+      "energy_consumed_j": 277.8352723116665,
+      "estimate_error_after_stop_m": 0.01069902696928256,
+      "estimated_position": [
+        1.0019155853994812,
+        0.0
+      ],
+      "goal_within_900": true,
+      "goal_within_long_horizon": true,
+      "heading_error_after_stop_rad": 0.0008101489085406977,
+      "id": "s2001-open-active-delayed-t2400",
+      "mode_counts": {
+        "travel": 771,
+        "unknown_range": 4
+      },
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "goal",
+      "path_length_m": 1.4132424070245442,
+      "pose": {
+        "height_m": 0.06729701014993646,
+        "x_m": 0.3499154681041054,
+        "y_m": 0.02688140611898554,
+        "yaw_rad": 0.03778202495278174
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 775,
+      "stop": {
+        "angular_speed_rad_s": 4.1780306778988954e-10,
+        "drift_m": 0.0007456950468673108,
+        "linear_speed_m_s": 4.452549887479124e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "3492662514c4115d9f6fe6c5f0db4ed05ccc9ed521e8d15bd92fb87911f7582c"
+    },
+    {
+      "body_sha256": "6539b53a581d37d83241a4baee020cd12f0a711b0a20a9ede38b55681cdaafb9",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "reactive",
+        "seed": 2001,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 25,
+      "endpoint_900": {
+        "contact_ticks": 13,
+        "energy_consumed_j": 305.5137590737051,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.5441331067846735,
+        "pose": {
+          "height_m": 0.06810708971279641,
+          "x_m": 0.2934486045531243,
+          "y_m": 0.011512608462758521,
+          "yaw_rad": 0.2918117532009209
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 345.4441363206877,
+      "goal_within_900": false,
+      "goal_within_long_horizon": false,
+      "id": "s2001-slalom-reactive-nominal-t2400",
+      "mode_counts": {
+        "drive": 974,
+        "turn": 9
+      },
+      "model_sha256": "c42e0f4667ac09bc1635e5207777bdb65ab5629ecee1880aff2037ba8abc8d7e",
+      "outcome": "contact_budget",
+      "path_length_m": 1.7179899966121186,
+      "pose": {
+        "height_m": 0.06729701397264275,
+        "x_m": 0.323278450799321,
+        "y_m": 0.026213574170588918,
+        "yaw_rad": 0.45357408239617997
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 983,
+      "stop": {
+        "angular_speed_rad_s": 4.986870068333764e-07,
+        "drift_m": 9.97221059594618e-05,
+        "linear_speed_m_s": 7.705670221877758e-08
+      },
+      "stop_pass": true,
+      "trace_sha256": "acc81fda07dc73078ea7de441220eda1e2b49146ce9809230e56e6452c3e2dc9"
+    },
+    {
+      "body_sha256": "0025be4ed43730b9e7ac219fb086ee87ed72066fa880ef046ed4e2e11f5e9d06",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "memory",
+        "seed": 2001,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 25,
+      "endpoint_900": {
+        "contact_ticks": 13,
+        "energy_consumed_j": 305.5137590737051,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.5441331067846735,
+        "pose": {
+          "height_m": 0.06810708971279641,
+          "x_m": 0.2934486045531243,
+          "y_m": 0.011512608462758521,
+          "yaw_rad": 0.2918117532009209
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 349.70413054773263,
+      "goal_within_900": false,
+      "goal_within_long_horizon": false,
+      "id": "s2001-slalom-memory-nominal-t2400",
+      "mode_counts": {
+        "drive": 971,
+        "turn": 25
+      },
+      "model_sha256": "c42e0f4667ac09bc1635e5207777bdb65ab5629ecee1880aff2037ba8abc8d7e",
+      "outcome": "contact_budget",
+      "path_length_m": 1.7362304382483458,
+      "pose": {
+        "height_m": 0.0672970101718511,
+        "x_m": 0.30516389564622975,
+        "y_m": 0.021526250559011945,
+        "yaw_rad": 0.4189316811794249
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 996,
+      "stop": {
+        "angular_speed_rad_s": 1.0739566452821159e-09,
+        "drift_m": 0.007421584771946182,
+        "linear_speed_m_s": 6.144466691964595e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "aaba9dd58329a0358c75e26e33ca44db34b44940d705cd06a7f27b2bfe906ee9"
+    },
+    {
+      "body_sha256": "6df69ca9843ed81f1da65d6c9436e74c5e04ac36cafa9059560662bce0c2733a",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "fast_memory",
+        "seed": 2001,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 25,
+      "endpoint_900": {
+        "contact_ticks": 25,
+        "energy_consumed_j": 308.5506603922538,
+        "goal": false,
+        "outcome": "contact_budget",
+        "path_length_m": 1.7115578247600995,
+        "pose": {
+          "height_m": 0.06655374537703283,
+          "x_m": 0.32411143676034776,
+          "y_m": 0.03567354115092126,
+          "yaw_rad": 0.39715261071765184
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 320.76004596831376,
+      "goal_within_900": false,
+      "goal_within_long_horizon": false,
+      "id": "s2001-slalom-fast_memory-nominal-t2400",
+      "mode_counts": {
+        "bypass": 35,
+        "drive": 827,
+        "turn": 38
+      },
+      "model_sha256": "c42e0f4667ac09bc1635e5207777bdb65ab5629ecee1880aff2037ba8abc8d7e",
+      "outcome": "contact_budget",
+      "path_length_m": 1.7176640027427228,
+      "pose": {
+        "height_m": 0.06729701011014698,
+        "x_m": 0.3188184147264527,
+        "y_m": 0.03302187823086287,
+        "yaw_rad": 0.423275778356158
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 9.529422874914442e-10,
+        "drift_m": 0.00592008433157087,
+        "linear_speed_m_s": 1.41625382573084e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "e8ceb629c5b76f7a72a4e7974884e01565cdce6e559239f8b1259923c156d068"
+    },
+    {
+      "body_sha256": "e5354e150ffcb59a55f5af594083f2a282f9b646628db33ff947c3409d95dce4",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "active",
+        "seed": 2001,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 309.6792748387157,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.2751241263088942,
+        "pose": {
+          "height_m": 0.06711733681752012,
+          "x_m": -0.1813635939594772,
+          "y_m": 0.12069745210561761,
+          "yaw_rad": -0.2956838544304324
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 669.6600376658342,
+      "estimate_error_after_stop_m": 0.12891741800767098,
+      "estimated_position": [
+        1.0916197189734616,
+        -0.05298721202853649
+      ],
+      "goal_within_900": false,
+      "goal_within_long_horizon": true,
+      "heading_error_after_stop_rad": -0.0628520935448692,
+      "id": "s2001-slalom-active-nominal-t2400",
+      "mode_counts": {
+        "scan": 1035,
+        "travel": 917
+      },
+      "model_sha256": "c42e0f4667ac09bc1635e5207777bdb65ab5629ecee1880aff2037ba8abc8d7e",
+      "outcome": "goal",
+      "path_length_m": 2.79228428212131,
+      "pose": {
+        "height_m": 0.06729701016508655,
+        "x_m": 0.35173383207675357,
+        "y_m": -0.10987326134187378,
+        "yaw_rad": -0.025663162950435095
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 5,
+      "steps": 1952,
+      "stop": {
+        "angular_speed_rad_s": 5.316110763375916e-10,
+        "drift_m": 0.0007231420678815111,
+        "linear_speed_m_s": 5.618496708778647e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "ab529f810bd5bf5122a0ca48838971879cd249fab80c543b4427db52c4e7451d"
+    },
+    {
+      "body_sha256": "b59457efbbd203c5d6da85ee61b5ab47a64576bc006dfa0997ec6eab4da09076",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "reactive",
+        "seed": 2001,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 25,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 317.78680286908025,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.529331549672007,
+        "pose": {
+          "height_m": 0.06708391821563847,
+          "x_m": 0.2200694289989697,
+          "y_m": 0.08300429881585983,
+          "yaw_rad": 0.09903708576487487
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 402.7158736227985,
+      "goal_within_900": false,
+      "goal_within_long_horizon": false,
+      "id": "s2001-slalom-reactive-noisy-t2400",
+      "mode_counts": {
+        "drive": 946,
+        "turn": 63,
+        "unknown_range": 99
+      },
+      "model_sha256": "c42e0f4667ac09bc1635e5207777bdb65ab5629ecee1880aff2037ba8abc8d7e",
+      "outcome": "contact_budget",
+      "path_length_m": 1.914291292905546,
+      "pose": {
+        "height_m": 0.06729708418621347,
+        "x_m": 0.2789408739592018,
+        "y_m": 0.09221894277748219,
+        "yaw_rad": 0.08823377508218537
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 1108,
+      "stop": {
+        "angular_speed_rad_s": 5.890760837884523e-06,
+        "drift_m": 0.0007118643155145939,
+        "linear_speed_m_s": 1.2170074589904802e-06
+      },
+      "stop_pass": true,
+      "trace_sha256": "0bfa9dbb9eabea6c5c3b83f633eda22822f2ff4f6b52407736ef88a60c4c47b1"
+    },
+    {
+      "body_sha256": "fd8c5776d9d5ffa31739c0769599661e09833779bcdd1a34a6fb888ce8b21f85",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "memory",
+        "seed": 2001,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 25,
+      "endpoint_900": {
+        "contact_ticks": 13,
+        "energy_consumed_j": 305.5137590737051,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.5441331067846735,
+        "pose": {
+          "height_m": 0.06810708971279641,
+          "x_m": 0.2934486045531243,
+          "y_m": 0.011512608462758521,
+          "yaw_rad": 0.2918117532009209
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 350.71527693519846,
+      "goal_within_900": false,
+      "goal_within_long_horizon": false,
+      "id": "s2001-slalom-memory-noisy-t2400",
+      "mode_counts": {
+        "drive": 971,
+        "turn": 25,
+        "unknown_range": 2
+      },
+      "model_sha256": "c42e0f4667ac09bc1635e5207777bdb65ab5629ecee1880aff2037ba8abc8d7e",
+      "outcome": "contact_budget",
+      "path_length_m": 1.7439235827535504,
+      "pose": {
+        "height_m": 0.06729701016139038,
+        "x_m": 0.30477106340695237,
+        "y_m": 0.020817826851553745,
+        "yaw_rad": 0.41165411554943027
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 998,
+      "stop": {
+        "angular_speed_rad_s": 1.0025716565343657e-09,
+        "drift_m": 0.007202794595098153,
+        "linear_speed_m_s": 5.33975319407651e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "ff99ee67be67af6e9fbf8b2da78f0283e82dffa2928f518c05d57c7099b06360"
+    },
+    {
+      "body_sha256": "bb8229655fc0a2c627ac464bf0f36444618a1d8ca2b4cba89eb437035d20b7e5",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "fast_memory",
+        "seed": 2001,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 25,
+      "endpoint_900": {
+        "contact_ticks": 20,
+        "energy_consumed_j": 309.6982959083325,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.70947317429542,
+        "pose": {
+          "height_m": 0.06738299821657538,
+          "x_m": 0.31273034486150364,
+          "y_m": 0.02811189212784131,
+          "yaw_rad": 0.41250091755830254
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 336.0132756876307,
+      "goal_within_900": false,
+      "goal_within_long_horizon": false,
+      "id": "s2001-slalom-fast_memory-noisy-t2400",
+      "mode_counts": {
+        "bypass": 26,
+        "drive": 827,
+        "turn": 76,
+        "unknown_range": 11
+      },
+      "model_sha256": "c42e0f4667ac09bc1635e5207777bdb65ab5629ecee1880aff2037ba8abc8d7e",
+      "outcome": "contact_budget",
+      "path_length_m": 1.7898042868014028,
+      "pose": {
+        "height_m": 0.06729701006080341,
+        "x_m": 0.30365379918082347,
+        "y_m": 0.023767485191199384,
+        "yaw_rad": 0.38265778628638686
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 940,
+      "stop": {
+        "angular_speed_rad_s": 5.712026136870779e-10,
+        "drift_m": 0.0015966696581546595,
+        "linear_speed_m_s": 2.4115286318399976e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "84e08dd9af2f56a353e39329f68c87310fec312ec4c0a0a6d469eb10c8f23b01"
+    },
+    {
+      "body_sha256": "98c630169010c810be8f6f1c99772b0d8485a881e109426caac51c3732cd537c",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "active",
+        "seed": 2001,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 25,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 322.5337685274303,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.3774642506601602,
+        "pose": {
+          "height_m": 0.06712524370361686,
+          "x_m": -0.406164694167832,
+          "y_m": -0.230812425957641,
+          "yaw_rad": -0.36357852817114467
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 743.5855479113447,
+      "estimate_error_after_stop_m": 0.2000140432559662,
+      "estimated_position": [
+        0.39975241788897203,
+        -0.009910822987066867
+      ],
+      "goal_within_900": false,
+      "goal_within_long_horizon": false,
+      "heading_error_after_stop_rad": -0.7560006128048252,
+      "id": "s2001-slalom-active-noisy-t2400",
+      "mode_counts": {
+        "scan": 1241,
+        "travel": 653,
+        "unknown_range": 178
+      },
+      "model_sha256": "c42e0f4667ac09bc1635e5207777bdb65ab5629ecee1880aff2037ba8abc8d7e",
+      "outcome": "contact_budget",
+      "path_length_m": 3.154247030140286,
+      "pose": {
+        "height_m": 0.06729701006915809,
+        "x_m": -0.3319334654720984,
+        "y_m": -0.18069839468371,
+        "yaw_rad": -0.7140417789567202
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 6,
+      "steps": 2072,
+      "stop": {
+        "angular_speed_rad_s": 9.665214047551063e-11,
+        "drift_m": 0.00037963141888047876,
+        "linear_speed_m_s": 1.7635235418197864e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "d7a27050a9da557b03285a0defdaab56c4194450fa6fb554cd4b513ff62c0553"
+    },
+    {
+      "body_sha256": "0b3e308b7ea2f1d04c4c4b7946d8d935be195a33107d26d773398179cb425180",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "reactive",
+        "seed": 2001,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 17,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 312.87869563779657,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.5781249071914243,
+        "pose": {
+          "height_m": 0.06692593689148632,
+          "x_m": 0.12447436403015107,
+          "y_m": 0.3646794892272882,
+          "yaw_rad": 0.7969685941447969
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 488.68685898165694,
+      "goal_within_900": false,
+      "goal_within_long_horizon": true,
+      "id": "s2001-slalom-reactive-delayed-t2400",
+      "mode_counts": {
+        "drive": 1243,
+        "turn": 55,
+        "unknown_range": 85
+      },
+      "model_sha256": "c42e0f4667ac09bc1635e5207777bdb65ab5629ecee1880aff2037ba8abc8d7e",
+      "outcome": "goal",
+      "path_length_m": 2.4585136499843507,
+      "pose": {
+        "height_m": 0.06729701007824984,
+        "x_m": 0.3509718939438488,
+        "y_m": 0.6951628049026966,
+        "yaw_rad": 0.7147124060816873
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 1383,
+      "stop": {
+        "angular_speed_rad_s": 1.801984568417713e-10,
+        "drift_m": 0.00024511904272844727,
+        "linear_speed_m_s": 1.065113964560826e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "c45dd0dc40c843d5c276ba4c31ef4e77426b2e21d97576f36997d63a9d08602b"
+    },
+    {
+      "body_sha256": "6813bd79337f07248688c052eb6a0afe34a2c6d94866b8d2c91505a02d1b78a7",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "memory",
+        "seed": 2001,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 25,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 312.87869563779657,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.5781249071914243,
+        "pose": {
+          "height_m": 0.06692593689148632,
+          "x_m": 0.12447436403015107,
+          "y_m": 0.3646794892272882,
+          "yaw_rad": 0.7969685941447969
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 814.4543469452668,
+      "goal_within_900": false,
+      "goal_within_long_horizon": false,
+      "id": "s2001-slalom-memory-delayed-t2400",
+      "mode_counts": {
+        "bypass": 59,
+        "drive": 1118,
+        "turn": 211,
+        "unknown_range": 932
+      },
+      "model_sha256": "c42e0f4667ac09bc1635e5207777bdb65ab5629ecee1880aff2037ba8abc8d7e",
+      "outcome": "contact_budget",
+      "path_length_m": 3.5640525644290686,
+      "pose": {
+        "height_m": 0.06729806737753422,
+        "x_m": 0.2520075532615208,
+        "y_m": 0.753448851533336,
+        "yaw_rad": 0.6327855691144797
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 2320,
+      "stop": {
+        "angular_speed_rad_s": 2.3265225276729574e-05,
+        "drift_m": 0.0020126941411817644,
+        "linear_speed_m_s": 1.710263148076633e-05
+      },
+      "stop_pass": true,
+      "trace_sha256": "7cccc63f3b19204c16f27c61210fcc50c6d626aa3b26c2589cad28e09153aaa1"
+    },
+    {
+      "body_sha256": "fd73ae4196b454f78787eceee950906bdd68382ba0e0e7c162717597d93d287c",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "fast_memory",
+        "seed": 2001,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 25,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 318.5816655426246,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.633705144052295,
+        "pose": {
+          "height_m": 0.06715295027527526,
+          "x_m": 0.11838692251535046,
+          "y_m": 0.31097761203109375,
+          "yaw_rad": 0.6627041099002279
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 635.9798910653991,
+      "goal_within_900": false,
+      "goal_within_long_horizon": false,
+      "id": "s2001-slalom-fast_memory-delayed-t2400",
+      "mode_counts": {
+        "bypass": 174,
+        "drive": 698,
+        "recover": 18,
+        "turn": 153,
+        "unknown_range": 737
+      },
+      "model_sha256": "c42e0f4667ac09bc1635e5207777bdb65ab5629ecee1880aff2037ba8abc8d7e",
+      "outcome": "contact_budget",
+      "path_length_m": 2.866264354167035,
+      "pose": {
+        "height_m": 0.06729766456653369,
+        "x_m": 0.22903601998191073,
+        "y_m": 0.5111541477505662,
+        "yaw_rad": 0.8477133659202485
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 0,
+      "steps": 1780,
+      "stop": {
+        "angular_speed_rad_s": 1.1841968487547853e-05,
+        "drift_m": 0.000862495222971333,
+        "linear_speed_m_s": 1.0601373293201786e-05
+      },
+      "stop_pass": true,
+      "trace_sha256": "654774a2ac51e77991529ddfe70a0408e6bf2d697d83b6c59e161f88d526cf3b"
+    },
+    {
+      "body_sha256": "1b661880d09c60336eb0eb18d4d4bead5996330255b125d4d0ef2a54b1980491",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 2400,
+        "policy": "active",
+        "seed": 2001,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "endpoint_900": {
+        "contact_ticks": 0,
+        "energy_consumed_j": 309.51694555287537,
+        "goal": false,
+        "outcome": "continuing",
+        "path_length_m": 1.2638012622857198,
+        "pose": {
+          "height_m": 0.06737675235731128,
+          "x_m": -0.183016906216502,
+          "y_m": 0.10974497040309245,
+          "yaw_rad": -0.30614245077656516
+        },
+        "steps": 900
+      },
+      "energy_consumed_j": 744.8431709466911,
+      "estimate_error_after_stop_m": 0.08189626374723895,
+      "estimated_position": [
+        1.0775582481695343,
+        -0.12572572002036758
+      ],
+      "goal_within_900": false,
+      "goal_within_long_horizon": true,
+      "heading_error_after_stop_rad": 0.13773546244856447,
+      "id": "s2001-slalom-active-delayed-t2400",
+      "mode_counts": {
+        "scan": 1242,
+        "travel": 933,
+        "unknown_range": 4
+      },
+      "model_sha256": "c42e0f4667ac09bc1635e5207777bdb65ab5629ecee1880aff2037ba8abc8d7e",
+      "outcome": "goal",
+      "path_length_m": 3.0336031673230237,
+      "pose": {
+        "height_m": 0.06729701016706546,
+        "x_m": 0.3499704872699069,
+        "y_m": -0.11786225082481912,
+        "yaw_rad": 0.1805052364187477
+      },
+      "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+      "scan_starts": 6,
+      "steps": 2179,
+      "stop": {
+        "angular_speed_rad_s": 4.5130255229502054e-10,
+        "drift_m": 0.0008289201721898096,
+        "linear_speed_m_s": 5.770116080656701e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "fe02bc04021c7b55144a9874f03b8a360417a8002c6505a94c2e948a883ac04d"
+    }
+  ],
+  "endpoint_ticks": 900,
+  "long_horizon_ticks": 2400,
+  "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+  "schema": "psi_gw.picrawler.navigation.v1",
+  "source": {
+    "code_sha256": "f9efccb217b4c968e025fad2d250db5f8d9ad15040de174151d651918fc26d1c",
+    "files_sha256": {
+      "body/base.py": "dccd598137d5d8d5de9d207a02a41ba96fdb00c0774411319159af939bedff81",
+      "picrawler/__init__.py": "df76ee73a9242704d34cccdcc87b64cebb09b2b01474b2e700ab45970de2404d",
+      "picrawler/__main__.py": "bdddb8cdf1b30316504f5f24ec587404eb944ee245fd72cb6358490667a21330",
+      "picrawler/active_navigation.py": "f4d83e9d2dc0b9fd90b3a1ea5dc8cfbeeabc36ff3197f15ba1a78dc7409bb2b9",
+      "picrawler/body.py": "f565d319e248d0cd361e6ef65ddeb111f1a253f92d7b016b650289cec58dcb8f",
+      "picrawler/bridge.py": "33f71503be5556f12df800dd1ef388b283bb8cf23f2d0ca041dd36b7e2091757",
+      "picrawler/calibration.py": "e54b81cfe19fc35d864d4700c19a266b0a9b23bdc5fc56bb1a251b1aa61f49cc",
+      "picrawler/calibration_experiment.py": "a6ebf294fe39d036f1e20b84b6e2c73baa7d5a7dfa2f5d238b0dac46271ee0b4",
+      "picrawler/calibration_fit.py": "f993558a024a2033f6be1db582a3d1b542b600fd284e7084822a35b9a7462d7e",
+      "picrawler/controller_process.py": "644928cb707d828fa4f49a66cdc96df3d8900dbf643e35b89d5a3a4bb2ebc7c4",
+      "picrawler/demo.py": "cca015944ad330eee85fd1b953d29a4694f849cb07f4ace061c6bca058e5f788",
+      "picrawler/energy.py": "bcd2cd477f951b4f813aec9b61a06bccbb4fc25aab812aedd4d4dec01484fdd9",
+      "picrawler/kinematics.py": "8b3055332ae5a4f7aa9394c871ab1a5e3e1e4a936e3e426f6ef427ed9d285b19",
+      "picrawler/motion_experiment.py": "29a3fc4887bafc70b6784ce4304ee227d4491c194ff7c069010caaffc3c44a62",
+      "picrawler/motion_profile.py": "4c35f7f6c79bf7fb5ab50d7226407de7f5a43c7161d316db47c42317b066c455",
+      "picrawler/mujoco_body.py": "c1e7f4f32c3b8c4120736172448a2289ecc032bbd02f1d985761cac86279abd3",
+      "picrawler/mujoco_experiment.py": "511971262d7842bc5b9e81aa395dc7660a403a8a8b1a2499f216cab77b28cb32",
+      "picrawler/mujoco_model.py": "4ef360dbd80bcf0109724b69eaa03580dfcbf6c4b9182a39c07b6dce2c702b79",
+      "picrawler/navigation_experiment.py": "7aceea7c1f4e4cd3b625cf5b7f384db4fe1713abea7b623f0a172de929bffed9",
+      "picrawler/perception.py": "4258f351c7be3695c27190e7f9dea4f25074e2448308a669e4c6385dd8782444",
+      "picrawler/perception_experiment.py": "6958a2e4ebb433df529ee01a78ab158a2369b7af871de8f1e9182200baad78ad",
+      "picrawler/peripherals.py": "83b9fa39399facdaf88ac30c49816949acec490f877996d6229ff70e20105664",
+      "picrawler/process_experiment.py": "80a859372a543832b4b13565dbbd90e3d8afc75f3abdd238c076700d404068a8",
+      "picrawler/render_video.py": "672d91ade2048e24e863cfc637bb3778f57428dfd09994cc1d3ee56b24139db6",
+      "picrawler/replay.py": "7d90c328938078abefed2953d8ec228a0da6565c77d3b686a25648a0b74ab0af",
+      "picrawler/robot_benchmark.py": "2802ba093ce1427daa708daf3067d2ea5cd62685b44b585f5155f5dec36d3130",
+      "picrawler/robot_controllers.py": "6f0a8240144045118ab5261af544a0f4cace8fafbfb89d9ce7fe3b82474a7936",
+      "picrawler/robot_courses.py": "b80912ccfae7634f8d64a5375192d6fc15c9bbf2fbcc96c11af53e993afc186a",
+      "picrawler/sensors.py": "9044f3e4ec3493bd30cd00d3d785b21c21c4fb2d58dd3cb33eb1b0d620917877",
+      "picrawler/stress.py": "9a8e4aabf46611efab1c3a1e50ccb863f9fa68546d033a48594a0e46cee42bfa",
+      "picrawler/telemetry.py": "7b194c9473b4fef96a1482948a285995cee3b30bc513645abbc57fd01ed88a7d",
+      "picrawler/temporal.py": "405b8d0f2302cef7fb7850774ecc3da60e37a272340e3b96b932d781294b442c",
+      "picrawler/validation_io.py": "86025cb7871bf2f512b11dafe7958fd6e73c8254e2753f662cdd40f08a8a4f8d",
+      "picrawler/world.py": "cd9680a9bf2e3a809d1aa8130bf13bcea3b57265c7a66dff1d5eb89088fa8bd1",
+      "random_source.py": "1ff564ded0aff7cc22eb9a8d4b834d6d587973f27075592c6d5cbc18b119c070"
+    },
+    "numpy": "2.5.4",
+    "python": "3.12.14",
+    "revision": "31f6ecf7df481d3967db639b752a97c93202dbca"
+  },
+  "split": "validation"
+}

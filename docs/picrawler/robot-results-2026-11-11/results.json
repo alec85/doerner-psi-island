@@ -1,0 +1,199 @@
+{
+  "archives": {
+    "development": {
+      "cases": 144,
+      "file": "development-cases.json.gz",
+      "gzip_sha256": "e3f40c2b97ea82a828e3d80548e158457ff3e6538761ab994a738809842d072c",
+      "uncompressed_sha256": "ad33a1f91461554d6df7fbd9b9679df2d1e6df08056305f4c6f2ebeda3c6f6f3"
+    },
+    "validation": {
+      "cases": 288,
+      "file": "validation-cases.json.gz",
+      "gzip_sha256": "1bed6f61a7f6d1e9175c7214f47191fecc8c9f59a8adb0f3e13f1c99ac367457",
+      "uncompressed_sha256": "7e76f9a4a7620a5d58ee2847c89e99992896bad4fb8877a29e7f0ae00efa76dd"
+    }
+  },
+  "limits": [
+    "No PSI integration or superiority claim.",
+    "No physical hardware calibration, contact-force or motor-watchdog proof.",
+    "Visual browser acceptance remains blocked."
+  ],
+  "replay_checks": [
+    {
+      "cameraWrites": 50,
+      "canvasCalls": 40218,
+      "family": "dead_end",
+      "frames": 46,
+      "passed": true,
+      "world_obstacle_counts": [
+        3
+      ]
+    },
+    {
+      "cameraWrites": 50,
+      "canvasCalls": 39893,
+      "family": "gate",
+      "frames": 46,
+      "passed": true,
+      "world_obstacle_counts": [
+        2,
+        3
+      ]
+    },
+    {
+      "cameraWrites": 45,
+      "canvasCalls": 29938,
+      "family": "open",
+      "frames": 41,
+      "passed": true,
+      "world_obstacle_counts": [
+        0
+      ]
+    },
+    {
+      "cameraWrites": 50,
+      "canvasCalls": 39458,
+      "family": "slalom",
+      "frames": 46,
+      "passed": true,
+      "world_obstacle_counts": [
+        2
+      ]
+    }
+  ],
+  "reproducibility": {
+    "development_resume_unchanged": 144,
+    "fresh_process_checkpoint_cases": 6,
+    "independently_repeated_example_results_equal": 4,
+    "validation_resume_unchanged": 288
+  },
+  "runtime": {
+    "code_sha256": "69d1be4998a2cabf24d1e894cc343a1bcc771d6d1c8e36737f2534b1db250d02",
+    "files_sha256": {
+      "body/base.py": "dccd598137d5d8d5de9d207a02a41ba96fdb00c0774411319159af939bedff81",
+      "picrawler/__init__.py": "df76ee73a9242704d34cccdcc87b64cebb09b2b01474b2e700ab45970de2404d",
+      "picrawler/__main__.py": "bdddb8cdf1b30316504f5f24ec587404eb944ee245fd72cb6358490667a21330",
+      "picrawler/body.py": "f565d319e248d0cd361e6ef65ddeb111f1a253f92d7b016b650289cec58dcb8f",
+      "picrawler/bridge.py": "33f71503be5556f12df800dd1ef388b283bb8cf23f2d0ca041dd36b7e2091757",
+      "picrawler/calibration.py": "e54b81cfe19fc35d864d4700c19a266b0a9b23bdc5fc56bb1a251b1aa61f49cc",
+      "picrawler/calibration_experiment.py": "a6ebf294fe39d036f1e20b84b6e2c73baa7d5a7dfa2f5d238b0dac46271ee0b4",
+      "picrawler/calibration_fit.py": "f993558a024a2033f6be1db582a3d1b542b600fd284e7084822a35b9a7462d7e",
+      "picrawler/controller_process.py": "644928cb707d828fa4f49a66cdc96df3d8900dbf643e35b89d5a3a4bb2ebc7c4",
+      "picrawler/demo.py": "cca015944ad330eee85fd1b953d29a4694f849cb07f4ace061c6bca058e5f788",
+      "picrawler/energy.py": "bcd2cd477f951b4f813aec9b61a06bccbb4fc25aab812aedd4d4dec01484fdd9",
+      "picrawler/kinematics.py": "8b3055332ae5a4f7aa9394c871ab1a5e3e1e4a936e3e426f6ef427ed9d285b19",
+      "picrawler/perception.py": "4258f351c7be3695c27190e7f9dea4f25074e2448308a669e4c6385dd8782444",
+      "picrawler/perception_experiment.py": "6958a2e4ebb433df529ee01a78ab158a2369b7af871de8f1e9182200baad78ad",
+      "picrawler/peripherals.py": "83b9fa39399facdaf88ac30c49816949acec490f877996d6229ff70e20105664",
+      "picrawler/process_experiment.py": "80a859372a543832b4b13565dbbd90e3d8afc75f3abdd238c076700d404068a8",
+      "picrawler/render_video.py": "672d91ade2048e24e863cfc637bb3778f57428dfd09994cc1d3ee56b24139db6",
+      "picrawler/replay.py": "475c7f563818a1eee186955f9927d65668406109b6890dc2fefaaa3f96377af7",
+      "picrawler/robot_benchmark.py": "2802ba093ce1427daa708daf3067d2ea5cd62685b44b585f5155f5dec36d3130",
+      "picrawler/robot_controllers.py": "6f0a8240144045118ab5261af544a0f4cace8fafbfb89d9ce7fe3b82474a7936",
+      "picrawler/robot_courses.py": "b80912ccfae7634f8d64a5375192d6fc15c9bbf2fbcc96c11af53e993afc186a",
+      "picrawler/sensors.py": "9044f3e4ec3493bd30cd00d3d785b21c21c4fb2d58dd3cb33eb1b0d620917877",
+      "picrawler/stress.py": "9a8e4aabf46611efab1c3a1e50ccb863f9fa68546d033a48594a0e46cee42bfa",
+      "picrawler/telemetry.py": "7b194c9473b4fef96a1482948a285995cee3b30bc513645abbc57fd01ed88a7d",
+      "picrawler/temporal.py": "405b8d0f2302cef7fb7850774ecc3da60e37a272340e3b96b932d781294b442c",
+      "picrawler/validation_io.py": "86025cb7871bf2f512b11dafe7958fd6e73c8254e2753f662cdd40f08a8a4f8d",
+      "picrawler/world.py": "cd9680a9bf2e3a809d1aa8130bf13bcea3b57265c7a66dff1d5eb89088fa8bd1",
+      "random_source.py": "1ff564ded0aff7cc22eb9a8d4b834d6d587973f27075592c6d5cbc18b119c070"
+    },
+    "numpy": "2.5.4",
+    "python": "3.12.14",
+    "revision": "76c923b89897f036a5693e266ab69b7bf5013965"
+  },
+  "series": {
+    "development": {
+      "contact_ticks": 22834,
+      "episodes": 144,
+      "front_clear_contacts": 22834,
+      "late_energy_stops": 0,
+      "reasons": {
+        "contact_budget": 52,
+        "reached": 84,
+        "time_budget": 8
+      },
+      "successful": 84,
+      "task_policy": {
+        "energy_stop/memory": {
+          "episodes": 24,
+          "success": 24
+        },
+        "energy_stop/reactive": {
+          "episodes": 24,
+          "success": 24
+        },
+        "explore/memory": {
+          "episodes": 24,
+          "success": 12
+        },
+        "explore/reactive": {
+          "episodes": 24,
+          "success": 12
+        },
+        "progress/memory": {
+          "episodes": 24,
+          "success": 6
+        },
+        "progress/reactive": {
+          "episodes": 24,
+          "success": 6
+        }
+      },
+      "ticks": 78185,
+      "unexpected_power_losses": 0,
+      "verified_continuation_ticks": 9870,
+      "workspace_limits": 0
+    },
+    "validation": {
+      "contact_ticks": 44353,
+      "episodes": 288,
+      "front_clear_contacts": 44353,
+      "late_energy_stops": 0,
+      "reasons": {
+        "contact_budget": 98,
+        "reached": 168,
+        "time_budget": 22
+      },
+      "successful": 168,
+      "task_policy": {
+        "energy_stop/memory": {
+          "episodes": 48,
+          "success": 48
+        },
+        "energy_stop/reactive": {
+          "episodes": 48,
+          "success": 48
+        },
+        "explore/memory": {
+          "episodes": 48,
+          "success": 24
+        },
+        "explore/reactive": {
+          "episodes": 48,
+          "success": 24
+        },
+        "progress/memory": {
+          "episodes": 48,
+          "success": 12
+        },
+        "progress/reactive": {
+          "episodes": 48,
+          "success": 12
+        }
+      },
+      "ticks": 154946,
+      "unexpected_power_losses": 0,
+      "verified_continuation_ticks": 9870,
+      "workspace_limits": 0
+    }
+  },
+  "tested_commit": "76c923b89897f036a5693e266ab69b7bf5013965",
+  "tests": {
+    "command": "python -m pytest -q tests/picrawler tests/test_smoke.py tests/test_random_source.py",
+    "new_tests": 97,
+    "passed": 864,
+    "skipped": 0
+  }
+}

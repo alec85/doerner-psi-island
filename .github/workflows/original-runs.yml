@@ -1,0 +1,76 @@
+# Runs of the Delphi original under Wine, one matrix job per seed (docs/analyseplan-referenzlaeufe.md).
+# Start manually: Actions > "Original runs" > Run workflow.
+# Status: not yet executed on GitHub; see HANDOFF.md.
+name: Original runs
+
+on:
+  workflow_dispatch:
+    inputs:
+      seeds:
+        description: "Seeds, e.g. 901-905 or 1001,1002,1010-1020"
+        required: true
+        default: "901-905"
+      max_life:
+        description: "MaxLife in age units (5000000 = Dörner's parameter files)"
+        required: true
+        default: "5000000"
+      label:
+        description: "Name of the series, used for artifact names"
+        required: true
+        default: "pilot"
+
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    outputs:
+      seeds: ${{ steps.expand.outputs.seeds }}
+    steps:
+      - id: expand
+        shell: python
+        env:
+          SEEDS: ${{ inputs.seeds }}
+        run: |
+          import json, os
+          seeds = []
+          for part in os.environ["SEEDS"].replace(" ", "").split(","):
+              if "-" in part:
+                  lo, hi = part.split("-")
+                  seeds.extend(range(int(lo), int(hi) + 1))
+              elif part:
+                  seeds.append(int(part))
+          if not seeds or len(seeds) > 256:
+              raise SystemExit("need between 1 and 256 seeds")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+              fh.write(f"seeds={json.dumps(sorted(set(seeds)))}\n")
+
+  run:
+    needs: plan
+    runs-on: ubuntu-24.04
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        seed: ${{ fromJSON(needs.plan.outputs.seeds) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install psi_gw
+        run: pip install -e .
+      - name: Install Wine and Xvfb
+        run: sudo scripts/setup_wine.sh
+      - name: Run the original
+        run: >
+          python scripts/run_original.py
+          --seed ${{ matrix.seed }}
+          --max-life ${{ inputs.max_life }}
+          --out out/${{ inputs.label }}/seed-${{ matrix.seed }}
+          --timeout 19000
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ${{ inputs.label }}-seed-${{ matrix.seed }}
+          path: out/${{ inputs.label }}/seed-${{ matrix.seed }}
+          retention-days: 30

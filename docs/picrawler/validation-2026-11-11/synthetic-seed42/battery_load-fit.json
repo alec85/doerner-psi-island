@@ -1,0 +1,404 @@
+{
+  "comparison": [
+    {
+      "observed": 8.055095824194224,
+      "partition": "train",
+      "predicted": 8.054035454461733,
+      "residual": -0.0010603697324906847,
+      "sample": 0,
+      "unit": "V"
+    },
+    {
+      "observed": 7.9962555137590074,
+      "partition": "train",
+      "predicted": 7.996579772538901,
+      "residual": 0.0003242587798935048,
+      "sample": 1,
+      "unit": "V"
+    },
+    {
+      "observed": 7.940434391679646,
+      "partition": "train",
+      "predicted": 7.939124090616068,
+      "residual": -0.0013103010635777679,
+      "sample": 2,
+      "unit": "V"
+    },
+    {
+      "observed": 7.882289472116238,
+      "partition": "train",
+      "predicted": 7.881668408693236,
+      "residual": -0.000621063423001722,
+      "sample": 3,
+      "unit": "V"
+    },
+    {
+      "observed": 7.82237670939155,
+      "partition": "train",
+      "predicted": 7.824212726770403,
+      "residual": 0.0018360173788529721,
+      "sample": 4,
+      "unit": "V"
+    },
+    {
+      "observed": 7.768402489406546,
+      "partition": "train",
+      "predicted": 7.76675704484757,
+      "residual": -0.0016454445589761946,
+      "sample": 5,
+      "unit": "V"
+    },
+    {
+      "observed": 7.710044558807961,
+      "partition": "train",
+      "predicted": 7.709301362924738,
+      "residual": -0.0007431958832224694,
+      "sample": 6,
+      "unit": "V"
+    },
+    {
+      "observed": 7.652644257221107,
+      "partition": "train",
+      "predicted": 7.651845681001905,
+      "residual": -0.0007985762192017631,
+      "sample": 7,
+      "unit": "V"
+    },
+    {
+      "observed": 7.592512454530701,
+      "partition": "train",
+      "predicted": 7.594389999079072,
+      "residual": 0.0018775445483711906,
+      "sample": 8,
+      "unit": "V"
+    },
+    {
+      "observed": 7.5363015437515815,
+      "partition": "train",
+      "predicted": 7.53693431715624,
+      "residual": 0.0006327734046589484,
+      "sample": 9,
+      "unit": "V"
+    },
+    {
+      "observed": 8.03348319209693,
+      "partition": "train",
+      "predicted": 8.034035454461733,
+      "residual": 0.0005522623648026581,
+      "sample": 10,
+      "unit": "V"
+    },
+    {
+      "observed": 7.978207059955394,
+      "partition": "train",
+      "predicted": 7.976579772538901,
+      "residual": -0.001627287416492429,
+      "sample": 11,
+      "unit": "V"
+    },
+    {
+      "observed": 7.919575460480323,
+      "partition": "train",
+      "predicted": 7.9191240906160685,
+      "residual": -0.0004513698642547581,
+      "sample": 12,
+      "unit": "V"
+    },
+    {
+      "observed": 7.862791046453084,
+      "partition": "train",
+      "predicted": 7.8616684086932365,
+      "residual": -0.0011226377598472226,
+      "sample": 13,
+      "unit": "V"
+    },
+    {
+      "observed": 7.803773656795309,
+      "partition": "train",
+      "predicted": 7.804212726770404,
+      "residual": 0.0004390699750942417,
+      "sample": 14,
+      "unit": "V"
+    },
+    {
+      "observed": 7.745408954887139,
+      "partition": "train",
+      "predicted": 7.746757044847571,
+      "residual": 0.0013480899604312313,
+      "sample": 15,
+      "unit": "V"
+    },
+    {
+      "observed": 7.689218339148064,
+      "partition": "train",
+      "predicted": 7.689301362924739,
+      "residual": 8.302377667490646e-05,
+      "sample": 16,
+      "unit": "V"
+    },
+    {
+      "observed": 7.629755269024416,
+      "partition": "train",
+      "predicted": 7.631845681001906,
+      "residual": 0.0020904119774893815,
+      "sample": 17,
+      "unit": "V"
+    },
+    {
+      "observed": 7.57531052468797,
+      "partition": "train",
+      "predicted": 7.574389999079073,
+      "residual": -0.0009205256088975489,
+      "sample": 18,
+      "unit": "V"
+    },
+    {
+      "observed": 7.517026657596488,
+      "partition": "train",
+      "predicted": 7.516934317156241,
+      "residual": -9.23404402470851e-05,
+      "sample": 19,
+      "unit": "V"
+    },
+    {
+      "observed": 8.015032350960343,
+      "partition": "train",
+      "predicted": 8.014035454461734,
+      "residual": -0.0009968964986093454,
+      "sample": 20,
+      "unit": "V"
+    },
+    {
+      "observed": 7.95591810387252,
+      "partition": "train",
+      "predicted": 7.956579772538902,
+      "residual": 0.0006616686663818427,
+      "sample": 21,
+      "unit": "V"
+    },
+    {
+      "observed": 7.900882792097581,
+      "partition": "train",
+      "predicted": 7.899124090616069,
+      "residual": -0.001758701481511693,
+      "sample": 22,
+      "unit": "V"
+    },
+    {
+      "observed": 7.8430724844852895,
+      "partition": "train",
+      "predicted": 7.841668408693237,
+      "residual": -0.0014040757920525948,
+      "sample": 23,
+      "unit": "V"
+    },
+    {
+      "observed": 7.785113533988295,
+      "partition": "train",
+      "predicted": 7.784212726770404,
+      "residual": -0.0009008072178913196,
+      "sample": 24,
+      "unit": "V"
+    },
+    {
+      "observed": 7.725278554831409,
+      "partition": "validation",
+      "predicted": 7.726757044847571,
+      "residual": 0.0014784900161624037,
+      "sample": 25,
+      "unit": "V"
+    },
+    {
+      "observed": 7.668866884014909,
+      "partition": "validation",
+      "predicted": 7.669301362924739,
+      "residual": 0.0004344789098302826,
+      "sample": 26,
+      "unit": "V"
+    },
+    {
+      "observed": 7.60967521506315,
+      "partition": "validation",
+      "predicted": 7.611845681001906,
+      "residual": 0.0021704659387564718,
+      "sample": 27,
+      "unit": "V"
+    },
+    {
+      "observed": 7.55261715796827,
+      "partition": "validation",
+      "predicted": 7.554389999079073,
+      "residual": 0.001772841110803114,
+      "sample": 28,
+      "unit": "V"
+    },
+    {
+      "observed": 7.49723219581297,
+      "partition": "validation",
+      "predicted": 7.496934317156241,
+      "residual": -0.0002978786567284786,
+      "sample": 29,
+      "unit": "V"
+    },
+    {
+      "observed": 7.99497904862363,
+      "partition": "validation",
+      "predicted": 7.994035454461733,
+      "residual": -0.0009435941618969323,
+      "sample": 30,
+      "unit": "V"
+    },
+    {
+      "observed": 7.938370038929736,
+      "partition": "validation",
+      "predicted": 7.9365797725389005,
+      "residual": -0.0017902663908353489,
+      "sample": 31,
+      "unit": "V"
+    },
+    {
+      "observed": 7.8783033014325525,
+      "partition": "validation",
+      "predicted": 7.8791240906160676,
+      "residual": 0.0008207891835150249,
+      "sample": 32,
+      "unit": "V"
+    },
+    {
+      "observed": 7.820981838824139,
+      "partition": "validation",
+      "predicted": 7.8216684086932355,
+      "residual": 0.0006865698690967648,
+      "sample": 33,
+      "unit": "V"
+    },
+    {
+      "observed": 7.7638782232451025,
+      "partition": "validation",
+      "predicted": 7.764212726770403,
+      "residual": 0.00033450352530017824,
+      "sample": 34,
+      "unit": "V"
+    },
+    {
+      "observed": 7.705257885436336,
+      "partition": "validation",
+      "predicted": 7.70675704484757,
+      "residual": 0.0014991594112334639,
+      "sample": 35,
+      "unit": "V"
+    },
+    {
+      "observed": 7.647519686021341,
+      "partition": "validation",
+      "predicted": 7.649301362924738,
+      "residual": 0.0017816769033967006,
+      "sample": 36,
+      "unit": "V"
+    },
+    {
+      "observed": 7.591402819704903,
+      "partition": "validation",
+      "predicted": 7.591845681001905,
+      "residual": 0.0004428612970022172,
+      "sample": 37,
+      "unit": "V"
+    },
+    {
+      "observed": 7.532907637396202,
+      "partition": "validation",
+      "predicted": 7.534389999079072,
+      "residual": 0.0014823616828696373,
+      "sample": 38,
+      "unit": "V"
+    },
+    {
+      "observed": 7.4771792559787285,
+      "partition": "validation",
+      "predicted": 7.47693431715624,
+      "residual": -0.0002449388224885496,
+      "sample": 39,
+      "unit": "V"
+    }
+  ],
+  "dataset_metadata": {
+    "device": "synthetic-fixture",
+    "kind": "battery_load",
+    "method": "Known forward parameters; bounded uniform observation noise; not device measurements",
+    "origin": "synthetic",
+    "recorded_at": "2026-11-11T00:00:00+00:00",
+    "source": "Independent analytic fixture; seed 42",
+    "type": "psi_gw.picrawler.measurements",
+    "units": {
+      "battery_voltage_v": "V",
+      "current_a": "A",
+      "open_circuit_voltage_v": "V"
+    },
+    "version": 1
+  },
+  "dataset_sha256": "7e0004178318697bad3536819299d1ac6a6080a34c63ed7862c7fac5c889aaeb",
+  "kind": "battery_load",
+  "limitations": [
+    "Equal-weight descriptive fit; no confidence intervals or hardware certification.",
+    "Thermal power/ambient inputs are held constant over each interval.",
+    "Synthetic results are assumptions, never hardware measurements."
+  ],
+  "origin": "synthetic",
+  "parameter_units": {
+    "battery_internal_resistance_ohm": "ohm"
+  },
+  "parameters": {
+    "battery_internal_resistance_ohm": 0.22982272769133044
+  },
+  "runtime": {
+    "code_sha256": "6c6da00846aeecd00f31b342769cf33dc3c782bd159ce66e67eaaae96cc4e1ad",
+    "files_sha256": {
+      "body/base.py": "dccd598137d5d8d5de9d207a02a41ba96fdb00c0774411319159af939bedff81",
+      "picrawler/__init__.py": "df76ee73a9242704d34cccdcc87b64cebb09b2b01474b2e700ab45970de2404d",
+      "picrawler/__main__.py": "bdddb8cdf1b30316504f5f24ec587404eb944ee245fd72cb6358490667a21330",
+      "picrawler/body.py": "f565d319e248d0cd361e6ef65ddeb111f1a253f92d7b016b650289cec58dcb8f",
+      "picrawler/bridge.py": "33f71503be5556f12df800dd1ef388b283bb8cf23f2d0ca041dd36b7e2091757",
+      "picrawler/calibration.py": "e54b81cfe19fc35d864d4700c19a266b0a9b23bdc5fc56bb1a251b1aa61f49cc",
+      "picrawler/calibration_experiment.py": "a6ebf294fe39d036f1e20b84b6e2c73baa7d5a7dfa2f5d238b0dac46271ee0b4",
+      "picrawler/calibration_fit.py": "f993558a024a2033f6be1db582a3d1b542b600fd284e7084822a35b9a7462d7e",
+      "picrawler/demo.py": "cca015944ad330eee85fd1b953d29a4694f849cb07f4ace061c6bca058e5f788",
+      "picrawler/energy.py": "bcd2cd477f951b4f813aec9b61a06bccbb4fc25aab812aedd4d4dec01484fdd9",
+      "picrawler/kinematics.py": "8b3055332ae5a4f7aa9394c871ab1a5e3e1e4a936e3e426f6ef427ed9d285b19",
+      "picrawler/perception.py": "4258f351c7be3695c27190e7f9dea4f25074e2448308a669e4c6385dd8782444",
+      "picrawler/peripherals.py": "83b9fa39399facdaf88ac30c49816949acec490f877996d6229ff70e20105664",
+      "picrawler/render_video.py": "672d91ade2048e24e863cfc637bb3778f57428dfd09994cc1d3ee56b24139db6",
+      "picrawler/replay.py": "deaa7fc9a721a54b59301d4f49e309e10683923609d5dcf990167e364ada700c",
+      "picrawler/sensors.py": "9044f3e4ec3493bd30cd00d3d785b21c21c4fb2d58dd3cb33eb1b0d620917877",
+      "picrawler/stress.py": "9a8e4aabf46611efab1c3a1e50ccb863f9fa68546d033a48594a0e46cee42bfa",
+      "picrawler/telemetry.py": "7b194c9473b4fef96a1482948a285995cee3b30bc513645abbc57fd01ed88a7d",
+      "picrawler/validation_io.py": "86025cb7871bf2f512b11dafe7958fd6e73c8254e2753f662cdd40f08a8a4f8d",
+      "picrawler/world.py": "cd9680a9bf2e3a809d1aa8130bf13bcea3b57265c7a66dff1d5eb89088fa8bd1",
+      "random_source.py": "1ff564ded0aff7cc22eb9a8d4b834d6d587973f27075592c6d5cbc18b119c070"
+    },
+    "numpy": "2.5.4",
+    "python": "3.12.14",
+    "revision": "b6a38e62d2fd7a5293ea538569f6f5eb4ce1d3f7"
+  },
+  "sample_counts": {
+    "train": 25,
+    "validation": 15
+  },
+  "scores": {
+    "train": {
+      "bias": -0.0002243388851049488,
+      "count": 25,
+      "mae": 0.001011948551717019,
+      "maximum_absolute_error": 0.0020904119774893815,
+      "rmse": 0.001157472969888875
+    },
+    "validation": {
+      "bias": 0.0006418346544011299,
+      "count": 15,
+      "mae": 0.0010787250586610378,
+      "maximum_absolute_error": 0.0021704659387564718,
+      "rmse": 0.0012528655834479787
+    }
+  },
+  "type": "psi_gw.picrawler.fit",
+  "version": 1
+}

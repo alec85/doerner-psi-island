@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Implementation artefacts of the original and the switches that turn them off (ADR 0015). The modern mode switches all of them off.}
+\label{tab:T2}
+\begin{tabular}{ll}
+\toprule
+Switch & Artefact \\
+\midrule
+no\_display\_side\_effects & The value display at the end of a cycle computes EpiKomp for all needs, which draws random numbers, reinforces goal links and advances age (ADR 0011). \\
+clean\_direction\_names & DirArtWert reads the third letter of lN/lS from left-over memory (stack residue in ContinueDirection, a heap address byte in RememberDir, ADR 0014). \\
+goal\_in\_current\_situation & PlanenUndTun's parameter situation shadows the global Situation: after a plan with a locomotion, the goal is looked for in the old situation. \\
+aversion\_check\_in\_aversions & Consum checks whether an aversion is known in the goal list (toGoal) and links toAvers; a known aversion is therefore never reinforced. \\
+background\_goals\_as\_described & GoalGen takes a background goal if random $<$ r - s with s = r - strength * threshold, which reduces to random $<$ strength * threshold: the stronger the current motive, the more background goals. \\
+guard\_nil\_dereferences & The original follows pointers without checking for nil in several places (e.g. ActivateAuto walking a protocol chain that ends early). \\
+real\_umlaut\_bitmaps & Under Wine the original does not find the bitmap files with an umlaut and draws their names as text (ADR 0013). \\
+\bottomrule
+\end{tabular}
+\end{table}

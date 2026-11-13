@@ -1,0 +1,26 @@
+[
+  {
+    "id": "s1000-slalom-memory-nominal-t900",
+    "checkpoint_decisions": 150,
+    "continued_decisions": 750,
+    "exact_result": true,
+    "body_sha256": "c5fda4469b0ba2a1ad454a999dcae0f565f21359e836635e495fd0688e7b28d3",
+    "trace_sha256": "4eaa261f9d9be985f06b3dfd6a95b9489b9fa42aaafa559b3e3f9e2f3a009dec"
+  },
+  {
+    "id": "s1000-slalom-memory-noisy-t900",
+    "checkpoint_decisions": 150,
+    "continued_decisions": 750,
+    "exact_result": true,
+    "body_sha256": "fadfc29d340932b8506b0ace7a2d1d7b88ce296747ee0344b9ef76572ce13854",
+    "trace_sha256": "c95ab06dc2c8d5e5a8f469ede07c800d4cd31782566e9ccffd42906933670c9a"
+  },
+  {
+    "id": "s1000-slalom-memory-delayed-t900",
+    "checkpoint_decisions": 150,
+    "continued_decisions": 750,
+    "exact_result": true,
+    "body_sha256": "d77a8714f712d5e46914cc7e2e19778a742c7fd58cae9ef824fca3b83779e20c",
+    "trace_sha256": "c5df4f8c6e9601db448db30d622abd555ba2228d31ee7e1b55b0884c25911311"
+  }
+]

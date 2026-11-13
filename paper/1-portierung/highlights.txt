@@ -1,0 +1,5 @@
+Dörner's 2003 PSI island agent was reconstructed in Python from its Delphi source
+A full 739-cycle life matches the original in every compared protocol line
+Undescribed implementation properties change how often the agent dies
+The coded background-goal rule inverts the rule stated in Dörner's book
+One need, nucleotides, holds control in 99.9 % of motive decisions

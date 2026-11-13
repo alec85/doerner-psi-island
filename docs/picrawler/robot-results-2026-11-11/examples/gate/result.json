@@ -1,0 +1,40 @@
+{
+  "case": {
+    "family": "gate",
+    "max_ticks": 900,
+    "policy": "memory",
+    "seed": 1000,
+    "sensors": "nominal",
+    "split": "validation",
+    "task": "progress"
+  },
+  "coverage_fraction": 0.05813953488372093,
+  "distance_m": 0.4572695340763329,
+  "energy_j": 638.9037037037091,
+  "energy_reaction_ticks": null,
+  "final_state_sha256": "6c5cfe8fa646e7f87c4c39745e7790e784ca5ecf7c857e4af1091befd3093925",
+  "goal_reached": false,
+  "metrics": {
+    "action_changes": 19,
+    "collision_ticks": 293,
+    "held_range_ticks": 0,
+    "late_stop_ticks": 0,
+    "maximum_heading_error_rad": 0.011000000000006782,
+    "posture_resets": 9,
+    "unknown_range_ticks": 0,
+    "unpowered_ticks": 0,
+    "unseen_body_contact_ticks": 293,
+    "workspace_limited_ticks": 0
+  },
+  "preregistered_budget": true,
+  "reachable_cells": 86,
+  "reason": "contact_budget",
+  "success": false,
+  "ticks": 900,
+  "trace_sha256": "9121b3bf3518df4d09d593849cf6fc84cd483c513e8f8d5c65676ffbbc31386d",
+  "type": "psi_gw.picrawler.robot_result",
+  "verified_continuation_ticks": 820,
+  "version": 1,
+  "visited_cells": 5,
+  "world_event": "inserted"
+}

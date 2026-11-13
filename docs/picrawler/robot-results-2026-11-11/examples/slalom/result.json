@@ -1,0 +1,40 @@
+{
+  "case": {
+    "family": "slalom",
+    "max_ticks": 900,
+    "policy": "memory",
+    "seed": 1000,
+    "sensors": "nominal",
+    "split": "validation",
+    "task": "progress"
+  },
+  "coverage_fraction": 0.045454545454545456,
+  "distance_m": 0.32767462584656726,
+  "energy_j": 716.4814814814929,
+  "energy_reaction_ticks": null,
+  "final_state_sha256": "706821c3ea7e5ab9307e07638869736e5c8464241c2e06cf59c22d2da25c912a",
+  "goal_reached": false,
+  "metrics": {
+    "action_changes": 1,
+    "collision_ticks": 638,
+    "held_range_ticks": 0,
+    "late_stop_ticks": 0,
+    "maximum_heading_error_rad": 0.0,
+    "posture_resets": 0,
+    "unknown_range_ticks": 0,
+    "unpowered_ticks": 0,
+    "unseen_body_contact_ticks": 638,
+    "workspace_limited_ticks": 0
+  },
+  "preregistered_budget": true,
+  "reachable_cells": 66,
+  "reason": "contact_budget",
+  "success": false,
+  "ticks": 900,
+  "trace_sha256": "10da5ae96bf396816a3f155e31dad4a9a1a0dacaf9b59fc702c18aa0fff73b64",
+  "type": "psi_gw.picrawler.robot_result",
+  "verified_continuation_ticks": 0,
+  "version": 1,
+  "visited_cells": 3,
+  "world_event": "none"
+}

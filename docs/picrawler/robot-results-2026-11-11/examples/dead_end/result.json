@@ -1,0 +1,40 @@
+{
+  "case": {
+    "family": "dead_end",
+    "max_ticks": 900,
+    "policy": "memory",
+    "seed": 1000,
+    "sensors": "nominal",
+    "split": "validation",
+    "task": "progress"
+  },
+  "coverage_fraction": 0.11538461538461539,
+  "distance_m": 0.722500000000009,
+  "energy_j": 581.41481481481,
+  "energy_reaction_ticks": null,
+  "final_state_sha256": "cf3763d2e63a0c5f213655935fafa09fd69b03319c5c4f15f584b006e0ad3a19",
+  "goal_reached": false,
+  "metrics": {
+    "action_changes": 17,
+    "collision_ticks": 0,
+    "held_range_ticks": 0,
+    "late_stop_ticks": 0,
+    "maximum_heading_error_rad": 0.011000000000040533,
+    "posture_resets": 8,
+    "unknown_range_ticks": 0,
+    "unpowered_ticks": 0,
+    "unseen_body_contact_ticks": 0,
+    "workspace_limited_ticks": 0
+  },
+  "preregistered_budget": true,
+  "reachable_cells": 52,
+  "reason": "time_budget",
+  "success": false,
+  "ticks": 900,
+  "trace_sha256": "098ebae7d27aed57e8f966663face385e2405c904a7f546acb5e40d0216db498",
+  "type": "psi_gw.picrawler.robot_result",
+  "verified_continuation_ticks": 0,
+  "version": 1,
+  "visited_cells": 6,
+  "world_event": "none"
+}

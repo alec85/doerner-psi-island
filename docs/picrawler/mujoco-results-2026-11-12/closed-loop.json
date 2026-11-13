@@ -1,0 +1,742 @@
+{
+  "cases": [
+    {
+      "body_sha256": "ab9c2e520b6b57a39d6d464e6f73ca91fba45a97f956dfc0ad4d69f40366df72",
+      "case": {
+        "family": "open",
+        "max_ticks": 900,
+        "policy": "reactive",
+        "seed": 1000,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 0,
+      "energy_consumed_j": 317.0555447085292,
+      "id": "s1000-open-reactive-nominal-t900",
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701010327006,
+        "x_m": 0.3480766040069788,
+        "y_m": -0.022073515744613314,
+        "yaw_rad": -0.019440370539703374
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 2.4233854543847887e-10,
+        "drift_m": 0.0009504797565255589,
+        "linear_speed_m_s": 8.636829511260209e-11
+      },
+      "stop_pass": true,
+      "trace_sha256": "9587388e5790604c7887eb6ea93607a2366df63825f3773c1a6c010389adc3dd"
+    },
+    {
+      "body_sha256": "c3bf2c99370fabd5f01b83dbfcb05dd270272fba3cfd6df9a5f3ed9b26c338e0",
+      "case": {
+        "family": "open",
+        "max_ticks": 900,
+        "policy": "reactive",
+        "seed": 1000,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 0,
+      "energy_consumed_j": 327.33634889433023,
+      "id": "s1000-open-reactive-noisy-t900",
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701016236828,
+        "x_m": 0.25873131070845934,
+        "y_m": 0.12026975470629502,
+        "yaw_rad": 0.11626021036178298
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 5.482020864619216e-10,
+        "drift_m": 0.0034190204474356884,
+        "linear_speed_m_s": 5.409588702246427e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "64f29f655b316973833681df70779623491833b90c3e3b50e343a331d6908aef"
+    },
+    {
+      "body_sha256": "82d284fb5e55377349b5e58c0c00a98854e4082cf2f05846e2b5ace7a722de2d",
+      "case": {
+        "family": "open",
+        "max_ticks": 900,
+        "policy": "reactive",
+        "seed": 1000,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "energy_consumed_j": 325.0421259630116,
+      "id": "s1000-open-reactive-delayed-t900",
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701015148265,
+        "x_m": 0.14498156365518153,
+        "y_m": 0.32727924853212853,
+        "yaw_rad": 0.7405287947359807
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 4.3584193779562154e-10,
+        "drift_m": 0.0008279617228341521,
+        "linear_speed_m_s": 4.5715905265152974e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "3c2f06e57a8a2382b51328623f719faa7dd9f7182b401e470b7c2982a53f69f0"
+    },
+    {
+      "body_sha256": "ab9c2e520b6b57a39d6d464e6f73ca91fba45a97f956dfc0ad4d69f40366df72",
+      "case": {
+        "family": "open",
+        "max_ticks": 900,
+        "policy": "memory",
+        "seed": 1000,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 0,
+      "energy_consumed_j": 317.0555447085292,
+      "id": "s1000-open-memory-nominal-t900",
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701010327006,
+        "x_m": 0.3480766040069788,
+        "y_m": -0.022073515744613314,
+        "yaw_rad": -0.019440370539703374
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 2.4233854543847887e-10,
+        "drift_m": 0.0009504797565255589,
+        "linear_speed_m_s": 8.636829511260209e-11
+      },
+      "stop_pass": true,
+      "trace_sha256": "ef4562bdeb5ab2e9bdb7605af5e8f3b9e37338b74dbe111a1d982a43d63a5dd4"
+    },
+    {
+      "body_sha256": "4dbd3c7190cdbc006fe5f185e152eb04797b075b334b89118935a46e52e570d3",
+      "case": {
+        "family": "open",
+        "max_ticks": 900,
+        "policy": "memory",
+        "seed": 1000,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 0,
+      "energy_consumed_j": 316.99040056655565,
+      "id": "s1000-open-memory-noisy-t900",
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.0672970101917852,
+        "x_m": 0.34767345388868076,
+        "y_m": -0.02145785959725547,
+        "yaw_rad": -0.034387260419730344
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 1.9051715644799196e-10,
+        "drift_m": 0.0019995135575566784,
+        "linear_speed_m_s": 7.670553721299045e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "fa564d0b13a302fe94148c7ee9eaa6ba9cc0833cde2a751305de88d0887045da"
+    },
+    {
+      "body_sha256": "82d284fb5e55377349b5e58c0c00a98854e4082cf2f05846e2b5ace7a722de2d",
+      "case": {
+        "family": "open",
+        "max_ticks": 900,
+        "policy": "memory",
+        "seed": 1000,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "energy_consumed_j": 325.0421259630116,
+      "id": "s1000-open-memory-delayed-t900",
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701015148265,
+        "x_m": 0.14498156365518153,
+        "y_m": 0.32727924853212853,
+        "yaw_rad": 0.7405287947359807
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 4.3584193779562154e-10,
+        "drift_m": 0.0008279617228341521,
+        "linear_speed_m_s": 4.5715905265152974e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "e3d7da3d1c532c8aed1a9496e6eeaab610aa540f59aa9a69a24c3afc0d7a3a7b"
+    },
+    {
+      "body_sha256": "c5fda4469b0ba2a1ad454a999dcae0f565f21359e836635e495fd0688e7b28d3",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 900,
+        "policy": "reactive",
+        "seed": 1000,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 11,
+      "energy_consumed_j": 317.029830771908,
+      "id": "s1000-slalom-reactive-nominal-t900",
+      "model_sha256": "195c2dceeb97640a292f8b5c7fb9dab2893f889dc8510bf94c3bb75d341de061",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701010311556,
+        "x_m": 0.34854434773515025,
+        "y_m": -0.015602374197706787,
+        "yaw_rad": -0.012533031204788063
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 2.488261563055593e-10,
+        "drift_m": 0.0009459088021674431,
+        "linear_speed_m_s": 8.520100907972779e-11
+      },
+      "stop_pass": true,
+      "trace_sha256": "86ed210326e7e0a2a0f9fb4a62a4418b22cde397fcdb3c74f9e36327915538d6"
+    },
+    {
+      "body_sha256": "d1546333b50d873f5d5efd1525902edab28cc1ec69c4fab67139ca29c8cca171",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 900,
+        "policy": "reactive",
+        "seed": 1000,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 0,
+      "energy_consumed_j": 327.1493537383118,
+      "id": "s1000-slalom-reactive-noisy-t900",
+      "model_sha256": "195c2dceeb97640a292f8b5c7fb9dab2893f889dc8510bf94c3bb75d341de061",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701015781743,
+        "x_m": 0.2599038959825129,
+        "y_m": 0.0937095421537594,
+        "yaw_rad": 0.06678775462011138
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 9.964179136343837e-11,
+        "drift_m": 0.0003759488200141031,
+        "linear_speed_m_s": 5.0573126958839e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "ed599b3f66fbb2ca58c2d372ac3d6381c9815f83366a829270ebdc2e598c6a5a"
+    },
+    {
+      "body_sha256": "27a585e93fc2398bf400204c86a2b3145e2ba60ce2d7b05cf02c56e54afcc429",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 900,
+        "policy": "reactive",
+        "seed": 1000,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "energy_consumed_j": 325.04983982068734,
+      "id": "s1000-slalom-reactive-delayed-t900",
+      "model_sha256": "195c2dceeb97640a292f8b5c7fb9dab2893f889dc8510bf94c3bb75d341de061",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701008934573,
+        "x_m": 0.14485513630679508,
+        "y_m": 0.32722950013748736,
+        "yaw_rad": 0.7392117637118547
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 1.275761835364265e-10,
+        "drift_m": 0.00023471647041707925,
+        "linear_speed_m_s": 2.1338980262759195e-11
+      },
+      "stop_pass": true,
+      "trace_sha256": "db8f3762dfce97961c02caa5df2a5924d65446250ed22f6037e026d5da4d4a91"
+    },
+    {
+      "body_sha256": "c5fda4469b0ba2a1ad454a999dcae0f565f21359e836635e495fd0688e7b28d3",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 900,
+        "policy": "memory",
+        "seed": 1000,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 11,
+      "energy_consumed_j": 317.029830771908,
+      "id": "s1000-slalom-memory-nominal-t900",
+      "model_sha256": "195c2dceeb97640a292f8b5c7fb9dab2893f889dc8510bf94c3bb75d341de061",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701010311556,
+        "x_m": 0.34854434773515025,
+        "y_m": -0.015602374197706787,
+        "yaw_rad": -0.012533031204788063
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 2.488261563055593e-10,
+        "drift_m": 0.0009459088021674431,
+        "linear_speed_m_s": 8.520100907972779e-11
+      },
+      "stop_pass": true,
+      "trace_sha256": "4eaa261f9d9be985f06b3dfd6a95b9489b9fa42aaafa559b3e3f9e2f3a009dec"
+    },
+    {
+      "body_sha256": "fadfc29d340932b8506b0ace7a2d1d7b88ce296747ee0344b9ef76572ce13854",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 900,
+        "policy": "memory",
+        "seed": 1000,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 11,
+      "energy_consumed_j": 316.9685802348122,
+      "id": "s1000-slalom-memory-noisy-t900",
+      "model_sha256": "195c2dceeb97640a292f8b5c7fb9dab2893f889dc8510bf94c3bb75d341de061",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701017181725,
+        "x_m": 0.34825589426136633,
+        "y_m": -0.014755308761499735,
+        "yaw_rad": -0.028316919274080424
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 1.753941188658636e-10,
+        "drift_m": 0.0017355975218727115,
+        "linear_speed_m_s": 6.134448336218278e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "c95ab06dc2c8d5e5a8f469ede07c800d4cd31782566e9ccffd42906933670c9a"
+    },
+    {
+      "body_sha256": "d77a8714f712d5e46914cc7e2e19778a742c7fd58cae9ef824fca3b83779e20c",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 900,
+        "policy": "memory",
+        "seed": 1000,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "energy_consumed_j": 325.057972247048,
+      "id": "s1000-slalom-memory-delayed-t900",
+      "model_sha256": "195c2dceeb97640a292f8b5c7fb9dab2893f889dc8510bf94c3bb75d341de061",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701010787287,
+        "x_m": 0.14393261775283106,
+        "y_m": 0.3240061653948544,
+        "yaw_rad": 0.7682979522898016
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 1.8328140326707504e-10,
+        "drift_m": 2.094284087128294e-05,
+        "linear_speed_m_s": 1.2161319251410365e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "c5df4f8c6e9601db448db30d622abd555ba2228d31ee7e1b55b0884c25911311"
+    },
+    {
+      "body_sha256": "e2a7aea2aeaca087cd2430da609ec17ccd94b3fc91f4f2a9cfab5c07f3d7ff18",
+      "case": {
+        "family": "open",
+        "max_ticks": 900,
+        "policy": "reactive",
+        "seed": 1001,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 0,
+      "energy_consumed_j": 317.06207920636683,
+      "id": "s1001-open-reactive-nominal-t900",
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701009289578,
+        "x_m": 0.3362578793762657,
+        "y_m": 0.008996746874582776,
+        "yaw_rad": 0.006821614155656903
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 2.8142157004692933e-10,
+        "drift_m": 0.0008700425729256659,
+        "linear_speed_m_s": 1.0189158155229267e-11
+      },
+      "stop_pass": true,
+      "trace_sha256": "f397b71325bc99634ac415e191f12038e6d1f4b031b85d065be664bd6fec958f"
+    },
+    {
+      "body_sha256": "7548254c9e4ffc6d45ea2d9914ddb842a58a57fb82ecf4d8ce82d989e2b118a8",
+      "case": {
+        "family": "open",
+        "max_ticks": 900,
+        "policy": "reactive",
+        "seed": 1001,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 0,
+      "energy_consumed_j": 326.6204365809317,
+      "id": "s1001-open-reactive-noisy-t900",
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701022181353,
+        "x_m": 0.2501666999707504,
+        "y_m": -0.0624831418334364,
+        "yaw_rad": 0.016869110424888534
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 6.164121887907367e-10,
+        "drift_m": 0.004099085876114585,
+        "linear_speed_m_s": 9.981987827335826e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "ca89e09f22f87e6bfedce5df70aaecfabea32e9ef92c996efb5e89de0c35e305"
+    },
+    {
+      "body_sha256": "5b86fbde89c6b927c39c2e4e5bfeae61b06e319e727409f0f44ccb31599b78ce",
+      "case": {
+        "family": "open",
+        "max_ticks": 900,
+        "policy": "reactive",
+        "seed": 1001,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "energy_consumed_j": 325.05867880754494,
+      "id": "s1001-open-reactive-delayed-t900",
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701017334762,
+        "x_m": 0.12034689840497834,
+        "y_m": 0.35787509835208053,
+        "yaw_rad": 0.7896529547406335
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 4.613578899484119e-10,
+        "drift_m": 0.0009528593888459529,
+        "linear_speed_m_s": 6.2533527561133e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "ed1644131e03d3f28cf5da815d044cab4cd85dc4da8afee373396b8c8afbf5c4"
+    },
+    {
+      "body_sha256": "e2a7aea2aeaca087cd2430da609ec17ccd94b3fc91f4f2a9cfab5c07f3d7ff18",
+      "case": {
+        "family": "open",
+        "max_ticks": 900,
+        "policy": "memory",
+        "seed": 1001,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 0,
+      "energy_consumed_j": 317.06207920636683,
+      "id": "s1001-open-memory-nominal-t900",
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701009289578,
+        "x_m": 0.3362578793762657,
+        "y_m": 0.008996746874582776,
+        "yaw_rad": 0.006821614155656903
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 2.8142157004692933e-10,
+        "drift_m": 0.0008700425729256659,
+        "linear_speed_m_s": 1.0189158155229267e-11
+      },
+      "stop_pass": true,
+      "trace_sha256": "ea7689eb9b973b25a80ffb74c3f7304c3aaa52cf338dd5c94633e8a0f2e58be4"
+    },
+    {
+      "body_sha256": "c8ad5d4e9ae3ec4301c3d64ba906bcfb342f399ecdf1ae3cd694913bb18f2978",
+      "case": {
+        "family": "open",
+        "max_ticks": 900,
+        "policy": "memory",
+        "seed": 1001,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 0,
+      "energy_consumed_j": 317.06207920636683,
+      "id": "s1001-open-memory-noisy-t900",
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701009289578,
+        "x_m": 0.3362578793762657,
+        "y_m": 0.008996746874582776,
+        "yaw_rad": 0.006821614155656903
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 2.8142157004692933e-10,
+        "drift_m": 0.0008700425729256659,
+        "linear_speed_m_s": 1.0189158155229267e-11
+      },
+      "stop_pass": true,
+      "trace_sha256": "eb42ce8b0076e7b108eb66c394201b470fd56d74d66e037c09b7f20bf42fceb7"
+    },
+    {
+      "body_sha256": "5b86fbde89c6b927c39c2e4e5bfeae61b06e319e727409f0f44ccb31599b78ce",
+      "case": {
+        "family": "open",
+        "max_ticks": 900,
+        "policy": "memory",
+        "seed": 1001,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "energy_consumed_j": 325.05867880754494,
+      "id": "s1001-open-memory-delayed-t900",
+      "model_sha256": "36ee38cf6448b9556ff1df66f1e7f967a5d57154a78619c9fe814dfb9f121aa9",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701017334762,
+        "x_m": 0.12034689840497834,
+        "y_m": 0.35787509835208053,
+        "yaw_rad": 0.7896529547406335
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 4.613578899484119e-10,
+        "drift_m": 0.0009528593888459529,
+        "linear_speed_m_s": 6.2533527561133e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "5a3729892b71490987f29505c8a8375aa87799bd83a0288bd1cc4e7f2129a9d3"
+    },
+    {
+      "body_sha256": "c74caae5e6b51613d865d064f98a760951e2a26a396da323f39c16c1ee1dcd9d",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 900,
+        "policy": "reactive",
+        "seed": 1001,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 3,
+      "energy_consumed_j": 317.04984857898046,
+      "id": "s1001-slalom-reactive-nominal-t900",
+      "model_sha256": "37e429063eeb8fc323d0d5c6ea4929e8f232424a0b8bbd09da78df60ba470962",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701010293085,
+        "x_m": 0.33638660585306207,
+        "y_m": 0.008721879738806846,
+        "yaw_rad": 0.005936059169622656
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 2.630400571005806e-10,
+        "drift_m": 0.0009360318022571567,
+        "linear_speed_m_s": 8.38185742496531e-11
+      },
+      "stop_pass": true,
+      "trace_sha256": "99a2f07796b2feaa6ad1e087d93660d6beeab08ad43329b2565d64d99cbf00ff"
+    },
+    {
+      "body_sha256": "fc649ec503c2e67295b7ce2aa3a8045c62da6424c253e1dc242af363090158ec",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 900,
+        "policy": "reactive",
+        "seed": 1001,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 25,
+      "energy_consumed_j": 260.1084581118702,
+      "id": "s1001-slalom-reactive-noisy-t900",
+      "model_sha256": "37e429063eeb8fc323d0d5c6ea4929e8f232424a0b8bbd09da78df60ba470962",
+      "outcome": "contact_budget",
+      "pose": {
+        "height_m": 0.06729701023712086,
+        "x_m": -0.23433216454747377,
+        "y_m": -0.026700483341040707,
+        "yaw_rad": -1.3462476425326229
+      },
+      "steps": 696,
+      "stop": {
+        "angular_speed_rad_s": 2.8115776446009835e-10,
+        "drift_m": 0.006574329145626503,
+        "linear_speed_m_s": 1.1158320309294102e-09
+      },
+      "stop_pass": true,
+      "trace_sha256": "ef7d51a10e9cc8b743a1ff7e3c4133ed70d052500be1d437b9fa4064d9dabeca"
+    },
+    {
+      "body_sha256": "cea14b3968905fa0849e516dfa53f2a965e8194b5b9e930f94f28541c229586c",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 900,
+        "policy": "reactive",
+        "seed": 1001,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "energy_consumed_j": 325.05867880754494,
+      "id": "s1001-slalom-reactive-delayed-t900",
+      "model_sha256": "37e429063eeb8fc323d0d5c6ea4929e8f232424a0b8bbd09da78df60ba470962",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701017334762,
+        "x_m": 0.12034689840497834,
+        "y_m": 0.35787509835208053,
+        "yaw_rad": 0.7896529547406335
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 4.613578899484119e-10,
+        "drift_m": 0.0009528593888459529,
+        "linear_speed_m_s": 6.2533527561133e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "0ca39554f1c842a552070b94b760e8bce72f85c7d89aff88aea1a8c418dfad4f"
+    },
+    {
+      "body_sha256": "c74caae5e6b51613d865d064f98a760951e2a26a396da323f39c16c1ee1dcd9d",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 900,
+        "policy": "memory",
+        "seed": 1001,
+        "sensors": "nominal"
+      },
+      "contact_ticks": 3,
+      "energy_consumed_j": 317.04984857898046,
+      "id": "s1001-slalom-memory-nominal-t900",
+      "model_sha256": "37e429063eeb8fc323d0d5c6ea4929e8f232424a0b8bbd09da78df60ba470962",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701010293085,
+        "x_m": 0.33638660585306207,
+        "y_m": 0.008721879738806846,
+        "yaw_rad": 0.005936059169622656
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 2.630400571005806e-10,
+        "drift_m": 0.0009360318022571567,
+        "linear_speed_m_s": 8.38185742496531e-11
+      },
+      "stop_pass": true,
+      "trace_sha256": "a80a7fafa002348cd9bbf406d3276822c6ecee1dcca38b00778d441dd8ab68ad"
+    },
+    {
+      "body_sha256": "bf10a1686e3801fb96ad644c9ada0b9312cd41c53194d64b094e36a4d94d1292",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 900,
+        "policy": "memory",
+        "seed": 1001,
+        "sensors": "noisy"
+      },
+      "contact_ticks": 3,
+      "energy_consumed_j": 317.04984857898046,
+      "id": "s1001-slalom-memory-noisy-t900",
+      "model_sha256": "37e429063eeb8fc323d0d5c6ea4929e8f232424a0b8bbd09da78df60ba470962",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701010293085,
+        "x_m": 0.33638660585306207,
+        "y_m": 0.008721879738806846,
+        "yaw_rad": 0.005936059169622656
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 2.630400571005806e-10,
+        "drift_m": 0.0009360318022571567,
+        "linear_speed_m_s": 8.38185742496531e-11
+      },
+      "stop_pass": true,
+      "trace_sha256": "7e37c0ab3a889b85509fdfe3a4e791437fe57122d4d17bc55b674c49cb28427a"
+    },
+    {
+      "body_sha256": "cea14b3968905fa0849e516dfa53f2a965e8194b5b9e930f94f28541c229586c",
+      "case": {
+        "family": "slalom",
+        "max_ticks": 900,
+        "policy": "memory",
+        "seed": 1001,
+        "sensors": "delayed"
+      },
+      "contact_ticks": 0,
+      "energy_consumed_j": 325.05867880754494,
+      "id": "s1001-slalom-memory-delayed-t900",
+      "model_sha256": "37e429063eeb8fc323d0d5c6ea4929e8f232424a0b8bbd09da78df60ba470962",
+      "outcome": "timeout",
+      "pose": {
+        "height_m": 0.06729701017334762,
+        "x_m": 0.12034689840497834,
+        "y_m": 0.35787509835208053,
+        "yaw_rad": 0.7896529547406335
+      },
+      "steps": 900,
+      "stop": {
+        "angular_speed_rad_s": 4.613578899484119e-10,
+        "drift_m": 0.0009528593888459529,
+        "linear_speed_m_s": 6.2533527561133e-10
+      },
+      "stop_pass": true,
+      "trace_sha256": "ccf66057f61d410f97df2dab33e244f1ef8c8c98e69773175d71d8cb2f1169ad"
+    }
+  ],
+  "criteria": "MUJOCO-VALIDATION.md v1",
+  "engine": "3.3.7",
+  "schema": "psi_gw.picrawler.mujoco.acceptance.v1",
+  "source": {
+    "code_sha256": "19f51e0dafecea5fd48b8f9e29f76d6dd670bb617810e101beb3f5c727e5ed23",
+    "files_sha256": {
+      "body/base.py": "dccd598137d5d8d5de9d207a02a41ba96fdb00c0774411319159af939bedff81",
+      "picrawler/__init__.py": "df76ee73a9242704d34cccdcc87b64cebb09b2b01474b2e700ab45970de2404d",
+      "picrawler/__main__.py": "bdddb8cdf1b30316504f5f24ec587404eb944ee245fd72cb6358490667a21330",
+      "picrawler/body.py": "f565d319e248d0cd361e6ef65ddeb111f1a253f92d7b016b650289cec58dcb8f",
+      "picrawler/bridge.py": "33f71503be5556f12df800dd1ef388b283bb8cf23f2d0ca041dd36b7e2091757",
+      "picrawler/calibration.py": "e54b81cfe19fc35d864d4700c19a266b0a9b23bdc5fc56bb1a251b1aa61f49cc",
+      "picrawler/calibration_experiment.py": "a6ebf294fe39d036f1e20b84b6e2c73baa7d5a7dfa2f5d238b0dac46271ee0b4",
+      "picrawler/calibration_fit.py": "f993558a024a2033f6be1db582a3d1b542b600fd284e7084822a35b9a7462d7e",
+      "picrawler/controller_process.py": "644928cb707d828fa4f49a66cdc96df3d8900dbf643e35b89d5a3a4bb2ebc7c4",
+      "picrawler/demo.py": "cca015944ad330eee85fd1b953d29a4694f849cb07f4ace061c6bca058e5f788",
+      "picrawler/energy.py": "bcd2cd477f951b4f813aec9b61a06bccbb4fc25aab812aedd4d4dec01484fdd9",
+      "picrawler/kinematics.py": "8b3055332ae5a4f7aa9394c871ab1a5e3e1e4a936e3e426f6ef427ed9d285b19",
+      "picrawler/mujoco_body.py": "c1e7f4f32c3b8c4120736172448a2289ecc032bbd02f1d985761cac86279abd3",
+      "picrawler/mujoco_experiment.py": "511971262d7842bc5b9e81aa395dc7660a403a8a8b1a2499f216cab77b28cb32",
+      "picrawler/mujoco_model.py": "4ef360dbd80bcf0109724b69eaa03580dfcbf6c4b9182a39c07b6dce2c702b79",
+      "picrawler/perception.py": "4258f351c7be3695c27190e7f9dea4f25074e2448308a669e4c6385dd8782444",
+      "picrawler/perception_experiment.py": "6958a2e4ebb433df529ee01a78ab158a2369b7af871de8f1e9182200baad78ad",
+      "picrawler/peripherals.py": "83b9fa39399facdaf88ac30c49816949acec490f877996d6229ff70e20105664",
+      "picrawler/process_experiment.py": "80a859372a543832b4b13565dbbd90e3d8afc75f3abdd238c076700d404068a8",
+      "picrawler/render_video.py": "672d91ade2048e24e863cfc637bb3778f57428dfd09994cc1d3ee56b24139db6",
+      "picrawler/replay.py": "7d90c328938078abefed2953d8ec228a0da6565c77d3b686a25648a0b74ab0af",
+      "picrawler/robot_benchmark.py": "2802ba093ce1427daa708daf3067d2ea5cd62685b44b585f5155f5dec36d3130",
+      "picrawler/robot_controllers.py": "6f0a8240144045118ab5261af544a0f4cace8fafbfb89d9ce7fe3b82474a7936",
+      "picrawler/robot_courses.py": "b80912ccfae7634f8d64a5375192d6fc15c9bbf2fbcc96c11af53e993afc186a",
+      "picrawler/sensors.py": "9044f3e4ec3493bd30cd00d3d785b21c21c4fb2d58dd3cb33eb1b0d620917877",
+      "picrawler/stress.py": "9a8e4aabf46611efab1c3a1e50ccb863f9fa68546d033a48594a0e46cee42bfa",
+      "picrawler/telemetry.py": "7b194c9473b4fef96a1482948a285995cee3b30bc513645abbc57fd01ed88a7d",
+      "picrawler/temporal.py": "405b8d0f2302cef7fb7850774ecc3da60e37a272340e3b96b932d781294b442c",
+      "picrawler/validation_io.py": "86025cb7871bf2f512b11dafe7958fd6e73c8254e2753f662cdd40f08a8a4f8d",
+      "picrawler/world.py": "cd9680a9bf2e3a809d1aa8130bf13bcea3b57265c7a66dff1d5eb89088fa8bd1",
+      "random_source.py": "1ff564ded0aff7cc22eb9a8d4b834d6d587973f27075592c6d5cbc18b119c070"
+    },
+    "numpy": "2.5.4",
+    "python": "3.12.14",
+    "revision": "d35cdc58fc43b2fed3600138c2d63e26d55a7f52"
+  }
+}

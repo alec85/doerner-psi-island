@@ -1,0 +1,91 @@
+{
+ "actu1061(1).Prt": {
+  "lines": [
+   15543,
+   15543
+  ],
+  "differing": 1,
+  "first": [
+   {
+    "line": 15543,
+    "original": "    Abe",
+    "port": "    Aber noch nicht fertig!"
+   }
+  ]
+ },
+ "seed1061.Prt": {
+  "lines": [
+   205,
+   206
+  ],
+  "differing": 2,
+  "first": [
+   {
+    "line": 205,
+    "original": "   8  133  134   43    1  130  116  144   58    2",
+    "port": "   8  133  134   43    1  130  116  144   58    2    3    9    2   409200     1435"
+   },
+   {
+    "line": 206,
+    "original": null,
+    "port": "   8  134  134   43    1  131  118  145   59    2    3    9    2   414605     5405"
+   }
+  ]
+ },
+ "IntTimes(1).Txt": {
+  "lines": [
+   13475,
+   204
+  ],
+  "differing": 13271,
+  "first": [
+   {
+    "line": 205,
+    "original": " 204:          0         0         0         0         0           643.88235",
+    "port": null
+   },
+   {
+    "line": 206,
+    "original": " 204:          0         0         0         0         0           643.88235",
+    "port": null
+   },
+   {
+    "line": 207,
+    "original": " 204:          0         0         0         0         0           643.88235",
+    "port": null
+   }
+  ]
+ },
+ "Activities(1).Txt": {
+  "lines": [
+   794,
+   794
+  ],
+  "differing": 1,
+  "first": [
+   {
+    "line": 794,
+    "original": "204;794;Aggr;416275;Au",
+    "port": "204;794;Aggr;416275;Auto;180;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+   }
+  ]
+ },
+ "eAch(1).Prt": {
+  "missing": [
+   "runs/original/seed1061/raw/seed1061/eAch(1).Prt",
+   "runs/baseline/seed1061/raw/eAch(1).Prt"
+  ]
+ },
+ "Inpro(1).Prt": {
+  "missing": [
+   "runs/original/seed1061/raw/seed1061/Inpro(1).Prt",
+   "runs/baseline/seed1061/raw/Inpro(1).Prt"
+  ]
+ },
+ "Consum(1).Prt": {
+  "missing": [
+   "runs/original/seed1061/raw/seed1061/Consum(1).Prt",
+   "runs/baseline/seed1061/raw/Consum(1).Prt"
+  ]
+ }
+}

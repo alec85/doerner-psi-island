@@ -1,0 +1,113 @@
+{
+ "actu1073(1).Prt": {
+  "lines": [
+   106061,
+   79739
+  ],
+  "differing": 73531,
+  "first": [
+   {
+    "line": 31946,
+    "original": "  5 OD:3.927 LokoMotion:       lSW",
+    "port": "  6 OD:4.712 LokoMotion:       lSO"
+   },
+   {
+    "line": 31947,
+    "original": "Pekr->lSW lSW 1.00000",
+    "port": "Pekr->lSO lSO 1.00000"
+   },
+   {
+    "line": 31949,
+    "original": "      2-: Wiedererkannt: Sdgs Buschwald[  78   80]",
+    "port": "      2-: Wiedererkannt: Sdbv Haselwald[  81   81]"
+   }
+  ]
+ },
+ "seed1073.Prt": {
+  "lines": [
+   962,
+   681
+  ],
+  "differing": 564,
+  "first": [
+   {
+    "line": 399,
+    "original": "  26  288  313   77    3  228  203  231  111    1    1    0    1  1315354    12881",
+    "port": "  26  288  311   77    3  228  203  231  111    1    1    0    1  1315006    12533"
+   },
+   {
+    "line": 400,
+    "original": "  27  289  315   77    3  229  203  233  111    1    2    0    1  1325217     9863",
+    "port": "  26  289  313   77    3  229  203  233  111    1    1    0    1  1324869     9863"
+   },
+   {
+    "line": 401,
+    "original": "  27  290  315   77    3  230  203  235  111    2    2    0    1  1332094     6877",
+    "port": "  27  290  313   77    3  230  203  235  111    2    2    0    1  1331746     6877"
+   }
+  ]
+ },
+ "IntTimes(1).Txt": {
+  "lines": [
+   962,
+   679
+  ],
+  "differing": 559,
+  "first": [
+   {
+    "line": 400,
+    "original": " 399:       4866       816      4955       174     10811          1330.06015",
+    "port": " 399:       4866       817      4955       174     10812          1330.06266"
+   },
+   {
+    "line": 401,
+    "original": " 400:       8059       139         6       174      8378          1347.68000",
+    "port": " 400:       8060       139         6       174      8379          1347.68500"
+   },
+   {
+    "line": 402,
+    "original": " 401:         59       123        91       174       447          1345.43392",
+    "port": " 401:         59       123        91       174       447          1345.43890"
+   }
+  ]
+ },
+ "Activities(1).Txt": {
+  "lines": [
+   3334,
+   2527
+  ],
+  "differing": 1845,
+  "first": [
+   {
+    "line": 1490,
+    "original": "396;1490;Loco;1314993;WCBD;174;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;",
+    "port": "397;1490;Aggr;1323584;WaCoBeDo;174;LookAr;0;<Asso>;4340;LookArAss;4340;<Asso>;222;<Asso>;313;Automat;535;PlanAndDo;1448;WCBD;1644;;;;;;;;;;;;;;;;;;;;;;;"
+   },
+   {
+    "line": 1491,
+    "original": "396;1491;Loco;1315167;WCBD;174;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;",
+    "port": "397;1491;Mani;1323808;WCBD;224;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+   },
+   {
+    "line": 1492,
+    "original": "397;1492;Aggr;1323932;WaCoBeDo;174;LookAr;0;<Asso>;4340;LookArAss;4340;<Asso>;222;<Asso>;313;Automat;535;PlanAndDo;1448;WCBD;1644;;;;;;;;;;;;;;;;;;;;;;;",
+    "port": "397;1492;Mani;1323982;WCBD;174;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+   }
+  ]
+ },
+ "eAch(1).Prt": {
+  "missing": [
+   "runs/baseline/seed1073/raw/eAch(1).Prt"
+  ]
+ },
+ "Inpro(1).Prt": {
+  "missing": [
+   "runs/baseline/seed1073/raw/Inpro(1).Prt"
+  ]
+ },
+ "Consum(1).Prt": {
+  "missing": [
+   "runs/baseline/seed1073/raw/Consum(1).Prt"
+  ]
+ }
+}

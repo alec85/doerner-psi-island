@@ -1,0 +1,36 @@
+{
+ "seeds": "1001-1100",
+ "runs/baseline": {
+  "lives": 97,
+  "lives_without_switch": 65,
+  "motive_entries": 89775,
+  "share_nukleo": 0.9989417989417989,
+  "max_switches": 5,
+  "switch_histogram": {
+   "0": 65,
+   "2": 24,
+   "3": 4,
+   "4": 2,
+   "5": 2
+  },
+  "other_motives": {
+   "Hunger": 43,
+   "Durst": 52
+  }
+ },
+ "runs/variant-all": {
+  "lives": 100,
+  "lives_without_switch": 99,
+  "motive_entries": 92688,
+  "share_nukleo": 0.9996008113240117,
+  "max_switches": 5,
+  "switch_histogram": {
+   "0": 99,
+   "5": 1
+  },
+  "other_motives": {
+   "Durst": 36,
+   "Hunger": 1
+  }
+ }
+}

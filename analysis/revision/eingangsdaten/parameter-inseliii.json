@@ -1,0 +1,75 @@
+{
+ "source": "reference/delphi-original/PsiCode/PsiDaten/InselIII/Param.Dat",
+ "sha256": "47664e175f27f124a95a1a892d601396fa23546d38ee1bbb471811b7bda51842",
+ "params": {
+  "memory": {
+   "forgetting_rate": 0.0,
+   "protocol_factor": 1000.0,
+   "base_reinforcement": 0.001,
+   "max_weight": 1.0
+  },
+  "needs": {
+   "1": {
+    "weight": 1.0,
+    "increment": 4e-05,
+    "decrement": 1.0
+   },
+   "2": {
+    "weight": 1.0,
+    "increment": 4.6e-05,
+    "decrement": 1.0
+   },
+   "3": {
+    "weight": 0.7,
+    "increment": 0.1,
+    "decrement": 0.1
+   },
+   "4": {
+    "weight": 0.33,
+    "increment": 1.0,
+    "decrement": 1.0
+   },
+   "5": {
+    "weight": 1.0,
+    "increment": 0.001,
+    "decrement": 0.01
+   },
+   "6": {
+    "weight": 1.0,
+    "increment": 0.01,
+    "decrement": 0.03
+   },
+   "7": {
+    "weight": 1.0,
+    "increment": 5e-06,
+    "decrement": 1.0
+   }
+  },
+  "modulators": {
+   "0": {
+    "gain": 0.75,
+    "minimum": 0.0,
+    "maximum": 1.0
+   },
+   "1": {
+    "gain": 0.7,
+    "minimum": 0.0,
+    "maximum": 1.0
+   },
+   "2": {
+    "gain": 0.1,
+    "minimum": 0.0,
+    "maximum": 1.0
+   }
+  }
+ },
+ "need_names": {
+  "1": "HUNGER",
+  "2": "DURST",
+  "3": "NUKLEO",
+  "4": "SCHADEN",
+  "5": "BESTIMMTHEIT",
+  "6": "KOMPETENZ",
+  "7": "AFFILI"
+ }
+}

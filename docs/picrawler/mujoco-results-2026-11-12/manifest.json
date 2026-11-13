@@ -1,0 +1,102 @@
+{
+  "checkpoint-delayed.json": {
+    "bytes": 120963,
+    "sha256": "2b00b32601af84dbd4aca16f456bca2fcb57119fcfd053510582aade542a832d"
+  },
+  "checkpoint-noisy.json": {
+    "bytes": 120815,
+    "sha256": "88ec277bd62c48ad8609c86dd19b484d446c175acfac145c37472aa2bf3c5512"
+  },
+  "checkpoint-nominal.json": {
+    "bytes": 120790,
+    "sha256": "eae105eed43da7afee35bfe98bdd0aeaa9df693475e7f104721ff4f368330dcf"
+  },
+  "closed-loop.html": {
+    "bytes": 710460,
+    "sha256": "aea34020f33a72a5a9f995bcb807dc1ec950ddc353ffb387728bd47e98111318"
+  },
+  "closed-loop.json": {
+    "bytes": 27055,
+    "sha256": "6b11ffc7bcfe4f171f001f15bf83351b54a46e01a0fb9e2be75e3eae3575df16"
+  },
+  "development-damping.json": {
+    "bytes": 1252,
+    "sha256": "5c4918bedb554351637f25f8d95ebc09102ae74e7bd75b4260223e7dafb3e917"
+  },
+  "development-gait.json": {
+    "bytes": 2984,
+    "sha256": "82c61efc5a9b9e92fda606d76244d9a8155f7f60a9dbd285b2a4f548682b1ecf"
+  },
+  "gait-forward.html": {
+    "bytes": 370190,
+    "sha256": "3e3b5a783c7aec721f586ff4465669a4fd4a14cd3d9ae8044742568e6f0e3830"
+  },
+  "gait-turn.html": {
+    "bytes": 371322,
+    "sha256": "b1155350068d869718798dc87c85133c2e6cb13726e9ac6877b87603fb5355cd"
+  },
+  "gaits.json": {
+    "bytes": 40699,
+    "sha256": "145b39cb7324f30432e3a978207fb1ab6715426f80bee28b9615e41b3239fe9e"
+  },
+  "peripherals.html": {
+    "bytes": 905580,
+    "sha256": "694434208371898aa71bcfd0cdd53380562151cc92f0c04ab8a159a9de547d0c"
+  },
+  "provenance.json": {
+    "bytes": 3504,
+    "sha256": "8494530bf51b7eb0814f7ea1d940ca780c2dd33159d40132d7a9729103d8d3d8"
+  },
+  "pytest.log": {
+    "bytes": 1061,
+    "sha256": "30909628b07f286e76ca3c7e462342d8e5f58f54b618034ec00965bcdeb473e1"
+  },
+  "pytest.xml": {
+    "bytes": 130093,
+    "sha256": "3eda266d9bc710b7a9a903fcc13efac21b215dd31dacbe8869780681ce443e69"
+  },
+  "replay-checks.json": {
+    "bytes": 712,
+    "sha256": "34d48fb312285e12ec32536fd8e6b31e43f7dbb72552796c328fc707b14e8592"
+  },
+  "resume-checks.json": {
+    "bytes": 960,
+    "sha256": "d0e5ddaf1ef6c8ac8d51f049f888bbf3afd45f6d7f20d069403b8580acab41cd"
+  },
+  "resumed-delayed.json": {
+    "bytes": 862,
+    "sha256": "ba57655b4f0ea3f81fc7cfbcfc50b28f00accdd06585f2bf4cbc14cfc21ca4a3"
+  },
+  "resumed-noisy.json": {
+    "bytes": 864,
+    "sha256": "8dc96edb0d098b3fa501b2ee4b1b44310cad2eac470683c20b2ebbb3a9b11f68"
+  },
+  "resumed-nominal.json": {
+    "bytes": 867,
+    "sha256": "3e8cb87f256d6bb1f82fa6d18906719cd6dbea5182efd77c39191ed2a608cbe3"
+  },
+  "smoke.json": {
+    "bytes": 30068,
+    "sha256": "5f425dd9a945c3a7dc9fadf79af7d35423746aad6fbfe0e3d2be362ac4a42541"
+  },
+  "stand.png": {
+    "bytes": 13584,
+    "sha256": "1a1cd531b90d496d5818cae6af2a09f60ef366595ab3c3163ab8c20a60f21754"
+  },
+  "summary.json": {
+    "bytes": 3655,
+    "sha256": "b723a39f95e5ded59738890b18dd28659822334e3dba95d858c0b88ef37f5aed"
+  },
+  "turn.png": {
+    "bytes": 13844,
+    "sha256": "604b2690fc42bc40d4a4fd59545594a5dec00b209265db1a7e6c252eaa9386d1"
+  },
+  "verification.json": {
+    "bytes": 549,
+    "sha256": "80a1b4878fae747613991cb7c3dd946ff4e8a4e01f173d3e53d8614a3fa1d3bb"
+  },
+  "walk.png": {
+    "bytes": 15238,
+    "sha256": "d59ac83988435f93c40a8a5358c01fdde39debf40133d195cab05bbe55c85198"
+  }
+}

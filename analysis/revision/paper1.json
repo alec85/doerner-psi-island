@@ -1,0 +1,453 @@
+{
+ "flow": {
+  "reference": {
+   "seeds": 100,
+   "complete": 97,
+   "stalled": {
+    "1035": "cycle 380: ActivateAuto: Neuron('Pehs') has no POR link",
+    "1061": "cycle 204: ActivateAuto: Neuron('Pcje') has no POR link",
+    "1073": "cycle 679: Confirmation: Neuron('Scec') has no RET link"
+   }
+  },
+  "modern": {
+   "seeds": 100,
+   "complete": 100,
+   "guard_interventions": {
+    "1025": 1,
+    "1030": 1
+   },
+   "variant_lists": {
+    "no_display_side_effects+clean_direction_names+goal_in_current_situation+aversion_check_in_aversions+background_goals_as_described+real_umlaut_bitmaps": 20,
+    "no_display_side_effects+clean_direction_names+goal_in_current_situation+aversion_check_in_aversions+background_goals_as_described+guard_nil_dereferences+real_umlaut_bitmaps": 80
+   }
+  },
+  "complete_pairs": 97
+ },
+ "arms": {
+  "P1_exitus_per_1000_cycles": {
+   "reference": {
+    "n": 97,
+    "mean": 11.953994284836279,
+    "sd": 1.4273404752269778,
+    "median": 12.035010940919037,
+    "iqr": 1.702352123144797,
+    "ci95_low": 11.662689357537777,
+    "ci95_high": 12.23141080966695
+   },
+   "modern": {
+    "n": 97,
+    "mean": 9.344736977956876,
+    "sd": 1.7502473794652273,
+    "median": 9.365244536940686,
+    "iqr": 2.0884025092175733,
+    "ci95_low": 8.997306595513388,
+    "ci95_high": 9.68479643445762
+   }
+  },
+  "P2_nucleotides_per_100_cycles": {
+   "reference": {
+    "n": 97,
+    "mean": 13.86139757136069,
+    "sd": 1.3237837795804073,
+    "median": 13.986784140969164,
+    "iqr": 1.6205606189306447,
+    "ci95_low": 13.595098779206179,
+    "ci95_high": 14.11848444079065
+   },
+   "modern": {
+    "n": 97,
+    "mean": 13.700760063908506,
+    "sd": 1.2908447154616858,
+    "median": 13.760504201680673,
+    "iqr": 1.9357336430507175,
+    "ci95_low": 13.441446418646535,
+    "ci95_high": 13.953699042857954
+   }
+  },
+  "P3_locations_discovered": {
+   "reference": {
+    "n": 97,
+    "mean": 96.56701030927834,
+    "sd": 3.341367037153498,
+    "median": 97.0,
+    "iqr": 4.0,
+    "ci95_low": 95.8659793814433,
+    "ci95_high": 97.20618556701031
+   },
+   "modern": {
+    "n": 97,
+    "mean": 98.18556701030928,
+    "sd": 3.355126354138347,
+    "median": 99.0,
+    "iqr": 4.0,
+    "ci95_low": 97.48453608247422,
+    "ci95_high": 98.82474226804123
+   }
+  },
+  "P4_manipulation_success_rate": {
+   "reference": {
+    "n": 97,
+    "mean": 0.3776156812167663,
+    "sd": 0.018470205837017934,
+    "median": 0.3774752475247525,
+    "iqr": 0.02558918649970976,
+    "ci95_low": 0.374002718123518,
+    "ci95_high": 0.3812488055222846
+   },
+   "modern": {
+    "n": 97,
+    "mean": 0.3973570585392309,
+    "sd": 0.02828462789468053,
+    "median": 0.3957399103139013,
+    "iqr": 0.02516171617161711,
+    "ci95_low": 0.3922911910755277,
+    "ci95_high": 0.4033687790042655
+   }
+  },
+  "P5_share_cycles_trial_and_error": {
+   "reference": {
+    "n": 97,
+    "mean": 0.8553106841346808,
+    "sd": 0.012254293099039784,
+    "median": 0.8552338530066815,
+    "iqr": 0.01562520898257258,
+    "ci95_low": 0.8528586988302472,
+    "ci95_high": 0.857692431009897
+   },
+   "modern": {
+    "n": 97,
+    "mean": 0.7876690734609899,
+    "sd": 0.03312618372424394,
+    "median": 0.7918410041841004,
+    "iqr": 0.033253205128205066,
+    "ci95_low": 0.7804340655942772,
+    "ci95_high": 0.7936114626718483
+   }
+  },
+  "P6_mean_damage_pct": {
+   "reference": {
+    "n": 97,
+    "mean": 75.54394698982449,
+    "sd": 2.845534056820818,
+    "median": 75.68982035928144,
+    "iqr": 3.890147051016612,
+    "ci95_low": 74.97185346547664,
+    "ci95_high": 76.09675355246955
+   },
+   "modern": {
+    "n": 97,
+    "mean": 67.04240116939782,
+    "sd": 3.974436729978782,
+    "median": 67.32114285714286,
+    "iqr": 4.455315435125925,
+    "ci95_low": 66.25024842301137,
+    "ci95_high": 67.8165829156748
+   }
+  },
+  "cycles": {
+   "reference": {
+    "n": 97,
+    "mean": 925.5154639175257,
+    "sd": 71.97353584855308,
+    "median": 917,
+    "iqr": 95.0,
+    "ci95_low": 911.4329896907217,
+    "ci95_high": 939.639175257732
+   },
+   "modern": {
+    "n": 97,
+    "mean": 929.4020618556701,
+    "sd": 68.72721740599668,
+    "median": 933,
+    "iqr": 95.0,
+    "ci95_low": 915.680412371134,
+    "ci95_high": 942.8762886597938
+   }
+  }
+ },
+ "exposure": {
+  "reference": {
+   "cycles": {
+    "n": 97,
+    "mean": 925.5154639175257,
+    "sd": 71.97353584855308,
+    "median": 917,
+    "min": 786,
+    "max": 1170
+   },
+   "exitus_per_life": {
+    "n": 97,
+    "mean": 11.092783505154639,
+    "sd": 1.7445299881988519,
+    "median": 11,
+    "min": 7,
+    "max": 15
+   },
+   "age_at_end": {
+    "n": 97,
+    "mean": 5011114.319587629,
+    "sd": 13271.958442007839,
+    "median": 5006186,
+    "min": 5000018,
+    "max": 5069643
+   },
+   "age_per_cycle": {
+    "n": 97,
+    "mean": 5446.6059877732605,
+    "sd": 421.2228902309489,
+    "median": 5468.191930207197,
+    "min": 4275.65811965812,
+    "max": 6422.291348600509
+   },
+   "actions_per_life": {
+    "n": 97,
+    "mean": 3318.020618556701,
+    "sd": 213.5019017958546,
+    "median": 3290,
+    "min": 2884,
+    "max": 3956
+   },
+   "exitus_per_1000_actions": {
+    "n": 97,
+    "mean": 3.3334998575134835,
+    "sd": 0.4139654095242046,
+    "median": 3.3680342927127986,
+    "min": 2.171889543903196,
+    "max": 4.193458205199888
+   },
+   "exitus_per_million_age": {
+    "n": 97,
+    "mean": 2.2139670057395597,
+    "sd": 0.34996274925212784,
+    "median": 2.1986821099433,
+    "min": 1.3807678371041117,
+    "max": 2.995535453959419
+   },
+   "damage_age_weighted": {
+    "n": 97,
+    "mean": 70.47355012737255,
+    "sd": 4.336375957083029,
+    "median": 70.67351194252505,
+    "min": 60.302123731603615,
+    "max": 78.00525919023191
+   }
+  },
+  "modern": {
+   "cycles": {
+    "n": 97,
+    "mean": 929.4020618556701,
+    "sd": 68.72721740599668,
+    "median": 933,
+    "min": 777,
+    "max": 1089
+   },
+   "exitus_per_life": {
+    "n": 97,
+    "mean": 8.721649484536082,
+    "sd": 1.891550664805406,
+    "median": 9,
+    "min": 4,
+    "max": 13
+   },
+   "age_at_end": {
+    "n": 97,
+    "mean": 5009167.701030928,
+    "sd": 12937.872071272119,
+    "median": 5005470,
+    "min": 5000099,
+    "max": 5100024
+   },
+   "age_per_cycle": {
+    "n": 97,
+    "mean": 5419.456793615257,
+    "sd": 409.24136001545844,
+    "median": 5368.497320471597,
+    "min": 4596.66391184573,
+    "max": 6563.737451737452
+   },
+   "actions_per_life": {
+    "n": 97,
+    "mean": 3410.907216494845,
+    "sd": 177.68488507714923,
+    "median": 3429,
+    "min": 3008,
+    "max": 3783
+   },
+   "exitus_per_1000_actions": {
+    "n": 97,
+    "mean": 2.5499814052192895,
+    "sd": 0.5097756385999405,
+    "median": 2.5714285714285716,
+    "min": 1.199400299850075,
+    "max": 3.7100456621004567
+   },
+   "exitus_per_million_age": {
+    "n": 97,
+    "mean": 1.7412882759381694,
+    "sd": 0.37804813628268247,
+    "median": 1.7972584619421534,
+    "min": 0.7988694399685565,
+    "max": 2.594271330048986
+   },
+   "damage_age_weighted": {
+    "n": 97,
+    "mean": 61.41606660014565,
+    "sd": 5.995286263090343,
+    "median": 61.34867232946285,
+    "min": 42.760248927994205,
+    "max": 74.59149389752795
+   }
+  }
+ },
+ "exposure_sensitivity_modern_minus_reference": {
+  "exitus_per_1000_actions": {
+   "n": 97,
+   "mean_diff": -0.7835184522941938,
+   "ci95_low": -0.9157587866437652,
+   "ci95_high": -0.6521779035422304,
+   "p": 9.999000099990002e-05
+  },
+  "exitus_per_million_age": {
+   "n": 97,
+   "mean_diff": -0.47267872980139036,
+   "ci95_low": -0.5792438845088899,
+   "ci95_high": -0.3684494913006253,
+   "p": 9.999000099990002e-05
+  },
+  "damage_age_weighted": {
+   "n": 97,
+   "mean_diff": -9.057483527226903,
+   "ci95_low": -10.66187227599059,
+   "ci95_high": -7.467870837176512,
+   "p": 9.999000099990002e-05
+  }
+ },
+ "common_window_modern_minus_reference": {
+  "P1_exitus_per_1000_cycles": {
+   "n": 97,
+   "mean_diff": -2.5124991870773576,
+   "ci95_low": -2.9493897511357683,
+   "ci95_high": -2.0700542081840645,
+   "p": 9.999000099990002e-05
+  },
+  "P2_nucleotides_per_100_cycles": {
+   "n": 97,
+   "mean_diff": -0.1938660325054933,
+   "ci95_low": -0.4563924070799578,
+   "ci95_high": 0.06528341991090789,
+   "p": 0.15098490150984903
+  },
+  "P6_mean_damage_pct": {
+   "n": 97,
+   "mean_diff": -8.182256054741838,
+   "ci95_low": -9.28221115274556,
+   "ci95_high": -7.0366299851869405,
+   "p": 9.999000099990002e-05
+  }
+ },
+ "motive_dominance": {
+  "reference": {
+   "lives": 97,
+   "share_per_life": {
+    "n": 97,
+    "mean": 0.9988729018165,
+    "sd": 0.002981392910419236,
+    "median": 1.0,
+    "min": 0.9761336515513126,
+    "max": 1.0
+   },
+   "pooled_share": 0.9989417989417989,
+   "motive_entries": 89775,
+   "lives_without_switch": 65
+  },
+  "modern": {
+   "lives": 100,
+   "share_per_life": {
+    "n": 100,
+    "mean": 0.9995938529088914,
+    "sd": 0.0040614709110867175,
+    "median": 1.0,
+    "min": 0.9593852908891328,
+    "max": 1.0
+   },
+   "pooled_share": 0.9996008113240117,
+   "motive_entries": 92688,
+   "lives_without_switch": 99
+  }
+ },
+ "params": {
+  "source": "reference/delphi-original/PsiCode/PsiDaten/InselIII/Param.Dat",
+  "sha256": "47664e175f27f124a95a1a892d601396fa23546d38ee1bbb471811b7bda51842",
+  "params": {
+   "memory": {
+    "forgetting_rate": 0.0,
+    "protocol_factor": 1000.0,
+    "base_reinforcement": 0.001,
+    "max_weight": 1.0
+   },
+   "needs": {
+    "1": {
+     "weight": 1.0,
+     "increment": 4e-05,
+     "decrement": 1.0
+    },
+    "2": {
+     "weight": 1.0,
+     "increment": 4.6e-05,
+     "decrement": 1.0
+    },
+    "3": {
+     "weight": 0.7,
+     "increment": 0.1,
+     "decrement": 0.1
+    },
+    "4": {
+     "weight": 0.33,
+     "increment": 1.0,
+     "decrement": 1.0
+    },
+    "5": {
+     "weight": 1.0,
+     "increment": 0.001,
+     "decrement": 0.01
+    },
+    "6": {
+     "weight": 1.0,
+     "increment": 0.01,
+     "decrement": 0.03
+    },
+    "7": {
+     "weight": 1.0,
+     "increment": 5e-06,
+     "decrement": 1.0
+    }
+   },
+   "modulators": {
+    "0": {
+     "gain": 0.75,
+     "minimum": 0.0,
+     "maximum": 1.0
+    },
+    "1": {
+     "gain": 0.7,
+     "minimum": 0.0,
+     "maximum": 1.0
+    },
+    "2": {
+     "gain": 0.1,
+     "minimum": 0.0,
+     "maximum": 1.0
+    }
+   }
+  },
+  "need_names": {
+   "1": "HUNGER",
+   "2": "DURST",
+   "3": "NUKLEO",
+   "4": "SCHADEN",
+   "5": "BESTIMMTHEIT",
+   "6": "KOMPETENZ",
+   "7": "AFFILI"
+  }
+ }
+}

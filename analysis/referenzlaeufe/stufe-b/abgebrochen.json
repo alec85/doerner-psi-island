@@ -1,0 +1,14 @@
+[
+ {
+  "seed": 1035,
+  "crash": "cycle 380: ActivateAuto: Neuron('Pehs') has no POR link"
+ },
+ {
+  "seed": 1061,
+  "crash": "cycle 204: ActivateAuto: Neuron('Pcje') has no POR link"
+ },
+ {
+  "seed": 1073,
+  "crash": "cycle 679: Confirmation: Neuron('Scec') has no RET link"
+ }
+]

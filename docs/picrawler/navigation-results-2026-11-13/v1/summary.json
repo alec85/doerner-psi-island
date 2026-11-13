@@ -1,0 +1,93 @@
+{
+  "cases": 48,
+  "endpoint_ticks": 900,
+  "long_horizon_ticks": 2400,
+  "policies": {
+    "active": {
+      "cases": 12,
+      "goals_2400": 10,
+      "goals_900": 6,
+      "outcomes": {
+        "contact_budget": 2,
+        "goal": 10
+      },
+      "stop_passed": 12
+    },
+    "fast_memory": {
+      "cases": 12,
+      "goals_2400": 8,
+      "goals_900": 6,
+      "outcomes": {
+        "contact_budget": 4,
+        "goal": 8
+      },
+      "stop_passed": 12
+    },
+    "memory": {
+      "cases": 12,
+      "goals_2400": 8,
+      "goals_900": 4,
+      "outcomes": {
+        "contact_budget": 4,
+        "goal": 8
+      },
+      "stop_passed": 12
+    },
+    "reactive": {
+      "cases": 12,
+      "goals_2400": 8,
+      "goals_900": 2,
+      "outcomes": {
+        "contact_budget": 4,
+        "goal": 8
+      },
+      "stop_passed": 12
+    }
+  },
+  "profile_sha256": "3210d34c7b0b06050a37a5a6e90669857aea868430635bddd371302fa2bda74f",
+  "schema": "psi_gw.picrawler.navigation.v1",
+  "source": {
+    "code_sha256": "f9efccb217b4c968e025fad2d250db5f8d9ad15040de174151d651918fc26d1c",
+    "files_sha256": {
+      "body/base.py": "dccd598137d5d8d5de9d207a02a41ba96fdb00c0774411319159af939bedff81",
+      "picrawler/__init__.py": "df76ee73a9242704d34cccdcc87b64cebb09b2b01474b2e700ab45970de2404d",
+      "picrawler/__main__.py": "bdddb8cdf1b30316504f5f24ec587404eb944ee245fd72cb6358490667a21330",
+      "picrawler/active_navigation.py": "f4d83e9d2dc0b9fd90b3a1ea5dc8cfbeeabc36ff3197f15ba1a78dc7409bb2b9",
+      "picrawler/body.py": "f565d319e248d0cd361e6ef65ddeb111f1a253f92d7b016b650289cec58dcb8f",
+      "picrawler/bridge.py": "33f71503be5556f12df800dd1ef388b283bb8cf23f2d0ca041dd36b7e2091757",
+      "picrawler/calibration.py": "e54b81cfe19fc35d864d4700c19a266b0a9b23bdc5fc56bb1a251b1aa61f49cc",
+      "picrawler/calibration_experiment.py": "a6ebf294fe39d036f1e20b84b6e2c73baa7d5a7dfa2f5d238b0dac46271ee0b4",
+      "picrawler/calibration_fit.py": "f993558a024a2033f6be1db582a3d1b542b600fd284e7084822a35b9a7462d7e",
+      "picrawler/controller_process.py": "644928cb707d828fa4f49a66cdc96df3d8900dbf643e35b89d5a3a4bb2ebc7c4",
+      "picrawler/demo.py": "cca015944ad330eee85fd1b953d29a4694f849cb07f4ace061c6bca058e5f788",
+      "picrawler/energy.py": "bcd2cd477f951b4f813aec9b61a06bccbb4fc25aab812aedd4d4dec01484fdd9",
+      "picrawler/kinematics.py": "8b3055332ae5a4f7aa9394c871ab1a5e3e1e4a936e3e426f6ef427ed9d285b19",
+      "picrawler/motion_experiment.py": "29a3fc4887bafc70b6784ce4304ee227d4491c194ff7c069010caaffc3c44a62",
+      "picrawler/motion_profile.py": "4c35f7f6c79bf7fb5ab50d7226407de7f5a43c7161d316db47c42317b066c455",
+      "picrawler/mujoco_body.py": "c1e7f4f32c3b8c4120736172448a2289ecc032bbd02f1d985761cac86279abd3",
+      "picrawler/mujoco_experiment.py": "511971262d7842bc5b9e81aa395dc7660a403a8a8b1a2499f216cab77b28cb32",
+      "picrawler/mujoco_model.py": "4ef360dbd80bcf0109724b69eaa03580dfcbf6c4b9182a39c07b6dce2c702b79",
+      "picrawler/navigation_experiment.py": "7aceea7c1f4e4cd3b625cf5b7f384db4fe1713abea7b623f0a172de929bffed9",
+      "picrawler/perception.py": "4258f351c7be3695c27190e7f9dea4f25074e2448308a669e4c6385dd8782444",
+      "picrawler/perception_experiment.py": "6958a2e4ebb433df529ee01a78ab158a2369b7af871de8f1e9182200baad78ad",
+      "picrawler/peripherals.py": "83b9fa39399facdaf88ac30c49816949acec490f877996d6229ff70e20105664",
+      "picrawler/process_experiment.py": "80a859372a543832b4b13565dbbd90e3d8afc75f3abdd238c076700d404068a8",
+      "picrawler/render_video.py": "672d91ade2048e24e863cfc637bb3778f57428dfd09994cc1d3ee56b24139db6",
+      "picrawler/replay.py": "7d90c328938078abefed2953d8ec228a0da6565c77d3b686a25648a0b74ab0af",
+      "picrawler/robot_benchmark.py": "2802ba093ce1427daa708daf3067d2ea5cd62685b44b585f5155f5dec36d3130",
+      "picrawler/robot_controllers.py": "6f0a8240144045118ab5261af544a0f4cace8fafbfb89d9ce7fe3b82474a7936",
+      "picrawler/robot_courses.py": "b80912ccfae7634f8d64a5375192d6fc15c9bbf2fbcc96c11af53e993afc186a",
+      "picrawler/sensors.py": "9044f3e4ec3493bd30cd00d3d785b21c21c4fb2d58dd3cb33eb1b0d620917877",
+      "picrawler/stress.py": "9a8e4aabf46611efab1c3a1e50ccb863f9fa68546d033a48594a0e46cee42bfa",
+      "picrawler/telemetry.py": "7b194c9473b4fef96a1482948a285995cee3b30bc513645abbc57fd01ed88a7d",
+      "picrawler/temporal.py": "405b8d0f2302cef7fb7850774ecc3da60e37a272340e3b96b932d781294b442c",
+      "picrawler/validation_io.py": "86025cb7871bf2f512b11dafe7958fd6e73c8254e2753f662cdd40f08a8a4f8d",
+      "picrawler/world.py": "cd9680a9bf2e3a809d1aa8130bf13bcea3b57265c7a66dff1d5eb89088fa8bd1",
+      "random_source.py": "1ff564ded0aff7cc22eb9a8d4b834d6d587973f27075592c6d5cbc18b119c070"
+    },
+    "numpy": "2.5.4",
+    "python": "3.12.14",
+    "revision": "31f6ecf7df481d3967db639b752a97c93202dbca"
+  },
+  "split": "validation"
+}

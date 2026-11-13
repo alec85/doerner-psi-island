@@ -1,0 +1,257 @@
+{
+  "device": "synthetic-fixture",
+  "kind": "battery_load",
+  "method": "Known forward parameters; bounded uniform observation noise; not device measurements",
+  "origin": "synthetic",
+  "recorded_at": "2026-11-11T00:00:00+00:00",
+  "samples": [
+    {
+      "battery_voltage_v": 8.055095824194224,
+      "current_a": 0.2,
+      "open_circuit_voltage_v": 8.1,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.9962555137590074,
+      "current_a": 0.45,
+      "open_circuit_voltage_v": 8.1,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.940434391679646,
+      "current_a": 0.7,
+      "open_circuit_voltage_v": 8.1,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.882289472116238,
+      "current_a": 0.95,
+      "open_circuit_voltage_v": 8.1,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.82237670939155,
+      "current_a": 1.2,
+      "open_circuit_voltage_v": 8.1,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.768402489406546,
+      "current_a": 1.45,
+      "open_circuit_voltage_v": 8.1,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.710044558807961,
+      "current_a": 1.7,
+      "open_circuit_voltage_v": 8.1,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.652644257221107,
+      "current_a": 1.95,
+      "open_circuit_voltage_v": 8.1,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.592512454530701,
+      "current_a": 2.2,
+      "open_circuit_voltage_v": 8.1,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.5363015437515815,
+      "current_a": 2.45,
+      "open_circuit_voltage_v": 8.1,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 8.03348319209693,
+      "current_a": 0.2,
+      "open_circuit_voltage_v": 8.08,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.978207059955394,
+      "current_a": 0.45,
+      "open_circuit_voltage_v": 8.08,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.919575460480323,
+      "current_a": 0.7,
+      "open_circuit_voltage_v": 8.08,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.862791046453084,
+      "current_a": 0.95,
+      "open_circuit_voltage_v": 8.08,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.803773656795309,
+      "current_a": 1.2,
+      "open_circuit_voltage_v": 8.08,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.745408954887139,
+      "current_a": 1.45,
+      "open_circuit_voltage_v": 8.08,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.689218339148064,
+      "current_a": 1.7,
+      "open_circuit_voltage_v": 8.08,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.629755269024416,
+      "current_a": 1.95,
+      "open_circuit_voltage_v": 8.08,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.57531052468797,
+      "current_a": 2.2,
+      "open_circuit_voltage_v": 8.08,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.517026657596488,
+      "current_a": 2.45,
+      "open_circuit_voltage_v": 8.08,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 8.015032350960343,
+      "current_a": 0.2,
+      "open_circuit_voltage_v": 8.06,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.95591810387252,
+      "current_a": 0.45,
+      "open_circuit_voltage_v": 8.06,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.900882792097581,
+      "current_a": 0.7,
+      "open_circuit_voltage_v": 8.06,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.8430724844852895,
+      "current_a": 0.95,
+      "open_circuit_voltage_v": 8.06,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.785113533988295,
+      "current_a": 1.2,
+      "open_circuit_voltage_v": 8.06,
+      "partition": "train"
+    },
+    {
+      "battery_voltage_v": 7.725278554831409,
+      "current_a": 1.45,
+      "open_circuit_voltage_v": 8.06,
+      "partition": "validation"
+    },
+    {
+      "battery_voltage_v": 7.668866884014909,
+      "current_a": 1.7,
+      "open_circuit_voltage_v": 8.06,
+      "partition": "validation"
+    },
+    {
+      "battery_voltage_v": 7.60967521506315,
+      "current_a": 1.95,
+      "open_circuit_voltage_v": 8.06,
+      "partition": "validation"
+    },
+    {
+      "battery_voltage_v": 7.55261715796827,
+      "current_a": 2.2,
+      "open_circuit_voltage_v": 8.06,
+      "partition": "validation"
+    },
+    {
+      "battery_voltage_v": 7.49723219581297,
+      "current_a": 2.45,
+      "open_circuit_voltage_v": 8.06,
+      "partition": "validation"
+    },
+    {
+      "battery_voltage_v": 7.99497904862363,
+      "current_a": 0.2,
+      "open_circuit_voltage_v": 8.04,
+      "partition": "validation"
+    },
+    {
+      "battery_voltage_v": 7.938370038929736,
+      "current_a": 0.45,
+      "open_circuit_voltage_v": 8.04,
+      "partition": "validation"
+    },
+    {
+      "battery_voltage_v": 7.8783033014325525,
+      "current_a": 0.7,
+      "open_circuit_voltage_v": 8.04,
+      "partition": "validation"
+    },
+    {
+      "battery_voltage_v": 7.820981838824139,
+      "current_a": 0.95,
+      "open_circuit_voltage_v": 8.04,
+      "partition": "validation"
+    },
+    {
+      "battery_voltage_v": 7.7638782232451025,
+      "current_a": 1.2,
+      "open_circuit_voltage_v": 8.04,
+      "partition": "validation"
+    },
+    {
+      "battery_voltage_v": 7.705257885436336,
+      "current_a": 1.45,
+      "open_circuit_voltage_v": 8.04,
+      "partition": "validation"
+    },
+    {
+      "battery_voltage_v": 7.647519686021341,
+      "current_a": 1.7,
+      "open_circuit_voltage_v": 8.04,
+      "partition": "validation"
+    },
+    {
+      "battery_voltage_v": 7.591402819704903,
+      "current_a": 1.95,
+      "open_circuit_voltage_v": 8.04,
+      "partition": "validation"
+    },
+    {
+      "battery_voltage_v": 7.532907637396202,
+      "current_a": 2.2,
+      "open_circuit_voltage_v": 8.04,
+      "partition": "validation"
+    },
+    {
+      "battery_voltage_v": 7.4771792559787285,
+      "current_a": 2.45,
+      "open_circuit_voltage_v": 8.04,
+      "partition": "validation"
+    }
+  ],
+  "source": "Independent analytic fixture; seed 42",
+  "type": "psi_gw.picrawler.measurements",
+  "units": {
+    "battery_voltage_v": "V",
+    "current_a": "A",
+    "open_circuit_voltage_v": "V"
+  },
+  "version": 1
+}

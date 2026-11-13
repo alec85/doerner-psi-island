@@ -1,0 +1,4 @@
+# Delphi originals stay byte-identical (ISO-8859-1/Windows-1252, CRLF): no EOL normalization
+reference/** -text
+# Raw protocols of the original stay byte-identical
+traces/**/raw/** -text

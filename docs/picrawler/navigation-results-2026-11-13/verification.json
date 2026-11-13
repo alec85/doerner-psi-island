@@ -1,0 +1,11 @@
+{
+  "additional_modules_since_v1": [
+    "picrawler/visual_experiment.py",
+    "picrawler/visual_heading.py"
+  ],
+  "all_v1_runtime_files_unchanged": true,
+  "all_visual_runtime_files_unchanged": true,
+  "code_sha256": "1af25e762ac20592174ec5031c42e1ab43f2f15581fe4beede03e7e71c9a32a0",
+  "verified_revision": "cbba33d0d75444a2fec4e60826ba6ff05a042366",
+  "visual_frozen": "cbba33d0d75444a2fec4e60826ba6ff05a042366"
+}

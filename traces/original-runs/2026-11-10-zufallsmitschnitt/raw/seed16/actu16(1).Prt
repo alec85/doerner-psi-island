@@ -1,0 +1,2096 @@
+Protokoll für Dietrich Dörner und Jürgen Gerdes: Psi 4.9.1.200, 11/10/2026 12:39:21 PM
+---------------11/10/2026 12:39:27 PM----------------------
+Takt:    1 age:          0 in Haselwald -
+  ~~~~~ Neuorientierung
+  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Sdab Hasel[  81   81]
+      2-: Neues Objekt:  Sdcc Baum1[  79  104]
+      2-: Neues Objekt:  Sdep Blu[  52   72]
+      2-: Wiedererkannt: Sdcc Baum1[ 119   24]
+      2-: Neues Objekt:  Sdgb Lache[ 114   98]
+      2-: Neues Objekt:  Sdgu Bauma[  43  110]
+      2-: Wiedererkannt: Sdab Hasel[ 121  140]
+     1-: Neue Situation: Haselwald[  81   81]
+Paaa->Saaa Haselwald 1.00000
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.024  0.024
+             Durst   0.026  0.026
+            Nukleo   0.700  0.490
+           Schaden   0.000  0.000
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.008  0.008
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele: 
+   --: Modulatoren: AR =  0.344 RL =  0.759 STh =  0.034
+  -? WAS TUN?
+    -! Annäherung erwogen an Hasel (Sdab) U=1 [121,140]
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Nehmen Schütteln 
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdab Hasel[  16   36]
+     1-: Wiedererkannt: Sdab Hasel[  16   36]
+ PerceptZeit =       21
+Paab->AAgg AAgg 1.00000
+Paac->Sdab Hasel 1.00000
+    -! Aggr an Sdab am Ort [121,140]
+Paad->Nehmen Nehmen 1.00000
+  auf Sdab erzeugt  [121,140]  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Sdjf Hasel-[  23   25]
+     1-: Wiedererkannt: Sdjf Hasel-[  15   35]
+  PerceptZeit =      273
+  Das ändert was!
+  :- das ist Hasel-
+    *** Bedürfnisbefriedigung  Hunger MotivEffekt: -0.300
+    <> Lernen eines Ziels Sdab  Hasel
+  -* Consum-Verstärkung ab Saaa
+Paae->Sdjf Hasel- 1.00000
+> > > >             WaCoBeDo        124
+Taktdauer:            1937
+---------------11/10/2026 12:39:31 PM----------------------
+Takt:    2 age:       1937 in Haselwald Hasel- Prot: Paae->Sdjf an Hasel-
+   TriErr =     1
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.014  0.014
+             Durst   0.030  0.030
+            Nukleo   0.700  0.490
+           Schaden   0.000  0.000
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.010  0.010
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele: 
+   --: Modulatoren: AR =  0.342 RL =  0.761 STh =  0.034
+  -? WAS TUN?
+    -! Mache weiter mit Sdjf
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Nehmen 
+Paaf->Nehmen Nehmen 1.00000
+  auf Sdjf erzeugt  [121,140]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdjf Hasel-[  23   25]
+     1-: Wiedererkannt: Sdjf Hasel-[  23   25]
+  PerceptZeit =       10
+, also erfolglos!
+Paag->Sdjf Hasel- 1.00000
+    -! Annäherung erwogen an Bauma (Sdgu) U=1 [ 43,110]
+    -? Was kann man tun?
+    -! Erst mal weg hier!
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdab Hasel[  81   81]
+      2-: Wiedererkannt: Sdcc Baum1[  79  104]
+      2-: Wiedererkannt: Sdep Blu[  52   72]
+      2-: Wiedererkannt: Sdcc Baum1[ 119   24]
+      2-: Wiedererkannt: Sdgb Lache[ 114   98]
+      2-: Wiedererkannt: Sdgu Bauma[  43  110]
+      2-: Wiedererkannt: Sdjf Hasel-[ 128  129]
+     1-: Neue Situation: Haselwald[  81   81]
+  PerceptZeit =      343
+Paah->AReg AReg 1.00000
+Paai->Saak Haselwald 1.00000
+ Was geht?       ! TryThese: : Nehmen Schütteln 
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdgu Bauma[  34    7]
+     1-: Wiedererkannt: Sdgu Bauma[  34    7]
+ PerceptZeit =       15
+Paaj->AAgg AAgg 1.00000
+Paak->Sdgu Bauma 1.00000
+    -! Aggr an Sdgu am Ort [ 43,110]
+Paal->Nehmen Nehmen 1.00000
+  auf Sdgu erzeugt  [ 43,110]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdgu Bauma[  34    7]
+     1-: Wiedererkannt: Sdgu Bauma[  34    7]
+  PerceptZeit =       15
+, also erfolglos!
+Paam->Sdgu Bauma 1.00000
+Paan->Schütteln Schütteln 1.00000
+  auf Sdgu erzeugt  [ 43,110]  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Sdkr Baum3[  25   25]
+     1-: Wiedererkannt: Sdkr Baum3[  31   11]
+  PerceptZeit =      251
+  Das ändert was!
+  :- das ist Baum3
+Paao->Sdkr Baum3 1.00000
+> > > >             WaCoBeDo        124
+Taktdauer:            1018
+---------------11/10/2026 12:39:37 PM----------------------
+Takt:    3 age:       2955 in Haselwald Baum3 Prot: Paao->Sdkr an Baum3
+   TriErr =     4
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.025  0.025
+             Durst   0.037  0.037
+            Nukleo   0.700  0.490
+           Schaden   0.000  0.000
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.012  0.012
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele: 
+   --: Modulatoren: AR =  0.353 RL =  0.753 STh =  0.035
+  -? WAS TUN?
+    -! Mache weiter mit Sdkr
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Nehmen Zuenden 
+Paap->Zuenden Zuenden 1.00000
+  auf Sdkr erzeugt  [ 43,110]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdkr Baum3[  25   25]
+     1-: Wiedererkannt: Sdkr Baum3[  25   25]
+  PerceptZeit =       10
+, also erfolglos!
+Paaq->Sdkr Baum3 1.00000
+Paar->Nehmen Nehmen 1.00000
+  auf Sdkr erzeugt  [ 43,110]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdkr Baum3[  25   25]
+     1-: Wiedererkannt: Sdkr Baum3[  25   25]
+  PerceptZeit =        9
+, also erfolglos!
+Paas->Sdkr Baum3 1.00000
+    -! Annäherung erwogen an Lache (Sdgb) U=1 [114, 98]
+    -? Was kann man tun?
+    -! Erst mal weg hier!
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdab Hasel[  81   81]
+      2-: Wiedererkannt: Sdcc Baum1[  79  104]
+      2-: Wiedererkannt: Sdep Blu[  52   72]
+      2-: Wiedererkannt: Sdcc Baum1[ 119   24]
+      2-: Wiedererkannt: Sdgb Lache[ 114   98]
+      2-: Wiedererkannt: Sdkr Baum3[  34  128]
+      2-: Wiedererkannt: Sdjf Hasel-[ 128  129]
+     1-: Neue Situation: Haselwald[  81   81]
+  PerceptZeit =      438
+Paat->AReg AReg 1.00000
+Paau->Saaw Haselwald 1.00000
+ Was geht?       ! TryThese: : Saugen 
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdgb Lache[   9   28]
+     1-: Wiedererkannt: Sdgb Lache[   9   28]
+ PerceptZeit =        8
+Paav->AAgg AAgg 1.00000
+Paaw->Sdgb Lache 1.00000
+    -! Aggr an Sdgb am Ort [114, 98]
+Paax->Saugen Saugen 1.00000
+  auf Sdgb erzeugt  [114, 98]  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Sdmc Lache-[  21   23]
+     1-: Wiedererkannt: Sdmc Lache-[  24   33]
+  PerceptZeit =      184
+  Das ändert was!
+  :- das ist Lache-
+    *** Bedürfnisbefriedigung  Durst MotivEffekt: -0.500
+    <> Lernen eines Ziels Sdgb  Lache
+  -* Consum-Verstärkung ab Saaw
+Paay->Sdmc Lache- 1.00000
+> > > >             WaCoBeDo        124
+Taktdauer:            1094
+---------------11/10/2026 12:39:45 PM----------------------
+Takt:    4 age:       4049 in Haselwald Lache- Prot: Paay->Sdmc an Lache-
+   TriErr =     7
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.032  0.032
+             Durst   0.022  0.022
+            Nukleo   0.700  0.490
+           Schaden   0.000  0.000
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.014  0.014
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Lache
+   --: Modulatoren: AR =  0.350 RL =  0.755 STh =  0.035
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Saaw Haselwald Tiefe:    7.55
+      -! Sit mit Ziel gefunden: Sdgb Lache
+  ??-- Confirmation der Zielassoziation
+    !--: Paau\Saaw Haselwald
+     !--: nicht wiederlegt! 0.0000
+      !!! AssoLänge:    0
+    -? Assoziationsfächer Retro für Saaw Haselwald Tiefe:    7.55
+      -! Sit mit Ziel gefunden: Sdgb Lache
+  ??-- Confirmation der Zielassoziation
+    !--: Paau\Saaw Haselwald
+     !--: nicht wiederlegt! 0.0000
+      !!! AssoLänge:    0
+  -! Porro fällt mir ein!
+    !--: Paau\Saaw Haselwald
+    -> Aktiviere den Automatismus!
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdab Hasel[  81   81]
+      2-: Wiedererkannt: Sdcc Baum1[  79  104]
+      2-: Wiedererkannt: Sdep Blu[  52   72]
+      2-: Wiedererkannt: Sdcc Baum1[ 119   24]
+      2-: Wiedererkannt: Sdmc Lache-[ 126   93]
+      2-: Wiedererkannt: Sdkr Baum3[  34  128]
+      2-: Wiedererkannt: Sdjf Hasel-[ 128  129]
+     1-: Neue Situation: Haselwald[  81   81]
+  PerceptZeit =      521
+Paaz->AReg AReg 1.00000
+Paba->Sabf Haselwald 1.00000
+  -> So war`s erwartet! Paau Saaw Haselwald
+    -> Nicht erwartet! Kein Ziel in Situation!
+    -! Hat nicht geklappt!
+    ! Erfolglos probiert!
+> > > >              Automat        185
+  -? Plan
+    -> Maximale Planungstiefe = 15
+  -! Ich plane jetzt! Ausgangspunkt: Sabf
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          6
+  -? WAS TUN?
+    -! Annäherung erwogen an Baum1 (Sdcc) U=1 [119, 24]
+    -? Assoziationsfächer Pro für Sdcc Baum1 Tiefe:    3.77
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Nehmen Schütteln Zuenden 
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdcc Baum1[  19    4]
+     1-: Wiedererkannt: Sdcc Baum1[  19    4]
+ PerceptZeit =       22
+Pabb->AAgg AAgg 1.00000
+Pabc->Sdcc Baum1 1.00000
+    -! Aggr an Sdcc am Ort [119, 24]
+Pabd->Zuenden Zuenden 1.00000
+  auf Sdcc erzeugt  [119, 24]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdcc Baum1[  19    4]
+     1-: Wiedererkannt: Sdcc Baum1[  19    4]
+  PerceptZeit =       22
+, also erfolglos!
+Pabe->Sdcc Baum1 1.00000
+Pabf->Nehmen Nehmen 1.00000
+  auf Sdcc erzeugt  [119, 24]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdcc Baum1[  19    4]
+     1-: Wiedererkannt: Sdcc Baum1[  19    4]
+  PerceptZeit =       23
+, also erfolglos!
+Pabg->Sdcc Baum1 1.00000
+Pabh->Schütteln Schütteln 1.00000
+  auf Sdcc erzeugt  [119, 24]  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Sdnf Baum2[  20   24]
+     1-: Wiedererkannt: Sdnf Baum2[  15    8]
+  PerceptZeit =     1049
+  Das ändert was!
+  :- das ist Baum2
+Pabi->Sdnf Baum2 1.00000
+> > > >             WaCoBeDo        124
+Taktdauer:            1316
+---------------11/10/2026 12:39:59 PM----------------------
+Takt:    5 age:       5365 in Haselwald Baum2 Prot: Pabi->Sdnf an Baum2
+   TriErr =    10
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.040  0.039
+             Durst   0.033  0.033
+            Nukleo   0.700  0.487
+           Schaden   0.000  0.000
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.006  0.006
+       Affiliation   0.016  0.016
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele: 
+   --: Modulatoren: AR =  0.364 RL =  0.745 STh =  0.036
+  -? WAS TUN?
+    -! Mache weiter mit Sdnf
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Nehmen Schütteln 
+Pabj->Schütteln Schütteln 1.00000
+  auf Sdnf erzeugt  [119, 24]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdnf Baum2[  20   24]
+     1-: Wiedererkannt: Sdnf Baum2[  20   24]
+  PerceptZeit =       15
+, also erfolglos!
+Pabk->Sdnf Baum2 1.00000
+Pabl->Nehmen Nehmen 1.00000
+  auf Sdnf erzeugt  [119, 24]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdgu Bauma[  34    7]
+     1-: Wiedererkannt: Sdgu Bauma[  34    7]
+  PerceptZeit =       19
+  Das ändert was!
+  :- das ist Bauma
+    *** Bedürfnisbefriedigung  Nukleo MotivEffekt: -0.400
+    <> Lernen eines Ziels Sdnf  Baum2
+  -* Consum-Verstärkung ab Sabf
+Pabm->Sdgu Bauma 1.00000
+> > > >             WaCoBeDo        124
+Taktdauer:             369
+---------------11/10/2026 12:40:01 PM----------------------
+Takt:    6 age:       5734 in Haselwald Bauma Prot: Pabm->Sdgu an Bauma
+   TriErr =    12
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.042  0.042
+             Durst   0.036  0.036
+            Nukleo   0.656  0.459
+           Schaden   0.000  0.000
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.017  0.017
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.347 RL =  0.757 STh =  0.035
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Sabf Haselwald Tiefe:    7.57
+      -! Sit mit Ziel gefunden: Sdcc Baum1
+  ??-- Confirmation der Zielassoziation
+    !--: Paba\Sabf Haselwald
+     !--: nicht wiederlegt! 0.0000
+      !!! AssoLänge:    0
+    -? Assoziationsfächer Retro für Sabf Haselwald Tiefe:    7.57
+      -! Sit mit Ziel gefunden: Sdcc Baum1
+  ??-- Confirmation der Zielassoziation
+    !--: Paba\Sabf Haselwald
+     !--: nicht wiederlegt! 0.0000
+      !!! AssoLänge:    0
+  -! Porro fällt mir ein!
+    !--: Paba\Sabf Haselwald
+    -> Aktiviere den Automatismus!
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdab Hasel[  81   81]
+      2-: Wiedererkannt: Sdcc Baum1[  79  104]
+      2-: Wiedererkannt: Sdep Blu[  52   72]
+      2-: Wiedererkannt: Sdgu Bauma[ 134   27]
+      2-: Wiedererkannt: Sdmc Lache-[ 126   93]
+      2-: Wiedererkannt: Sdkr Baum3[  34  128]
+      2-: Wiedererkannt: Sdjf Hasel-[ 128  129]
+     1-: Neue Situation: Haselwald[  81   81]
+  PerceptZeit =      449
+Pabn->AReg AReg 1.00000
+Pabo->Sabs Haselwald 1.00000
+  -> So war`s erwartet! Paba Sabf Haselwald
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdcc Baum1[  19    4]
+     1-: Wiedererkannt: Sdcc Baum1[  19    4]
+ PerceptZeit =       26
+Pabp->AAgg AAgg 1.00000
+Pabq->Sdcc Baum1 1.00000
+    -! Hurra! Ziel erreicht!
+  ConsumFin mit: Sdcc [ 79,104]
+Pabr->Schütteln Schütteln 1.00000
+  auf Sdcc erzeugt  [ 79,104]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdnf Baum2[  20   24]
+     1-: Wiedererkannt: Sdnf Baum2[  20   24]
+  PerceptZeit =       15
+  Das ändert was!
+  :- das ist Baum2
+Pabs->Sdnf Baum2 1.00000
+    Zwischenziel: Schütteln wird angewendet      -! Genau! jetzt haben wir es!
+ Schütteln wird angewendet
+Pabt->Schütteln Schütteln 1.00000
+  auf Sdnf erzeugt  [ 79,104]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdnf Baum2[  20   24]
+     1-: Wiedererkannt: Sdnf Baum2[  20   24]
+  PerceptZeit =       16
+, also erfolglos!
+Pabu->Sdnf Baum2 1.00000
+ Nehmen wird angewendet
+Pabv->Nehmen Nehmen 1.00000
+  auf Sdnf erzeugt  [ 79,104]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdgu Bauma[  34    7]
+     1-: Wiedererkannt: Sdgu Bauma[  34    7]
+  PerceptZeit =       20
+  Das ändert was!
+  :- das ist Bauma
+    *** Bedürfnisbefriedigung  Nukleo MotivEffekt: -0.400
+  -* Consum-Verstärkung ab Sabs
+Pabw->Sdgu Bauma 1.00000
+  -> Ah, Prima! Befriedigung von Nukleo
+    -! Hat geklappt!
+> > > >              Automat        124
+Taktdauer:            1031
+---------------11/10/2026 12:40:08 PM----------------------
+Takt:    7 age:       6765 in Haselwald Bauma Prot: Pabw->Sdgu an Bauma
+   TriErr =    12
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.046  0.046
+             Durst   0.042  0.042
+            Nukleo   0.700  0.490
+           Schaden   0.000  0.000
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.018  0.018
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.370 RL =  0.741 STh =  0.037
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Sabs Haselwald Tiefe:    7.41
+      -! Sit mit Ziel gefunden: Sdcc Baum1
+  ??-- Confirmation der Zielassoziation
+    !--: Pabo\Sabs Haselwald
+     !--: nicht wiederlegt! 0.0000
+      !!! AssoLänge:    0
+    -? Assoziationsfächer Retro für Sabs Haselwald Tiefe:    7.41
+  -! Porro fällt mir ein!
+    !--: Pabo\Sabs Haselwald
+    -> Aktiviere den Automatismus!
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdab Hasel[  81   81]
+      2-: Wiedererkannt: Sdgu Bauma[  94  107]
+      2-: Wiedererkannt: Sdep Blu[  52   72]
+      2-: Wiedererkannt: Sdgu Bauma[ 134   27]
+      2-: Wiedererkannt: Sdmc Lache-[ 126   93]
+      2-: Wiedererkannt: Sdkr Baum3[  34  128]
+      2-: Wiedererkannt: Sdjf Hasel-[ 128  129]
+     1-: Neue Situation: Haselwald[  81   81]
+  PerceptZeit =      230
+Pabx->AReg AReg 1.00000
+Paby->Sacd Haselwald 1.00000
+  -> So war`s erwartet! Pabo Sabs Haselwald
+    -> Nicht erwartet! Kein Ziel in Situation!
+    -! Hat nicht geklappt!
+    ! Erfolglos probiert!
+> > > >              Automat        196
+  -? Plan
+    -> Maximale Planungstiefe = 15
+  -! Ich plane jetzt! Ausgangspunkt: Sacd
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          6
+  -? WAS TUN?
+    -! Annäherung erwogen an Blu (Sdep) U=1 [ 52, 72]
+    -? Assoziationsfächer Pro für Sdep Blu Tiefe:    3.71
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Nehmen Pusten 
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdep Blu[  32   32]
+     1-: Wiedererkannt: Sdep Blu[  32   32]
+ PerceptZeit =       20
+Pabz->AAgg AAgg 1.00000
+Paca->Sdep Blu 1.00000
+    -! Aggr an Sdep am Ort [ 52, 72]
+Pacb->Pusten Pusten 1.00000
+  auf Sdep erzeugt  [ 52, 72]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdep Blu[  32   32]
+     1-: Wiedererkannt: Sdep Blu[  32   32]
+  PerceptZeit =       19
+, also erfolglos!
+Pacc->Sdep Blu 1.00000
+Pacd->Nehmen Nehmen 1.00000
+  auf Sdep erzeugt  [ 52, 72]  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Sdqq Blu1[  24   29]
+     1-: Wiedererkannt: Sdqq Blu1[  12   41]
+  PerceptZeit =      283
+  Das ändert was!
+  :- das ist Blu1
+Pace->Sdqq Blu1 1.00000
+> > > >             WaCoBeDo        124
+Taktdauer:            1033
+---------------11/10/2026 12:40:19 PM----------------------
+Takt:    8 age:       7798 in Haselwald Blu1 Prot: Pace->Sdqq an Blu1
+   TriErr =    14
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.051  0.051
+             Durst   0.047  0.047
+            Nukleo   0.700  0.490
+           Schaden   0.000  0.000
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.020  0.020
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1 Hasel
+   --: Modulatoren: AR =  0.375 RL =  0.737 STh =  0.038
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Sacd Haselwald Tiefe:    7.37
+      -! Sit mit Ziel gefunden: Sdab Hasel
+  ??-- Confirmation der Zielassoziation
+    !--: Paby\Sacd Haselwald
+     !--: nicht wiederlegt! 0.0000
+      !!! AssoLänge:    0
+    -? Assoziationsfächer Retro für Sacd Haselwald Tiefe:    7.37
+      -! Sit mit Ziel gefunden: Sdab Hasel
+  ??-- Confirmation der Zielassoziation
+    !--: Paby\Sacd Haselwald
+     !--: nicht wiederlegt! 0.0000
+      !!! AssoLänge:    0
+  -! Porro fällt mir ein!
+    !--: Paby\Sacd Haselwald
+    -> Aktiviere den Automatismus!
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdab Hasel[  81   81]
+      2-: Wiedererkannt: Sdgu Bauma[  94  107]
+      2-: Wiedererkannt: Sdqq Blu1[  44   69]
+      2-: Wiedererkannt: Sdgu Bauma[ 134   27]
+      2-: Wiedererkannt: Sdmc Lache-[ 126   93]
+      2-: Wiedererkannt: Sdkr Baum3[  34  128]
+      2-: Wiedererkannt: Sdjf Hasel-[ 128  129]
+     1-: Neue Situation: Haselwald[  81   81]
+  PerceptZeit =      278
+Pacf->AReg AReg 1.00000
+Pacg->Sacn Haselwald 1.00000
+  -> So war`s erwartet! Paby Sacd Haselwald
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdab Hasel[  16   36]
+     1-: Wiedererkannt: Sdab Hasel[  16   36]
+ PerceptZeit =       28
+Pach->AAgg AAgg 1.00000
+Paci->Sdab Hasel 1.00000
+    -! Hurra! Ziel erreicht!
+  ConsumFin mit: Sdab [ 81, 81]
+ Nehmen wird angewendet
+Pacj->Nehmen Nehmen 1.00000
+  auf Sdab erzeugt  [ 81, 81]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdjf Hasel-[  23   25]
+     1-: Wiedererkannt: Sdjf Hasel-[  23   25]
+  PerceptZeit =       14
+  Das ändert was!
+  :- das ist Hasel-
+    *** Bedürfnisbefriedigung  Hunger MotivEffekt: -0.300
+  -* Consum-Verstärkung ab Sacn
+Pack->Sdjf Hasel- 1.00000
+  -> Ah, Prima! Befriedigung von Hunger
+    -! Hat geklappt!
+> > > >              Automat        124
+Taktdauer:             686
+---------------11/10/2026 12:40:24 PM----------------------
+Takt:    9 age:       8484 in Haselwald Hasel- Prot: Pack->Sdjf an Hasel-
+   TriErr =    14
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.017  0.017
+             Durst   0.050  0.050
+            Nukleo   0.700  0.490
+           Schaden   0.000  0.000
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.021  0.021
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1 Lache
+   --: Modulatoren: AR =  0.360 RL =  0.748 STh =  0.036
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Sacn Haselwald Tiefe:    7.48
+    -? Assoziationsfächer Retro für Sacn Haselwald Tiefe:    7.48
+    -! nichts eingefallen!
+> > > >              Automat        460
+  -? Plan
+    -> Maximale Planungstiefe = 15
+  -! Ich plane jetzt! Ausgangspunkt: Pack
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          4
+  -? WAS TUN?
+    -! Mache weiter mit Sdjf
+    -? Assoziationsfächer Pro für Sdjf Hasel- Tiefe:    3.74
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Nehmen 
+Pacl->Nehmen Nehmen 1.00000
+  auf Sdjf erzeugt  [ 81, 81]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdjf Hasel-[  23   25]
+     1-: Wiedererkannt: Sdjf Hasel-[  23   25]
+  PerceptZeit =       14
+, also erfolglos!
+Pacm->Sdjf Hasel- 1.00000
+  -? TriErr LocoMot: Wie komme ich hier weg?
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdjf Hasel-[  88   70]
+      2-: Wiedererkannt: Sdgu Bauma[  94  107]
+      2-: Wiedererkannt: Sdqq Blu1[  44   69]
+      2-: Wiedererkannt: Sdgu Bauma[ 134   27]
+      2-: Wiedererkannt: Sdmc Lache-[ 126   93]
+      2-: Wiedererkannt: Sdkr Baum3[  34  128]
+      2-: Wiedererkannt: Sdjf Hasel-[ 128  129]
+     1-: Neue Situation: Haselwald[  88   70]
+  PerceptZeit =      105
+Pacn->AReg AReg 1.00000
+Paco->Sacx Haselwald 1.00000
+      -!: lSO lS lSW lW lNW lN lNO lO 
+  6 OD:4.712 LokoMotion:       lSO
+Pacp->lSO lSO 1.00000
+  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Sdsk Tannen[  85   83]
+      2-: Neues Objekt:  Sdtt Tannen[  62   69]
+      2-: Wiedererkannt: Sdcc Baum1[  69  109]
+      2-: Wiedererkannt: Sdcc Baum1[ 128   97]
+      2-: Wiedererkannt: Sdgu Bauma[  39   87]
+     1-: Neue Situation: Hochwald[  85   83]
+  PerceptZeit =      374
+    *** Bedürfniserzeugung  HungerMotivEffekt: 0.010
+   <> Lernen einer Aversion: Sacx  Haselwald
+  -* Consum-Verstärkung ab Sade
+    *** Bedürfniserzeugung  DurstMotivEffekt: 0.020
+   <> Lernen einer Aversion: Sacx  Haselwald
+  -* Consum-Verstärkung ab Sade
+Pacq->Sade Hochwald 1.00000
+> > > >             WaCoBeDo        174
+Taktdauer:            1316
+---------------11/10/2026 12:40:43 PM----------------------
+Takt:   10 age:       9800 in Hochwald - Prot: Pacq->Sade vor der Situation 
+   TriErr =    15
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.028  0.028
+             Durst   0.056  0.056
+            Nukleo   0.700  0.486
+           Schaden   0.000  0.000
+      Bestimmtheit   0.002  0.002
+         Kompetenz   0.008  0.008
+       Affiliation   0.022  0.022
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.375 RL =  0.738 STh =  0.037
+  -?  LOOKAROUND
+  -!  Ziel entdeckt! Sdcc Baum1
+  ConsumFin mit: Sdcc [ 69,109]
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdcc Baum1[  19    4]
+     1-: Wiedererkannt: Sdcc Baum1[  19    4]
+ PerceptZeit =       28
+Pacr->AAgg AAgg 1.00000
+Pacs->Sdcc Baum1 1.00000
+Pact->Schütteln Schütteln 1.00000
+  auf Sdcc erzeugt  [ 69,109]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdnf Baum2[  20   24]
+     1-: Wiedererkannt: Sdnf Baum2[  20   24]
+  PerceptZeit =       18
+  Das ändert was!
+  :- das ist Baum2
+Pacu->Sdnf Baum2 1.00000
+    Zwischenziel: Schütteln wird angewendet      -! Genau! jetzt haben wir es!
+ Schütteln wird angewendet
+Pacv->Schütteln Schütteln 1.00000
+  auf Sdnf erzeugt  [ 69,109]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdnf Baum2[  20   24]
+     1-: Wiedererkannt: Sdnf Baum2[  20   24]
+  PerceptZeit =       18
+, also erfolglos!
+Pacw->Sdnf Baum2 1.00000
+ Nehmen wird angewendet
+Pacx->Nehmen Nehmen 1.00000
+  auf Sdnf erzeugt  [ 69,109]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdgu Bauma[  34    7]
+     1-: Wiedererkannt: Sdgu Bauma[  34    7]
+  PerceptZeit =       23
+  Das ändert was!
+  :- das ist Bauma
+    *** Bedürfnisbefriedigung  Nukleo MotivEffekt: -0.400
+  -* Consum-Verstärkung ab Sade
+Pacy->Sdgu Bauma 1.00000
+  -> Ah, Prima! Befriedigung von Nukleo
+> > > >               LookAr        124
+Taktdauer:             853
+---------------11/10/2026 12:40:47 PM----------------------
+Takt:   11 age:      10653 in Hochwald Bauma Prot: Pacy->Sdgu an Bauma
+   TriErr =    15
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.034  0.034
+             Durst   0.060  0.060
+            Nukleo   0.690  0.483
+           Schaden   0.000  0.000
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.023  0.023
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.371 RL =  0.740 STh =  0.037
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Sade Hochwald Tiefe:    7.40
+  ??-- Confirmation der Zielassoziation
+    !--: Pacq\Sade Hochwald -> Pacr\AAgg -> Pacs\Sdcc Baum1
+   ?--> Prüfung von Sade AAgg Sdcc
+     !--: nicht wiederlegt! 0.2625
+      !!! AssoLänge:    2
+    -? Assoziationsfächer Retro für Sade Hochwald Tiefe:    7.40
+      -! Sit mit Ziel gefunden: Sdcc Baum1
+  ??-- Confirmation der Zielassoziation
+    !--: Pacq\Sade Hochwald
+     !--: nicht wiederlegt! 0.0000
+      !!! AssoLänge:    0
+  -! Porro fällt mir ein!
+    !--: Pacq\Sade Hochwald -> Pacr\AAgg -> Pacs\Sdcc Baum1
+    -> Aktiviere den Automatismus!
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdtt Tannen[ 102   93]
+      2-: Wiedererkannt: Sdtt Tannen[  62   69]
+      2-: Wiedererkannt: Sdgu Bauma[  84  112]
+      2-: Wiedererkannt: Sdcc Baum1[ 128   97]
+      2-: Wiedererkannt: Sdgu Bauma[  39   87]
+     1-: Neue Situation: Hochwald[ 102   93]
+  PerceptZeit =      125
+Pacz->AReg AReg 1.00000
+Pada->Sadn Hochwald 1.00000
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdcc Baum1[  19    4]
+     1-: Wiedererkannt: Sdcc Baum1[  19    4]
+ PerceptZeit =       28
+Padb->AAgg AAgg 1.00000
+Padc->Sdcc Baum1 1.00000
+  -> So war`s erwartet! Padc Sdcc Baum1
+    -! Hurra! Ziel erreicht!
+  ConsumFin mit: Sdcc [128, 97]
+Padd->Schütteln Schütteln 1.00000
+  auf Sdcc erzeugt  [128, 97]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdnf Baum2[  20   24]
+     1-: Wiedererkannt: Sdnf Baum2[  20   24]
+  PerceptZeit =       18
+  Das ändert was!
+  :- das ist Baum2
+Pade->Sdnf Baum2 1.00000
+    Zwischenziel: Schütteln wird angewendet      -! Genau! jetzt haben wir es!
+ Schütteln wird angewendet
+Padf->Schütteln Schütteln 1.00000
+  auf Sdnf erzeugt  [128, 97]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdnf Baum2[  20   24]
+     1-: Wiedererkannt: Sdnf Baum2[  20   24]
+  PerceptZeit =       19
+, also erfolglos!
+Padg->Sdnf Baum2 1.00000
+ Nehmen wird angewendet
+Padh->Nehmen Nehmen 1.00000
+  auf Sdnf erzeugt  [128, 97]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdgu Bauma[  34    7]
+     1-: Wiedererkannt: Sdgu Bauma[  34    7]
+  PerceptZeit =       23
+  Das ändert was!
+  :- das ist Bauma
+    *** Bedürfnisbefriedigung  Nukleo MotivEffekt: -0.400
+  -* Consum-Verstärkung ab Sadn
+Padi->Sdgu Bauma 1.00000
+  -> Ah, Prima! Befriedigung von Nukleo
+    -! Hat geklappt!
+> > > >              Automat        124
+Taktdauer:            1397
+---------------11/10/2026 12:40:57 PM----------------------
+Takt:   12 age:      12050 in Hochwald Bauma Prot: Padi->Sdgu an Bauma
+   TriErr =    15
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.041  0.041
+             Durst   0.065  0.065
+            Nukleo   0.700  0.490
+           Schaden   0.000  0.000
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.025  0.025
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.382 RL =  0.733 STh =  0.038
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Sadn Hochwald Tiefe:    7.33
+      -! Sit mit Ziel gefunden: Sdcc Baum1
+  ??-- Confirmation der Zielassoziation
+    !--: Pada\Sadn Hochwald
+     !--: nicht wiederlegt! 0.0000
+      !!! AssoLänge:    0
+    -? Assoziationsfächer Retro für Sadn Hochwald Tiefe:    7.33
+      -! Sit mit Ziel gefunden: Sdcc Baum1
+  ??-- Confirmation der Zielassoziation
+    !--: Pada\Sadn Hochwald
+     !--: nicht wiederlegt! 0.0000
+      !!! AssoLänge:    0
+  -! Porro fällt mir ein!
+    !--: Pada\Sadn Hochwald
+    -> Aktiviere den Automatismus!
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdtt Tannen[ 102   93]
+      2-: Wiedererkannt: Sdtt Tannen[  62   69]
+      2-: Wiedererkannt: Sdgu Bauma[  84  112]
+      2-: Wiedererkannt: Sdgu Bauma[ 143  100]
+      2-: Wiedererkannt: Sdgu Bauma[  39   87]
+     1-: Neue Situation: Hochwald[ 102   93]
+  PerceptZeit =      176
+Padj->AReg AReg 1.00000
+Padk->Sadw Hochwald 1.00000
+  -> So war`s erwartet! Pada Sadn Hochwald
+    -> Nicht erwartet! Kein Ziel in Situation!
+    -! Hat nicht geklappt!
+    ! Erfolglos probiert!
+> > > >              Automat        190
+  -? Plan
+    -> Maximale Planungstiefe = 15
+  -! Ich plane jetzt! Ausgangspunkt: Sadw
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          6
+  -? WAS TUN?
+    -! Annäherung erwogen an Tannen (Sdtt) U=1 [ 62, 69]
+    -? Assoziationsfächer Pro für Sdtt Tannen Tiefe:    3.66
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Nehmen Schütteln 
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdtt Tannen[  29   45]
+     1-: Wiedererkannt: Sdtt Tannen[  29   45]
+ PerceptZeit =       16
+Padl->AAgg AAgg 1.00000
+Padm->Sdtt Tannen 1.00000
+    -! Aggr an Sdtt am Ort [ 62, 69]
+Padn->Nehmen Nehmen 1.00000
+  auf Sdtt erzeugt  [ 62, 69]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdtt Tannen[  29   45]
+     1-: Wiedererkannt: Sdtt Tannen[  29   45]
+  PerceptZeit =       15
+, also erfolglos!
+Pado->Sdtt Tannen 1.00000
+Padp->Schütteln Schütteln 1.00000
+  auf Sdtt erzeugt  [ 62, 69]  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Sdus Tannen1[  15   35]
+     1-: Wiedererkannt: Sdus Tannen1[  30   41]
+  PerceptZeit =      190
+  Das ändert was!
+  :- das ist Tannen1
+Padq->Sdus Tannen1 1.00000
+> > > >             WaCoBeDo        124
+Taktdauer:            1018
+---------------11/10/2026 12:41:05 PM----------------------
+Takt:   13 age:      13068 in Hochwald Tannen1 Prot: Padq->Sdus an Tannen1
+   TriErr =    17
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.046  0.046
+             Durst   0.068  0.068
+            Nukleo   0.700  0.490
+           Schaden   0.000  0.000
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.026  0.026
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.387 RL =  0.729 STh =  0.039
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Sadw Hochwald Tiefe:    7.29
+    -? Assoziationsfächer Retro für Sadw Hochwald Tiefe:    7.29
+    -! nichts eingefallen!
+> > > >              Automat         49
+  -? Plan
+    -> Maximale Planungstiefe = 15
+  -! Ich plane jetzt! Ausgangspunkt: Padq
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          4
+  -? WAS TUN?
+    -! Mache weiter mit Sdus
+    -? Assoziationsfächer Pro für Sdus Tannen1 Tiefe:    3.65
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Schütteln 
+Padr->Schütteln Schütteln 1.00000
+  auf Sdus erzeugt  [ 62, 69]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdus Tannen1[  15   35]
+     1-: Wiedererkannt: Sdus Tannen1[  15   35]
+  PerceptZeit =        8
+, also erfolglos!
+Pads->Sdus Tannen1 1.00000
+  -? TriErr LocoMot: Wie komme ich hier weg?
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdtt Tannen[ 102   93]
+      2-: Wiedererkannt: Sdus Tannen1[  48   59]
+      2-: Wiedererkannt: Sdgu Bauma[  84  112]
+      2-: Wiedererkannt: Sdgu Bauma[ 143  100]
+      2-: Wiedererkannt: Sdgu Bauma[  39   87]
+     1-: Neue Situation: Hochwald[ 102   93]
+  PerceptZeit =      131
+Padt->AReg AReg 1.00000
+Padu->Saef Hochwald 1.00000
+      -!: lSO lS lSW lW lNW lN lNO lO 
+  7 OD:5.498 LokoMotion:       lSO
+Padv->lSO lSO 1.00000
+  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Sdvu Sumpfgras[  72   88]
+      2-: Wiedererkannt: Sdgu Bauma[ 143   69]
+      2-: Wiedererkannt: Sdgb Lache[  74  118]
+      2-: Wiedererkannt: Sdcc Baum1[  23  110]
+      2-: Neues Objekt:  Sdxf Blumen[ 123  117]
+      2-: Wiedererkannt: Sdgb Lache[  54  138]
+     1-: Neue Situation: Quellwald[  72   88]
+  PerceptZeit =     1178
+    *** Bedürfniserzeugung  HungerMotivEffekt: 0.010
+   <> Lernen einer Aversion: Saef  Hochwald
+  -* Consum-Verstärkung ab Saek
+    *** Bedürfniserzeugung  DurstMotivEffekt: 0.020
+   <> Lernen einer Aversion: Saef  Hochwald
+  -* Consum-Verstärkung ab Saek
+Padw->Saek Quellwald 1.00000
+> > > >             WaCoBeDo        174
+Taktdauer:             700
+---------------11/10/2026 12:41:12 PM----------------------
+Takt:   14 age:      13768 in Quellwald - Prot: Padw->Saek vor der Situation 
+   TriErr =    18
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.049  0.048
+             Durst   0.071  0.070
+            Nukleo   0.700  0.485
+           Schaden   0.000  0.000
+      Bestimmtheit   0.003  0.003
+         Kompetenz   0.011  0.011
+       Affiliation   0.026  0.026
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.397 RL =  0.722 STh =  0.040
+  -?  LOOKAROUND
+  -!  Ziel entdeckt! Sdcc Baum1
+  ConsumFin mit: Sdcc [ 23,110]
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdcc Baum1[  19    4]
+     1-: Wiedererkannt: Sdcc Baum1[  19    4]
+ PerceptZeit =       30
+Padx->AAgg AAgg 1.00000
+Pady->Sdcc Baum1 1.00000
+Padz->Schütteln Schütteln 1.00000
+  auf Sdcc erzeugt  [ 23,110]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdnf Baum2[  20   24]
+     1-: Wiedererkannt: Sdnf Baum2[  20   24]
+  PerceptZeit =       20
+  Das ändert was!
+  :- das ist Baum2
+Paea->Sdnf Baum2 1.00000
+    Zwischenziel: Schütteln wird angewendet      -! Genau! jetzt haben wir es!
+ Schütteln wird angewendet
+Paeb->Schütteln Schütteln 1.00000
+  auf Sdnf erzeugt  [ 23,110]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdnf Baum2[  20   24]
+     1-: Wiedererkannt: Sdnf Baum2[  20   24]
+  PerceptZeit =       20
+, also erfolglos!
+Paec->Sdnf Baum2 1.00000
+ Nehmen wird angewendet
+Paed->Nehmen Nehmen 1.00000
+  auf Sdnf erzeugt  [ 23,110]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdgu Bauma[  34    7]
+     1-: Wiedererkannt: Sdgu Bauma[  34    7]
+  PerceptZeit =       27
+  Das ändert was!
+  :- das ist Bauma
+    *** Bedürfnisbefriedigung  Nukleo MotivEffekt: -0.400
+  -* Consum-Verstärkung ab Saek
+Paee->Sdgu Bauma 1.00000
+  -> Ah, Prima! Befriedigung von Nukleo
+> > > >               LookAr        124
+Taktdauer:             917
+---------------11/10/2026 12:41:17 PM----------------------
+Takt:   15 age:      14685 in Quellwald Bauma Prot: Paee->Sdgu an Bauma
+   TriErr =    18
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.053  0.053
+             Durst   0.074  0.074
+            Nukleo   0.694  0.486
+           Schaden   0.000  0.000
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.027  0.027
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.392 RL =  0.726 STh =  0.039
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Saek Quellwald Tiefe:    7.26
+      -! Sit mit Ziel gefunden: Sdcc Baum1
+  ??-- Confirmation der Zielassoziation
+    !--: Padw\Saek Quellwald
+     !--: nicht wiederlegt! 0.0000
+      !!! AssoLänge:    0
+    -? Assoziationsfächer Retro für Saek Quellwald Tiefe:    7.26
+      -! Sit mit Ziel gefunden: Sdcc Baum1
+  ??-- Confirmation der Zielassoziation
+    !--: Padw\Saek Quellwald
+     !--: nicht wiederlegt! 0.0000
+      !!! AssoLänge:    0
+  -! Porro fällt mir ein!
+    !--: Padw\Saek Quellwald
+    -> Aktiviere den Automatismus!
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdvu Sumpfgras[  72   88]
+      2-: Wiedererkannt: Sdgu Bauma[ 143   69]
+      2-: Wiedererkannt: Sdgb Lache[  74  118]
+      2-: Wiedererkannt: Sdgu Bauma[  38  113]
+      2-: Wiedererkannt: Sdxf Blumen[ 123  117]
+      2-: Wiedererkannt: Sdgb Lache[  54  138]
+     1-: Neue Situation: Quellwald[  72   88]
+  PerceptZeit =      186
+Paef->AReg AReg 1.00000
+Paeg->Saeu Quellwald 1.00000
+  -> So war`s erwartet! Padw Saek Quellwald
+    -> Nicht erwartet! Kein Ziel in Situation!
+    -! Hat nicht geklappt!
+    ! Erfolglos probiert!
+> > > >              Automat        193
+  -? Plan
+    -> Maximale Planungstiefe = 15
+  -! Ich plane jetzt! Ausgangspunkt: Saeu
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          6
+  -? WAS TUN?
+    -! Annäherung erwogen an Blumen (Sdxf) U=1 [123,117]
+    -? Assoziationsfächer Pro für Sdxf Blumen Tiefe:    3.63
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Nehmen 
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdxf Blumen[  18   12]
+     1-: Wiedererkannt: Sdxf Blumen[  18   12]
+ PerceptZeit =       18
+Paeh->AAgg AAgg 1.00000
+Paei->Sdxf Blumen 1.00000
+    -! Aggr an Sdxf am Ort [123,117]
+Paej->Nehmen Nehmen 1.00000
+  auf Sdxf erzeugt  [123,117]  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Seah Blumen1[  23   25]
+     1-: Wiedererkannt: Seah Blumen1[  28   38]
+  PerceptZeit =      715
+  Das ändert was!
+  :- das ist Blumen1
+    *** Bedürfniserzeugung  SchadenMotivEffekt: 0.020
+   <> Lernen einer Aversion: Seah  Blumen1
+  -* Consum-Verstärkung ab Saeu
+Paek->Seah Blumen1 1.00000
+> > > >             WaCoBeDo        124
+Taktdauer:             828
+---------------11/10/2026 12:41:24 PM----------------------
+Takt:   16 age:      15513 in Quellwald Blumen1 Prot: Paek->Seah an Blumen1
+   TriErr =    19
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.056  0.055
+             Durst   0.076  0.075
+            Nukleo   0.699  0.481
+           Schaden   0.138  0.045
+      Bestimmtheit   0.004  0.004
+         Kompetenz   0.017  0.017
+       Affiliation   0.028  0.027
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1 Hasel
+   --: Modulatoren: AR =  0.430 RL =  0.699 STh =  0.043
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Saeu Quellwald Tiefe:    6.99
+    -? Assoziationsfächer Retro für Saeu Quellwald Tiefe:    6.99
+    -! nichts eingefallen!
+> > > >              Automat        267
+  -? Plan
+    -> Maximale Planungstiefe = 14
+  -! Ich plane jetzt! Ausgangspunkt: Paek
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          4
+  -? WAS TUN?
+    -! Mache weiter mit Seah
+    -? Assoziationsfächer Pro für Seah Blumen1 Tiefe:    3.50
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Nehmen 
+Pael->Nehmen Nehmen 1.00000
+  auf Seah erzeugt  [123,117]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Seah Blumen1[  23   25]
+     1-: Wiedererkannt: Seah Blumen1[  23   25]
+  PerceptZeit =       15
+, also erfolglos!
+Paem->Seah Blumen1 1.00000
+    -! Annäherung erwogen an Sumpfgras (Sdvu) U=1 [ 72, 88]
+    -? Assoziationsfächer Pro für Sdvu Sumpfgras Tiefe:    3.50
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+    -! Erst mal weg hier!
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdvu Sumpfgras[  72   88]
+      2-: Wiedererkannt: Sdgu Bauma[ 143   69]
+      2-: Wiedererkannt: Sdgb Lache[  74  118]
+      2-: Wiedererkannt: Sdgu Bauma[  38  113]
+      2-: Wiedererkannt: Seah Blumen1[ 128  130]
+      2-: Wiedererkannt: Sdgb Lache[  54  138]
+     1-: Neue Situation: Quellwald[  72   88]
+  PerceptZeit =      280
+Paen->AReg AReg 1.00000
+Paeo->Safd Quellwald 1.00000
+ Was geht?       ! TryThese: : Nehmen 
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdvu Sumpfgras[  32   18]
+     1-: Wiedererkannt: Sdvu Sumpfgras[  32   18]
+ PerceptZeit =       11
+Paep->AAgg AAgg 1.00000
+Paeq->Sdvu Sumpfgras 1.00000
+    -! Aggr an Sdvu am Ort [ 72, 88]
+Paer->Nehmen Nehmen 1.00000
+  auf Sdvu erzeugt  [ 72, 88]  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Secl Sumpfgrasg[  28   25]
+     1-: Wiedererkannt: Secl Sumpfgrasg[  34   26]
+  PerceptZeit =      303
+  Das ändert was!
+  :- das ist Sumpfgrasg
+    *** Bedürfnisbefriedigung  Hunger MotivEffekt: -0.100
+    <> Lernen eines Ziels Sdvu  Sumpfgras
+  -* Consum-Verstärkung ab Safd
+Paes->Secl Sumpfgrasg 1.00000
+> > > >             WaCoBeDo        124
+Taktdauer:            1225
+---------------11/10/2026 12:41:37 PM----------------------
+Takt:   17 age:      16738 in Quellwald Sumpfgrasg Prot: Paes->Secl an Sumpfgrasg
+   TriErr =    21
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.022  0.022
+             Durst   0.080  0.080
+            Nukleo   0.700  0.490
+           Schaden   0.134  0.044
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.029  0.029
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.405 RL =  0.717 STh =  0.040
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Safd Quellwald Tiefe:    7.17
+    -? Assoziationsfächer Retro für Safd Quellwald Tiefe:    7.17
+    -! nichts eingefallen!
+> > > >              Automat        197
+  -? Plan
+    -> Maximale Planungstiefe = 14
+  -! Ich plane jetzt! Ausgangspunkt: Paes
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          4
+  -? WAS TUN?
+    -! Mache weiter mit Secl
+    -? Assoziationsfächer Pro für Secl Sumpfgrasg Tiefe:    3.58
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Saugen 
+Paet->Saugen Saugen 1.00000
+  auf Secl erzeugt  [ 72, 88]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Secl Sumpfgrasg[  28   25]
+     1-: Wiedererkannt: Secl Sumpfgrasg[  28   25]
+  PerceptZeit =       11
+, also erfolglos!
+Paeu->Secl Sumpfgrasg 1.00000
+    -! Annäherung erwogen an Lache (Sdgb) U=0.9 [ 74,118]
+    -? Assoziationsfächer Pro für Sdgb Lache Tiefe:    3.58
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+    -! Erst mal weg hier!
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Secl Sumpfgrasg[  68   95]
+      2-: Wiedererkannt: Sdgu Bauma[ 143   69]
+      2-: Wiedererkannt: Sdgb Lache[  74  118]
+      2-: Wiedererkannt: Sdgu Bauma[  38  113]
+      2-: Wiedererkannt: Seah Blumen1[ 128  130]
+      2-: Wiedererkannt: Sdgb Lache[  54  138]
+     1-: Neue Situation: Quellwald[  68   95]
+  PerceptZeit =      118
+Paev->AReg AReg 1.00000
+Paew->Safm Quellwald 1.00000
+      ! TryThese: : 
+  -? TriErr LocoMot: Wie komme ich hier weg?
+      -!: lSO lS lSW lW lNW lN lNO lO 
+  7 OD:5.498 LokoMotion:       lSO
+Paex->lSO lSO 1.00000
+  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Sedn Baum[  64   74]
+      2-: Neues Objekt:  Seeu Schilf[  97  100]
+      2-: Wiedererkannt: Sdcc Baum1[ 130  108]
+      2-: Wiedererkannt: Sdxf Blumen[  56  118]
+      2-: Neues Objekt:  Sefp Acker0a[  25  115]
+     1-: Neue Situation: Ackerwald[  67   97]
+  PerceptZeit =     1243
+    *** Bedürfniserzeugung  HungerMotivEffekt: 0.010
+   <> Lernen einer Aversion: Safm  Quellwald
+  -* Consum-Verstärkung ab Safs
+    *** Bedürfniserzeugung  DurstMotivEffekt: 0.010
+   <> Lernen einer Aversion: Safm  Quellwald
+  -* Consum-Verstärkung ab Safs
+Paey->Safs Ackerwald 1.00000
+> > > >             WaCoBeDo        174
+Taktdauer:            1365
+---------------11/10/2026 12:41:56 PM----------------------
+Takt:   18 age:      18103 in Ackerwald - Prot: Paey->Safs vor der Situation 
+   TriErr =    22
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.032  0.032
+             Durst   0.084  0.083
+            Nukleo   0.700  0.485
+           Schaden   0.129  0.042
+      Bestimmtheit   0.003  0.003
+         Kompetenz   0.011  0.011
+       Affiliation   0.030  0.030
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.418 RL =  0.707 STh =  0.042
+  -?  LOOKAROUND
+> > > >               LookAr          0
+    !! Keine Ziele! Aber ma gucken, was man machen kann!
+    -? Assoziationsfächer Pro für Sefp Acker0a Tiefe:    3.54
+    -? Assoziationsfächer Pro für Sdcc Baum1 Tiefe:    3.54
+  ??-- Confirmation der Zielassoziation
+    !--: Pady\Sdcc Baum1
+     !--: nicht wiederlegt! 0.0000
+      !!! AssoLänge:    0
+  -! Zwischenziel + "Instrumente":
+    !--: Pady\Sdcc Baum1
+  -! In Orient: Mal sehen, ob ich da hin komme!
+    -> Aktiviere den Automatismus!
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdcc Baum1[  19    4]
+     1-: Wiedererkannt: Sdcc Baum1[  19    4]
+ PerceptZeit =       32
+Paez->AAgg AAgg 1.00000
+Pafa->Sdcc Baum1 1.00000
+    -: Herstellung der Condition
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Safs Ackerwald[  64   74]
+     1-: Wiedererkannt: Safs Ackerwald[  64   74]
+  PerceptZeit =       44
+Pafb->AReg AReg 1.00000
+Pafc->Safs Ackerwald 1.00000
+  -> So war`s erwartet! Pady Sdcc Baum1
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdcc Baum1[  19    4]
+     1-: Wiedererkannt: Sdcc Baum1[  19    4]
+ PerceptZeit =       32
+Pafd->AAgg AAgg 1.00000
+Pafe->Sdcc Baum1 1.00000
+    -! Hurra! Ziel erreicht!
+  ConsumFin mit: Sdcc [130,108]
+Paff->Schütteln Schütteln 1.00000
+  auf Sdcc erzeugt  [130,108]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdnf Baum2[  20   24]
+     1-: Wiedererkannt: Sdnf Baum2[  20   24]
+  PerceptZeit =       22
+  Das ändert was!
+  :- das ist Baum2
+Pafg->Sdnf Baum2 1.00000
+    Zwischenziel: Schütteln wird angewendet      -! Genau! jetzt haben wir es!
+ Schütteln wird angewendet
+Pafh->Schütteln Schütteln 1.00000
+  auf Sdnf erzeugt  [130,108]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdnf Baum2[  20   24]
+     1-: Wiedererkannt: Sdnf Baum2[  20   24]
+  PerceptZeit =       22
+, also erfolglos!
+Pafi->Sdnf Baum2 1.00000
+ Nehmen wird angewendet
+Pafj->Nehmen Nehmen 1.00000
+  auf Sdnf erzeugt  [130,108]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdgu Bauma[  34    7]
+     1-: Wiedererkannt: Sdgu Bauma[  34    7]
+  PerceptZeit =       31
+  Das ändert was!
+  :- das ist Bauma
+    *** Bedürfnisbefriedigung  Nukleo MotivEffekt: -0.400
+  -* Consum-Verstärkung ab Safs
+Pafk->Sdgu Bauma 1.00000
+  -> Ah, Prima! Befriedigung von Nukleo
+    -! Hat geklappt!
+> > > >            LookArAss        124
+Taktdauer:            2231
+---------------11/10/2026 12:42:17 PM----------------------
+Takt:   19 age:      20334 in Ackerwald Bauma Prot: Pafk->Sdgu an Bauma
+   TriErr =    22
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.044  0.044
+             Durst   0.089  0.089
+            Nukleo   0.700  0.490
+           Schaden   0.120  0.040
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.032  0.032
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.419 RL =  0.706 STh =  0.042
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Safs Ackerwald Tiefe:    7.06
+  ??-- Confirmation der Zielassoziation
+    !--: Pafc\Safs Ackerwald -> Pafd\AAgg -> Pafe\Sdcc Baum1
+   ?--> Prüfung von Safs AAgg Sdcc
+     !--: nicht wiederlegt! 0.9622
+      !!! AssoLänge:    2
+      -! Sit mit Ziel gefunden: Sdcc Baum1
+    -? Assoziationsfächer Retro für Safs Ackerwald Tiefe:    7.06
+      -! Sit mit Ziel gefunden: Sdcc Baum1
+  ??-- Confirmation der Zielassoziation
+    !--: Pafc\Safs Ackerwald
+     !--: nicht wiederlegt! 0.0000
+      !!! AssoLänge:    0
+      -! Sit mit Ziel gefunden: Sdcc Baum1
+  -! Porro fällt mir ein!
+    !--: Pafc\Safs Ackerwald -> Pafd\AAgg -> Pafe\Sdcc Baum1
+    -> Aktiviere den Automatismus!
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sedn Baum[  64   74]
+      2-: Wiedererkannt: Seeu Schilf[  97  100]
+      2-: Wiedererkannt: Sdgu Bauma[ 145  111]
+      2-: Wiedererkannt: Sdxf Blumen[  56  118]
+      2-: Wiedererkannt: Sefp Acker0a[  25  115]
+     1-: Neue Situation: Ackerwald[  64   74]
+  PerceptZeit =      102
+Pafl->AReg AReg 1.00000
+Pafm->Sagd Ackerwald 1.00000
+    ActAss: gesuchtes Objekt nicht in Situation!
+    -! Hat nicht geklappt!
+    ! Erfolglos probiert!
+> > > >              Automat        182
+  -? Plan
+    -> Maximale Planungstiefe = 14
+  -! Ich plane jetzt! Ausgangspunkt: Sagd
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          6
+  -? WAS TUN?
+    -! Annäherung erwogen an Schilf (Seeu) U=1 [ 97,100]
+    -? Assoziationsfächer Pro für Seeu Schilf Tiefe:    3.53
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Saugen 
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Seeu Schilf[  24   16]
+     1-: Wiedererkannt: Seeu Schilf[  24   16]
+ PerceptZeit =        7
+Pafn->AAgg AAgg 1.00000
+Pafo->Seeu Schilf 1.00000
+    -! Aggr an Seeu am Ort [ 97,100]
+Pafp->Saugen Saugen 1.00000
+  auf Seeu erzeugt  [ 97,100]  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Sehe Schilf-[  24   16]
+     1-: Wiedererkannt: Sehe Schilf-[  12   31]
+  PerceptZeit =      321
+  Das ändert was!
+  :- das ist Schilf-
+    *** Bedürfnisbefriedigung  Durst MotivEffekt: -0.400
+    <> Lernen eines Ziels Seeu  Schilf
+  -* Consum-Verstärkung ab Sagd
+Pafq->Sehe Schilf- 1.00000
+> > > >             WaCoBeDo        124
+Taktdauer:            1015
+---------------11/10/2026 12:42:27 PM----------------------
+Takt:   20 age:      21349 in Ackerwald Schilf- Prot: Pafq->Sehe an Schilf-
+   TriErr =    23
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.048  0.048
+             Durst   0.022  0.022
+            Nukleo   0.700  0.490
+           Schaden   0.115  0.038
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.033  0.033
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.387 RL =  0.729 STh =  0.039
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Sagd Ackerwald Tiefe:    7.29
+    -? Assoziationsfächer Retro für Sagd Ackerwald Tiefe:    7.29
+    -! nichts eingefallen!
+> > > >              Automat        174
+  -? Plan
+    -> Maximale Planungstiefe = 15
+  -! Ich plane jetzt! Ausgangspunkt: Pafq
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          4
+  -? WAS TUN?
+    -! Mache weiter mit Sehe
+    -? Assoziationsfächer Pro für Sehe Schilf- Tiefe:    3.64
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Nehmen 
+Pafr->Nehmen Nehmen 1.00000
+  auf Sehe erzeugt  [ 97,100]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sehe Schilf-[  24   16]
+     1-: Wiedererkannt: Sehe Schilf-[  24   16]
+  PerceptZeit =        7
+, also erfolglos!
+Pafs->Sehe Schilf- 1.00000
+    -! Annäherung erwogen an Acker0a (Sefp) U=1 [ 25,115]
+    -? Assoziationsfächer Pro für Sefp Acker0a Tiefe:    3.64
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+    -! Erst mal weg hier!
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sedn Baum[  64   74]
+      2-: Wiedererkannt: Sehe Schilf-[  97  100]
+      2-: Wiedererkannt: Sdgu Bauma[ 145  111]
+      2-: Wiedererkannt: Sdxf Blumen[  56  118]
+      2-: Wiedererkannt: Sefp Acker0a[  25  115]
+     1-: Neue Situation: Ackerwald[  64   74]
+  PerceptZeit =      107
+Paft->AReg AReg 1.00000
+Pafu->Sagl Ackerwald 1.00000
+ Was geht?       ! TryThese: : Säen 
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sefp Acker0a[  25   15]
+     1-: Wiedererkannt: Sefp Acker0a[  25   15]
+ PerceptZeit =        9
+Pafv->AAgg AAgg 1.00000
+Pafw->Sefp Acker0a 1.00000
+    -! Aggr an Sefp am Ort [ 25,115]
+Pafx->Säen Säen 1.00000
+  auf Sefp erzeugt  [ 25,115]  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Seii Acker1[  18   27]
+     1-: Wiedererkannt: Seii Acker1[  12   39]
+  PerceptZeit =       36
+  Das ändert was!
+  :- das ist Acker1
+Pafy->Seii Acker1 1.00000
+> > > >             WaCoBeDo        124
+Taktdauer:            1178
+---------------11/10/2026 12:42:37 PM----------------------
+Takt:   21 age:      22527 in Ackerwald Acker1 Prot: Pafy->Seii an Acker1
+   TriErr =    25
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.053  0.053
+             Durst   0.032  0.032
+            Nukleo   0.700  0.490
+           Schaden   0.110  0.036
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.034  0.034
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.394 RL =  0.724 STh =  0.039
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Sagl Ackerwald Tiefe:    7.24
+    -? Assoziationsfächer Retro für Sagl Ackerwald Tiefe:    7.24
+    -! nichts eingefallen!
+> > > >              Automat        113
+  -? Plan
+    -> Maximale Planungstiefe = 14
+  -! Ich plane jetzt! Ausgangspunkt: Pafy
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          4
+  -? WAS TUN?
+    -! Mache weiter mit Seii
+    -? Assoziationsfächer Pro für Seii Acker1 Tiefe:    3.62
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Nehmen 
+Pafz->Nehmen Nehmen 1.00000
+  auf Seii erzeugt  [ 25,115]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Seii Acker1[  18   27]
+     1-: Wiedererkannt: Seii Acker1[  18   27]
+  PerceptZeit =       14
+, also erfolglos!
+Paga->Seii Acker1 1.00000
+  -? TriErr LocoMot: Wie komme ich hier weg?
+  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Sein Baum[  64   74]
+     1-: Wiedererkannt: Sein Baum[  18  127]
+  PerceptZeit =       53
+Pagb->AReg AReg 1.00000
+Pagc->Sein Baum 1.00000
+      -!: lSO lS lSW lW lNW lN lNO lO 
+  7 OD:5.498 LokoMotion:       lSO
+Pagd->lSO lSO 1.00000
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sein Baum[  64   74]
+     1-: Wiedererkannt: Sein Baum[  64   74]
+  PerceptZeit =       49
+ Geht nicht!
+Page->Sein Baum 1.00000
+      lS
+Pagf->lS lS 1.00000
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sein Baum[  64   74]
+     1-: Wiedererkannt: Sein Baum[  64   74]
+  PerceptZeit =       50
+ Geht nicht!
+Pagg->Sein Baum 1.00000
+      lO
+Pagh->lO lO 1.00000
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sein Baum[  64   74]
+     1-: Wiedererkannt: Sein Baum[  64   74]
+  PerceptZeit =       50
+ Geht nicht!
+Pagi->Sein Baum 1.00000
+      lSW
+Pagj->lSW lSW 1.00000
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sdep Blu[  92   81]
+      2-: Neues Objekt:  Seit Sonblu[ 113   90]
+      2-: Wiedererkannt: Seeu Schilf[  79  116]
+      2-: Neues Objekt:  Seld AmbiPflanz[  41  119]
+      2-: Neues Objekt:  Senz Eich[ 116  123]
+     1-: Neue Situation: Schönort[  90   93]
+  PerceptZeit =     2763
+    *** Bedürfniserzeugung  HungerMotivEffekt: 0.010
+   <> Lernen einer Aversion: Sein  Baum
+  -* Consum-Verstärkung ab Sagx
+    *** Bedürfniserzeugung  DurstMotivEffekt: 0.030
+   <> Lernen einer Aversion: Sein  Baum
+  -* Consum-Verstärkung ab Sagx
+Pagk->Sagx Schönort 1.00000
+> > > >             WaCoBeDo        174
+Taktdauer:            1510
+---------------11/10/2026 12:42:49 PM----------------------
+Takt:   22 age:      24037 in Schönort - Prot: Pagk->Sagx vor der Situation 
+   TriErr =    26
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.058  0.057
+             Durst   0.041  0.040
+            Nukleo   0.700  0.478
+           Schaden   0.103  0.033
+      Bestimmtheit   0.002  0.002
+         Kompetenz   0.025  0.024
+       Affiliation   0.035  0.034
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.415 RL =  0.710 STh =  0.041
+  -?  LOOKAROUND
+> > > >               LookAr          0
+    !! Keine Ziele! Aber ma gucken, was man machen kann!
+    -? Assoziationsfächer Pro für Senz Eich Tiefe:    3.55
+> > > >            LookArAss          2
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Sagx Schönort Tiefe:    7.10
+    -? Assoziationsfächer Retro für Sagx Schönort Tiefe:    7.10
+    -! nichts eingefallen!
+> > > >              Automat         46
+  -? Plan
+    -> Maximale Planungstiefe = 14
+  -! Ich plane jetzt! Ausgangspunkt: Sagx
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          6
+  -? WAS TUN?
+    -! Annäherung erwogen an Eich (Senz) U=1 [116,123]
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Nehmen Hämmern 
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Senz Eich[  16   18]
+     1-: Wiedererkannt: Senz Eich[  16   18]
+ PerceptZeit =       11
+Pagl->AAgg AAgg 1.00000
+Pagm->Senz Eich 1.00000
+    -! Aggr an Senz am Ort [116,123]
+Pagn->Hämmern Hämmern 1.00000
+  auf Senz erzeugt  [116,123]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Senz Eich[  16   18]
+     1-: Wiedererkannt: Senz Eich[  16   18]
+  PerceptZeit =       11
+, also erfolglos!
+Pago->Senz Eich 1.00000
+Pagp->Nehmen Nehmen 1.00000
+  auf Senz erzeugt  [116,123]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Senz Eich[  16   18]
+     1-: Wiedererkannt: Senz Eich[  16   18]
+  PerceptZeit =       11
+, also erfolglos!
+Pagq->Senz Eich 1.00000
+  -? TriErr LocoMot: Wie komme ich hier weg?
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sagx Schönort[  92   81]
+     1-: Wiedererkannt: Sagx Schönort[  92   81]
+  PerceptZeit =       49
+Pagr->AReg AReg 1.00000
+Pags->Sagx Schönort 1.00000
+      -!: lSO lS lSW lW lNW lN lNO lO 
+  5 OD:3.927 LokoMotion:       lSW
+Pagt->lSW lSW 1.00000
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sagx Schönort[  92   81]
+     1-: Wiedererkannt: Sagx Schönort[  92   81]
+  PerceptZeit =       49
+ Geht nicht!
+Pagu->Sagx Schönort 1.00000
+      lW
+Pagv->lW lW 1.00000
+  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Seow Gras[  96   95]
+      2-: Wiedererkannt: Seeu Schilf[  59   96]
+      2-: Wiedererkannt: Seow Gras[ 116  145]
+      2-: Wiedererkannt: Seow Gras[   6  145]
+     1-: Neue Situation: Savanne[  96   95]
+  PerceptZeit =      436
+    *** Bedürfniserzeugung  HungerMotivEffekt: 0.020
+   <> Lernen einer Aversion: Sagx  Schönort
+  -* Consum-Verstärkung ab Sahh
+    *** Bedürfniserzeugung  DurstMotivEffekt: 0.030
+   <> Lernen einer Aversion: Sagx  Schönort
+  -* Consum-Verstärkung ab Sahh
+Pagw->Sahh Savanne 1.00000
+> > > >             WaCoBeDo        174
+Taktdauer:            1532
+---------------11/10/2026 12:43:01 PM----------------------
+Takt:   23 age:      25569 in Savanne - Prot: Pagw->Sahh vor der Situation 
+   TriErr =    28
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.063  0.062
+             Durst   0.049  0.048
+            Nukleo   0.700  0.479
+           Schaden   0.095  0.031
+      Bestimmtheit   0.002  0.002
+         Kompetenz   0.022  0.021
+       Affiliation   0.036  0.035
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.419 RL =  0.707 STh =  0.042
+  -?  LOOKAROUND
+> > > >               LookAr          0
+    !! Keine Ziele! Aber ma gucken, was man machen kann!
+    -? Assoziationsfächer Pro für Seow Gras Tiefe:    3.53
+    -? Assoziationsfächer Pro für Seow Gras Tiefe:    3.53
+> > > >            LookArAss          3
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Sahh Savanne Tiefe:    7.07
+    -? Assoziationsfächer Retro für Sahh Savanne Tiefe:    7.07
+    -! nichts eingefallen!
+> > > >              Automat         57
+  -? Plan
+    -> Maximale Planungstiefe = 14
+  -! Ich plane jetzt! Ausgangspunkt: Sahh
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          6
+  -? WAS TUN?
+    -! Annäherung erwogen an Schilf (Seeu) U=0.9 [ 59, 96]
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Saugen 
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Seeu Schilf[  24   16]
+     1-: Wiedererkannt: Seeu Schilf[  24   16]
+ PerceptZeit =        9
+Pagx->AAgg AAgg 1.00000
+Pagy->Seeu Schilf 1.00000
+    -! Aggr an Seeu am Ort [ 59, 96]
+Pagz->Saugen Saugen 1.00000
+  auf Seeu erzeugt  [ 59, 96]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sehe Schilf-[  24   16]
+     1-: Wiedererkannt: Sehe Schilf-[  24   16]
+  PerceptZeit =        7
+  Das ändert was!
+  :- das ist Schilf-
+    *** Bedürfnisbefriedigung  Durst MotivEffekt: -0.400
+  -* Consum-Verstärkung ab Sahh
+Paha->Sehe Schilf- 1.00000
+> > > >             WaCoBeDo        124
+Taktdauer:             624
+---------------11/10/2026 12:43:07 PM----------------------
+Takt:   24 age:      26193 in Savanne Schilf- Prot: Paha->Sehe an Schilf-
+   TriErr =    29
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.065  0.065
+             Durst   0.017  0.017
+            Nukleo   0.700  0.490
+           Schaden   0.092  0.030
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.036  0.036
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.392 RL =  0.726 STh =  0.039
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Sahh Savanne Tiefe:    7.26
+    -? Assoziationsfächer Retro für Sahh Savanne Tiefe:    7.26
+    -! nichts eingefallen!
+> > > >              Automat         88
+  -? Plan
+    -> Maximale Planungstiefe = 15
+  -! Ich plane jetzt! Ausgangspunkt: Paha
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          4
+  -? WAS TUN?
+    -! Mache weiter mit Sehe
+    -? Assoziationsfächer Pro für Sehe Schilf- Tiefe:    3.63
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Nehmen 
+Pahb->Nehmen Nehmen 1.00000
+  auf Sehe erzeugt  [ 59, 96]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sehe Schilf-[  24   16]
+     1-: Wiedererkannt: Sehe Schilf-[  24   16]
+  PerceptZeit =        8
+, also erfolglos!
+Pahc->Sehe Schilf- 1.00000
+    -! Annäherung erwogen an Gras (Seow) U=1 [  6,145]
+    -? Assoziationsfächer Pro für Seow Gras Tiefe:    3.63
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+    -! Erst mal weg hier!
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Seow Gras[  96   95]
+      2-: Wiedererkannt: Sehe Schilf-[  59   96]
+      2-: Wiedererkannt: Seow Gras[ 116  145]
+      2-: Wiedererkannt: Seow Gras[   6  145]
+     1-: Neue Situation: Savanne[  96   95]
+  PerceptZeit =       54
+Pahd->AReg AReg 1.00000
+Pahe->Saho Savanne 1.00000
+ Was geht?       ! TryThese: : Nehmen 
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Seow Gras[   6   35]
+     1-: Wiedererkannt: Seow Gras[   6   35]
+ PerceptZeit =       10
+Pahf->AAgg AAgg 1.00000
+Pahg->Seow Gras 1.00000
+    -! Aggr an Seow am Ort [  6,145]
+Pahh->Nehmen Nehmen 1.00000
+  auf Seow erzeugt  [  6,145]  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Seqe Gras1[  27   28]
+     1-: Wiedererkannt: Seqe Gras1[  33   33]
+  PerceptZeit =      232
+  Das ändert was!
+  :- das ist Gras1
+Pahi->Seqe Gras1 1.00000
+> > > >             WaCoBeDo        124
+Taktdauer:            1248
+---------------11/10/2026 12:43:17 PM----------------------
+Takt:   25 age:      27441 in Savanne Gras1 Prot: Pahi->Seqe an Gras1
+   TriErr =    31
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.069  0.069
+             Durst   0.029  0.029
+            Nukleo   0.700  0.490
+           Schaden   0.085  0.028
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.000  0.000
+       Affiliation   0.037  0.037
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.399 RL =  0.721 STh =  0.040
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Saho Savanne Tiefe:    7.21
+    -? Assoziationsfächer Retro für Saho Savanne Tiefe:    7.21
+    -! nichts eingefallen!
+> > > >              Automat        165
+  -? Plan
+    -> Maximale Planungstiefe = 14
+  -! Ich plane jetzt! Ausgangspunkt: Pahi
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          4
+  -? WAS TUN?
+    -! Mache weiter mit Seqe
+    -? Assoziationsfächer Pro für Seqe Gras1 Tiefe:    3.60
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Hämmern 
+Pahj->Hämmern Hämmern 1.00000
+  auf Seqe erzeugt  [  6,145]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Seqe Gras1[  27   28]
+     1-: Wiedererkannt: Seqe Gras1[  27   28]
+  PerceptZeit =       10
+, also erfolglos!
+Pahk->Seqe Gras1 1.00000
+  -? TriErr LocoMot: Wie komme ich hier weg?
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Seow Gras[  96   95]
+      2-: Wiedererkannt: Sehe Schilf-[  59   96]
+      2-: Wiedererkannt: Seow Gras[ 116  145]
+      2-: Wiedererkannt: Seqe Gras1[  27  138]
+     1-: Neue Situation: Savanne[  96   95]
+  PerceptZeit =       75
+Pahl->AReg AReg 1.00000
+Pahm->Sahv Savanne 1.00000
+      -!: lSO lS lSW lW lNW lN lNO lO 
+  4 OD:3.142 LokoMotion:       lW
+Pahn->lW lW 1.00000
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sahv Savanne[  96   95]
+     1-: Wiedererkannt: Sahv Savanne[  96   95]
+  PerceptZeit =       24
+ Geht nicht!
+Paho->Sahv Savanne 1.00000
+      lSW
+Pahp->lSW lSW 1.00000
+  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Seqz Perennisfels0[  78   81]
+      2-: Neues Objekt:  Sesn Perennisfels2[ 116  115]
+     1-: Neue Situation: Steppenfels[  75   94]
+  PerceptZeit =     1228
+    *** Bedürfniserzeugung  HungerMotivEffekt: 0.010
+   <> Lernen einer Aversion: Sahv  Savanne
+  -* Consum-Verstärkung ab Saia
+    *** Bedürfniserzeugung  DurstMotivEffekt: 0.030
+   <> Lernen einer Aversion: Sahv  Savanne
+  -* Consum-Verstärkung ab Saia
+Pahq->Saia Steppenfels 1.00000
+> > > >             WaCoBeDo        174
+Taktdauer:            1005
+---------------11/10/2026 12:43:24 PM----------------------
+Takt:   26 age:      28446 in Steppenfels - Prot: Pahq->Saia vor der Situation 
+   TriErr =    32
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.072  0.071
+             Durst   0.036  0.036
+            Nukleo   0.700  0.482
+           Schaden   0.079  0.026
+      Bestimmtheit   0.002  0.002
+         Kompetenz   0.017  0.017
+       Affiliation   0.038  0.037
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1 Sumpfgras
+   --: Modulatoren: AR =  0.413 RL =  0.711 STh =  0.041
+  -?  LOOKAROUND
+> > > >               LookAr          0
+    !! Keine Ziele! Aber ma gucken, was man machen kann!
+    -? Assoziationsfächer Pro für Sesn Perennisfels2 Tiefe:    3.56
+    -? Assoziationsfächer Pro für Seqz Perennisfels0 Tiefe:    3.56
+> > > >            LookArAss          3
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Saia Steppenfels Tiefe:    7.11
+    -? Assoziationsfächer Retro für Saia Steppenfels Tiefe:    7.11
+    -! nichts eingefallen!
+> > > >              Automat         58
+  -? Plan
+    -> Maximale Planungstiefe = 14
+  -! Ich plane jetzt! Ausgangspunkt: Saia
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          6
+  -? WAS TUN?
+  -? TriErr LocoMot: Wie komme ich hier weg?
+      -!: lSO lS lSW lW lNW lN lNO lO 
+  5 OD:3.927 LokoMotion:       lSW
+Pahr->lSW lSW 1.00000
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Saia Steppenfels[  78   81]
+     1-: Wiedererkannt: Saia Steppenfels[  78   81]
+  PerceptZeit =       23
+ Geht nicht!
+Pahs->Saia Steppenfels 1.00000
+      lW
+Paht->lW lW 1.00000
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Saia Steppenfels[  78   81]
+     1-: Wiedererkannt: Saia Steppenfels[  78   81]
+  PerceptZeit =       24
+ Geht nicht!
+Pahu->Saia Steppenfels 1.00000
+      lSO
+Pahv->lSO lSO 1.00000
+  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Seuh Sumpfpfl[  73   73]
+      2-: Wiedererkannt: Sdxf Blumen[  72   95]
+      2-: Wiedererkannt: Sdvu Sumpfgras[  38  121]
+      2-: Wiedererkannt: Sdvu Sumpfgras[ 142  128]
+      2-: Wiedererkannt: Seeu Schilf[ 139   85]
+     1-: Neue Situation: Randmoor[  73   73]
+  PerceptZeit =     1443
+    *** Bedürfniserzeugung  HungerMotivEffekt: 0.010
+   <> Lernen einer Aversion: Saia  Steppenfels
+  -* Consum-Verstärkung ab Saie
+    *** Bedürfniserzeugung  DurstMotivEffekt: 0.020
+   <> Lernen einer Aversion: Saia  Steppenfels
+  -* Consum-Verstärkung ab Saie
+    *** Bedürfniserzeugung  SchadenMotivEffekt: 0.128
+   <> Lernen einer Aversion: Saia  Steppenfels
+  -* Consum-Verstärkung ab Saie
+Pahw->Saie Randmoor 1.00000
+> > > >             WaCoBeDo        174
+Taktdauer:             703
+---------------11/10/2026 12:43:28 PM----------------------
+Takt:   27 age:      29149 in Randmoor - Prot: Pahw->Saie vor der Situation 
+   TriErr =    32
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.074  0.070
+             Durst   0.041  0.039
+            Nukleo   0.700  0.467
+           Schaden   0.365  0.115
+      Bestimmtheit   0.012  0.011
+         Kompetenz   0.047  0.045
+       Affiliation   0.038  0.036
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.480 RL =  0.664 STh =  0.048
+  -?  LOOKAROUND
+> > > >               LookAr          0
+    !! Keine Ziele! Aber ma gucken, was man machen kann!
+    -? Assoziationsfächer Pro für Seuh Sumpfpfl Tiefe:    3.32
+    -? Assoziationsfächer Pro für Sdxf Blumen Tiefe:    3.32
+    -? Assoziationsfächer Pro für Sdvu Sumpfgras Tiefe:    3.32
+> > > >            LookArAss        220
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Saie Randmoor Tiefe:    6.64
+    -? Assoziationsfächer Retro für Saie Randmoor Tiefe:    6.64
+    -! nichts eingefallen!
+> > > >              Automat         25
+  -? Plan
+    -> Maximale Planungstiefe = 13
+  -! Ich plane jetzt! Ausgangspunkt: Saie
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          6
+  -? WAS TUN?
+    -! Annäherung erwogen an Sumpfpfl (Seuh) U=1 [ 73, 73]
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Nehmen 
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Seuh Sumpfpfl[  30   40]
+     1-: Wiedererkannt: Seuh Sumpfpfl[  30   40]
+ PerceptZeit =       22
+Pahx->AAgg AAgg 1.00000
+Pahy->Seuh Sumpfpfl 1.00000
+    -! Aggr an Seuh am Ort [ 73, 73]
+Pahz->Nehmen Nehmen 1.00000
+  auf Seuh erzeugt  [ 73, 73]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Seuh Sumpfpfl[  30   40]
+     1-: Wiedererkannt: Seuh Sumpfpfl[  30   40]
+  PerceptZeit =       21
+, also erfolglos!
+Paia->Seuh Sumpfpfl 1.00000
+    -! Annäherung erwogen an Sumpfgras (Sdvu) U=0.9 [ 38,121]
+    -? Was kann man tun?
+    -! Erst mal weg hier!
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Saie Randmoor[  73   73]
+     1-: Wiedererkannt: Saie Randmoor[  73   73]
+  PerceptZeit =       43
+Paib->AReg AReg 1.00000
+Paic->Saie Randmoor 1.00000
+      ! TryThese: : 
+  -? TriErr LocoMot: Wie komme ich hier weg?
+      -!: lSO lS lSW lW lNW lN lNO lO 
+  7 OD:5.498 LokoMotion:       lSO
+Paid->lSO lSO 1.00000
+  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Sexc Busch[  86   68]
+      2-: Wiedererkannt: Sdgb Lache[  59   98]
+      2-: Neues Objekt:  Seyb Pfef[ 109  111]
+      2-: Neues Objekt:  Sfaj Pfef[ 112   53]
+      2-: Wiedererkannt: Sexc Busch[  36  128]
+      2-: Wiedererkannt: Sexc Busch[ 136   78]
+     1-: Neue Situation: Moor[  86   68]
+  PerceptZeit =     2027
+    *** Bedürfniserzeugung  HungerMotivEffekt: 0.010
+   <> Lernen einer Aversion: Saie  Randmoor
+  -* Consum-Verstärkung ab Saim
+    *** Bedürfniserzeugung  DurstMotivEffekt: 0.030
+   <> Lernen einer Aversion: Saie  Randmoor
+  -* Consum-Verstärkung ab Saim
+    *** Bedürfniserzeugung  SchadenMotivEffekt: 0.091
+   <> Lernen einer Aversion: Saie  Randmoor
+  -* Consum-Verstärkung ab Saim
+Paie->Saim Moor 1.00000
+> > > >             WaCoBeDo        174
+Taktdauer:            1445
+---------------11/10/2026 12:43:45 PM----------------------
+Takt:   28 age:      30594 in Moor - Prot: Paie->Saim vor der Situation 
+   TriErr =    33
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.078  0.074
+             Durst   0.048  0.046
+            Nukleo   0.700  0.466
+           Schaden   0.472  0.148
+      Bestimmtheit   0.010  0.009
+         Kompetenz   0.050  0.047
+       Affiliation   0.039  0.037
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.503 RL =  0.648 STh =  0.050
+  -?  LOOKAROUND
+> > > >               LookAr          0
+    !! Keine Ziele! Aber ma gucken, was man machen kann!
+> > > >            LookArAss          0
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Saim Moor Tiefe:    6.48
+    -? Assoziationsfächer Retro für Saim Moor Tiefe:    6.48
+    -! nichts eingefallen!
+> > > >              Automat         28
+  -? Plan
+    -> Maximale Planungstiefe = 13
+  -! Ich plane jetzt! Ausgangspunkt: Saim
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          6
+  -? WAS TUN?
+    -! Annäherung erwogen an Busch (Sexc) U=1 [ 36,128]
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Nehmen Schütteln 
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sexc Busch[  26   38]
+     1-: Wiedererkannt: Sexc Busch[  26   38]
+ PerceptZeit =       13
+Paif->AAgg AAgg 1.00000
+Paig->Sexc Busch 1.00000
+    -! Aggr an Sexc am Ort [ 36,128]
+Paih->Nehmen Nehmen 1.00000
+  auf Sexc erzeugt  [ 36,128]  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Sfao Busch1[  26   33]
+     1-: Wiedererkannt: Sfao Busch1[  26   42]
+  PerceptZeit =      297
+  Das ändert was!
+  :- das ist Busch1
+Paii->Sfao Busch1 1.00000
+> > > >             WaCoBeDo        124
+Taktdauer:             631
+---------------11/10/2026 12:43:50 PM----------------------
+Takt:   29 age:      31225 in Moor Busch1 Prot: Paii->Sfao an Busch1
+   TriErr =    34
+  --> BedIn:  Activity MotiveStrength
+            Hunger   0.079  0.077
+             Durst   0.051  0.049
+            Nukleo   0.700  0.474
+           Schaden   0.472  0.151
+      Bestimmtheit   0.000  0.000
+         Kompetenz   0.032  0.031
+       Affiliation   0.040  0.038
+
+  AktMot: Nukleo
+  -? Was soll ich anstreben? (Ziele)     -! Ziele:  Baum2 Baum1
+   --: Modulatoren: AR =  0.492 RL =  0.656 STh =  0.049
+  -? AUTOMATISMUS Gibt es zielführende Assoziationen
+    -? Assoziationsfächer Pro für Saim Moor Tiefe:    6.56
+    -? Assoziationsfächer Retro für Saim Moor Tiefe:    6.56
+    -! nichts eingefallen!
+> > > >              Automat        111
+  -? Plan
+    -> Maximale Planungstiefe = 13
+  -! Ich plane jetzt! Ausgangspunkt: Paii
+  -> Tiefe:  0  Aktorenliste: : 
+  Keinen Plan gefunden!
+> > > >            PlanandDo          4
+  -? WAS TUN?
+    -! Mache weiter mit Sfao
+    -? Assoziationsfächer Pro für Sfao Busch1 Tiefe:    3.28
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+ Was geht?       ! TryThese: : Säen 
+Paij->Säen Säen 1.00000
+  auf Sfao erzeugt  [ 36,128]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sfao Busch1[  26   33]
+     1-: Wiedererkannt: Sfao Busch1[  26   33]
+  PerceptZeit =        9
+, also erfolglos!
+Paik->Sfao Busch1 1.00000
+    -! Annäherung erwogen an Pfef (Sfaj) U=1 [112, 53]
+    -? Assoziationsfächer Pro für Sfaj Pfef Tiefe:    3.28
+    -! Kein Ziel eingefallen!
+    -? Was kann man tun?
+    -! Erst mal weg hier!
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sexc Busch[  86   68]
+      2-: Wiedererkannt: Sdgb Lache[  59   98]
+      2-: Wiedererkannt: Sfaj Pfef[ 112  143]
+      2-: Wiedererkannt: Sfaj Pfef[ 112   53]
+      2-: Wiedererkannt: Sexc Busch[ 136   78]
+      2-: Wiedererkannt: Sfao Busch1[  36  123]
+     1-: Neue Situation: Moor[  86   68]
+  PerceptZeit =      175
+Pail->AReg AReg 1.00000
+Paim->Saiv Moor 1.00000
+ Was geht?       ! TryThese: : Nehmen Schütteln 
+  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sfaj Pfef[  22   43]
+     1-: Wiedererkannt: Sfaj Pfef[  22   43]
+ PerceptZeit =       14
+Pain->AAgg AAgg 1.00000
+Paio->Sfaj Pfef 1.00000
+    -! Aggr an Sfaj am Ort [112, 53]
+Paip->Schütteln Schütteln 1.00000
+  auf Sfaj erzeugt  [112, 53]  -? PERCEPTION: Was ist der Fall?
+      2-: Wiedererkannt: Sfaj Pfef[  22   43]
+     1-: Wiedererkannt: Sfaj Pfef[  22   43]
+  PerceptZeit =       13
+, also erfolglos!
+Paiq->Sfaj Pfef 1.00000
+Pair->Nehmen Nehmen 1.00000
+  auf Sfaj erzeugt  [112, 53]  -? PERCEPTION: Was ist der Fall?
+      2-: Neues Objekt:  Sfbn Pfef-[  24   16]
+     1-: Wiedererkannt: Sfbn Pfef-[  19   11]
+  PerceptZeit =      284
+  Das ändert was!
+  :- das ist Pfef-
+    *** Bedürfnisbefriedigung  Schaden MotivEffekt: -0.400
+  

@@ -1,0 +1,34 @@
+{
+  "checks": [
+    {
+      "file": "peripherals.html",
+      "frames": 81,
+      "passed": true,
+      "canvasCalls": 63433,
+      "cameraWrites": 86
+    },
+    {
+      "file": "gait-forward.html",
+      "frames": 45,
+      "passed": true,
+      "canvasCalls": 32872,
+      "cameraWrites": 49
+    },
+    {
+      "file": "gait-turn.html",
+      "frames": 45,
+      "passed": true,
+      "canvasCalls": 32872,
+      "cameraWrites": 49
+    },
+    {
+      "file": "closed-loop.html",
+      "frames": 92,
+      "passed": true,
+      "canvasCalls": 81419,
+      "cameraWrites": 96
+    }
+  ],
+  "browser_visual_acceptance": false,
+  "script_sha256": "af758604e90be1c68f0f352ff8e9001d104e3451ce353103836540944706e54a"
+}

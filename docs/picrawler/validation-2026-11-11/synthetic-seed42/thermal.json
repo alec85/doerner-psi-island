@@ -1,0 +1,1145 @@
+{
+  "device": "synthetic-fixture",
+  "kind": "thermal",
+  "method": "Known forward parameters; bounded uniform observation noise; not device measurements",
+  "origin": "synthetic",
+  "recorded_at": "2026-11-11T00:00:00+00:00",
+  "samples": [
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 34.99811455756617,
+      "partition": "train",
+      "time_s": 0.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 35.20308071146691,
+      "partition": "train",
+      "time_s": 3.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 35.45243875340892,
+      "partition": "train",
+      "time_s": 7.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 35.75093843454675,
+      "partition": "train",
+      "time_s": 12.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 35.949200348621794,
+      "partition": "train",
+      "time_s": 15.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 36.18801580883181,
+      "partition": "train",
+      "time_s": 19.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 36.46887391596972,
+      "partition": "train",
+      "time_s": 24.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 36.63869320693357,
+      "partition": "train",
+      "time_s": 27.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 36.877208262107125,
+      "partition": "train",
+      "time_s": 31.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 37.13844842603968,
+      "partition": "train",
+      "time_s": 36.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 37.303709028143196,
+      "partition": "train",
+      "time_s": 39.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 37.512372233547524,
+      "partition": "train",
+      "time_s": 43.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 37.79828409048975,
+      "partition": "train",
+      "time_s": 48.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 37.94924457010341,
+      "partition": "train",
+      "time_s": 51.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 38.153305160176885,
+      "partition": "train",
+      "time_s": 55.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 38.40391007337313,
+      "partition": "train",
+      "time_s": 60.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 39.03706626613911,
+      "partition": "train",
+      "time_s": 63.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 39.88367111701041,
+      "partition": "train",
+      "time_s": 67.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 40.903214681267215,
+      "partition": "train",
+      "time_s": 72.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 41.51052943826073,
+      "partition": "train",
+      "time_s": 75.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 42.32488278812144,
+      "partition": "train",
+      "time_s": 79.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 43.29558338879066,
+      "partition": "train",
+      "time_s": 84.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 43.873619775382664,
+      "partition": "train",
+      "time_s": 87.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 44.63423968115094,
+      "partition": "train",
+      "time_s": 91.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 45.55417401551853,
+      "partition": "train",
+      "time_s": 96.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 46.0958672653038,
+      "partition": "train",
+      "time_s": 99.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 46.80988267623344,
+      "partition": "train",
+      "time_s": 103.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 47.676142761959895,
+      "partition": "train",
+      "time_s": 108.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 48.18267127680378,
+      "partition": "train",
+      "time_s": 111.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 48.87011819336966,
+      "partition": "train",
+      "time_s": 115.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 49.690145027569706,
+      "partition": "train",
+      "time_s": 120.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 49.35529695774719,
+      "partition": "train",
+      "time_s": 123.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 48.921719311642065,
+      "partition": "train",
+      "time_s": 127.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 48.35599440202635,
+      "partition": "train",
+      "time_s": 132.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 48.028468703335854,
+      "partition": "train",
+      "time_s": 135.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 47.61238926263335,
+      "partition": "train",
+      "time_s": 139.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 47.09518234694267,
+      "partition": "train",
+      "time_s": 144.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 46.80139035090213,
+      "partition": "train",
+      "time_s": 147.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 46.39831876148584,
+      "partition": "train",
+      "time_s": 151.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 45.91552146276368,
+      "partition": "train",
+      "time_s": 156.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 45.623566050169934,
+      "partition": "train",
+      "time_s": 159.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 45.23751535381984,
+      "partition": "train",
+      "time_s": 163.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 44.786599500390665,
+      "partition": "train",
+      "time_s": 168.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 44.49440375689931,
+      "partition": "train",
+      "time_s": 171.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 44.13220726533098,
+      "partition": "train",
+      "time_s": 175.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 43.69611107399455,
+      "partition": "train",
+      "time_s": 180.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 43.9535813058619,
+      "partition": "train",
+      "time_s": 183.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 44.25865870683137,
+      "partition": "train",
+      "time_s": 187.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 44.63269451814217,
+      "partition": "train",
+      "time_s": 192.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 44.86849988058796,
+      "partition": "train",
+      "time_s": 195.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 45.15402092245943,
+      "partition": "train",
+      "time_s": 199.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 45.53269470523958,
+      "partition": "train",
+      "time_s": 204.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 45.73860975319174,
+      "partition": "train",
+      "time_s": 207.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 46.01664364404479,
+      "partition": "train",
+      "time_s": 211.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 46.35703012709175,
+      "partition": "train",
+      "time_s": 216.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 46.56877988457279,
+      "partition": "train",
+      "time_s": 219.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 46.82558303032959,
+      "partition": "train",
+      "time_s": 223.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 47.14160633894745,
+      "partition": "train",
+      "time_s": 228.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 47.33349359941962,
+      "partition": "train",
+      "time_s": 231.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 47.60935457132994,
+      "partition": "train",
+      "time_s": 235.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 47.91448070711089,
+      "partition": "train",
+      "time_s": 240.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 47.92335600645606,
+      "partition": "train",
+      "time_s": 243.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 47.93020519500926,
+      "partition": "train",
+      "time_s": 247.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 47.975623014335376,
+      "partition": "train",
+      "time_s": 252.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 47.98423350115739,
+      "partition": "train",
+      "time_s": 255.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 48.001168505913896,
+      "partition": "train",
+      "time_s": 259.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 48.01614708064251,
+      "partition": "train",
+      "time_s": 264.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 48.024382697364736,
+      "partition": "train",
+      "time_s": 267.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 48.036882539347125,
+      "partition": "train",
+      "time_s": 271.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 48.08283014581468,
+      "partition": "train",
+      "time_s": 276.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 48.082242370773784,
+      "partition": "train",
+      "time_s": 279.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 48.09145475310245,
+      "partition": "train",
+      "time_s": 283.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 48.115147824085625,
+      "partition": "train",
+      "time_s": 288.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 48.13547008266175,
+      "partition": "train",
+      "time_s": 291.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 48.13930277005617,
+      "partition": "train",
+      "time_s": 295.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 48.179170849196716,
+      "partition": "train",
+      "time_s": 300.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 48.68424096661387,
+      "partition": "train",
+      "time_s": 303.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 49.3495369047317,
+      "partition": "train",
+      "time_s": 307.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 50.15683052322909,
+      "partition": "train",
+      "time_s": 312.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 50.64324666713871,
+      "partition": "train",
+      "time_s": 315.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 51.27240171134945,
+      "partition": "train",
+      "time_s": 319.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 52.04619642173289,
+      "partition": "train",
+      "time_s": 324.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 52.48382432341984,
+      "partition": "train",
+      "time_s": 327.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 53.09014665933224,
+      "partition": "train",
+      "time_s": 331.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 53.8090334295117,
+      "partition": "train",
+      "time_s": 336.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 54.252628415558746,
+      "partition": "train",
+      "time_s": 339.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 54.81185720089299,
+      "partition": "train",
+      "time_s": 343.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 55.49695398633763,
+      "partition": "train",
+      "time_s": 348.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 55.90250532797774,
+      "partition": "train",
+      "time_s": 351.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 56.45069813955713,
+      "partition": "train",
+      "time_s": 355.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 57.09152002212547,
+      "partition": "train",
+      "time_s": 360.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 56.671384943263355,
+      "partition": "train",
+      "time_s": 363.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 56.080187303601136,
+      "partition": "train",
+      "time_s": 367.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 55.3620315016928,
+      "partition": "train",
+      "time_s": 372.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 54.95050955317354,
+      "partition": "train",
+      "time_s": 375.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 54.38398117478841,
+      "partition": "train",
+      "time_s": 379.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 53.73935361942032,
+      "partition": "train",
+      "time_s": 384.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 53.32885714241422,
+      "partition": "train",
+      "time_s": 387.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 52.8180795291885,
+      "partition": "train",
+      "time_s": 391.0
+    },
+    {
+      "ambient_temperature_c": 25.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 52.16073223365365,
+      "partition": "train",
+      "time_s": 396.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 51.798052614040664,
+      "partition": "train",
+      "time_s": 399.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 51.361517578251664,
+      "partition": "validation",
+      "time_s": 403.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 50.84035987641764,
+      "partition": "validation",
+      "time_s": 408.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 50.514523673712695,
+      "partition": "validation",
+      "time_s": 411.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 50.098517167411266,
+      "partition": "validation",
+      "time_s": 415.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 49.58663898580354,
+      "partition": "validation",
+      "time_s": 420.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 49.78728216930342,
+      "partition": "validation",
+      "time_s": 423.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 50.053638989131194,
+      "partition": "validation",
+      "time_s": 427.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 50.3703249609979,
+      "partition": "validation",
+      "time_s": 432.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 50.545773218603586,
+      "partition": "validation",
+      "time_s": 435.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 50.81650984505646,
+      "partition": "validation",
+      "time_s": 439.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 51.12049828036594,
+      "partition": "validation",
+      "time_s": 444.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 51.27563031947445,
+      "partition": "validation",
+      "time_s": 447.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 51.52131397093862,
+      "partition": "validation",
+      "time_s": 451.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 51.79352810474532,
+      "partition": "validation",
+      "time_s": 456.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 51.978638511049176,
+      "partition": "validation",
+      "time_s": 459.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 52.187572324760666,
+      "partition": "validation",
+      "time_s": 463.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 52.46906315230126,
+      "partition": "validation",
+      "time_s": 468.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 52.63020114439635,
+      "partition": "validation",
+      "time_s": 471.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 3.0,
+      "cpu_temperature_c": 52.84018993379818,
+      "partition": "validation",
+      "time_s": 475.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 53.07590911140677,
+      "partition": "validation",
+      "time_s": 480.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 53.08515503811427,
+      "partition": "validation",
+      "time_s": 483.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 53.044899555511286,
+      "partition": "validation",
+      "time_s": 487.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 53.015020623296714,
+      "partition": "validation",
+      "time_s": 492.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 53.01635234729527,
+      "partition": "validation",
+      "time_s": 495.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 52.992216496005,
+      "partition": "validation",
+      "time_s": 499.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 52.98318973121762,
+      "partition": "validation",
+      "time_s": 504.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 52.969119024447096,
+      "partition": "validation",
+      "time_s": 507.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 52.93677382502025,
+      "partition": "validation",
+      "time_s": 511.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 52.934285585921366,
+      "partition": "validation",
+      "time_s": 516.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 52.90172705085351,
+      "partition": "validation",
+      "time_s": 519.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 52.891791159753744,
+      "partition": "validation",
+      "time_s": 523.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 52.8636225152456,
+      "partition": "validation",
+      "time_s": 528.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 52.87201204674945,
+      "partition": "validation",
+      "time_s": 531.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 2.0,
+      "cpu_temperature_c": 52.83310922336472,
+      "partition": "validation",
+      "time_s": 535.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 52.810224628439066,
+      "partition": "validation",
+      "time_s": 540.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 53.30711037532421,
+      "partition": "validation",
+      "time_s": 543.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 53.96034176290252,
+      "partition": "validation",
+      "time_s": 547.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 54.736563979821035,
+      "partition": "validation",
+      "time_s": 552.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 55.191232662903865,
+      "partition": "validation",
+      "time_s": 555.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 55.79761372718151,
+      "partition": "validation",
+      "time_s": 559.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 56.53482580296519,
+      "partition": "validation",
+      "time_s": 564.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 56.95774643182495,
+      "partition": "validation",
+      "time_s": 567.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 57.5212354396753,
+      "partition": "validation",
+      "time_s": 571.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 58.23221536324746,
+      "partition": "validation",
+      "time_s": 576.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 58.639600961537745,
+      "partition": "validation",
+      "time_s": 579.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 59.16975750513826,
+      "partition": "validation",
+      "time_s": 583.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 59.820996872453975,
+      "partition": "validation",
+      "time_s": 588.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 60.22906845694654,
+      "partition": "validation",
+      "time_s": 591.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 5.0,
+      "cpu_temperature_c": 60.724218376615866,
+      "partition": "validation",
+      "time_s": 595.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 61.36841810451963,
+      "partition": "validation",
+      "time_s": 600.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 60.88747687928166,
+      "partition": "validation",
+      "time_s": 603.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 60.28036506258712,
+      "partition": "validation",
+      "time_s": 607.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 59.56270822249732,
+      "partition": "validation",
+      "time_s": 612.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 59.10716963202651,
+      "partition": "validation",
+      "time_s": 615.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 58.537000711143314,
+      "partition": "validation",
+      "time_s": 619.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 57.850627616134254,
+      "partition": "validation",
+      "time_s": 624.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 57.44719789504081,
+      "partition": "validation",
+      "time_s": 627.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 56.88675999011639,
+      "partition": "validation",
+      "time_s": 631.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 56.22897319369842,
+      "partition": "validation",
+      "time_s": 636.0
+    },
+    {
+      "ambient_temperature_c": 28.0,
+      "cpu_power_w": 0.0,
+      "cpu_temperature_c": 55.85354821145577,
+      "partition": "validation",
+      "time_s": 639.0
+    }
+  ],
+  "source": "Independent analytic fixture; seed 42",
+  "type": "psi_gw.picrawler.measurements",
+  "units": {
+    "ambient_temperature_c": "degC",
+    "cpu_power_w": "W",
+    "cpu_temperature_c": "degC",
+    "time_s": "s"
+  },
+  "version": 1
+}

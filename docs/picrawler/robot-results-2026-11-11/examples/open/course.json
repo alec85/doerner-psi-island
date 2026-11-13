@@ -1,0 +1,17 @@
+{
+  "family": "open",
+  "initial_x_m": -0.6479231630598734,
+  "initial_y_m": -0.0005811640535549211,
+  "initial_yaw_rad": -0.023740164596425695,
+  "seed": 1000,
+  "shutter_tick": null,
+  "world": {
+    "bounds": [
+      -1.0,
+      -0.9,
+      1.0,
+      0.9
+    ],
+    "obstacles": []
+  }
+}

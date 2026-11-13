@@ -1,0 +1,1533 @@
+{
+  "camera": {
+    "cx_px": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Ideal pinhole renderer, 60-degree horizontal field of view; not camera calibration",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "px",
+      "value": 24.0
+    },
+    "cy_px": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Ideal pinhole renderer, 60-degree horizontal field of view; not camera calibration",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "px",
+      "value": 16.0
+    },
+    "distortion_k1_k2_p1_p2_k3": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Ideal pinhole renderer, 60-degree horizontal field of view; not camera calibration",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "1",
+      "value": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "fx_px": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Ideal pinhole renderer, 60-degree horizontal field of view; not camera calibration",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "px",
+      "value": 41.569219381653056
+    },
+    "fy_px": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Ideal pinhole renderer, 60-degree horizontal field of view; not camera calibration",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "px",
+      "value": 41.569219381653056
+    },
+    "height_px": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Ideal pinhole renderer, 60-degree horizontal field of view; not camera calibration",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "px",
+      "value": 32
+    },
+    "position_body_m": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Ideal pinhole renderer, 60-degree horizontal field of view; not camera calibration",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "m",
+      "value": [
+        0.035,
+        0.0,
+        0.04
+      ]
+    },
+    "rpy_body_rad": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Ideal pinhole renderer, 60-degree horizontal field of view; not camera calibration",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "rad",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "width_px": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Ideal pinhole renderer, 60-degree horizontal field of view; not camera calibration",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "px",
+      "value": 48
+    }
+  },
+  "camera_frame_convention": "body-aligned camera x forward, y left, z up; image u right=-y, v down=-z",
+  "electrical": {
+    "active_cpu_power_w": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "W",
+      "value": 3.0
+    },
+    "battery_capacity_ah": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "Ah",
+      "value": 2.0
+    },
+    "battery_cutoff_voltage_v": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "V",
+      "value": 6.0
+    },
+    "battery_initial_soc": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "1",
+      "value": 0.8
+    },
+    "battery_internal_resistance_ohm": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Estimated from training samples only: Known forward parameters; bounded uniform observation noise; not device measurements",
+        "source": "Independent analytic fixture; seed 42; dataset SHA256 7e0004178318697bad3536819299d1ac6a6080a34c63ed7862c7fac5c889aaeb"
+      },
+      "unit": "ohm",
+      "value": 0.22982272769133044
+    },
+    "battery_voltage_empty_v": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "V",
+      "value": 6.4
+    },
+    "battery_voltage_full_v": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "V",
+      "value": 8.4
+    },
+    "camera_power_w": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "W",
+      "value": 0.5
+    },
+    "cpu_load": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "1",
+      "value": 0.5
+    },
+    "hunger_soc_critical": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "1",
+      "value": 0.05
+    },
+    "hunger_soc_warning": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "1",
+      "value": 0.3
+    },
+    "idle_cpu_power_w": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "W",
+      "value": 2.5
+    },
+    "regulator_efficiency": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "1",
+      "value": 0.9
+    },
+    "regulator_min_input_v": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "V",
+      "value": 6.5
+    },
+    "servo_idle_power_w": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "W",
+      "value": 0.8
+    },
+    "servo_motion_power_w": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "W",
+      "value": 8.0
+    },
+    "servo_stall_power_w": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "W",
+      "value": 12.0
+    },
+    "supply_nominal_voltage_v": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "V",
+      "value": 5.0
+    },
+    "supply_undervoltage_v": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed generic 2S battery/Pi-like power model; no measured state of charge",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "V",
+      "value": 4.63
+    }
+  },
+  "geometry": {
+    "coxa_m": {
+      "provenance": {
+        "kind": "manufacturer",
+        "measured_at": null,
+        "method": "Manufacturer SDK dimension, converted mm to m",
+        "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler-control/references/api.md"
+      },
+      "unit": "m",
+      "value": 0.033
+    },
+    "hip_spacing_m": {
+      "provenance": {
+        "kind": "manufacturer",
+        "measured_at": null,
+        "method": "Manufacturer SDK dimension, converted mm to m",
+        "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+      },
+      "unit": "m",
+      "value": 0.077
+    },
+    "lower_m": {
+      "provenance": {
+        "kind": "manufacturer",
+        "measured_at": null,
+        "method": "Manufacturer SDK dimension, converted mm to m",
+        "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler-control/references/api.md"
+      },
+      "unit": "m",
+      "value": 0.078
+    },
+    "nominal_height_m": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Chosen nominal simulated stance",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "m",
+      "value": 0.06
+    },
+    "nominal_reach_m": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Chosen nominal simulated stance",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "m",
+      "value": 0.085
+    },
+    "upper_m": {
+      "provenance": {
+        "kind": "manufacturer",
+        "measured_at": null,
+        "method": "Manufacturer SDK dimension, converted mm to m",
+        "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler-control/references/api.md"
+      },
+      "unit": "m",
+      "value": 0.048
+    }
+  },
+  "model_angle_convention": "body x forward, y left, z up; local model yaw/hip/knee in radians; not SDK/PWM angles",
+  "name": "synthetic-fit-not-hardware",
+  "range_sensor": {
+    "dropout_probability": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Estimated from training samples only: Known forward parameters; bounded uniform observation noise; not device measurements",
+        "source": "Independent analytic fixture; seed 42; dataset SHA256 ec502b4e8d53c967f34be185d1769f7b897426bdb51fa3f46c66b1d5651b7b94"
+      },
+      "unit": "1",
+      "value": 0.12
+    },
+    "maximum_m": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Ideal beam parameters; 4 m cap chosen from inconsistent manufacturer 4/5 m documentation",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "m",
+      "value": 4.0
+    },
+    "minimum_m": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Ideal beam parameters; 4 m cap chosen from inconsistent manufacturer 4/5 m documentation",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "m",
+      "value": 0.02
+    },
+    "mount_height_m": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Ideal beam parameters; 4 m cap chosen from inconsistent manufacturer 4/5 m documentation",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "m",
+      "value": 0.03
+    },
+    "noise_half_width_m": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Ideal beam parameters; 4 m cap chosen from inconsistent manufacturer 4/5 m documentation",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "m",
+      "value": 0.0
+    },
+    "offset_forward_m": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Ideal beam parameters; 4 m cap chosen from inconsistent manufacturer 4/5 m documentation",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "m",
+      "value": 0.045
+    }
+  },
+  "servos": [
+    {
+      "channel": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK PIN_LIST, RF/LF/LR/RR order",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "index",
+        "value": 9
+      },
+      "leg": "front_right",
+      "model_direction": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "1",
+        "value": null
+      },
+      "model_joint": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "name",
+        "value": null
+      },
+      "model_maximum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_minimum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_zero_offset_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "sdk_angle_name": "beta",
+      "sdk_direction": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK direction array; not a model-joint sign",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "1",
+        "value": 1
+      },
+      "sdk_offset_deg": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "deg",
+        "value": null
+      },
+      "sdk_slot": 0
+    },
+    {
+      "channel": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK PIN_LIST, RF/LF/LR/RR order",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "index",
+        "value": 10
+      },
+      "leg": "front_right",
+      "model_direction": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "1",
+        "value": null
+      },
+      "model_joint": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "name",
+        "value": null
+      },
+      "model_maximum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_minimum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_zero_offset_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "sdk_angle_name": "alpha",
+      "sdk_direction": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK direction array; not a model-joint sign",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "1",
+        "value": 1
+      },
+      "sdk_offset_deg": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "deg",
+        "value": null
+      },
+      "sdk_slot": 1
+    },
+    {
+      "channel": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK PIN_LIST, RF/LF/LR/RR order",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "index",
+        "value": 11
+      },
+      "leg": "front_right",
+      "model_direction": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "1",
+        "value": null
+      },
+      "model_joint": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "name",
+        "value": null
+      },
+      "model_maximum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_minimum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_zero_offset_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "sdk_angle_name": "gamma",
+      "sdk_direction": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK direction array; not a model-joint sign",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "1",
+        "value": -1
+      },
+      "sdk_offset_deg": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "deg",
+        "value": null
+      },
+      "sdk_slot": 2
+    },
+    {
+      "channel": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK PIN_LIST, RF/LF/LR/RR order",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "index",
+        "value": 3
+      },
+      "leg": "front_left",
+      "model_direction": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "1",
+        "value": null
+      },
+      "model_joint": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "name",
+        "value": null
+      },
+      "model_maximum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_minimum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_zero_offset_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "sdk_angle_name": "beta",
+      "sdk_direction": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK direction array; not a model-joint sign",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "1",
+        "value": 1
+      },
+      "sdk_offset_deg": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "deg",
+        "value": null
+      },
+      "sdk_slot": 0
+    },
+    {
+      "channel": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK PIN_LIST, RF/LF/LR/RR order",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "index",
+        "value": 4
+      },
+      "leg": "front_left",
+      "model_direction": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "1",
+        "value": null
+      },
+      "model_joint": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "name",
+        "value": null
+      },
+      "model_maximum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_minimum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_zero_offset_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "sdk_angle_name": "alpha",
+      "sdk_direction": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK direction array; not a model-joint sign",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "1",
+        "value": 1
+      },
+      "sdk_offset_deg": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "deg",
+        "value": null
+      },
+      "sdk_slot": 1
+    },
+    {
+      "channel": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK PIN_LIST, RF/LF/LR/RR order",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "index",
+        "value": 5
+      },
+      "leg": "front_left",
+      "model_direction": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "1",
+        "value": null
+      },
+      "model_joint": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "name",
+        "value": null
+      },
+      "model_maximum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_minimum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_zero_offset_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "sdk_angle_name": "gamma",
+      "sdk_direction": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK direction array; not a model-joint sign",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "1",
+        "value": 1
+      },
+      "sdk_offset_deg": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "deg",
+        "value": null
+      },
+      "sdk_slot": 2
+    },
+    {
+      "channel": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK PIN_LIST, RF/LF/LR/RR order",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "index",
+        "value": 0
+      },
+      "leg": "rear_left",
+      "model_direction": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "1",
+        "value": null
+      },
+      "model_joint": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "name",
+        "value": null
+      },
+      "model_maximum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_minimum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_zero_offset_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "sdk_angle_name": "beta",
+      "sdk_direction": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK direction array; not a model-joint sign",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "1",
+        "value": 1
+      },
+      "sdk_offset_deg": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "deg",
+        "value": null
+      },
+      "sdk_slot": 0
+    },
+    {
+      "channel": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK PIN_LIST, RF/LF/LR/RR order",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "index",
+        "value": 1
+      },
+      "leg": "rear_left",
+      "model_direction": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "1",
+        "value": null
+      },
+      "model_joint": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "name",
+        "value": null
+      },
+      "model_maximum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_minimum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_zero_offset_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "sdk_angle_name": "alpha",
+      "sdk_direction": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK direction array; not a model-joint sign",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "1",
+        "value": 1
+      },
+      "sdk_offset_deg": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "deg",
+        "value": null
+      },
+      "sdk_slot": 1
+    },
+    {
+      "channel": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK PIN_LIST, RF/LF/LR/RR order",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "index",
+        "value": 2
+      },
+      "leg": "rear_left",
+      "model_direction": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "1",
+        "value": null
+      },
+      "model_joint": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "name",
+        "value": null
+      },
+      "model_maximum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_minimum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_zero_offset_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "sdk_angle_name": "gamma",
+      "sdk_direction": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK direction array; not a model-joint sign",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "1",
+        "value": -1
+      },
+      "sdk_offset_deg": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "deg",
+        "value": null
+      },
+      "sdk_slot": 2
+    },
+    {
+      "channel": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK PIN_LIST, RF/LF/LR/RR order",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "index",
+        "value": 6
+      },
+      "leg": "rear_right",
+      "model_direction": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "1",
+        "value": null
+      },
+      "model_joint": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "name",
+        "value": null
+      },
+      "model_maximum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_minimum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_zero_offset_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "sdk_angle_name": "beta",
+      "sdk_direction": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK direction array; not a model-joint sign",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "1",
+        "value": 1
+      },
+      "sdk_offset_deg": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "deg",
+        "value": null
+      },
+      "sdk_slot": 0
+    },
+    {
+      "channel": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK PIN_LIST, RF/LF/LR/RR order",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "index",
+        "value": 7
+      },
+      "leg": "rear_right",
+      "model_direction": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "1",
+        "value": null
+      },
+      "model_joint": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "name",
+        "value": null
+      },
+      "model_maximum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_minimum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_zero_offset_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "sdk_angle_name": "alpha",
+      "sdk_direction": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK direction array; not a model-joint sign",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "1",
+        "value": 1
+      },
+      "sdk_offset_deg": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "deg",
+        "value": null
+      },
+      "sdk_slot": 1
+    },
+    {
+      "channel": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK PIN_LIST, RF/LF/LR/RR order",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "index",
+        "value": 8
+      },
+      "leg": "rear_right",
+      "model_direction": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "1",
+        "value": null
+      },
+      "model_joint": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "name",
+        "value": null
+      },
+      "model_maximum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_minimum_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "model_zero_offset_rad": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "rad",
+        "value": null
+      },
+      "sdk_angle_name": "gamma",
+      "sdk_direction": {
+        "provenance": {
+          "kind": "manufacturer",
+          "measured_at": null,
+          "method": "SDK direction array; not a model-joint sign",
+          "source": "https://github.com/sunfounder/picrawler/blob/14a54bc1909d4ce8f73e95d0fc09514c974910ce/picrawler/picrawler.py"
+        },
+        "unit": "1",
+        "value": 1
+      },
+      "sdk_offset_deg": {
+        "provenance": {
+          "kind": "unknown",
+          "measured_at": null,
+          "method": "Requires target-device calibration; never inferred from model angles",
+          "source": "not yet measured on the target PiCrawler"
+        },
+        "unit": "deg",
+        "value": null
+      },
+      "sdk_slot": 2
+    }
+  ],
+  "thermal": {
+    "ambient_temperature_c": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed lumped thermal model and experimental thresholds; not a hardware safety limit",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "degC",
+      "value": 25.0
+    },
+    "initial_cpu_temperature_c": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed lumped thermal model and experimental thresholds; not a hardware safety limit",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "degC",
+      "value": 40.0
+    },
+    "temperature_critical_c": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed lumped thermal model and experimental thresholds; not a hardware safety limit",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "degC",
+      "value": 85.0
+    },
+    "temperature_throttle_c": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed lumped thermal model and experimental thresholds; not a hardware safety limit",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "degC",
+      "value": 80.0
+    },
+    "temperature_warning_c": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed lumped thermal model and experimental thresholds; not a hardware safety limit",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "degC",
+      "value": 65.0
+    },
+    "thermal_capacity_j_per_c": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Estimated from training samples only: Known forward parameters; bounded uniform observation noise; not device measurements",
+        "source": "Independent analytic fixture; seed 42; dataset SHA256 7cdd53edf453626e6d43d2c0d4070e59ec0e02914d010970cd09cc39ff568041"
+      },
+      "unit": "J/degC",
+      "value": 18.027369895961314
+    },
+    "thermal_resistance_c_per_w": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Estimated from training samples only: Known forward parameters; bounded uniform observation noise; not device measurements",
+        "source": "Independent analytic fixture; seed 42; dataset SHA256 7cdd53edf453626e6d43d2c0d4070e59ec0e02914d010970cd09cc39ff568041"
+      },
+      "unit": "degC/W",
+      "value": 12.002103834472026
+    },
+    "throttled_dynamic_power_factor": {
+      "provenance": {
+        "kind": "assumed",
+        "measured_at": null,
+        "method": "Assumed lumped thermal model and experimental thresholds; not a hardware safety limit",
+        "source": "psi_gw PiCrawler generic simulation preset; not a hardware measurement"
+      },
+      "unit": "1",
+      "value": 0.55
+    }
+  },
+  "type": "psi_gw.picrawler.calibration",
+  "version": 1
+}

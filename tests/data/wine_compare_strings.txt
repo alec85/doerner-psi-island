@@ -1,0 +1,453 @@
+Blubb     Crackle            CrackRep            Blubb      Affili     -1
+Hämmern   Klippe             Klippe1             Schlagen
+Hämmern   Fels2              Fels2-              Schlagen
+Hämmern   Fels1              Fels1-              Schlagen
+Hämmern   Brocken            Fels1               Schlagen
+Hämmern   Brock              Brocken1            Schlagen
+Hämmern   Bergspreng1        Bergspreng2         Schlagen
+Hämmern   Bergspreng2        Bergspreng3         Schlagen
+Hämmern   Bergspreng3        Bergspreng4         Schlagen
+Hämmern   Sumpfpfl           Sumpfpflg           Rikrak
+Hämmern   Stalagmit          Stalagmit1          Schlagen
+Hämmern   Stalagtit          Stalagtit1          Schlagen
+Hämmern   BergsprengungNuc2  BergsprengungNuc3b  Schlagen
+Hämmern   Bergdurchhämmern1  Bergdurchhämmern2   Schlagen
+Hämmern   Bergdurchhämmern2  Bergdurchhämmern3   Schlagen
+Hämmern   Perennisfels2      Perennisfels3       Schlagen
+Hämmern   Perennisfels0      Perennisfels1       Schlagen
+Hämmern   Perennisfels1      Perennisfels2       Schlagen
+Hämmern   Perennisfels3      Perennisfels0       Schlagen
+Hämmern   BergsprengungNuc1  BergsprengungNuc2   Schlagen
+Kuessen   Teddy              TeddyF              Kiss         Affili  -1
+Nehmen    Fisch              Fisch1              Kugel        Nukleo  -0.4
+Nehmen    Wrack2             Wrack1              Kugel        Nukleo  -0.4
+Nehmen    Hoehl1             Hoehle              Kugel        Nukleo  -0.4
+Nehmen    Baum2              Bauma               Kugel        Nukleo  -0.4
+Nehmen    Aeste1             Aeste               Kugel        Nukleo  -0.4
+Nehmen    Due1-              Due2-               Kugel        Nukleo  -0.4
+Nehmen    Fels1-             Fels3               Kugel        Nukleo  -0.4
+Nehmen    Blumen             Blumen1             Ersticken    Schaden  0.2
+Nehmen    Baumawelk          Baumawelk-          Kugel        Nukleo  -0.4
+Nehmen    Busch              Busch1              Rascheln
+Nehmen    Blu                Blu1                Rascheln
+Nehmen    Gras               Gras1               Rascheln
+Nehmen    Pfef               Pfef-               Rascheln     Schaden -0.4
+Nehmen    Hasel              Hasel-              Knabbern     Hunger  -0.3
+Nehmen    Sonblu             Sonblu-             Fressen      Hunger  -0.4
+Nehmen    Palme2             Palme3              Knabbern     Hunger  -0.3
+Nehmen    TeddyFNuk          TeddyF              Kugel        Nukleo  -0.4
+Nehmen    BergsprengungNuc2  BergsprengungNuc3a  Kugel        Nukleo  -0.4
+Nehmen    Sumpfgras          Sumpfgrasg          Rascheln     Hunger  -0.1
+Nehmen    Acker2             Acker0a             Ersticken    Schaden  0.2
+Nehmen    Acker3             Acker0a             Knabbern     Hunger  -0.3
+Nehmen    Acker4             Acker0a             Fressen      Hunger  -0.6
+Nehmen    Haselnuesse        Leer1               Fressen      Hunger  -0.4
+Nehmen    AkkuBaum           AkkuEmpt            Fressen      Hunger  -0.5
+Nehmen    AmbiPflanz         AmbiPflanz1         Schmatz      Hunger  -0.3
+Nehmen    AmbiPflanz2        AmbiPflanz3         Schmatz      Hunger  -0.3
+Pusten    Garbage            GarbageE            Druckluft    Affili  -1
+Säen      Acker0a            Acker1              Rascheln
+Saugen    Schilf             Schilf-             Saugen       Durst     -0.4
+Saugen    Lache              Lache-              Schlurf      Durst     -0.5
+Saugen    Sumpfpflg          Sumpfpflg-          Sumpfpfl     Durst     -0.4
+Saugen    Oase               Oase1               Schlurfen    Durst     -0.6
+Saugen    FlascheVoll        FlascheLeer         Schlurfen    Durst     -0.5
+Saugen    HydOil             HydEmpt             Schlurfen    Durst     -0.5
+Saugen    Cement             CementE             Schlurfen    Schaden   -0.3
+Schütteln Tannen             Tannen1             Rascheln
+Schütteln Baum               Baum-               Rascheln
+Schütteln Bauma              Baum3               Rascheln
+Schütteln Baumwelk           Baumawelk           Raschplong
+Schütteln Baumawelk-         Baum3               Rascheln
+Schütteln Baum1              Baum2               Raschplong
+Schütteln Palme              Palme2              Raschplong
+Schütteln AmbiPflanz         AmbiPflanz2         Rascheln
+Schütteln AmbiPflanz1        AmbiPflanz3         Rascheln
+Sieben    Duene              Duene-              Sand
+Sieben    Due1               Due1-               Sand
+Sieben    Sandhauf           Sandhauf1           Sand
+Zuenden   Sprengpflanze1     Sprengpflanze2      Fauch
+Zuenden   Eich               Eichbrennt          Explosion    Schaden  0.1
+Zuenden   Eich2              Eich2brennt         Explosion    Schaden  0.1
+Zuenden   Aeste              Asti1               Fauch      nilmotiv    0
+Zuenden   Aeste1             Asti1               Fauch      nilmotiv    0
+Zuenden   Holz               HolzBrennt1         Fauch      Affili  -0.5
+Zuenden   Aeste1             Asti1               Zuend
+Zuenden   Aeste              Asti1               Zuend
+Zuenden   Baumwelk           Baumwelkfire        Fire        Schaden  0.2
+Zuenden   Baumawelk-         Baumwelkfire        Fire        Schaden  0.2
+Acker1          Acker2         10000
+Acker2          Acker3         10000
+Acker3          Acker4         10000
+AkkuEmpt        AkkuBaum       20000
+Asti1           Asti2           5000
+Asti2           Asti3           5000
+Asti3           Asti4           5000
+Baumwelkfire    Baumwelkkohl   10000
+Baumawelkfire   Baumwelkkohl   10000
+Blu1            Blu            20000
+Blumen1         Blumen         20000
+Busch1          Busch          20000
+CementE         Cement         30000
+CrackRep        Crackle        60000
+Eichbrennt      Eich2brennt    10000
+Eich2brennt     Eichkohle       3000
+GarbageE        Garbage        40000
+Fatamorg1       Leer2           1500
+Fatamorg2       Leer4           2000
+Geysir0a        Geysir0b        2000
+Geysir0b        Geysir1         2000
+Geysir1         Geysir2         2000
+Geysir2         Geysir0a        2000
+Gras1           Gras          800000
+Hasel-          Hasel         199996
+Lache-          Lache         199996
+Leer2           Fatamorg2       2000
+Leer4           Fatamorg1       1700
+Pfef-           Pfef          199996
+Schilf-         Schilf        199996
+Sonblu-         Sonblu        199996
+Sprengpflanze2  Sprengpflanze3  1000
+Sprengpflanze3  Sprengpflanze4   900
+TeddyF          Teddy          40000
+Wasserfall0a    Wasserfall0b    2000
+Wasserfall0b    Wasserfall1     2000
+Wasserfall1     Wasserfall0a    2000
+-
+Acker0a
+Acker1
+Acker2
+Acker3
+Acker4
+Ackerwald
+Aeste
+Aeste1
+Affili
+AkkuBaum
+AkkuEmpt
+AmVulkan
+AmbiPflanz
+AmbiPflanz1
+AmbiPflanz2
+AmbiPflanz3
+Asti1
+Asti2
+Asti3
+Asti4
+Bacardiblu
+Bang
+Baum
+Baum-
+Baum1
+Baum2
+Baum3
+Bauma
+Baumawelk
+Baumawelk-
+Baumawelkfire
+Baumwald
+Baumwelk
+Baumwelkfire
+Baumwelkkohl
+Bergbau
+Bergdurchhämmern1
+Bergdurchhämmern2
+Bergdurchhämmern3
+Bergspreng1
+Bergspreng2
+Bergspreng3
+Bergspreng4
+BergsprengungNuc1
+BergsprengungNuc2
+BergsprengungNuc3a
+BergsprengungNuc3b
+Blu
+Blu1
+Blubb
+Blumen
+Blumen1
+Brachland
+Brock
+Brocken
+Brocken1
+Brush
+Busch
+Busch1
+Buschklippen
+Buschwald
+Cement
+CementE
+CrackRep
+Crackle
+Deathert
+Dekadent
+Dreiland
+Druckluft
+Dryclean
+Due1
+Due1-
+Due2-
+Duene
+Duene-
+Durst
+Dünenkap
+Easylife
+Eich
+Eich2
+Eich2brennt
+Eichbrennt
+Eichkohle
+Endwald
+Ersticken
+Exit
+Explody
+Explosion
+Fatamorg
+Fatamorg1
+Fatamorg2
+Fauch
+Fels1
+Fels1-
+Fels2
+Fels2-
+Fels3
+Felsoede
+Felstor
+Felswüste
+Fire
+Fisch
+Fisch1
+Flachdünen
+FlascheLeer
+FlascheVoll
+Fluglava1b
+Fluglava2b
+Fressen
+Garbage
+GarbageE
+Geysir0a
+Geysir0b
+Geysir1
+Geysir2
+Goldhöhle
+Goldkap
+Gras
+Gras1
+Grasstrand
+Greif1
+Greif2
+Greif3
+Greif4
+Greif5
+Greifen
+Grottengang
+Hasel
+Hasel-
+Haselfels
+Haselnuesse
+Haselwald
+Hochwald
+Hoehl1
+Hoehle
+Holz
+HolzBrennt1
+Hunger
+HydEmpt
+HydOil
+Hämmern
+Höhenwald
+Höhleneingang
+Karg
+Kiss
+Klippe
+Klippe1
+Klipport
+Knabbern
+Kratz
+Kratzen
+Krik
+Krk
+Krok
+Kuess
+Kuessen
+Kugel
+Kuss
+Lache
+Lache-
+Lava1
+Lava2
+Lavaküste
+Leer1
+Leer2
+Leer4
+Legen
+Massiv
+Mittelweide
+Moor
+Mooreiche
+Moorort
+Moränenland
+N
+NO
+NW
+Nehmen
+Nimm1
+Nimm2
+Norddünen
+Nordkap
+Nukleo
+O
+Oase
+Oase1
+Oststrand
+Palme
+Palme2
+Palme3
+Paradieswinkel
+PerennisKreativ
+Perennisfels0
+Perennisfels1
+Perennisfels2
+Perennisfels3
+Pfef
+Pfef-
+Pust
+Pusten
+Pyronäen
+Quelle1
+Quellwald
+Randmoor
+Rascheln
+Raschplong
+Rikrak
+Ruett2
+Ruett3
+Ruett4
+Ruetteln
+S
+SO
+SW
+Saftig
+Sahara1
+Sahara10
+Sahara11
+Sahara12
+Sahara13
+Sahara14
+Sahara15
+Sahara16
+Sahara17
+Sahara18
+Sahara19
+Sahara1a
+Sahara1b
+Sahara2
+Sahara21
+Sahara22
+Sahara3
+Sahara31
+Sahara32
+Sahara4
+Sahara5
+Sahara6
+Sahara7
+Sahara8
+Sahara9
+Sand
+Sandhauf
+Sandhauf1
+Sandpross
+Sandstein
+Sandwald
+Sandworm
+Saug1
+Saug2
+Saug3
+Saugen
+Savanne
+Schaden
+Schatzkammer
+Schilf
+Schilf-
+Schlag1
+Schlag2
+Schlag3
+Schlagen
+Schlork
+Schlurf
+Schlurfen
+Schmatz
+Schönort
+Schütteln
+Sieb
+Sieb2
+Sieb4
+Sieben
+Sole
+Sonblu
+Sonblu-
+Sonnenhang
+Sonnental
+Sprengpflanze1
+Sprengpflanze2
+Sprengpflanze3
+Sprengpflanze4
+Stalagmit
+Stalagmit1
+Stalagtit
+Stalagtit1
+Steppe
+Steppenacker
+Steppenbusch
+Steppenfels
+Suedfels
+Suedwestfels
+Sumpfgras
+Sumpfgrasg
+Sumpfpass
+Sumpfpfl
+Sumpfpflg
+Sumpfpflg-
+Säen
+Tannen
+Tannen1
+Teddy
+TeddyF
+TeddyF-
+TeddyFNuk
+TeddyZorn
+Teddyisland
+Tunnel
+Vesuv
+Vulkan1
+W
+Waldweide
+Wasserfall0a
+Wasserfall0b
+Wasserfall1
+Wik
+Wiker
+Willkommen
+Wrack1
+Wrack2
+Zentralfels
+Zuend
+Zuenden
+Zwischenort
+nilmotiv
+hasel-
+Hasel1
+Hasel 1
+a-b
+ab
+a b
+ß
+ss
+Ä
+a
+z
+_
+1
+--
+x'y
+xy

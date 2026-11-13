@@ -1,0 +1,48 @@
+{
+  "checks": [
+    {
+      "file": "s2000-open-active-delayed-t2400.html",
+      "frames": 40,
+      "passed": true,
+      "canvasCalls": 29217,
+      "cameraWrites": 44
+    },
+    {
+      "file": "s2000-open-active-noisy-t2400.html",
+      "frames": 44,
+      "passed": true,
+      "canvasCalls": 32111,
+      "cameraWrites": 48
+    },
+    {
+      "file": "s2000-open-active-nominal-t2400.html",
+      "frames": 40,
+      "passed": true,
+      "canvasCalls": 29217,
+      "cameraWrites": 44
+    },
+    {
+      "file": "s2000-slalom-active-delayed-t2400.html",
+      "frames": 98,
+      "passed": true,
+      "canvasCalls": 87860,
+      "cameraWrites": 102
+    },
+    {
+      "file": "s2000-slalom-active-noisy-t2400.html",
+      "frames": 98,
+      "passed": true,
+      "canvasCalls": 87877,
+      "cameraWrites": 102
+    },
+    {
+      "file": "s2000-slalom-active-nominal-t2400.html",
+      "frames": 98,
+      "passed": true,
+      "canvasCalls": 87860,
+      "cameraWrites": 102
+    }
+  ],
+  "browser_visual_acceptance": false,
+  "script_sha256": "af758604e90be1c68f0f352ff8e9001d104e3451ce353103836540944706e54a"
+}

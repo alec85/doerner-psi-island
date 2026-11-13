@@ -1,0 +1,101 @@
+{
+ "actu1035(1).Prt": {
+  "lines": [
+   29337,
+   29340
+  ],
+  "differing": 5,
+  "first": [
+   {
+    "line": 2844,
+    "original": "  3 OD:2.356 LokoMotion:       lNW",
+    "port": "  2 OD:1.571 LokoMotion:       lNW"
+   },
+   {
+    "line": 29337,
+    "original": "  -* Consu",
+    "port": "  -* Consum-Verstärkung ab Sciu"
+   },
+   {
+    "line": 29338,
+    "original": null,
+    "port": "Pehs->Sciu Dekadent 1.00000"
+   }
+  ]
+ },
+ "seed1035.Prt": {
+  "lines": [
+   382,
+   382
+  ],
+  "differing": 1,
+  "first": [
+   {
+    "line": 382,
+    "original": "  18  254  303   85    3  231 ",
+    "port": "  18  254  303   85    3  231  198  233  104    7    9  100    0   905086     1772"
+   }
+  ]
+ },
+ "IntTimes(1).Txt": {
+  "lines": [
+   12484,
+   380
+  ],
+  "differing": 12105,
+  "first": [
+   {
+    "line": 321,
+    "original": " 320:        156       112       131       174       573           688.65938",
+    "port": " 320:        156       112       131       174       573           688.65937"
+   },
+   {
+    "line": 381,
+    "original": " 380:        379         0         0         0       379           724.62368",
+    "port": null
+   },
+   {
+    "line": 382,
+    "original": " 380:        379         0         0         0       379           725.62105",
+    "port": null
+   }
+  ]
+ },
+ "Activities(1).Txt": {
+  "lines": [
+   1451,
+   1452
+  ],
+  "differing": 2,
+  "first": [
+   {
+    "line": 1451,
+    "original": "380;1451;Loco;906286;WaCoBeDo;174;LookAr;0;<Asso>;327;<Asso>;52;LookArAss;379;<Asso>;83;<Asso>;79;Auto;1",
+    "port": "380;1451;Loco;906286;WaCoBeDo;174;LookAr;0;<Asso>;327;<Asso>;52;LookArAss;379;<Asso>;83;<Asso>;79;Auto;162;;;;;;;;;;;;;;;;;;;;;;;;;"
+   },
+   {
+    "line": 1452,
+    "original": null,
+    "port": "380;1452;Loco;906462;Auto;176;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+   }
+  ]
+ },
+ "eAch(1).Prt": {
+  "missing": [
+   "runs/original/seed1035/raw/seed1035/eAch(1).Prt",
+   "runs/baseline/seed1035/raw/eAch(1).Prt"
+  ]
+ },
+ "Inpro(1).Prt": {
+  "missing": [
+   "runs/original/seed1035/raw/seed1035/Inpro(1).Prt",
+   "runs/baseline/seed1035/raw/Inpro(1).Prt"
+  ]
+ },
+ "Consum(1).Prt": {
+  "missing": [
+   "runs/original/seed1035/raw/seed1035/Consum(1).Prt",
+   "runs/baseline/seed1035/raw/Consum(1).Prt"
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+  "case": {
+    "family": "open",
+    "max_ticks": 900,
+    "policy": "memory",
+    "seed": 1000,
+    "sensors": "nominal",
+    "split": "validation",
+    "task": "progress"
+  },
+  "coverage_fraction": 0.08,
+  "distance_m": 0.9987499999999786,
+  "energy_j": 531.1870370370309,
+  "energy_reaction_ticks": null,
+  "final_state_sha256": "f788a3354b451ff3ec0b0df99eefbbbff180310cf32e586d6da640df9d5fffaa",
+  "goal_reached": true,
+  "metrics": {
+    "action_changes": 1,
+    "collision_ticks": 0,
+    "held_range_ticks": 0,
+    "late_stop_ticks": 0,
+    "maximum_heading_error_rad": 0.0,
+    "posture_resets": 0,
+    "unknown_range_ticks": 0,
+    "unpowered_ticks": 0,
+    "unseen_body_contact_ticks": 0,
+    "workspace_limited_ticks": 0
+  },
+  "preregistered_budget": true,
+  "reachable_cells": 100,
+  "reason": "reached",
+  "success": true,
+  "ticks": 799,
+  "trace_sha256": "a03ce4b570537e185073452ab75fab17e74dd9d8be225c0772f12b8898c80c4c",
+  "type": "psi_gw.picrawler.robot_result",
+  "verified_continuation_ticks": 0,
+  "version": 1,
+  "visited_cells": 8,
+  "world_event": "none"
+}

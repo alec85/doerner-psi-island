@@ -1,0 +1,524 @@
+{
+  "limitations": [
+    "No physical measurements or hardware calibration.",
+    "No PSI, island or Global Workspace experiments.",
+    "No visual browser acceptance; restriction from PR 31 remains."
+  ],
+  "matrix": {
+    "body_ticks": 23220,
+    "bridge": {
+      "completed_commands": 1620,
+      "expired_replies": 540,
+      "reply_drops": 270,
+      "request_drops": 270,
+      "stale_replies_rejected": 810
+    },
+    "cases": 216,
+    "continuation_ticks": 14580,
+    "metrics": {
+      "collision_ticks": 486,
+      "dropout_ticks": 8826,
+      "nonstop_actions": 4644,
+      "readonly_checks": 4536,
+      "throttled_ticks": 3870,
+      "undervoltage_ticks": 11586,
+      "unpowered_ticks": 11538,
+      "workspace_limited_ticks": 0
+    },
+    "passed": 216,
+    "repeated_case_hashes_identical": 216,
+    "resume_case_files_unchanged": 216
+  },
+  "synthetic_calibration": [
+    {
+      "limits": "Predefined engineering checks for synthetic fixtures; no hardware validity or statistical confidence claim.",
+      "origin": "synthetic",
+      "passed": true,
+      "results": [
+        {
+          "kind": "battery_load",
+          "passed": true,
+          "recovery": {
+            "battery_internal_resistance_ohm": {
+              "absolute_error": 0.0001288745620155185,
+              "expected": 0.23,
+              "fitted": 0.2298711254379845
+            }
+          },
+          "scores": {
+            "train": {
+              "bias": 0.00018139517970201525,
+              "count": 25,
+              "mae": 0.0010872744468114703,
+              "maximum_absolute_error": 0.002056320291800695,
+              "rmse": 0.001251507800908726
+            },
+            "validation": {
+              "bias": -0.00023824172310226525,
+              "count": 15,
+              "mae": 0.0008867393145142326,
+              "maximum_absolute_error": 0.0017697529877302998,
+              "rmse": 0.0010323451980323126
+            }
+          },
+          "validation_rmse": 0.0010323451980323126,
+          "validation_rmse_limit": 0.005
+        },
+        {
+          "kind": "thermal",
+          "passed": true,
+          "recovery": {
+            "thermal_capacity_j_per_c": {
+              "absolute_error": 0.004453072183043361,
+              "expected": 18.0,
+              "fitted": 17.995546927816957
+            },
+            "thermal_resistance_c_per_w": {
+              "absolute_error": 0.00894024240566793,
+              "expected": 12.0,
+              "fitted": 12.008940242405668
+            }
+          },
+          "scores": {
+            "identifiability_singular_ratio": 0.3036198236545493,
+            "time_constant_s": 216.10744768556074,
+            "train": {
+              "one_step_degC": {
+                "bias": 0.00032355592850443317,
+                "count": 100,
+                "mae": 0.011440712720229342,
+                "maximum_absolute_error": 0.028667446445453493,
+                "rmse": 0.013602183233251398
+              },
+              "rollout_degC": {
+                "bias": 0.00944973717944606,
+                "count": 100,
+                "mae": 0.010880109545072117,
+                "maximum_absolute_error": 0.027774021012035632,
+                "rmse": 0.013488500390309358
+              }
+            },
+            "validation": {
+              "one_step_degC": {
+                "bias": 0.00048648809234991356,
+                "count": 59,
+                "mae": 0.01159673388384778,
+                "maximum_absolute_error": 0.026405319705283148,
+                "rmse": 0.0138140701684855
+              },
+              "rollout_degC": {
+                "bias": 0.008434579646863529,
+                "count": 59,
+                "mae": 0.01046381554983175,
+                "maximum_absolute_error": 0.029784557031725,
+                "rmse": 0.012908234378272163
+              }
+            }
+          },
+          "validation_rmse": 0.012908234378272163,
+          "validation_rmse_limit": 0.15
+        },
+        {
+          "kind": "range",
+          "passed": true,
+          "recovery": {
+            "range_offset_m": {
+              "absolute_error": 0.00010563402900557774,
+              "expected": 0.012,
+              "fitted": 0.012105634029005578
+            }
+          },
+          "scores": {
+            "train": {
+              "corrected_distance_m": {
+                "bias": 2.3339915858597042e-17,
+                "count": 44,
+                "mae": 0.0020382602152854835,
+                "maximum_absolute_error": 0.003803928637936993,
+                "rmse": 0.002365398157922463
+              },
+              "dropout_fraction": 0.12,
+              "missing_echoes": 6,
+              "samples": 50
+            },
+            "validation": {
+              "corrected_distance_m": {
+                "bias": 0.0001922365742057575,
+                "count": 27,
+                "mae": 0.002003681132217778,
+                "maximum_absolute_error": 0.004103228508150147,
+                "rmse": 0.0022852396941172304
+              },
+              "dropout_fraction": 0.09999999999999998,
+              "missing_echoes": 3,
+              "samples": 30
+            }
+          },
+          "validation_rmse": 0.0022852396941172304,
+          "validation_rmse_limit": 0.006
+        }
+      ],
+      "runtime": {
+        "code_sha256": "6c6da00846aeecd00f31b342769cf33dc3c782bd159ce66e67eaaae96cc4e1ad",
+        "files_sha256": {
+          "body/base.py": "dccd598137d5d8d5de9d207a02a41ba96fdb00c0774411319159af939bedff81",
+          "picrawler/__init__.py": "df76ee73a9242704d34cccdcc87b64cebb09b2b01474b2e700ab45970de2404d",
+          "picrawler/__main__.py": "bdddb8cdf1b30316504f5f24ec587404eb944ee245fd72cb6358490667a21330",
+          "picrawler/body.py": "f565d319e248d0cd361e6ef65ddeb111f1a253f92d7b016b650289cec58dcb8f",
+          "picrawler/bridge.py": "33f71503be5556f12df800dd1ef388b283bb8cf23f2d0ca041dd36b7e2091757",
+          "picrawler/calibration.py": "e54b81cfe19fc35d864d4700c19a266b0a9b23bdc5fc56bb1a251b1aa61f49cc",
+          "picrawler/calibration_experiment.py": "a6ebf294fe39d036f1e20b84b6e2c73baa7d5a7dfa2f5d238b0dac46271ee0b4",
+          "picrawler/calibration_fit.py": "f993558a024a2033f6be1db582a3d1b542b600fd284e7084822a35b9a7462d7e",
+          "picrawler/demo.py": "cca015944ad330eee85fd1b953d29a4694f849cb07f4ace061c6bca058e5f788",
+          "picrawler/energy.py": "bcd2cd477f951b4f813aec9b61a06bccbb4fc25aab812aedd4d4dec01484fdd9",
+          "picrawler/kinematics.py": "8b3055332ae5a4f7aa9394c871ab1a5e3e1e4a936e3e426f6ef427ed9d285b19",
+          "picrawler/perception.py": "4258f351c7be3695c27190e7f9dea4f25074e2448308a669e4c6385dd8782444",
+          "picrawler/peripherals.py": "83b9fa39399facdaf88ac30c49816949acec490f877996d6229ff70e20105664",
+          "picrawler/render_video.py": "672d91ade2048e24e863cfc637bb3778f57428dfd09994cc1d3ee56b24139db6",
+          "picrawler/replay.py": "deaa7fc9a721a54b59301d4f49e309e10683923609d5dcf990167e364ada700c",
+          "picrawler/sensors.py": "9044f3e4ec3493bd30cd00d3d785b21c21c4fb2d58dd3cb33eb1b0d620917877",
+          "picrawler/stress.py": "9a8e4aabf46611efab1c3a1e50ccb863f9fa68546d033a48594a0e46cee42bfa",
+          "picrawler/telemetry.py": "7b194c9473b4fef96a1482948a285995cee3b30bc513645abbc57fd01ed88a7d",
+          "picrawler/validation_io.py": "86025cb7871bf2f512b11dafe7958fd6e73c8254e2753f662cdd40f08a8a4f8d",
+          "picrawler/world.py": "cd9680a9bf2e3a809d1aa8130bf13bcea3b57265c7a66dff1d5eb89088fa8bd1",
+          "random_source.py": "1ff564ded0aff7cc22eb9a8d4b834d6d587973f27075592c6d5cbc18b119c070"
+        },
+        "numpy": "2.5.4",
+        "python": "3.12.14",
+        "revision": "b6a38e62d2fd7a5293ea538569f6f5eb4ce1d3f7"
+      },
+      "seed": 0,
+      "type": "psi_gw.picrawler.synthetic_recovery",
+      "version": 1
+    },
+    {
+      "limits": "Predefined engineering checks for synthetic fixtures; no hardware validity or statistical confidence claim.",
+      "origin": "synthetic",
+      "passed": true,
+      "results": [
+        {
+          "kind": "battery_load",
+          "passed": true,
+          "recovery": {
+            "battery_internal_resistance_ohm": {
+              "absolute_error": 0.00014830814672886494,
+              "expected": 0.23,
+              "fitted": 0.23014830814672887
+            }
+          },
+          "scores": {
+            "train": {
+              "bias": -0.00021510552597714394,
+              "count": 25,
+              "mae": 0.0008824489477830966,
+              "maximum_absolute_error": 0.0020638415385976216,
+              "rmse": 0.0011052681516934186
+            },
+            "validation": {
+              "bias": -0.00018094211780006475,
+              "count": 15,
+              "mae": 0.0009917285966936974,
+              "maximum_absolute_error": 0.00224305661234947,
+              "rmse": 0.001170317267308353
+            }
+          },
+          "validation_rmse": 0.001170317267308353,
+          "validation_rmse_limit": 0.005
+        },
+        {
+          "kind": "thermal",
+          "passed": true,
+          "recovery": {
+            "thermal_capacity_j_per_c": {
+              "absolute_error": 0.011444878313167095,
+              "expected": 18.0,
+              "fitted": 17.988555121686833
+            },
+            "thermal_resistance_c_per_w": {
+              "absolute_error": 0.014309473731021427,
+              "expected": 12.0,
+              "fitted": 11.985690526268979
+            }
+          },
+          "scores": {
+            "identifiability_singular_ratio": 0.30450923178908196,
+            "time_constant_s": 215.60525470326917,
+            "train": {
+              "one_step_degC": {
+                "bias": -0.00021062360705755622,
+                "count": 100,
+                "mae": 0.009176234488092945,
+                "maximum_absolute_error": 0.024321667129370894,
+                "rmse": 0.01125128316822416
+              },
+              "rollout_degC": {
+                "bias": -0.0072541426244504235,
+                "count": 100,
+                "mae": 0.010570524078834182,
+                "maximum_absolute_error": 0.03121497801917883,
+                "rmse": 0.012827096538673827
+              }
+            },
+            "validation": {
+              "one_step_degC": {
+                "bias": -0.0005690489657264832,
+                "count": 59,
+                "mae": 0.011691834167546067,
+                "maximum_absolute_error": 0.02598851916452105,
+                "rmse": 0.013463564928422078
+              },
+              "rollout_degC": {
+                "bias": -0.010477059457120868,
+                "count": 59,
+                "mae": 0.011799009930723827,
+                "maximum_absolute_error": 0.028078460362849,
+                "rmse": 0.014115082389802218
+              }
+            }
+          },
+          "validation_rmse": 0.014115082389802218,
+          "validation_rmse_limit": 0.15
+        },
+        {
+          "kind": "range",
+          "passed": true,
+          "recovery": {
+            "range_offset_m": {
+              "absolute_error": 0.00012256506963431724,
+              "expected": 0.012,
+              "fitted": 0.011877434930365683
+            }
+          },
+          "scores": {
+            "train": {
+              "corrected_distance_m": {
+                "bias": 2.4916937200394138e-17,
+                "count": 44,
+                "mae": 0.002140029534494858,
+                "maximum_absolute_error": 0.0038254816971801386,
+                "rmse": 0.002410490772921958
+              },
+              "dropout_fraction": 0.12,
+              "missing_echoes": 6,
+              "samples": 50
+            },
+            "validation": {
+              "corrected_distance_m": {
+                "bias": -0.0008219448688809598,
+                "count": 27,
+                "mae": 0.0021453141407450425,
+                "maximum_absolute_error": 0.0038280188035522134,
+                "rmse": 0.002420946111966803
+              },
+              "dropout_fraction": 0.09999999999999998,
+              "missing_echoes": 3,
+              "samples": 30
+            }
+          },
+          "validation_rmse": 0.002420946111966803,
+          "validation_rmse_limit": 0.006
+        }
+      ],
+      "runtime": {
+        "code_sha256": "6c6da00846aeecd00f31b342769cf33dc3c782bd159ce66e67eaaae96cc4e1ad",
+        "files_sha256": {
+          "body/base.py": "dccd598137d5d8d5de9d207a02a41ba96fdb00c0774411319159af939bedff81",
+          "picrawler/__init__.py": "df76ee73a9242704d34cccdcc87b64cebb09b2b01474b2e700ab45970de2404d",
+          "picrawler/__main__.py": "bdddb8cdf1b30316504f5f24ec587404eb944ee245fd72cb6358490667a21330",
+          "picrawler/body.py": "f565d319e248d0cd361e6ef65ddeb111f1a253f92d7b016b650289cec58dcb8f",
+          "picrawler/bridge.py": "33f71503be5556f12df800dd1ef388b283bb8cf23f2d0ca041dd36b7e2091757",
+          "picrawler/calibration.py": "e54b81cfe19fc35d864d4700c19a266b0a9b23bdc5fc56bb1a251b1aa61f49cc",
+          "picrawler/calibration_experiment.py": "a6ebf294fe39d036f1e20b84b6e2c73baa7d5a7dfa2f5d238b0dac46271ee0b4",
+          "picrawler/calibration_fit.py": "f993558a024a2033f6be1db582a3d1b542b600fd284e7084822a35b9a7462d7e",
+          "picrawler/demo.py": "cca015944ad330eee85fd1b953d29a4694f849cb07f4ace061c6bca058e5f788",
+          "picrawler/energy.py": "bcd2cd477f951b4f813aec9b61a06bccbb4fc25aab812aedd4d4dec01484fdd9",
+          "picrawler/kinematics.py": "8b3055332ae5a4f7aa9394c871ab1a5e3e1e4a936e3e426f6ef427ed9d285b19",
+          "picrawler/perception.py": "4258f351c7be3695c27190e7f9dea4f25074e2448308a669e4c6385dd8782444",
+          "picrawler/peripherals.py": "83b9fa39399facdaf88ac30c49816949acec490f877996d6229ff70e20105664",
+          "picrawler/render_video.py": "672d91ade2048e24e863cfc637bb3778f57428dfd09994cc1d3ee56b24139db6",
+          "picrawler/replay.py": "deaa7fc9a721a54b59301d4f49e309e10683923609d5dcf990167e364ada700c",
+          "picrawler/sensors.py": "9044f3e4ec3493bd30cd00d3d785b21c21c4fb2d58dd3cb33eb1b0d620917877",
+          "picrawler/stress.py": "9a8e4aabf46611efab1c3a1e50ccb863f9fa68546d033a48594a0e46cee42bfa",
+          "picrawler/telemetry.py": "7b194c9473b4fef96a1482948a285995cee3b30bc513645abbc57fd01ed88a7d",
+          "picrawler/validation_io.py": "86025cb7871bf2f512b11dafe7958fd6e73c8254e2753f662cdd40f08a8a4f8d",
+          "picrawler/world.py": "cd9680a9bf2e3a809d1aa8130bf13bcea3b57265c7a66dff1d5eb89088fa8bd1",
+          "random_source.py": "1ff564ded0aff7cc22eb9a8d4b834d6d587973f27075592c6d5cbc18b119c070"
+        },
+        "numpy": "2.5.4",
+        "python": "3.12.14",
+        "revision": "b6a38e62d2fd7a5293ea538569f6f5eb4ce1d3f7"
+      },
+      "seed": 1,
+      "type": "psi_gw.picrawler.synthetic_recovery",
+      "version": 1
+    },
+    {
+      "limits": "Predefined engineering checks for synthetic fixtures; no hardware validity or statistical confidence claim.",
+      "origin": "synthetic",
+      "passed": true,
+      "results": [
+        {
+          "kind": "battery_load",
+          "passed": true,
+          "recovery": {
+            "battery_internal_resistance_ohm": {
+              "absolute_error": 0.00017727230866956822,
+              "expected": 0.23,
+              "fitted": 0.22982272769133044
+            }
+          },
+          "scores": {
+            "train": {
+              "bias": -0.0002243388851049488,
+              "count": 25,
+              "mae": 0.001011948551717019,
+              "maximum_absolute_error": 0.0020904119774893815,
+              "rmse": 0.001157472969888875
+            },
+            "validation": {
+              "bias": 0.0006418346544011299,
+              "count": 15,
+              "mae": 0.0010787250586610378,
+              "maximum_absolute_error": 0.0021704659387564718,
+              "rmse": 0.0012528655834479787
+            }
+          },
+          "validation_rmse": 0.0012528655834479787,
+          "validation_rmse_limit": 0.005
+        },
+        {
+          "kind": "thermal",
+          "passed": true,
+          "recovery": {
+            "thermal_capacity_j_per_c": {
+              "absolute_error": 0.027369895961314228,
+              "expected": 18.0,
+              "fitted": 18.027369895961314
+            },
+            "thermal_resistance_c_per_w": {
+              "absolute_error": 0.0021038344720256674,
+              "expected": 12.0,
+              "fitted": 12.002103834472026
+            }
+          },
+          "scores": {
+            "identifiability_singular_ratio": 0.30382781454112395,
+            "time_constant_s": 216.36636535376286,
+            "train": {
+              "one_step_degC": {
+                "bias": -0.00018259050350330597,
+                "count": 100,
+                "mae": 0.00882056951222033,
+                "maximum_absolute_error": 0.02661968006503912,
+                "rmse": 0.010930001227147263
+              },
+              "rollout_degC": {
+                "bias": -0.007831184848254935,
+                "count": 100,
+                "mae": 0.009707466076283993,
+                "maximum_absolute_error": 0.02686383849909646,
+                "rmse": 0.011537093516021741
+              }
+            },
+            "validation": {
+              "one_step_degC": {
+                "bias": -0.00017586744710858273,
+                "count": 59,
+                "mae": 0.011215608265171238,
+                "maximum_absolute_error": 0.02417560659895912,
+                "rmse": 0.013340347956131806
+              },
+              "rollout_degC": {
+                "bias": -0.002555378573939664,
+                "count": 59,
+                "mae": 0.008471932787129764,
+                "maximum_absolute_error": 0.022956405981481964,
+                "rmse": 0.009914101043994797
+              }
+            }
+          },
+          "validation_rmse": 0.009914101043994797,
+          "validation_rmse_limit": 0.15
+        },
+        {
+          "kind": "range",
+          "passed": true,
+          "recovery": {
+            "range_offset_m": {
+              "absolute_error": 3.919299350484649e-05,
+              "expected": 0.012,
+              "fitted": 0.011960807006495154
+            }
+          },
+          "scores": {
+            "train": {
+              "corrected_distance_m": {
+                "bias": -4.100255488672453e-18,
+                "count": 44,
+                "mae": 0.0021147326083911407,
+                "maximum_absolute_error": 0.003849316704829575,
+                "rmse": 0.002430612267864845
+              },
+              "dropout_fraction": 0.12,
+              "missing_echoes": 6,
+              "samples": 50
+            },
+            "validation": {
+              "corrected_distance_m": {
+                "bias": -0.0007647440156333201,
+                "count": 27,
+                "mae": 0.0022088988343045043,
+                "maximum_absolute_error": 0.003791622875803702,
+                "rmse": 0.002426963719052536
+              },
+              "dropout_fraction": 0.09999999999999998,
+              "missing_echoes": 3,
+              "samples": 30
+            }
+          },
+          "validation_rmse": 0.002426963719052536,
+          "validation_rmse_limit": 0.006
+        }
+      ],
+      "runtime": {
+        "code_sha256": "6c6da00846aeecd00f31b342769cf33dc3c782bd159ce66e67eaaae96cc4e1ad",
+        "files_sha256": {
+          "body/base.py": "dccd598137d5d8d5de9d207a02a41ba96fdb00c0774411319159af939bedff81",
+          "picrawler/__init__.py": "df76ee73a9242704d34cccdcc87b64cebb09b2b01474b2e700ab45970de2404d",
+          "picrawler/__main__.py": "bdddb8cdf1b30316504f5f24ec587404eb944ee245fd72cb6358490667a21330",
+          "picrawler/body.py": "f565d319e248d0cd361e6ef65ddeb111f1a253f92d7b016b650289cec58dcb8f",
+          "picrawler/bridge.py": "33f71503be5556f12df800dd1ef388b283bb8cf23f2d0ca041dd36b7e2091757",
+          "picrawler/calibration.py": "e54b81cfe19fc35d864d4700c19a266b0a9b23bdc5fc56bb1a251b1aa61f49cc",
+          "picrawler/calibration_experiment.py": "a6ebf294fe39d036f1e20b84b6e2c73baa7d5a7dfa2f5d238b0dac46271ee0b4",
+          "picrawler/calibration_fit.py": "f993558a024a2033f6be1db582a3d1b542b600fd284e7084822a35b9a7462d7e",
+          "picrawler/demo.py": "cca015944ad330eee85fd1b953d29a4694f849cb07f4ace061c6bca058e5f788",
+          "picrawler/energy.py": "bcd2cd477f951b4f813aec9b61a06bccbb4fc25aab812aedd4d4dec01484fdd9",
+          "picrawler/kinematics.py": "8b3055332ae5a4f7aa9394c871ab1a5e3e1e4a936e3e426f6ef427ed9d285b19",
+          "picrawler/perception.py": "4258f351c7be3695c27190e7f9dea4f25074e2448308a669e4c6385dd8782444",
+          "picrawler/peripherals.py": "83b9fa39399facdaf88ac30c49816949acec490f877996d6229ff70e20105664",
+          "picrawler/render_video.py": "672d91ade2048e24e863cfc637bb3778f57428dfd09994cc1d3ee56b24139db6",
+          "picrawler/replay.py": "deaa7fc9a721a54b59301d4f49e309e10683923609d5dcf990167e364ada700c",
+          "picrawler/sensors.py": "9044f3e4ec3493bd30cd00d3d785b21c21c4fb2d58dd3cb33eb1b0d620917877",
+          "picrawler/stress.py": "9a8e4aabf46611efab1c3a1e50ccb863f9fa68546d033a48594a0e46cee42bfa",
+          "picrawler/telemetry.py": "7b194c9473b4fef96a1482948a285995cee3b30bc513645abbc57fd01ed88a7d",
+          "picrawler/validation_io.py": "86025cb7871bf2f512b11dafe7958fd6e73c8254e2753f662cdd40f08a8a4f8d",
+          "picrawler/world.py": "cd9680a9bf2e3a809d1aa8130bf13bcea3b57265c7a66dff1d5eb89088fa8bd1",
+          "random_source.py": "1ff564ded0aff7cc22eb9a8d4b834d6d587973f27075592c6d5cbc18b119c070"
+        },
+        "numpy": "2.5.4",
+        "python": "3.12.14",
+        "revision": "b6a38e62d2fd7a5293ea538569f6f5eb4ce1d3f7"
+      },
+      "seed": 42,
+      "type": "psi_gw.picrawler.synthetic_recovery",
+      "version": 1
+    }
+  ],
+  "tested_commit": "b6a38e62d2fd7a5293ea538569f6f5eb4ce1d3f7",
+  "tests": {
+    "command": "python -m pytest -q tests/picrawler tests/test_smoke.py tests/test_random_source.py",
+    "new_tests": 131,
+    "passed": 767,
+    "skipped": 0
+  }
+}
