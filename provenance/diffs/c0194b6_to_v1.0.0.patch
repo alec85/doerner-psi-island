@@ -1,0 +1,248 @@
+diff --git a/docs/analyseplan-workspace.md b/docs/analyseplan-workspace.md
+index 554482a..357d2e0 100644
+--- a/docs/analyseplan-workspace.md
++++ b/docs/analyseplan-workspace.md
+@@ -100,6 +100,8 @@ W2 hat damit einen Bodeneffekt; H1 in der Fassung 1 kann B und E nicht untersche
+ 
+ Dieser Nachtrag ist eine offene Frage an Alec (`HANDOFF.md`), weil er das Kriterium der Kernaussage berührt. Die Läufe sind so angelegt, dass beide Fassungen von H1 aus denselben Daten auswertbar bleiben.
+ 
++Zustimmung: Alec hat Nachtrag 1 am 2026-11-12 bestätigt.
++
+ ## Nachtrag 2 (2026-11-11, vor den Läufen von D)
+ 
+ Fester Bonus für Bedingung D: **0,064642**, das Mittel der Selektionsschwelle über alle 18.095 Zyklen der Bedingung A in den Seeds 1001 bis 1020 (`analysis/workspace/a-pruefung/README.md`). Aufruf: `--variant all,workspace=fixed,workspace_fixed_bonus=0.064642`.
+diff --git a/scripts/workspace_analysis.py b/scripts/workspace_analysis.py
+index 9a5347d..8256462 100644
+--- a/scripts/workspace_analysis.py
++++ b/scripts/workspace_analysis.py
+@@ -49,6 +49,17 @@ DESCRIPTIVE_ONLY = [("H1 (Fassung 1)", "W2_motive_switches_per_100", "E", "B", -
+ ALPHA = 0.05
+ 
+ 
++def _baseline_csv() -> dict[int, dict]:
++    path = ROOT / "analysis" / "grundlinie-modern" / "kennzahlen.csv"
++    if not path.exists():
++        return {}
++    with path.open() as f:
++        return {int(r["seed"]): {k: float(v) for k, v in r.items() if k != "seed"} for r in csv.DictReader(f)}
++
++
++BASELINE_CSV = _baseline_csv()
++
++
+ def load(runs: Path, seeds: list[int]) -> tuple[dict[str, dict[int, dict]], dict[str, dict[int, str]]]:
+     data: dict[str, dict[int, dict]] = {c: {} for c in CONDITIONS}
+     broken: dict[str, dict[int, str]] = {c: {} for c in CONDITIONS}
+@@ -59,6 +70,10 @@ def load(runs: Path, seeds: list[int]) -> tuple[dict[str, dict[int, dict]], dict
+                 # A is the modern-mode baseline; ws-A (with workspace log) equals it seed by
+                 # seed on 1001-1020 (HANDOFF, step 5a), so the baseline runs stand in for the rest.
+                 p = runs / "variant-all" / f"seed{s}" / "metrics.json"
++            if not p.exists() and c == "A" and s in BASELINE_CSV:
++                # without runs/ (public repository): the archived table of the same baseline
++                data[c][s] = BASELINE_CSV[s]
++                continue
+             if not p.exists():
+                 continue
+             m = json.loads(p.read_text())
+diff --git a/src/psi_gw/state.py b/src/psi_gw/state.py
+index 0c13729..7e9f241 100644
+--- a/src/psi_gw/state.py
++++ b/src/psi_gw/state.py
+@@ -184,7 +184,8 @@ class PsiState:
+         self.eliminated = SynapseList()
+         """„Eliminated“: objects WhatCouldBeDone has given up on in this step."""
+         self.n_tri_err = 0
+-        self.workspace = Workspace(mode=self.variant.workspace, fixed_bonus=self.variant.workspace_fixed_bonus)
++        self.workspace = Workspace(mode=self.variant.workspace, fixed_bonus=self.variant.workspace_fixed_bonus,
++                                   ties=self.variant.workspace_ties, tie_seed=seed)
+         """Global Workspace (ADR 0016); ``mode == "off"`` only logs."""
+         self.motivation.switch_bonus = self.workspace.motive_switch_bonus()
+         self.ws_events = {"motive_switches": 0, "plans_carried_out": 0, "plans_aborted": 0, "opportunistic": 0}
+@@ -300,7 +301,8 @@ class PsiState:
+         if "workspace" in data:
+             obj.workspace = Workspace.restore(data["workspace"], neurons)
+         else:
+-            obj.workspace = Workspace(mode=obj.variant.workspace, fixed_bonus=obj.variant.workspace_fixed_bonus)
++            obj.workspace = Workspace(mode=obj.variant.workspace, fixed_bonus=obj.variant.workspace_fixed_bonus,
++                                      ties=obj.variant.workspace_ties)
+         obj.motivation.switch_bonus = obj.workspace.motive_switch_bonus()
+         obj.ws_events = dict(data.get("ws_events", {"motive_switches": 0, "plans_carried_out": 0,
+                                                     "plans_aborted": 0, "opportunistic": 0}))
+diff --git a/src/psi_gw/variant.py b/src/psi_gw/variant.py
+index 6cc71d8..c4584eb 100644
+--- a/src/psi_gw/variant.py
++++ b/src/psi_gw/variant.py
+@@ -72,11 +72,17 @@ class Variant:
+     workspace_fixed_bonus: float = 0.0
+     """Bonus in condition ``fixed`` (D)."""
+ 
++    workspace_ties: str = "name"
++    """Resolution of equal effective strengths at the capacity boundary: ``name`` (neuron name,
++    the rule of the confirmatory study) or ``random`` (ADR 0018, own random stream from the seed)."""
++
+     WORKSPACE_MODES = ("off", "threshold", "motive_only", "fixed", "none")
+ 
+     def __post_init__(self) -> None:
+         if self.workspace not in self.WORKSPACE_MODES:
+             raise ValueError(f"workspace must be one of {self.WORKSPACE_MODES}, not {self.workspace!r}")
++        if self.workspace_ties not in ("name", "random"):
++            raise ValueError(f"workspace_ties must be 'name' or 'random', not {self.workspace_ties!r}")
+ 
+     def active(self) -> list[str]:
+         out = [f.name for f in fields(self) if isinstance(getattr(self, f.name), bool) and getattr(self, f.name)]
+@@ -84,6 +90,8 @@ class Variant:
+             out.append(f"workspace={self.workspace}")
+             if self.workspace == "fixed":
+                 out.append(f"workspace_fixed_bonus={self.workspace_fixed_bonus!r}")
++            if self.workspace_ties != "name":
++                out.append(f"workspace_ties={self.workspace_ties}")
+         return out
+ 
+     def to_dict(self) -> dict:
+@@ -106,6 +114,8 @@ class Variant:
+                 kwargs.update({n: True for n in switches})
+             elif name.startswith("workspace="):
+                 kwargs["workspace"] = name.split("=", 1)[1]
++            elif name.startswith("workspace_ties="):
++                kwargs["workspace_ties"] = name.split("=", 1)[1]
+             elif name.startswith("workspace_fixed_bonus="):
+                 kwargs["workspace_fixed_bonus"] = float(name.split("=", 1)[1])
+             elif name in switches:
+diff --git a/src/psi_gw/workspace/__init__.py b/src/psi_gw/workspace/__init__.py
+index 045d0b3..6edd57f 100644
+--- a/src/psi_gw/workspace/__init__.py
++++ b/src/psi_gw/workspace/__init__.py
+@@ -35,6 +35,8 @@ from __future__ import annotations
+ from dataclasses import dataclass, field
+ from typing import TYPE_CHECKING, Any
+ 
++import numpy as np
++
+ from psi_gw.memory.network import Axon, Neuron
+ from psi_gw.motivation.needs import NEEDS, Modulator, Motive
+ 
+@@ -67,6 +69,11 @@ class Workspace:
+ 
+     mode: str = "off"
+     fixed_bonus: float = 0.0
++    ties: str = "name"
++    """How equal effective strengths at the capacity boundary are resolved: ``name`` (neuron
++    name, the rule of the confirmatory study) or ``random`` (ADR 0018, own random stream)."""
++    tie_seed: int = 0
++    """Seed of the own random stream for ``ties == "random"`` (the life's seed)."""
+     contents: list[Content] = field(default_factory=list)
+     memories: list[tuple[Neuron, Neuron]] = field(default_factory=list)
+     """Situations recalled by the last ``Association`` with the goal each holds
+@@ -81,6 +88,14 @@ class Workspace:
+     log: list[dict[str, Any]] = field(default_factory=list)
+     """One record per cycle (output, not part of the snapshot)."""
+ 
++    def __post_init__(self) -> None:
++        self.tie_rng: np.random.Generator | None = None
++        if self.ties == "random":
++            # DEVIATION(ADR-0018): own stream, derived from the seed; Psi's random source is untouched.
++            self.tie_rng = np.random.default_rng(np.random.SeedSequence(entropy=self.tie_seed, spawn_key=(18,)))
++        elif self.ties != "name":
++            raise ValueError(f"ties must be 'name' or 'random', not {self.ties!r}")
++
+     @property
+     def enabled(self) -> bool:
+         return self.mode != "off"
+@@ -235,8 +250,10 @@ class Workspace:
+                                old.since if old else st.cycle, old.arousal_at_entry if old else arousal))
+         slots = k - len(new)
+         cands = self.candidates(st)
++        diag: dict[str, Any] = {}
+         for kind, neuron, strength in self.choose(cands, set(before), slots,
+-                                                  lambda kind: self.bonus(kind, threshold)):
++                                                  lambda kind: self.bonus(kind, threshold),
++                                                  rng=self.tie_rng, diag=diag):
+             old = before.get(id(neuron))
+             new.append(Content(kind, neuron, strength, old.since if old else st.cycle,
+                                old.arousal_at_entry if old else arousal))
+@@ -249,23 +266,60 @@ class Workspace:
+             "contents": [{"kind": c.kind, "name": c.neuron.name, "strength": round(c.strength, 6),
+                           "since": c.since, "arousal_at_entry": round(c.arousal_at_entry, 6)} for c in new],
+             "differs_from_memoryless": chosen != memoryless,
++            # diagnostics (revision 2026-11-12); no effect on the selection
++            "differs_from_any_memoryless": not self.memoryless_compatible(chosen, cands, slots),
++            **diag,
+         })
+         self.log.append(record)
+ 
+     @staticmethod
+     def choose(candidates: list[tuple[str, Neuron, float]], incumbents: set[int], slots: int,
+-               bonus) -> list[tuple[str, Neuron, float]]:
++               bonus, rng: np.random.Generator | None = None,
++               diag: dict[str, Any] | None = None) -> list[tuple[str, Neuron, float]]:
+         """The ``slots`` winners among ``candidates`` (kind, neuron, strength).
+ 
+         Candidates whose ``id(neuron)`` is in ``incumbents`` compete with
+-        ``strength + bonus(kind)``; ties go by neuron name.
++        ``strength + bonus(kind)``. Equal effective strengths go by neuron name;
++        with ``rng`` (ADR 0018) the candidates tied at the capacity boundary are
++        shuffled instead, and a draw happens only when such a tie exists.
++        ``diag``, if given, receives the number of candidates, the free slots, the
++        margin between the last winner and the first loser and whether they tie.
+         """
++        slots = max(0, slots)
+         effective = []
+         for kind, neuron, strength in candidates:
+             b = bonus(kind) if id(neuron) in incumbents else 0.0
+             effective.append((strength + b, kind, neuron, strength))
+         effective.sort(key=lambda e: (-e[0], e[2].name))
+-        return [(kind, neuron, strength) for _, kind, neuron, strength in effective[:max(0, slots)]]
++        tie = 0 < slots < len(effective) and effective[slots - 1][0] == effective[slots][0]
++        if diag is not None:
++            diag["n_candidates"] = len(effective)
++            diag["slots"] = slots
++            diag["margin"] = (round(effective[slots - 1][0] - effective[slots][0], 9)
++                              if 0 < slots < len(effective) else None)
++            diag["tie_at_boundary"] = tie
++        if tie and rng is not None:
++            level = effective[slots - 1][0]
++            group = [i for i, e in enumerate(effective) if e[0] == level]
++            order = rng.permutation(len(group))
++            shuffled = [effective[group[j]] for j in order]
++            for i, e in zip(group, shuffled):
++                effective[i] = e
++        return [(kind, neuron, strength) for _, kind, neuron, strength in effective[:slots]]
++
++    @staticmethod
++    def memoryless_compatible(chosen: set[int], candidates: list[tuple[str, Neuron, float]], slots: int) -> bool:
++        """Could a selection without bonus have chosen ``chosen`` (``id`` of neurons), with some
++        resolution of ties at the boundary? Diagnostic for W6 independent of the tie rule."""
++        slots = max(0, slots)
++        if slots >= len(candidates):
++            return chosen == {id(n) for _, n, _ in candidates}
++        if slots == 0:
++            return not chosen
++        level = sorted((s for _, _, s in candidates), reverse=True)[slots - 1]
++        above = {id(n) for _, n, s in candidates if s > level}
++        at = {id(n) for _, n, s in candidates if s == level}
++        return above <= chosen and chosen <= above | at and len(chosen) == min(slots, len(candidates))
+ 
+     def motive_switch_bonus(self):
+         """Bonus function for ``Motivation.switch_bonus``; ``None`` keeps the original rule."""
+@@ -279,7 +333,8 @@ class Workspace:
+     # --- persistence -----------------------------------------------------------------------------
+ 
+     def snapshot(self, index: dict[int, int]) -> dict[str, Any]:
+-        return {"mode": self.mode, "fixed_bonus": self.fixed_bonus,
++        return {"mode": self.mode, "fixed_bonus": self.fixed_bonus, "ties": self.ties, "tie_seed": self.tie_seed,
++                "tie_rng": None if self.tie_rng is None else self.tie_rng.bit_generator.state,
+                 "contents": [{"kind": c.kind, "neuron": index[id(c.neuron)], "strength": c.strength,
+                               "since": c.since, "arousal_at_entry": c.arousal_at_entry} for c in self.contents],
+                 "memories": [[index[id(s)], index[id(g)]] for s, g in self.memories],
+@@ -288,7 +343,10 @@ class Workspace:
+ 
+     @classmethod
+     def restore(cls, data: dict[str, Any], neurons: list[Neuron]) -> "Workspace":
+-        ws = cls(mode=data["mode"], fixed_bonus=data["fixed_bonus"])
++        ws = cls(mode=data["mode"], fixed_bonus=data["fixed_bonus"], ties=data.get("ties", "name"),
++                 tie_seed=data.get("tie_seed", 0))
++        if data.get("tie_rng") is not None:
++            ws.tie_rng.bit_generator.state = data["tie_rng"]
+         ws.contents = [Content(c["kind"], neurons[c["neuron"]], c["strength"], c["since"], c["arousal_at_entry"])
+                        for c in data["contents"]]
+         ws.memories = [(neurons[s], neurons[g]) for s, g in data["memories"]]
