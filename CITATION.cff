@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software or data, please cite it as below."
 type: software
-title: "doerner-psi-island: reconstruction of Dörner's PSI island agent, with code and data for two papers"
+title: "doerner-psi-island: Reconstruction of Dörner's PSI island agent, code and data"
 authors:
   - family-names: Sproten
     given-names: Alec
@@ -11,4 +11,4 @@ license:
   - MIT
   - CC-BY-4.0
 repository-code: "https://github.com/alec85/doerner-psi-island"
-version: 1.0.0
+version: 1.1.0
